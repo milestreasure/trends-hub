@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ITEMS, OUT = ROOT / "data" / "items.json", ROOT / "docs" / "data" / "trends.json"
-KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N = 60, 0.35, 3, 2, 6
+KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N = 60, 0.35, 2, 2, 5, 15
 NOW = dt.datetime.now(dt.timezone.utc)
 
 def fetch(seg, chan, q):
@@ -63,8 +63,35 @@ def summarise(trend):
     except Exception as e:
         print("summary skipped:", e)
 
+def build_trends(items, d7):
+    if len(items) < MIN_ITEMS: return []
+    S, labels = cluster(items)
+    trends = []
+    for c in set(labels):
+        idx = [n for n, l in enumerate(labels) if l == c]
+        members = [items[n] for n in idx]
+        srcs = {m["source"] for m in members if m["source"]}
+        if len(members) < MIN_ITEMS or len(srcs) < MIN_SOURCES: continue
+        cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in members)
+        medoid = idx[int(np.argmax(S[np.ix_(idx, idx)].sum(axis=1)))]
+        trends.append(dict(title=items[medoid]["title"], signal=signal(cur, len(members) - cur),
+                           recent=cur, previous=len(members) - cur, sources=len(srcs),
+                           items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
+                           score=cur * (1 + 0.3 * len(srcs))))
+    return sorted(trends, key=lambda t: -t["score"])[:TOP_N]
+
+def tag_topics(trend, topics):
+    texts = [i["title"].lower() for i in trend["items"]]
+    found = []
+    for name, words in topics.items():
+        pats = [re.compile(r"\b" + re.escape(w.lower()) + r"s?\b") for w in words]
+        if sum(any(p.search(t) for p in pats) for t in texts) >= 2: found.append(name)
+    return found
+
 def main():
     tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text())
+    tp = ROOT / "topics.yaml"
+    topics = yaml.safe_load(tp.read_text()) if tp.exists() else {}
     store = load_items()
     for seg, chans in tax.items():
         for chan, q in chans.items():
@@ -72,32 +99,25 @@ def main():
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
-    result = []
-    for seg in tax:
-        items = sorted((i for i in store.values() if i["seg"] == seg and
-                        dt.datetime.fromisoformat(i["ts"]) > d14), key=lambda i: i["ts"], reverse=True)
-        trends = []
-        if len(items) >= MIN_ITEMS:
-            S, labels = cluster(items)
-            for c in set(labels):
-                idx = [n for n, l in enumerate(labels) if l == c]
-                members = [items[n] for n in idx]
-                srcs = {m["source"] for m in members if m["source"]}
-                if len(members) < MIN_ITEMS or len(srcs) < MIN_SOURCES: continue
-                cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in members)
-                prev = len(members) - cur
-                medoid = idx[int(np.argmax(S[np.ix_(idx, idx)].sum(axis=1)))]
-                trends.append(dict(title=items[medoid]["title"], signal=signal(cur, prev),
-                                   recent=cur, previous=prev, sources=len(srcs),
-                                   channels=sorted({m["chan"] for m in members}),
-                                   items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
-                                   score=cur * (1 + 0.3 * len(srcs))))
-        trends = sorted(trends, key=lambda t: -t["score"])[:TOP_N]
-        for t in trends: summarise(t)
-        result.append(dict(name=seg, trends=trends))
+    segments, by_topic = [], {}
+    for seg, chans in tax.items():
+        out_chans = []
+        for chan in chans:
+            items = sorted((i for i in store.values() if i["seg"] == seg and i["chan"] == chan and
+                            dt.datetime.fromisoformat(i["ts"]) > d14), key=lambda i: i["ts"], reverse=True)
+            trends = build_trends(items, d7)
+            for n, t in enumerate(trends):
+                if n < 2: summarise(t)  # limit LLM calls to the top 2 per channel
+                t["segment"], t["channel"] = seg, chan
+                t["topics"] = tag_topics(t, topics)
+                for name in t["topics"]: by_topic.setdefault(name, []).append(t)
+            if trends: out_chans.append(dict(name=chan, trends=trends))
+        segments.append(dict(name=seg, channels=out_chans))
+    topic_out = sorted(({"name": n, "total": len(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
+                        for n, v in by_topic.items()), key=lambda t: -t["total"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(dict(updated=NOW.isoformat(), segments=result), indent=1))
-    print("done:", sum(len(s["trends"]) for s in result), "trends")
+    OUT.write_text(json.dumps(dict(updated=NOW.isoformat(), segments=segments, topics=topic_out), indent=1))
+    print("done:", sum(len(c["trends"]) for s in segments for c in s["channels"]), "trends,", len(topic_out), "topics")
 
 if __name__ == "__main__":
     main()
