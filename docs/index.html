@@ -4,68 +4,77 @@
 <title>Magazine Trends Hub</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f9;--ink:#14213d;--mute:#5b6577;--card:#fff;--line:#dfe3ea;--up:#0a7d4f;--flat:#5b6577;--down:#b3402a;--hi:#14213d;--hit:#fff}
-@media(prefers-color-scheme:dark){:root{--bg:#0f1524;--ink:#e8ecf5;--mute:#9aa5ba;--card:#18203a;--line:#2a3555;--up:#4fd09a;--flat:#9aa5ba;--down:#ff8f77;--hi:#e8ecf5;--hit:#0f1524}}
+:root{--bg:#f6f7f9;--ink:#14213d;--mute:#5b6577;--card:#fff;--line:#dfe3ea;--up:#0a7d4f;--flat:#5b6577;--down:#b3402a;--hi:#14213d;--hit:#fff;--ch:#2f5fd0}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1524;--ink:#e8ecf5;--mute:#9aa5ba;--card:#18203a;--line:#2a3555;--up:#4fd09a;--flat:#9aa5ba;--down:#ff8f77;--hi:#e8ecf5;--hit:#0f1524;--ch:#7aa2ff}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Instrument Sans",system-ui,sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
-main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
-h1{font:700 clamp(2rem,6vw,3.4rem)/1.05 "Bricolage Grotesque",sans-serif;margin:0 0 8px;letter-spacing:-.02em}
-.sub{color:var(--mute);margin:0 0 20px}
-.tiles{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-.tile{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;cursor:pointer}
-.tile[aria-pressed=true]{background:var(--hi);color:var(--hit);border-color:var(--hi)}
-.tile.small{padding:4px 11px;font-size:.88rem}
-.view{margin-bottom:20px}.view .tile{border-radius:8px}
-.tile:focus-visible,summary:focus-visible{outline:3px solid var(--up);outline-offset:2px}
-.tile small{opacity:.7;margin-left:6px}
-section{margin:28px 0 36px}h2{font:700 1.6rem "Bricolage Grotesque",sans-serif;margin:0 0 4px}
-h3.chan{font:700 1.1rem "Bricolage Grotesque",sans-serif;margin:22px 0 10px;color:var(--mute)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
-article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
-article h4{font-size:1.02rem;line-height:1.3;margin:6px 0 8px}
+header{padding:20px 16px 0;max-width:1280px;margin:0 auto}
+h1{font:700 clamp(1.8rem,5vw,2.8rem)/1.05 "Bricolage Grotesque",sans-serif;margin:0 0 6px;letter-spacing:-.02em}
+.sub{color:var(--mute);margin:0 0 14px;font-size:.92rem}
+.modes{display:flex;gap:8px;margin-bottom:14px}
+.layout{display:grid;grid-template-columns:270px 1fr;gap:20px;max-width:1280px;margin:0 auto;padding:0 16px 64px}
+aside{position:sticky;top:8px;align-self:start;max-height:calc(100vh - 16px);overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+@media(max-width:800px){.layout{grid-template-columns:1fr}aside{position:static;max-height:230px}}
+.nav{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center;padding:9px 12px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+.nav:hover{background:var(--bg)}.nav[aria-current=page]{background:var(--hi);color:var(--hit)}
+.nav small{grid-column:1/3;opacity:.75}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:7px 14px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block}
+.btn[aria-pressed=true],.btn[aria-current=page]{background:var(--hi);color:var(--hit);border-color:var(--hi)}
+a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(--up);outline-offset:2px}
+.chg{font-weight:600;font-size:.9rem}.up{color:var(--up)}.flat{color:var(--flat)}.down{color:var(--down)}
+.nav[aria-current=page] .chg{color:inherit}
+.spark{color:var(--ch)}.nav[aria-current=page] .spark{color:inherit}
+h2{font:700 1.7rem "Bricolage Grotesque",sans-serif;margin:0 0 4px}
+h3{font:700 1.1rem "Bricolage Grotesque",sans-serif;margin:24px 0 10px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
 .sig{font-weight:600;font-size:.9rem}.rising{color:var(--up)}.steady{color:var(--flat)}.fading{color:var(--down)}
-.meta{color:var(--mute);font-size:.88rem}.angle{margin:8px 0 0;font-size:.92rem}
-.tag{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:0 7px;font-size:.8rem;color:var(--mute);margin:6px 6px 0 0}
-details{margin-top:10px}summary{cursor:pointer;color:var(--mute);font-size:.9rem}
-li{margin:6px 0;font-size:.9rem}a{color:inherit}
-</style></head><body><main>
-<h1>Magazine Trends Hub</h1>
-<p class="sub" id="updated">Loading latest trends…</p>
-<div class="tiles view" id="view" role="group" aria-label="View"></div>
-<div class="tiles" id="tiles" role="group" aria-label="Filter"></div>
-<div class="tiles" id="chans" role="group" aria-label="Sub-category filter"></div>
-<div id="out"></div>
-</main>
+.meta{color:var(--mute);font-size:.88rem}p{margin:6px 0}
+article h4{font-size:1.02rem;line-height:1.3;margin:6px 0}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}.chips .btn{padding:3px 11px;font-size:.88rem}
+.bar{display:grid;grid-template-columns:150px 1fr 30px;gap:8px;align-items:center;font-size:.9rem;margin:4px 0}
+.bar i{display:block;height:10px;background:var(--ch);border-radius:3px}
+details{margin-top:10px}summary{cursor:pointer;color:var(--mute);font-size:.9rem}li{margin:6px 0;font-size:.9rem}a{color:inherit}
+</style></head><body>
+<header><h1>Magazine Trends Hub</h1><p class="sub" id="updated">Loading latest trends…</p>
+<div class="modes" id="modes"></div></header>
+<div class="layout"><aside id="side" aria-label="Browse"></aside><main id="main"></main></div>
 <script>
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let data,mode="segment",active="All",chan="All";
-fetch("data/trends.json").then(r=>r.json()).then(d=>{data=d;
-  if(!d.segments.every(s=>Array.isArray(s.channels))){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
-  $("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Rising or fading compares the last 7 days with the 7 before.";
-  draw()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
-const btn=(n,label,count,on,cls="")=>`<button class="tile ${cls}" aria-pressed="${on}" data-n="${esc(n)}">${esc(label)}${count!=null?`<small>${count}</small>`:""}</button>`;
-const card=(t,where)=>`<article><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>
-  <h4>${esc(t.title)}</h4>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p class="angle"><b>Angle:</b> ${esc(t.angle)}</p>`:""}
+const sum=a=>a.reduce((x,y)=>x+y,0);
+const fmt=c=>(c>0?"+":"")+c+"%",cls=c=>c>10?"up":c<-10?"down":"flat";
+let data;
+const route=()=>{const p=location.hash.slice(1).split("/").map(decodeURIComponent);return{m:p[0]==="segments"?"segments":"topics",n:p[1]||"",c:p[2]||""}};
+const href=(...p)=>"#"+p.filter(Boolean).map(encodeURIComponent).join("/");
+function spark(v,w=90,h=26,area=false){const m=Math.max(...v,1),n=v.length,x=i=>i*w/(n-1),y=a=>h-2-a/m*(h-4);
+  const pts=v.map((a,i)=>`${x(i).toFixed(1)},${y(a).toFixed(1)}`).join(" ");
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${area?`<polygon points="0,${h} ${pts} ${w},${h}" fill="currentColor" opacity=".14"/>`:""}<polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="${area?2:1.5}" stroke-linejoin="round"/></svg>`}
+function chart(v){const w=640,h=170,m=Math.max(...v,1),d=data.days,f=s=>new Date(s).toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+  return `<svg viewBox="0 0 ${w} ${h+20}" width="100%" role="img" aria-label="Stories per day over the last ${v.length} days"><g style="color:var(--ch)">${spark(v,w,h,true).replace(/^<svg[^>]*>/,"").replace("</svg>","")}</g>
+  <text x="2" y="12" fill="var(--mute)" font-size="12">${m} stories a day at peak</text><text x="0" y="${h+16}" fill="var(--mute)" font-size="12">${f(d[0])}</text><text x="${w}" y="${h+16}" text-anchor="end" fill="var(--mute)" font-size="12">${f(d[d.length-1])} (today so far)</text></svg>`}
+const items=m=>m==="topics"?data.topics||[]:data.segments.filter(s=>s.channels.length);
+const stat=i=>`${sum(i.daily.slice(7))} stories this week, <b class="chg ${cls(i.change)}">${fmt(i.change)}</b> on the week before`;
+const card=(t,where)=>`<article class="panel" style="margin:0"><div class="row"><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>${spark(t.daily)}</div>
+  <h4>${esc(t.title)}</h4>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
   <div class="meta">${t.recent} stories this week (${t.previous} before) from ${t.sources} sources</div>
-  ${(t.signals||[]).map(s=>`<div class="meta">${esc(s.label)}</div>`).join("")}${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}${(where?[]:t.topics||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}
+  ${(t.signals||[]).map(s=>`<div class="meta">${esc(s.label)}</div>`).join("")}${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}
   <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.source)}</span></li>`).join("")}</ul></details></article>`;
-function draw(){
-  $("view").innerHTML=btn("segment","By segment",null,mode==="segment")+btn("topic","By topic",null,mode==="topic");
-  $("view").querySelectorAll(".tile").forEach(b=>b.onclick=()=>{mode=b.dataset.n;active="All";chan="All";draw()});
-  const bind=(el,fn)=>$(el).querySelectorAll(".tile").forEach(b=>b.onclick=()=>{fn(b.dataset.n);draw()});
-  $("chans").innerHTML="";
-  if(mode==="topic"){
-    const ts=data.topics||[];
-    $("tiles").innerHTML=btn("All","All topics",ts.length,active==="All")+ts.map(t=>btn(t.name,t.name,t.total,active===t.name)).join("");
-    bind("tiles",n=>active=n);
-    $("out").innerHTML=ts.filter(t=>active==="All"||t.name===active).map(t=>`<section><h2>${esc(t.name)}</h2><p class="meta">${t.total} trends across segments</p><div class="grid">${t.trends.map(x=>card(x,true)).join("")}</div></section>`).join("")||"<p>No topics matched yet.</p>";
-    return}
-  const segs=data.segments.filter(s=>s.channels.length),cnt=s=>s.channels.reduce((a,c)=>a+c.trends.length,0);
-  $("tiles").innerHTML=btn("All","All segments",segs.reduce((a,s)=>a+cnt(s),0),active==="All")+segs.map(s=>btn(s.name,s.name,cnt(s),active===s.name)).join("");
-  bind("tiles",n=>{active=n;chan="All"});
-  const cur=segs.find(s=>s.name===active);
-  if(cur&&cur.channels.length>1){$("chans").innerHTML=btn("All","All sub-categories",null,chan==="All","small")+cur.channels.map(c=>btn(c.name,c.name,c.trends.length,chan===c.name,"small")).join("");bind("chans",n=>chan=n)}
-  $("out").innerHTML=segs.filter(s=>active==="All"||s.name===active).map(s=>`<section><h2>${esc(s.name)}</h2>`+
-    s.channels.filter(c=>chan==="All"||c.name===chan).map(c=>`<h3 class="chan">${esc(c.name)}</h3><div class="grid">${c.trends.map(x=>card(x,false)).join("")}</div>`).join("")+`</section>`).join("")||"<p>No trends found yet.</p>";
-}
+function render(){
+  const r=route(),list=items(r.m),cur=list.find(i=>i.name===r.n);
+  $("modes").innerHTML=["topics","segments"].map(m=>`<a class="btn" href="${href(m)}" ${m===r.m?'aria-current="page"':""}>${m==="topics"?"By topic":"By segment"}</a>`).join("");
+  $("side").innerHTML=`<a class="nav" href="${href(r.m)}" ${!cur?'aria-current="page"':""}><b>Overview</b></a>`+list.map(i=>`<a class="nav" href="${href(r.m,i.name)}" ${cur===i?'aria-current="page"':""}><span>${esc(i.name)}</span><span class="chg ${cls(i.change)}">${fmt(i.change)}</span><small>${spark(i.daily,120,20)}</small></a>`).join("");
+  if(!cur){const top=[...list].sort((a,b)=>b.change-a.change);
+    $("main").innerHTML=`<h2>${r.m==="topics"?"Topics":"Segments"}</h2><p class="meta">Biggest movers first. Click one to see its trends.</p><div class="grid" style="margin-top:12px">`+top.map(i=>{const t=r.m==="topics"?i.trends[0]:i.channels[0].trends[0];
+      return `<a class="panel" style="margin:0;text-decoration:none" href="${href(r.m,i.name)}"><div class="row"><b>${esc(i.name)}</b><span class="chg ${cls(i.change)}">${fmt(i.change)}</span></div>${spark(i.daily,260,50,true)}<div class="meta">${sum(i.daily.slice(7))} stories this week</div>${t?`<p style="font-size:.92rem">Top trend: ${esc(t.title)}</p>`:""}</a>`}).join("")+`</div>`;return}
+  let h=`<h2>${esc(cur.name)}</h2><p class="meta">${stat(cur)}</p><div class="panel">${chart(cur.daily)}</div>`;
+  if(r.m==="topics"){const by={};cur.trends.forEach(t=>by[t.segment]=(by[t.segment]||0)+t.recent);const mx=Math.max(...Object.values(by),1);
+    h+=`<h3>Where it shows up</h3><div class="panel">`+Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${v/mx*100}%"></i><span>${v}</span></div>`).join("")+`</div><h3>Latest trends</h3><div class="grid">${cur.trends.map(t=>card(t,true)).join("")}</div>`}
+  else{h+=`<div class="chips"><a class="btn" href="${href("segments",cur.name)}" ${!r.c?'aria-current="page"':""}>All sub-categories</a>`+cur.channels.map(c=>`<a class="btn" href="${href("segments",cur.name,c.name)}" ${r.c===c.name?'aria-current="page"':""}>${esc(c.name)}</a>`).join("")+`</div>`;
+    h+=cur.channels.filter(c=>!r.c||c.name===r.c).map(c=>`<div class="row"><h3>${esc(c.name)}</h3><span class="meta">${stat(c)} ${spark(c.daily,70,20)}</span></div><div class="grid">${c.trends.map(t=>card(t,false)).join("")}</div>`).join("")}
+  $("main").innerHTML=h;window.scrollTo(0,0)}
+fetch("data/trends.json").then(r=>r.json()).then(d=>{
+  if(!d.days||!d.segments.every(s=>Array.isArray(s.daily))){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
+  data=d;$("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Charts count news stories per day from UK sources, so read them as relative interest, not search volume.";
+  addEventListener("hashchange",render);render()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
 </script></body></html>
