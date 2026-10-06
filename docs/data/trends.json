@@ -1,8 +1,2188 @@
 {
- "updated": "2026-10-06T10:09:32.344606+00:00",
+ "updated": "2026-10-06T10:26:22.564015+00:00",
  "segments": [
   {
    "name": "Buying & Selling",
+   "channels": [
+    {
+     "name": "Property",
+     "trends": [
+      {
+       "title": "House price growth halves to 0.8% in September: Nationwide",
+       "signal": "rising",
+       "recent": 7,
+       "previous": 0,
+       "sources": 6,
+       "items": [
+        {
+         "title": "UK house price growth slows to 0.8% in September",
+         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSXpSWlhORzd2Tko3VGNfbXN6UHFZM0I3cGVuazZPNER1R1ExREpaZFpmOUtWSnRsaG1sVWJEYjJVNGRhU3B2VnV1Tkt4RDRvVXh0dE82c2dnUUxzNHJfdDB0dmpkSEhDTXFQQ3FaLTdDX0d0ZE1zXzNmV3VfMXgzRllJTlk5NUZqRHc?oc=5",
+         "source": "PropertyWire",
+         "ts": "2026-10-02T05:03:28+00:00"
+        },
+        {
+         "title": "UK house price growth halved in September as slump continues: Nationwide HPI",
+         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uQy1US2R4SVFOUVhpcms3MEdkUDhTcUsyenZ3Q3ZDVS0yRUdLZEhTQVJjbHRwRkEtNU5YQjJOUUVkdXl0Z20tSFZlMDFRa2RnVHpJYWZFcjVwYWlvN0x2MGZNMTYyTTdWSGpJZ0t1NUNZMV9EbzRHTEg3ZmNxQQ?oc=5",
+         "source": "Moneyfacts",
+         "ts": "2026-10-01T23:15:35+00:00"
+        },
+        {
+         "title": "House price growth halved in September",
+         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU3hwZVF1dDAzQUNNUVVGOUc2N3pGVWhsaWZwWWRaUWpJdDk3bHZVcVhZNkhXdWdqS2lILUhXNjZkMEszd001aHVNTVhMM2RJSEVmNERIWnJrYmRJa0M0Y3lhZzFreXhDaDFZZnBlNWZwMXo0cUw5Zm9nbWZ5enRtSGRMeW9qVVFhZld3b3EtWUNrelF4?oc=5",
+         "source": "Housing Today",
+         "ts": "2026-10-01T11:33:25+00:00"
+        },
+        {
+         "title": "House price growth halves to 0.8% in September: Nationwide",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYW5Gb1NNcm1LczRmcDFZOGNEWktILUpoUEl1UGF0ck9teWhKZGJUdGg0UDdzeXhmQnRkbVVQV0hPbjVtaWRxN2laWExxZDNGZE4zbnM2cUFENFFTX2ZOWnYzQVltV19kZm9lSlZWb2tFZl9kRUJWLXRfUGpqVkJhdWhTUVE1VU9mWmhWbElJSC1CMV81MFk3WlRuQ1FDQQ?oc=5",
+         "source": "Mortgage Strategy",
+         "ts": "2026-10-01T07:57:14+00:00"
+        },
+        {
+         "title": "House price growth halves to 0.8% in September: Nationwide",
+         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcTRHbmw0eHprN3pHeW1wZVJ0TUtTUnllanR4TXJIaUNCMC1iN2xZSm5DX3ZoZjIySl9TWDViLXNBQy0zVFhyc1Z6WW12MXFVMTgxWGhpTDRVaVp2MFdjSnFKZEVqbWFyR3ZhMWVHc0tTZl94T3BkZmZpRDBlcUZXUDNtV3Y4M1RtWlBmUE5HcC14Z0J2amdXVW8zVQ?oc=5",
+         "source": "Property Reporter",
+         "ts": "2026-10-01T07:25:01+00:00"
+        },
+        {
+         "title": "House price growth slows to 0.8% as mortgage rates peak: Zoopla",
+         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZTY0M1cyU2VGUVNxSFc2dXNHcDVURDZnM2JRTlBfY2MwcWhHNjN3TDF6UlhjSlRlbW1WbGdmZlo3NjhYVS1CSGdpWE1CLTRlWWVmaEJia1h4ZUtuTUp0c3N1YmJpbmpNWFNkU2QxUGZWQnU4Y2wtaGxqQzg3Zkg5eWRxMkdyODZyRVM1UnhLSjZ6RjVYYU9nNUg5YVhMSHhRY2c?oc=5",
+         "source": "Property Reporter",
+         "ts": "2026-09-30T06:43:30+00:00"
+        },
+        {
+         "title": "UK house price growth slows as high mortgage rates scare buyers",
+         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPalBlM0h3Tzg5Yjl0YUJjV2M4MEFzdURxT2FrRnA5QkNRbVRVbWRMQkRuNEowTGNrQ25lN3JxaHhEcjA2NUtqSXVOdWxIZmNJUDlrWmlaYzJWMzFLOF92Z2g5VTk4al9WcGdBN1daa3pJZ2NxLWVVRTM3dXdsMUtEZHNpdU1oSHE5U3pKTHE1VjcwbzVuWXVXUVp1VmsyS0xfeHJqN2I5MEMtNWNFazhvdmtxVGMxVzhlZ3AycTFPNA?oc=5",
+         "source": "The Times",
+         "ts": "2026-09-29T23:01:00+00:00"
+        }
+       ],
+       "score": 19.599999999999998,
+       "segment": "Buying & Selling",
+       "channel": "Property",
+       "topics": [
+        "Cost of living & value"
+       ]
+      },
+      {
+       "title": "Yields up for investors despite Renters Rights Act",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Yields up for investors despite Renters Rights Act",
+         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORjFsVHNsbUR2a3VYakMxalA4eUJta1dvcmd1Qlp6SUhUa2E4UVVxeGppckFpNnRaa21GbVZIVUNzeGI4WF9uc2dfYlNKbGFYa3d1ZllBNUZsOVJkYlpqajhfU0g4VjdROVN1MURMWC1ma2diRjExWGg5aEEzNW5JYXJmSGdUUmNCT0tOOElCdE10eUJyMGwwc0l2MUhLUDFia1RMRUZvOVkzN0NqRVE?oc=5",
+         "source": "Letting Agent Today",
+         "ts": "2026-10-05T23:14:17+00:00"
+        },
+        {
+         "title": "Renters Rights Act reshapes London market, claims agency",
+         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2xDWURvQzJjTXU2bGlhMjY1LUlhTWthQTRzSUlZUm9QaGJKdTU5NTYxa0lPOE5nVjF0LWdmM2JKV3JJaHVhMElUOUpCeUZ0T3ZEa2ZtOXRnTy1SVXZpa0lkemNldXBqeFFZNmg2c2hsZDVOUEJBb2RMcFdKU3NkakNvYTdpZjd0WGFVTnNlODlibGJSWUxxeklCb1ZFMlNTM3RmQmdMSkhZV3J6bDJJT19qUXB3bU1a?oc=5",
+         "source": "Landlord Today",
+         "ts": "2026-10-05T12:21:32+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Buying & Selling",
+       "channel": "Property",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Children's Magazines",
+   "channels": []
+  },
+  {
+   "name": "Computing",
+   "channels": [
+    {
+     "name": "Mac & Apple",
+     "trends": [
+      {
+       "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
+         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORWJxaXRyRHNKcFFxaUt0WG1LYnZCd0Nfa2Rmemo3ajBqU2RrLVN1ZUpVQTkzV2ZBT3pqOUJNNlRBLUM1Y2FsdTd6b3pXOU15TUllZEhxeFU3dFBtckc4eHZ1aWEzcEdVN1ltS21mRWI3WDRDaV9xcHA4d2Y3WHRqSWM1eGhyQ0pmLWpPWGdwMVFUU3lmTWtrNjlob0VXeU1CVjZPMXViN19oQ2piQk9GTXhyTlJfRXk4a0otc2VySlhyNmU2MHItQtIBzgFBVV95cUxQNFE4OFhFSVltR2lTanZEZ05SaGhBc05CYVh5Z0txM0c2WFVlTzR1VVBEazdSclFfMTk5TUgyVlhUdDNaWHUzVFBnOGdHNHNzTG0zZjh2Rmc5N3dKckVNdXRDbmRKQVRpVTlhVEFSeFZwRFdCa0lTeVVjb0o0VFN2QlJWQTRmZXNBSzVIaGViZ3dCMUluQ2JTY2JHZUE1M01uMUNwOWUtQ2laYWFVdUNzRHlwNkRNb0lGTjNYbHNLWjNFOEttclBnQmx3MExWZw?oc=5",
+         "source": "MacDailyNews",
+         "ts": "2026-10-05T16:00:02+00:00"
+        },
+        {
+         "title": "Apple Will Add Stricter Mac Controls as AI Agents Seek Full Disk Access",
+         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTDNRdW5MZ0M2X1dCamFEXzlJeGhSM09VbXFyN3UzdXB6RGd1M0N4Q0w4QlRxTUVUTmpOd2Rhdy15bEhrV3Z3VkpKZzNCcko2UTdWeWlVbi1pLS1LejU0QkRoYnlPaXFJYU5IaXRvZk12empSTjhpV0dqNExKMTQ3Z2RJVU5GakZIQXJEYXVn?oc=5",
+         "source": "Technology Org",
+         "ts": "2026-10-05T15:13:00+00:00"
+        },
+        {
+         "title": "Apple to tighten Mac privacy controls against AI agents after Meta Muse complaints",
+         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZXQxWHplNERJVWFDYWc1cGtkZUZJZFpTbGJKUjlCNWVKTGVQM2NobmFmZGtMd0g4QlZRbmtseFFpRzY4ZmFacy10amxDQ2kwRzhjcHo4bXd0VXdrRUxKWmtJZHZjT3h5Zlg2Z1pvNDZMZmNYRkxDN1hsZEp1R042THJXbzNBMnZfMjU1VG1GLVN2eHhtTlhiWHJHaXFJbUxyMGRmeTlDRlFoUUVZaFRvczBwTXJ1QTA1Q2RJdFh2bFo0M0paRFktb2RpRmRsWnJYWWF6aGQySnlfSFYy?oc=5",
+         "source": "thenationalnews.com",
+         "ts": "2026-10-03T09:43:36+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": [
+        "AI & automation"
+       ]
+      },
+      {
+       "title": "Touch-screen MacBook Pro will be significantly lighter",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Your next MacBook Pro could be \"significantly lighter\" than ever before, claims expert",
+         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXhiSlJqN1Rhb1BWNmFyTUtxZGxUdUVGeHVkY0k1WFYtQlJ5YmphN25kZGJpUlJnWjNpdkNvNy1Gbmg2UncyVlVxaUNzWmc2eS1MZjlrTWZjNzBDQW9ZSFE3RUtGNnI5MlViakJJLTRnRWNqMjRiVm96VkhMUElhZEZvWmozM2ZnYXo0Z1ctYTJqdnc0R1FPbDRzenN1UXZ1dHY2a0JpbVZ5M09hWkJVd0lmOU1nUQ?oc=5",
+         "source": "t3.com",
+         "ts": "2026-10-05T15:00:00+00:00"
+        },
+        {
+         "title": "Redesigned OLED MacBook Pro will be \u2018significantly lighter,\u2019 report says",
+         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWWFKaUdIRGxVUUkxNTE0c3BZbWJaTGdBbVpVZ0RrajNmb3R2b09BOXNUa2x6b1F3RGhfaC1CenpZc1VXdl9DUmF4ZkFXZTBwd2I2Rm42cXdCd1VxMENhM1JJQjAxY0pVQVZEeDVQdzVzYkR0ZzBHdkhQZ1BQSl9VeUZUdko5aWdxRDZ0bXAxNWNtckJFZGZhLVA1SWI5RWVDOWpjZm94cG0yUThZX28xMktnQk1hbEnSAbwBQVVfeXFMT19MMUtWdDJIcEhuNU85WjQySkVHRkxRa1JDWEJ5LUlMcmpYNjY3OHlWVTlDZHpMOW9CbzIyZV9Sek5meHBIcGgtU1BrRU1fczd0VGpqTmFWbUlxcXVJc1VLV29qajNSYWtRand5eS1XM0ZoZjR6ZkxHemo1dTF3d3hzMGtoNXBqeU1MNmhEN3JZeWNXU0tuNkhZejdVWjlzd083eENmQlFHNE9vVlRSVkhsRXRkVWNsN3cwOXc?oc=5",
+         "source": "The Apple Post",
+         "ts": "2026-10-04T14:36:40+00:00"
+        },
+        {
+         "title": "Touch-screen MacBook Pro will be significantly lighter",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWWNtX2sxNHBLektBR0cxanVjZjE0aDB4dS0yeVpIWTFwUG14T3hDN2dab0c3d1NYeGVpREtyOXNhYnUxVlNqMlRSb0cydkNMME5RWTE1b0w2RGVfM2Z5bk5hcTJ2TEtZNk1aTEZDbkJDbDdGY3V6dmVUOHpxWUZsX0trc1djV05KUUk1SHlDVmpSc3JING91cE5lcWpsZw?oc=5",
+         "source": "AppleInsider",
+         "ts": "2026-10-04T14:35:00+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      },
+      {
+       "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWDBhbnhyZndNUEQwN3VyRGpNNmdGM1ktNmxfVzNVQVBYaVNaNVpwWjhPTjNmVXlleW5ya3d5bnlhNVdxOWZiczg4cDc3Q0tPNkhuNmhFcHlXYzdXMGxXeXA5OWJFalltU0ZyMlpGbU5xUkRoaWluMlNBemFkMGsyT2pHN1dpVURnY2Z5TW1RS1V6SXdHYkJkOFZlYi1Kb2ZLR1hXbnRFTFRKUGJWX1BydUNpX0hQU0J1ZHVtcnFkeGFfYThTRlltcGdTSl8?oc=5",
+         "source": "TradingView",
+         "ts": "2026-10-03T06:03:00+00:00"
+        },
+        {
+         "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmZ4MnpUQ1g4bk9PUFZBakdJVHpTaHlSdm1wWjRNNDNQRHRGYUw2WGhidW5QUjhMMk40R2lTN2VHZ01kemZDcmhhWDFlV2dpRTNxdmhHd2VRSW1uMUJBS0lzVF9uelE3MjBkNFM1dHR0RjVGeEdYMTdTNWZrRC15c1otaVhYejBSRUczMmZ4WldSYlJ5eHJrSnlyc1NxTDczMGxCSnZtWmpMRG5jMkg0dmhqOXV4bTlReEE?oc=5",
+         "source": "Investing.com",
+         "ts": "2026-10-02T23:09:59+00:00"
+        },
+        {
+         "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints",
+         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
+         "source": "reuters.com",
+         "ts": "2026-10-02T22:43:45+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": [
+        "AI & automation"
+       ]
+      },
+      {
+       "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
+         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVXZ0Q3Qm5EbEVYMm85VFFkb3oyd1lsazJqWUI5ekMxQXZhV2QyYmo0V1p4ajVVNzRtT3pzWE5GYU5TaEJQXzNNclN6dUZtdnk5SmdTVjg4RFhVVWRKQ2MzTUZHMlJINlVYcUFobVdNRFFweGZCUmY2X3NxcUtFZzRnRWFsS1ZkZFZxNzB2cnBzZ25yU3RLeEVSTEdlWVVjOWJDV2NhaXVEU05JYjlENGYxVy1CVGxxdDVr0gHAAUFVX3lxTE4zbGJWcFhuQ1JvZ3lzMERRRzBnQ0hnSUlqSU1CZXQ4NGdmRjgtcXhKR0JrM3Fhclh2REtXWGZIVjU1WVd5NURrMF9Ma3U5ZWJLdVFmZWNfejJRM3lldHBkenJTME5FUTc0ajRON2hkWXVhclU2UE9JRHUwVnFVUmFXeUp6dk9zQS1KXzUzN3RoOG0yQWFWbEx6UzNyVXNHaENoVGtzNnp1Y2dZd0wya0hTWE9MYjJ3QjdjMWpHYVlKbg?oc=5",
+         "source": "MacDailyNews",
+         "ts": "2026-10-05T20:00:32+00:00"
+        },
+        {
+         "title": "Mac Users Reclaim 12GB+ of Storage With Apple Intelligence Removal Tool",
+         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkNVOXFFS0R4R0gtdXFueUxybkFGUm9tbTJCbVVzRFltQ1o5dlE2TzIxU2RrTjExYkc1NlZUTGl4NWl0ejVWdjhiZVQwdjFHNExyVmdZR1pRU21teldhb29mUGszZ29XVVdnenViWEh5eGVKYVJXRE15RWowM3lOVXNRNXBtMUwyaVp1cnFVRTI?oc=5",
+         "source": "MacRumors",
+         "ts": "2026-10-05T14:14:38+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      },
+      {
+       "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
+         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT0JaSEVSSlhtcUVSczdaZTR3UUFlWnJwVWt3Z1NYTTIyMThYNkxwNGg4WlJ6UGVDcGRjOF9GZTMxYTRxeFl3cWRENU85MmhoQ3FqZElIMG1hMVVVcExraE4xYzNCQ2poTWZjNGM3QnIyTWo3TGRJcm4wUTF4bXROX1VmNWdUQnNmU09HVFhDMVl6ODlKUXZlYnMxbUNvd2M5alhtUWVpZzdfN3Bzb1lmV2pYXzVONTDSAbwBQVVfeXFMUDAybHNDWnN0ZVVzNGVYUUdqN1VNYVp2a0Z3QjJXWHd5ZE4tYzY5ZTlHdk5hMlNDMDMybm9jaExGX0JTZ2dWNWR3V2xCbU9KbGh4WC15LUZ3LU1DY3ZrWUUtTWdkQjM2a0ZVOHFpMGNiSy1PLTJoZ3I1cGhkNVdPT1J2cnV0VUVELUdVTmdtWHU1VG1xR0NfVjZ1dUJmUVh4R1VYRUNjQlVRZWVCbWdDdUZVOWFpZkx3aGFaWFg?oc=5",
+         "source": "MacDailyNews",
+         "ts": "2026-10-05T14:00:44+00:00"
+        },
+        {
+         "title": "Apple tests OLED touchscreen MacBook Pro with macOS 27.2",
+         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNalpwSVo4ak45eFAwUFlmRWZ5NnNnUDVHbV84ZW5qN0JCU0M0dnhNTU1uVC1ndl9lem02WTNVNlVPM1g5dHY4Rmlub3pYVGtGWDNrQ2NXRVp4MTBWTkw2QXBxZ25xT0tjZ2pZLXVMa2dlS3ItRExqbTY4QkhxcXd2VHBqb1pCdWJP?oc=5",
+         "source": "The Mac Observer",
+         "ts": "2026-10-04T16:48:38+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Gaming consoles",
+     "trends": [
+      {
+       "title": "Nintendo 64 Turns 30: The Console That Taught Games to Think in 3D",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Nintendo 64 Turns 30: The Console That Taught Games to Think in 3D",
+         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EOVg2WFpvcEQ0YW53YzRwT3JNREN4bGJCWVh0NVRlZHFLQk83UW1SU0hMSkRVRno3R18waEtidmNEVnBUYlFTbVlnRmFqUVdzR1V3YnhkY3ZiUVJtTzl0VXFqV05mcnVlVy1yeWJZQUNRdw?oc=5",
+         "source": "ColombiaOne.com",
+         "ts": "2026-10-01T19:55:00+00:00"
+        },
+        {
+         "title": "The Nintendo 64 turns 30 today, and we're feeling old",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZEE2Nkd2M3dkaFlsRG5fTzkzOVhxYm82TmVKeE5CLTNTaEVaNi1mYldCT0JJLUtuVzY4ZFhkWTBSQ3RmUnVTak1ZaUF3NHpvaTVodFZaSmh0ampXYkVybkdWU2JwOTZvVHdMOEh4U0FpZHN0NDBCVk13emdMX1BQb1EzbDVZRTA?oc=5",
+         "source": "techspot.com",
+         "ts": "2026-09-29T16:38:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Gaming consoles",
+       "topics": [
+        "Gaming & digital play"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "PC gaming",
+     "trends": [
+      {
+       "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "11 underappreciated games you should buy in the Steam Autumn Sale, according to some of our biggest genre sickos",
+         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON0p6SEtlWVpCSWZpS0hPSHZEME5kb2toenQ2dVhxaTBRdlF4QnNaNlZZMDVTaWZXTW5kd2I4TWV6QThsS0Jpdi0taDVHaURGM1phTDZ4SzhiY0JoNHU4bGVIYUhCRm9hbTN4UTF6VlMtUzl3d2F1dXRTWEJwckNadUZFaXBrU1BEZnAzTmJ5MGNoQ0poZUVGREZqbERMZ0V1dkJWWkNIYVlERmhKQ1pFVTBDX2dEcXlaU0tlcl9vRFB1aVl6TG9lNG5ZREVvRjFVaWpHYnZBbXNWUQ?oc=5",
+         "source": "PC Gamer",
+         "ts": "2026-10-03T16:00:00+00:00"
+        },
+        {
+         "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2JPM1JrWVNYYVBYNVMzbWFYY00wanlYbEIzWjNYcnhBQ2dCLVNjdWdDN2szVHUxZ2dsTmRvQllYNG83djFoVGF1VTFNWWw0aUFBdENpVXV0bHUxc29UR1d6U3l5c2puYm9sTjk2NWtXZVc1aEtlWnFWbm5EUFcwcU53S2Z1X1FBVHdWZjZ2Tll2WDdKQWhNMWxRaHE5WUdPUlFSbG9n?oc=5",
+         "source": "GAMINGbible",
+         "ts": "2026-10-03T07:00:02+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "PC gaming",
+       "topics": [
+        "Gaming & digital play"
+       ]
+      },
+      {
+       "title": "Upcoming PC games: New PC games for 2026 and beyond",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Upcoming PC games: New PC games for 2026 and beyond",
+         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WVldQaXFWMl82ZHQ4anVTN0llcVN3d0NoYjlfZURLTjJBWFVrdVNZWnRsd21GSVdSMHExSGhPeERGSjh0aS1Oc3dOb2hWcXBrVlE?oc=5",
+         "source": "GamesRadar+",
+         "ts": "2026-10-01T14:18:58+00:00"
+        },
+        {
+         "title": "Upcoming 2026 games: All the new PC games you won't want to miss, from big hits to hidden gems",
+         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yRUVmNkFVWm5fMXBsREJlTlFiejNnUTBNYmNyaWNaZHlDUnByVVJwb21tS0QzRm04VVo1X00tdnpqVFhoYkRsZEFRVTIwR2RyMVR4eHJoUWxUWUZr?oc=5",
+         "source": "PC Gamer",
+         "ts": "2026-09-30T20:42:47+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "PC gaming",
+       "topics": [
+        "Gaming & digital play"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Internet & software",
+     "trends": [
+      {
+       "title": "Core Network Software Market Forecast To Hit $31.82Billion By 2030 Amid Strong Industry Growth",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Development Tools Market Forecast To Hit $15.91Billion By 2030 Amid Strong Industry Growth",
+         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ21GVVhMQ2RtRE9TdUREcm1ESjdPeE5FbS1vVERQck9ScVU3M2tEa1ZocUZJNXZGeFhwRG5SWFJsa2RlOWd6NzA2clRDTG1hRjJtaUpsd09vM1VpTndUMmdsTW5OOXpkd2djRldWSHJRV0ZOdEVtZGVUbzlLN0RjWHNCY0lOSElzUnlKNUM0bHpPSFF1dk5jMEZxZXJpTDZHWjhXeEZDaThKVFA5TUNSMngzVFRxR3ItLXRmbjR2NlNLcVQ0amZUMEozMEc?oc=5",
+         "source": "EIN News",
+         "ts": "2026-10-06T04:22:17+00:00"
+        },
+        {
+         "title": "Core Network Software Market Forecast To Hit $31.82Billion By 2030 Amid Strong Industry Growth",
+         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdUI1blhqNzNWOXozZVFjZUoyRlU0Vm9qQ2wxeWh2MlBVakd3bndKbDRtVFpHSzZJWHJSLWZpYkhlQm1LdDA0NTQyb2VEMkttckFrUjQ3SkNhNEQ1QkxPS2hQN0ZxcW9HZXFIQmlNeEtLYXltZVFndmo3RElhbFFkNG9NbFlCU2dCaGFIcTBfd3l2emM1ZHlEVG9SWlYyVkJPS3M1VmNyaTBwc2tWNkhoOGJCRGR3Q1N4WUFoakw3cGtYcGV2czVjbkNHNjJpR3ppS2FpVXpvaw?oc=5",
+         "source": "EIN Presswire",
+         "ts": "2026-10-01T15:45:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Internet & software",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Linux & open source",
+     "trends": [
+      {
+       "title": "Kagi gives up on Orion browser plan for Windows and Linux; to open source the code",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Kagi gives up on Orion browser plan for Windows and Linux; to open source the code",
+         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUdteGlTY1phRmFWYVBsQXNNOC1NeE1wVExKbURTUUtJa2ktWFRmUHc5MjB5UlB5UDlQWEd3Nk11bTRtdFZ0OEVEakxiUUJ5aWs2WnZhT002WFB1a213UHdvN19oSGlXd1Z2MW55S2Fpa2dqUTJvQTF0NEtUX2wzeS02bWxzZw?oc=5",
+         "source": "PiunikaWeb",
+         "ts": "2026-10-05T18:11:15+00:00"
+        },
+        {
+         "title": "Kagi Ends Orion Browser Development for Linux, Will Open-Source It",
+         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUERjM2xfS0tabkpwUzVqMUhPZkhVWXplLXJ2TGNHRXJfODJpTUhjR2RwdDcwNnVqWklXZG4tcWhwVzhhblpjYWIxOU56UDVRWEhzdE5lVGR3WEVwUk9nQ09zT2tpeS1XZGJheGJTYXcwaG42NEdETnRSTF9YTzJON1VlTXBBeDg1OWR6cEd1d1U?oc=5",
+         "source": "Linuxiac",
+         "ts": "2026-10-04T10:49:02+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Linux & open source",
+       "topics": []
+      },
+      {
+       "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
+         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWx3MUVOdkExTHE2bVJhOEJZdlYwODFScWlxUGlDSE5oU0FsWHB6TWN6WnZHc1NxY3kwQTkwaXZYS08tMnU5OFBOTkpYNGNxejhxdURVR2FueVJ4WUJzQ0xjNFV3Z1hva3kzSmJfeXBMQVo0M29hc3BwYnp3b0NlbDM4bjlvQUg2dktPOEFjcC1UYmVqaUUxQlJNMmpqZWNWcHFpVjBnQ0s3eGtla21hYl9LY2hnTlVDSE8wRFB0TGnSAcABQVVfeXFMUHlsdzFFTnZBMUxxNm1SYThCWXZWMDgxUnFpcVBpQ0hOaFNBbFhwek1jelp2R3NTcWN5MEE5MGl2WEtPLTJ1OThQTk5KWDRjcXo4cXVEVUdhbnlSeFlCc0NMYzRVd2dYb2t5M0piX3lwTEFaNDNvYXNwcGJ6d29DZWwzOG45b0FINnZLTzhBY3AtVGJlamlFMUJSTTJqamVjVnBxaVYwZ0NLN3hrZWttYWJfS2NoZ05VQ0hPMERQdExp?oc=5",
+         "source": "StoryBoard 18",
+         "ts": "2026-10-03T08:01:02+00:00"
+        },
+        {
+         "title": "Meta launches Muse Gadgets: open-source SDK for building hardware around its Muse agent",
+         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckRHLWhDU2wxZGJ2YXFZUXNQWl9oN3NmMzdvZWppUHhoNkZBRGY2T0pnRzMwd3o1bWZoVGpXRFl0SkdKUXNZdG1ic2tBbzAwclRHYkswS19vTlBYaGJJb2ZNM3IzWDZ6MEdzbHRwTTVGM2FoaWl2MTlpbXJHSzQxYTdjYld1dklzTjd6RDFBclFoaHhwTFZDbFdoZENFR2JNb2xuS2FKMFBTQUpjWXNDTXl2bEhQd2NEdEQxZw?oc=5",
+         "source": "Dealroom",
+         "ts": "2026-10-03T07:34:17+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Computing",
+       "channel": "Linux & open source",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Countryside & County",
+   "channels": []
+  },
+  {
+   "name": "General",
+   "channels": []
+  },
+  {
+   "name": "Home Improvement",
+   "channels": []
+  },
+  {
+   "name": "Leisure Interests",
+   "channels": [
+    {
+     "name": "Film & TV",
+     "trends": [
+      {
+       "title": "SOFTSWISS rolls out 2027 iGaming Trends report, backed by industry research",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "SOFTSWISS rolls out 2027 iGaming Trends report, backed by industry research",
+         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNGpuN2JYbm9Mbldud0lWM0txZkE2U21hLUhDY05pUEtGd0JfS09FeVFmYmFqSHRhS2tXeHdCeHNLdDFGU0t3RTRtUmdUc2xOY3BzRWhIWmE0eF9zZkRKdHFyU0pGTkhDTVNnMHJ3a3FVcVBQUkZsMjNhdmktaFNvMkd5Y0szdUJYU1I5TGVFSmpnUUlLTDBvMVBNT216VTVod1lRTUx2YmFndXFjNERiTGhJY1ZHazhvNUE?oc=5",
+         "source": "agbrief.com",
+         "ts": "2026-10-01T07:11:14+00:00"
+        },
+        {
+         "title": "SOFTSWISS unveils 2027 iGaming Trends report",
+         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xNjZYT2l2WlJBampnZWlxNm1ZZGkwVGh3ZkZwX1BRQTItSHp4NklWai1OSkZQNWhjNkhxNDQ4OTg0dkt4QW9Vb2dqQUhTX3VJQmlta2RVeGlJVzVqdkJwVFdaMDFrOEU?oc=5",
+         "source": "Focus Gaming News",
+         "ts": "2026-09-29T10:36:02+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Leisure Interests",
+       "channel": "Film & TV",
+       "topics": []
+      },
+      {
+       "title": "3 excellent Netflix documentaries to watch this weekend (September 25-27) - How-To Geek",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "3 underrated movies on Prime Video you should watch this weekend (September 25-27)",
+         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWDUwM0JwSllMajZEV1lheEhzUnBCbjZjdDN0Z2M3Y0V0OFZZeURieEJzRHVMdGRYemNaakdYSHZROENxSUZndl83WGRCUFVXQUR1S3VKOTdqNEhoT2k0MExBSkZRdDZuR2RLWUluOU5GMmNNbWZDYlVzTWRjMXI0djNJWEdWZEdNUHdkclN6MTczSDd1U1UxQjk3azlJYXEzTDJMUVliZWltdE1ZQjY5ZmZzTC1EYmpwMmc?oc=5",
+         "source": "digitaltrends.com",
+         "ts": "2026-09-25T07:00:00+00:00"
+        },
+        {
+         "title": "3 excellent Netflix documentaries to watch this weekend (September 25-27) - How-To Geek",
+         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUxWTFk2UUY2RDkydjJoS0pPNFhFQXZJcFhleEV6cTBpZXNIeTFFUlRMSGxsNWM3blNvRlJGU0JndU9mM3pubkRGbjEzR0ZiOS1hakthTi03U0JGR2hlREJCcFcxWFpuYnBkTDhlbTVqRWxCN3VQNDU1OGtxTVNYNjhJQ3VoTXN1a1Rj?oc=5",
+         "source": "How-To Geek",
+         "ts": "2026-09-25T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "Leisure Interests",
+       "channel": "Film & TV",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Health & fitness",
+     "trends": [
+      {
+       "title": "5 odd wellness trends people have sworn by",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "5 odd wellness trends people have sworn by",
+         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzZBcUFYelhzeGVhb1duNlJFYUZ6S1VCX1JDV25TXzd4RGlmZmZNcklBSW1UZjhwT1ltV3M0ZldTdDRrSkJkTklxNVRyaG0tZTdWRG1Pal9ZWmRNN3EzQXp5ZU5LZHRuWjBtMGgtTUFHYlFObjZGRnU3MEV4X08xMGc5dFZzRjgzTWs5SXNTaU8yck01QkFpUzFJaUFuYjBaWTVUa3VUWVZrN3pBOWdKWWltVmFYUmlXM0wtRzhzMmh2WTJRSWRmVTZsdVR1c0ZHaFdR?oc=5",
+         "source": "ttownmedia.com",
+         "ts": "2026-10-05T16:00:05+00:00"
+        },
+        {
+         "title": "5 odd wellness trends people have sworn by",
+         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVlZDRkpUOVZoUkt5OHJsQ0oxaTN0YlQ4Ry1EZkRxcjRjS0l3UWVYblM3N0QzejRQX2hJM2hnZDN3OTRGcHlSMFNFSU4tbHBpQWRFbS1YeXR2Nk1yY25mc3lDZnJnTTFPcFUwT3NWejVPY0VVTV9kR1BWNjdqcXF4XzVHdWNKXzlDaGVPSzlpVkNxOGg4Z241WjJuelBycUNhSmhRakhWWDI0cm5EbkZpMVhvNjcxTVJIaUVyNGcySnFKdVhKRUVBaVRxbDBqZHdY?oc=5",
+         "source": "The Rochester Sentinel",
+         "ts": "2026-10-05T16:00:05+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Leisure Interests",
+       "channel": "Health & fitness",
+       "topics": [
+        "Wellbeing & mental health"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mens Fashion / Interest",
+   "channels": []
+  },
+  {
+   "name": "Motoring & Motorcycling",
+   "channels": [
+    {
+     "name": "Cars",
+     "trends": [
+      {
+       "title": "Leasing.com launches Insight platform for real-time automotive market intelligence",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Leasing.com launches real-time automotive market intelligence",
+         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWRUZTUybXhJN3J0VWdnQ2Fhc0E5T2p4MXVkd2pDZ2RMQjUwYzYtSGN3Qk10aDJNM2RFaXAyMVZ0RkhRbk5iR3RQcHM4Zmo1a1FXSnluQmtnWTM2STBZTFU1aUpueVlfcUlxLVd4d2ozQ21VNU5OcFZUemxaWHVBSDZMRkxQQnhadGU3MkN1ay0?oc=5",
+         "source": "brokernews.co.uk",
+         "ts": "2026-10-05T18:12:35+00:00"
+        },
+        {
+         "title": "Leasing.com launches Insight platform for real-time automotive market intelligence",
+         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVNicnNfVl9rVU5HTlpRNHVwVmhrRTUyeHYyaElDRm5uUWF6WFJVbWFaa0pXWDIzcmEyNElwVG5CcWVPM0o3c0FORktPVjVCN0J0Q1FlMkdUam5tSjZUUGRjdWppR0duY2RNUWpTa3NfSFJIUTdNdGd3WXd3X1gyWDFNaUNod2Vhb1JpMUowY2ZITkljQUc5NE9jRHJoSDFLbzZqcnJYdlZQQmxS?oc=5",
+         "source": "Fleet World",
+         "ts": "2026-10-05T10:19:56+00:00"
+        },
+        {
+         "title": "Leasing.com launches Insight for real-time market data",
+         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdU5NYTF6cnJHQzFfZE9qN21DR0dLdU4zVHVJcE9raXN1cXVPVGczcmRWMXMyTkVMOWs1aWxGeThaQWprRG9XRzA2YWp3aDZ4SzZfZGd6bUstSXA1SUcxei0wZXdHX1Y4aUJNcHBITWxRUVZqTE1ud1Jwc2RKUFRGU21yUzR1NFdEaThvX0dxa3pOQ0NDWGVmMm03V2F2SlpKVEdiZA?oc=5",
+         "source": "motortradenews.com",
+         "ts": "2026-10-05T08:12:36+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Cars",
+       "topics": []
+      },
+      {
+       "title": "Chinese brands drive September new car sales growth",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Chinese brands drive September new car sales growth",
+         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnlTc3RGbVZVR0NRY0w5ZXU1Y0IwNnJTbXBuSHRZZUZVS3A4YlNNUnpodzRxVmx2ZWJaTlduc2lwV0trWktIVmZZWkNoLS1LdkRxM1dUMjlGTHhhUFNnbktLY1Npc2tMTlBTT3dWaDZqTS1xWEx5TUs4RlFYV0lHTzl4R0l5NWptOUQw?oc=5",
+         "source": "The Car Expert",
+         "ts": "2026-10-02T16:11:40+00:00"
+        },
+        {
+         "title": "UK New Car Sales Up 12% in September; EVs, Chinese Brands Surge",
+         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNTFkLXBpZ2FSazJoR1Q5dEhFLWlCWDNpZ2w3TTdPRDFFQjRoMkMxcFp1d0c2Z2Zxck5XeHdtdUpUajdrcW1Bd0xFT3JESGs0dTFpcGhfQXhUVlhEZEFnMVRmRkw1dUIySG1HZDNIWGtrQ0p4WkRGZXNqMXV0ZVJ3bWNsdFB0SnA1Mk5Dai1rdXA2NnZzUll3OHNaLVE?oc=5",
+         "source": "Global Banking & Finance Review",
+         "ts": "2026-10-02T13:43:07+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Cars",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Electric vehicles",
+     "trends": [
+      {
+       "title": "Ford Puma is toppled by \u2018Temu Range Rover\u2019 AGAIN as Chinese copycat takes UK by storm",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Ford Puma is toppled by \u2018Temu Range Rover\u2019 AGAIN as Chinese copycat takes UK by storm",
+         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QbnpNaVVRQW5SVUNRT0t3OU5JTV93Y1V6Nm1TeTZ3UWo1cXpzSHZLZGtWZDliRlZWZDhSUXk1OFN2djVjUlkyMXF1SEhPUlNZN2ItS1J0ckZ2OXBxRmdyVVFwZktyRnp3VkdJYTdQbHlyU19hNHNULTFQdzhzZw?oc=5",
+         "source": "The Irish Sun",
+         "ts": "2026-10-03T13:08:07+00:00"
+        },
+        {
+         "title": "Ford Puma is toppled by \u2018Temu Range Rover\u2019 AGAIN as Chinese copycat takes UK by storm",
+         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSkZvbUQ3ZjBwSHd1eG40aXZNaWxvRjF0NVlfbjFoQ2dRVVVwNU1IbzUyNUszVnpIZ2IyMTRhT1pDcmV2YVpHem45cXpEZlVnMEpHX2FWT1ZrME5VWm1HUjE5ZEREc3NvTHhCWFZVWFhFRmx5ZTk4T1NTb3Iydjk3cg?oc=5",
+         "source": "The Sun",
+         "ts": "2026-10-03T12:59:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Electric vehicles",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Classic cars",
+     "trends": [
+      {
+       "title": "Michael Jordan\u2019s Ferrari 550 Maranello Sells for a Record $2.7 Million",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Michael Jordan\u2019s Ferrari 550 Maranello Sells for a Record $2.7 Million",
+         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbEZzU0xYVmV1c1o2SUpRcW5tU1BrSmdVNGZ6U3Z4SXl2anNmRG9Jc1RZR1MxdmJDWDdiM3F6VC1xaHFKdDZndzNuNmV1azR4YjJkb3htMU5tUVBONW9lMzNPS2pVdUVKd1lLZVVfX05EbTk1WEtQekp5Q1hKdWg2bVBzc3lGTlc3dFR3TU56N3NFVjhMRTc1Zml6VTc5S3MzbHc?oc=5",
+         "source": "stupidDOPE",
+         "ts": "2026-10-05T15:21:49+00:00"
+        },
+        {
+         "title": "Jordan's Ferrari 550 Brought $2.7 Million. The Car Was Never the Asset.",
+         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQejlQck9sNXpfMmZldE1tTEpNOWFpVmp4OEV1VUtNWVBXb3cta1lmWVNoN1hoNGh4S05YRHJYcG1aWDB6aFBFQXdEQy1vVmQ0S3lJU0JMaDFPc28zcUozNmM4dzJHZ1o2ZjdWZlAyaGx3dnFGVTZCQkFDZE5iYWYxTk9DT0MxZmlmZkNxX1hIMkh5WUFhZFFUNlFkSmQyNkJC?oc=5",
+         "source": "Yahoo Autos",
+         "ts": "2026-10-02T20:30:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Classic cars",
+       "topics": []
+      },
+      {
+       "title": "Broad Arrow Auctions Releases Digital Catalog for Inaugural Audrain Auction in Newport",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Broad Arrow\u2019s inaugural Audrain Concours Auction aims to please all car enthusiasts",
+         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY3pyQWs5bXF1Q240dnNYVjhxb080Y2JMMEZyVVk5c1VvdUoyd2xicjJvU2lVbWV1N1NUaWJTWUt2YlpBbDFCMEMwOW5XUTA3OGxBS1FIekNpUzd4MUswU3NVbWxIcFBpWlNyd0JJczVWUktENzJ4VUpqbkVlUEpTRHIxeUhsREEwZDdkRWdR?oc=5",
+         "source": "Old Cars Weekly",
+         "ts": "2026-09-23T20:50:47+00:00"
+        },
+        {
+         "title": "Broad Arrow Auctions Releases Digital Catalog for Inaugural Audrain Auction in Newport",
+         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMFF1RXJWa2VvSDRqeF9iZjJrbk5fRXlLVVgxMXZVTVo2RnBueG1qS1BaRVZtRjZqR1V5ZTl1VmpQbUVXVjd1RmcybU55eGYyZzBUTHNieWNfVGJoT0xacDVxQkxFaGVnRFRhaDZPTThOY3NkWERjby1RcUhwc1paWTVjRk1ZbzB3QXh0VHEyQTA1NXFIRUQwMUpROFFYNGphRkFGSmNmX3luWGstWG9ZUERpZkl3TnpXemlv?oc=5",
+         "source": "quiverquant.com",
+         "ts": "2026-09-23T18:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Classic cars",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Motorcycling",
+     "trends": [
+      {
+       "title": "Suzuki Motorcycle India Records 8% Total Sales Growth in September",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Suzuki Motorcycle India Records 8% Total Sales Growth in September",
+         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDQzSGRjYk5zU1RJeXBwUUlUdi11TXc2RnBCSlllVjhnTnBKYzBoRHJVNmR2SzJqc0J6N2d4OUlHTGFMV0U2M1Z6RjFibVlvOTlENmxrLTJaQ01NS0xLTUVYU3pDZEVmSVZkd0U3NjhtSkdTQ2JKeEUwMEJicXBoYllsMWU3NHQ4WkowbHZ3dzBwSzREc3NidktGZU14d3JQRUJqdUJ4TjltVEh3blRPMHR4Q0cyTUdKSnN0Q2xiMlEwajE2WUUyMnVFZ9IBywFBVV95cUxObDQzSGRjYk5zU1RJeXBwUUlUdi11TXc2RnBCSlllVjhnTnBKYzBoRHJVNmR2SzJqc0J6N2d4OUlHTGFMV0U2M1Z6RjFibVlvOTlENmxrLTJaQ01NS0xLTUVYU3pDZEVmSVZkd0U3NjhtSkdTQ2JKeEUwMEJicXBoYllsMWU3NHQ4WkowbHZ3dzBwSzREc3NidktGZU14d3JQRUJqdUJ4TjltVEh3blRPMHR4Q0cyTUdKSnN0Q2xiMlEwajE2WUUyMnVFZw?oc=5",
+         "source": "Times Now",
+         "ts": "2026-10-05T06:30:00+00:00"
+        },
+        {
+         "title": "Suzuki Motorcycle India Reports 8% Sales Growth In September 2026",
+         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2daNnFiR0JnX0k0WE0zVDFjODI3c3RPZlZ5Y0JaLUJEd0dqSGt5bDFhaEFwT191X0V5VGhYT2o3cnY5RWxKZHVJYjBIeFk2WTRadVF4cjRFZmtXUE0tSUQ2N2hPcU9jMW9pOUg4Q1lnOXoyZms4RFJIcXNkSGw5NEwxUzlxMmpxYmdXa2NSMVkzdHBINEZ6SzgwNmdtczNMRzd1cl94b21fam1JY3c?oc=5",
+         "source": "Motoring Trends",
+         "ts": "2026-09-30T07:00:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Motoring & Motorcycling",
+       "channel": "Motorcycling",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Music",
+   "channels": [
+    {
+     "name": "Dance",
+     "trends": [
+      {
+       "title": "Electronic Music Reigns at ACL Fest 2026",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Electronic Music Reigns at ACL Fest 2026",
+         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OTHpoa1VORzBWTzFmZGpUZHZiU0dMcTJrTGJEUlkzOFc1c0VsREhTc2Rfck52XzdmdjJKenFaOVJEdGd1UDBxZHpJUFZzeWtmcXpPcW9vSk95eFRLYmpkUEt1Y0xoN2RvMkhOei1lZVpqZERjMl9xblMxMA?oc=5",
+         "source": "Austin Monthly Magazine",
+         "ts": "2026-10-02T15:25:51+00:00"
+        },
+        {
+         "title": "Why DJs and electronic music are taking over ACL Fest 2026, according to Steve Aoki - Austin American-Statesman",
+         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeE5LWVFXTzhyVmFHajJoeExVUDdzWEdaSXczaEpNYktDcnRIZ3FVb3NjZGcxZnBhdExRamxHSEo5ZUtuRXBBRUF6YUp2SDVVX1BCVnNFZWRPMDFhNlVpYTFkZEd2Q3NhVDlxSkJ4V3dZbHo5LW1TVE9QV2NhLXYxUUYteXBsdmp3Zmg1YVE4c1FNWU44dWxzc1FvaC1OZ0Zs?oc=5",
+         "source": "Austin American-Statesman",
+         "ts": "2026-10-01T10:04:26+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Music",
+       "channel": "Dance",
+       "topics": []
+      },
+      {
+       "title": "What Is Bhajan Clubbing? Know About The Trend Joined By PM Modi As Youth Jam To Devotional Beats",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "What Is Bhajan Clubbing? Know About The Trend Joined By PM Modi As Youth Jam To Devotional Beats",
+         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQTFleEFwUFBWMGJpdE5YdjQzWVFJZThrc3EzeVZaX2p3cTd4WTNRMnEwWFY1ek56MEcwcUY1UWFqN290OWt4VW9OR3RhYmNSVjFqeWJPNC1ZaUFSQ1d4cGZLVVBQc21BS291WDVWcEl1bTZsNzZYV245TVhsV2toU05heWdDT0gtX1FjWFdBRHh5QzlmZHFEUndNX21XUDA2UnVLVkU0cFhjdWNvM3FsYnNOUEZURkxPY3NDb3h3aTlJOGVLZjVyVGwxYlQyLXNGMFNz0gHYAUFVX3lxTE9pellqOElFdzBpc3R6aVlLZVNsOWZPR1VCaEZXQzJsZjZHY3ZFVHNLMDNZX0FicEtZVS1XNlZZQXBpSnR1NTBXUW4xUGVnVVp4Wi1NMEFDNmJlbzg3THM1a1NucDJaOVpDRWpBTlVIVDR4eVgwMEFTY2V6RTJUSGJpZVRyUWJRVERmV3lzRlhvTExGWmE4UFEtNmVLZTB3NXljWGNUTmRBZW9KNzBDNW83Zi1JZUFCbUdZd3Q1ejJKVDJNWmlOMFRoYlVudVBfQXdpbWg4bURwcQ?oc=5",
+         "source": "Free Press Journal",
+         "ts": "2026-09-26T07:00:00+00:00"
+        },
+        {
+         "title": "PM Modi joins 'Bhajan clubbing' trend as youth jam to devotional beats",
+         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX3gzZjJkdkU5aXR5bUFTYmh4ZkFpRTNzRzhMeDBZeDhTYWtnWEpLczJfbk1la3ltMTlwZHdiQXlISDlBTm9ldkc1SFdPSHk1REhKemh1NGJoTkpGVG1vd0dZdHlUdW5tdTYxQm9aZDhqbVFBWGExR0ZYVDRJRURXWkVzSkN3ZjF3TC13NFprd0lfbkE1dWxOc1FlT3Y0bzJQNjVrX3piT1NRRUFkdVcxWlAwcEJmMWNiX2M3WG0xWlpoaEk?oc=5",
+         "source": "Moneycontrol.com",
+         "ts": "2026-09-25T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "Music",
+       "channel": "Dance",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "News & Current Affairs",
+   "channels": [
+    {
+     "name": "Business & finance",
+     "trends": [
+      {
+       "title": "UK business morale hits 17-month low, Lloyds says",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "UK business confidence falls to 17-month low as Lloyds survey shows economic outlook weakening",
+         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUlZhZmtZWnp1RENNUXd2VWsxd05KMmZ3SE5xVzlNZmJuUTZwWjdxUzVKMEZzWlMxc09sWE81eEZUWlV4bmRMM1JOUm82UFpTUWVub2l5M1JGMS1RMjJjYlZ1WnBpbTJrRWV5U0ZzTzNaX1haTlNCZWZYN0JNVFBWbDEtcDk5c2hnZGk4UEhoNXk0ZWkzdVpMSlBR?oc=5",
+         "source": "Traders Union",
+         "ts": "2026-09-29T23:11:14+00:00"
+        },
+        {
+         "title": "UK business morale hits 17-month low, Lloyds says",
+         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44S01DSDJjX2VGVkZ2WHpOdzlsMGpiYkEwSkZJXzhjem80dkhYM3lVdlFNWm5tdTBHSlg1cG5IdExpaGlldWhYNmhFSG5hamp5TXhNa1RoSUVXcy0wbXhtZUdQdnp6RUpqNTg3SW9OZ0tnMjZKX0JDVVNn?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-09-29T23:02:50+00:00"
+        },
+        {
+         "title": "UK business morale hits 17-month low, Lloyds says",
+         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QV0tmMm5XYndfUGQyaHBMWFg0Yzd6eXFhc3FDZnI5X0RudFVzc1RGRWdVRHgxYl92NjhKZ0R5bWtDUjlkeklSb25ROWdMSW1LOW1RejFVZ1dmQTJXeFdoNDJ2ZnJJNkNQenVsakdsZUhvZkh2S1pJbw?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-09-29T23:02:50+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "News & Current Affairs",
+       "channel": "Business & finance",
+       "topics": []
+      },
+      {
+       "title": "UK economy grows faster than first thought amid service sector boost",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "UK economy grows faster than first thought amid service sector boost",
+         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcXgyOVlIaTRZdnBZS0pNLWUyX0F4ZkNBeGRNWTVvMXpWYTN6bG5Cci1JT25CVlNNRHR1VVJYWmtqS3M5MFAzeGRpbjN1TWpvWFpkTmp4aS12RHdEV1RPb0hSVjl0MU5sa05OZHlvWWw1NGI0S1Bod3ZMdXg0X0lJa1BjZllFZzdOWUpWOWxLdlRXWjNSb2FZeV9zOTlEeEUzMTd4UFE2U3NRNXNxYnFUUEJ4RlpOUlloQkZkVFJZcEVsZ0RwSGk4WGNBMGJIajVkbUhUdg?oc=5",
+         "source": "London Evening Standard",
+         "ts": "2026-09-30T12:32:45+00:00"
+        },
+        {
+         "title": "UK economy grows faster than first thought amid service sector boost",
+         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOHhYR3RTdWRLMUxVUl9aN2NFb2FVSGljSTF2aXBhelc5cVpiZ1JYVG8xQmVwcUVsczE4X0t5bDlDOUVsMC1xV3pEVGNwdFZsS1NBeC15R0lsZU01ZmdOMDQxY2tOdmExY3pzTmE1UDNSMjAzU2kxSTlfRnJkTVZ4LU5WZjNOQkVsVE5nNms3UWNsUWdwSVNjQlRPcUdicEJ2d05YczB6M3htelZpMUpNM0t1dDMtdk11WlNibURzOGxQWDlRN0NaYVFnd19QZDB3WnFZYw?oc=5",
+         "source": "Belfast Telegraph",
+         "ts": "2026-09-30T07:23:09+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Business & finance",
+       "topics": []
+      },
+      {
+       "title": "UK Economy Grows 0.5% In Q2 After Upward Revision",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "UK Economy Grows 0.5% In Q2 After Upward Revision",
+         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUg3WjVONk9SMWJqc3BxeWE5NzAtcjRmT0l3Q3VYdGZyNlRUU1p3ay1WM2VwVUhiR0xzVjRaZWdLY3UzWkdqYlJMYTVNdzFzMlk2bWprdTBVUUFsUURjaF9yS2U3UURQX2NuLVlDS0dWOVlaUy1wekd5RVQxWTZIRVROdmc1bjBvcWUyX1V4T0F3MVk4eTY1MQ?oc=5",
+         "source": "BusinessToday Malaysia",
+         "ts": "2026-09-30T07:57:38+00:00"
+        },
+        {
+         "title": "UK economy grows 0.5% in Q2 as output, household finances strengthen",
+         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTHR4c1E1cy1yU0NIMXAwLW95SXdWbzB1MTFPdnE5RXduTW5wRjdvLW1YcGt0R0szRjdmZERaLVNyRmFJOVZBbXFSWnhTME5HVXlzbnJZRWxzVExtVGo5WXpsbFUzdnIyMndOZ2ZyOHE3TkZVRWF2aDBRRXZOYzB2S21JODZoTVo2cFlBY1JHbHFrQWs5R1M2WlhiN0xPRmE4bDhJRGdhSmNvN1V4M2NQaTlnWTNMUkcxQnZYQk1lTnppZ9IBxwFBVV95cUxQNmowUUNWRTNEeVZfbTVxMm4tR2hpQkkxNk1Cb1FJWTQxUU90bGpXa0MtZU5HVFFiN0x3OHNWaDltS0lPbU5jMXlqMDEzXzktQWNOZFdlSUNLalJwYkRuRDFEVXpSRUNEVWx2d0dSaHFuenpzWDRlaDBkMHBaMHpXR05YdlR5clBOZnlocVJCRDkxRXBJZTMzRVNBRjdMSkFxb0ZrTkN2THJTdnBwTl9pd01mdjE2ZXR4ajNpdlc3UzdFWVhSa1NB?oc=5",
+         "source": "Firstpost",
+         "ts": "2026-09-30T06:57:38+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Business & finance",
+       "topics": []
+      },
+      {
+       "title": "UK economy Q2 growth revised slightly upward",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "UK economy Q2 growth revised slightly upward",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdzV1LUk0VklQcV9CVW9tZi04T3VueHhiUzZrSF9PV2gyZlJuZWxGeE03OTFNQll4eEdUSzh6LTdEQkh2MFZQZFE3RGo0aW4zSlVNRTlXTnNrUm54SGhFSWdrNWx2RWdyenBidkN6c2JlY3UtWFk5ZTZCUm10OGVIZ2tpVV9iNGxHaGN4WHlIdEJodw?oc=5",
+         "source": "dailysabah.com",
+         "ts": "2026-09-30T07:43:00+00:00"
+        },
+        {
+         "title": "UK economic growth revised up to 0.5% in Q2",
+         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONFcydUhaV3VRYThFTDByOFlzdkNpWjBiX3czZjE4S2xEQWZHRGpvV0FCX3dsS21EYl8yb1lqRFZEcjh0V0ZoUmRIV19FRk5RSWpDalRRUUNIY3N6bjdYQ3FZQ2FLZGVQMnlQeWM1TWdoeThiVUtKYmdUWGdWQ3lYSkIzbm1kRnU5enI2RkhVYUVUVGJIb2NJVWxqQ093NS05YnpDTjl4aW4?oc=5",
+         "source": "freemalaysiatoday.com",
+         "ts": "2026-09-30T07:25:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Business & finance",
+       "topics": []
+      },
+      {
+       "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
+         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX2VpNzhHYXJldVR2ZWFUdWVFYU0yNlBIeTV3cFhodE4yaDRuMnZVaTdvWTBqZGwzX3JleWVjSjNnbjVpSWowc2dJRk9vbjRHdVdHLVBhTGVxX1UtVzFnTzZQRUhKcnNtallNTHV3M0tFU3Z5MzV0Q3dOUVZoU3FkQw?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-09-23T09:07:54+00:00"
+        },
+        {
+         "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
+         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVDNMejVQblVVcVZMRUN6MC1iTmFkZnpCT1M3Q1hrNGx1b2xRN3hlcTY0Q2ZMRjJfd1RMNGlrbkhaYU9GcW9mUnByWDFJclVpbnZzQmt5d0RjMy03d0xybThneUV4dC01aEQzZUJIN3ZWUlo2S1UxXzVydHlxREVOSVlueDhGMTg0LXpaMFUtekpYV0NlRVgtU0ZxdkJ6UjNKdjdReVZpUW95M0pQVUVzcDZqRHBPdlA5N0VUVWFheVZ3M1R1MWVhOGtfeE51RHBzaWRHUU42cw?oc=5",
+         "source": "The Irish News",
+         "ts": "2026-09-23T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "News & Current Affairs",
+       "channel": "Business & finance",
+       "topics": [
+        "Cost of living & value"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Politics",
+     "trends": [
+      {
+       "title": "Wes Streeting: Chagos Islands deal is not good enough",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Wes Streeting: Chagos Islands deal is not good enough",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUVwVDZxd19idnZEc3ktenBUa19wRlBJSVJUM3FwazJYdEpSZkF3cHRBYkhjeG4yTHRDTks1MVJVNEUyMjhSTGdQam42RUpPTWYySnNoTURUaGFqd1pCVW9jZ0JGVkNONEVmRHdsMXZpTEZjVTN3S0FvRDM2ZkJ6X0tBUzZzbHFraEpsUGVlbW4yZw?oc=5",
+         "source": "Politics.co.uk",
+         "ts": "2026-09-23T07:00:00+00:00"
+        },
+        {
+         "title": "Chagos deal is not good enough, admits Streeting",
+         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd25ZOXFzMjBjeUQyUU9sTUNvMG1nRGhJc0FJVnNzWm54dFMtZWhqZTA3NVVteUdZS09ISFc0bWZ4TWtUSUxzVFJPeUJXSW5XbHRuUVZBMktqVmJNZ0R3OHdOQ3VsdkRNdktDdHlUZk1nY2RRaUZvakE1MHFfamV2emtqWFFSN1hiQm9vUldIbDdhX2gtb1VacUxMWVBiOG9sUXpXTjVUZGk?oc=5",
+         "source": "The Telegraph",
+         "ts": "2026-09-23T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "News & Current Affairs",
+       "channel": "Politics",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Science",
+     "trends": [
+      {
+       "title": "German and US scientists win Nobel Prize in medicine",
+       "signal": "rising",
+       "recent": 4,
+       "previous": 0,
+       "sources": 4,
+       "items": [
+        {
+         "title": "U.S. and German scientists win Nobel Price in medicine for discoveries on optogenetics",
+         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlc3Um1BTTk3WGJZTlBiUTRGV2l3SHhfS2h3RGFuUUZIRHFHRHNtc0I1VU9mVGJLckxMNVpTT2R6dWU0R043NHZSWG5YajVoVGJITnJYZ2U2T09Pb2xNMkFsMGtBdHNOYkpNcWo1elFvWnRHZDlVS01Dc0J2Vk41NEk1WDQ?oc=5",
+         "source": "Yahoo",
+         "ts": "2026-10-06T01:36:00+00:00"
+        },
+        {
+         "title": "German, US scientists win Nobel medicine prize for work on optogenetics",
+         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNjdjTXRLN2UycURCWHJOY1l6XzdsLS1rZmtNMDNoeEpNTTVzR2tSVEgwQzQtRHdLVzVqaDRZT3U3OTcwa1FCc2h4Q0h1ZkJqVXlyb1VVVjNaWWNsbFZMYzRFRzNibDNmQjdzTDF2MElaMXVQazlsWkhfcWJCS2o0UFd3aWgxUTBvWkJ4ZkdVM28yTVhZc0FVdjdkbExRZ0d2VUtTQW1XVVpkaEItaGxFMjlpYUfSAboBQVVfeXFMTi0yQzd2bmFWeWt3N1Q0NmtuWnJjakhza25WV3EtNG9tYUc2ZlRIcENMS2l6bTQ5WGpzbHBWaGFxQXNTWFRTWU8zNUZwRXlSYnVzSDJUTGpFNElHSVBUOXBsODBFdjhndGtUZzdJQW1iMkFrN1Z4UjBBZ1g1V1lNY0k3VzBOcEtLaGVWRVFQWEpXbmtQR2tDVlRGRHpQMlF1UVFVTDQ1RG44VUd2THJtTmMxQW96NHlTMjd3?oc=5",
+         "source": "koreatimes.co.kr",
+         "ts": "2026-10-05T10:41:02+00:00"
+        },
+        {
+         "title": "German, U.S. scientists win Nobel in medicine for advancements in optogenetics",
+         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1VSeFlMRDN1N0lJbmNEcXZKeTB6MlRaUFhmMkFLaS1DZXhtb1VPVjRVQ2o0TUM5bkdUX09tRmlSdHg4Q2hQM3d5WXJsdHVXMzQxYmI2VW5kZENxSHZzRkc5NDhuSWtST1dDSkxQVVZ1MmJWSkdGVkMyZjlFWEZTT1dqZ2E?oc=5",
+         "source": "CBC",
+         "ts": "2026-10-05T10:05:00+00:00"
+        },
+        {
+         "title": "German and US scientists win Nobel Prize in medicine",
+         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVRMVEdKbnM5MFhmTjRQdnFEdm5qSzMydldXU1paSDFoVk5HQ00wWmVjc1FfRDdrQ1pFNXRmQkhZcUQ2MWF3YUJaWHZKQTl2R0lHUkI0RXh1TUt1ekNrOVNnTF84X2kyOWRORHdMbDVFbHlFaWdEQTRROTJkTjE4eDZoVWI5QjlJY0R1WFRR0gGOAUFVX3lxTE41blN6M3pGTlZBQVAwbW9xQVExUnEzS1dxejViYlZGUDdHajE3SUhSck9HZk9XdHFQMDRib2hZNm1uaDRaTzNLUGJDTk9oa2RiYTE0emRjSGZkTVFlM0NLbmRzRklYSDUzMlYtRGNMT0tGQXhVNzhmd25WWWxiZ0tmdVI3aDhRLWNpdk9SMWc?oc=5",
+         "source": "DW.com",
+         "ts": "2026-10-05T09:41:38+00:00"
+        }
+       ],
+       "score": 8.8,
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
+       "title": "AI scientist autonomously generates and validates new biological discoveries",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "AI scientist autonomously generates and validates new biological discoveries",
+         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1ZfTHFBYk10bnQwZEh6aFZ1NHpDWjF3d0RBX3pPTDQwRzc2RnR6dU1aVkl6Z2ExYlJJaU4zT0I2dmdLQXpFZzIyanY3QzQ0TlRXak9lY2xleER4NkFoZE94enhvVU5sZFB6ZlJUZ0Jhazg2bnpBcG1oLUstRHRSZEZGaHdzM2pqcXFDUE1uN2hVMUtBUFdzMTBicm0zVFlaYVpQMEZHQnFqSW5KUGdEbklmNXgyR1RCV292S1dn?oc=5",
+         "source": "Innovation News Network",
+         "ts": "2026-10-02T13:20:54+00:00"
+        },
+        {
+         "title": "AI scientist autonomously generates and validates new biological discoveries",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeHA5QjhIZDRzTEx4RnEyYndWd2JxRTNqcWtaNXBhWjU4b3JfVk9OYUpnWlc5Wld1TGVHbGtScF92b3o0QVRQaWIwTlA0T1QwN2tvMFBCdl9Cb3RpZzZTMGIxX0pPM0pQa0xsLWN2TDFWLWdZSUVvOHZRTmtyUG5KOUo3ZDJSQmc?oc=5",
+         "source": "Phys.org",
+         "ts": "2026-09-30T21:40:13+00:00"
+        },
+        {
+         "title": "AI scientist autonomously generates and validates new biological discoveries",
+         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHdGJtMDRoVWo1dVMxNnlfX2pwSElldzlHUUNFQl9DbkpNVDFZY2lXU1E0T3VyWGJYQlZtalVYYjk1aFVueE81Sm04Tk9QVWpNQ0RXN0dLVDdXOFJE?oc=5",
+         "source": "EurekAlert! Science News Releases",
+         "ts": "2026-09-30T09:58:46+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": [
+        "AI & automation"
+       ]
+      },
+      {
+       "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
+         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLTd6bzQxUURWV3JQYUFwbHVTd2VBYmFVMVBQSU50QTNFTjNEajBSc2lFcHVsZEhmcHZKYlhjcUY1QWNnVkdPREhPU2FlVktFdWxDdTBrTE50TGt6Y0R2WWVDd2ZoZ1hCRG96bmNVX2FoRXpRVUpOMDBGazJiQWNXNDZCTXlOR1B1bDNNTXpsT1N6M0ZMLXJpNHNrZUtLRUNweU83OUNDS3ZreWNONVNyYlpkZ0hudWVKcnhNbVhfTlFfT21IUnhv?oc=5",
+         "source": "BGNES",
+         "ts": "2026-10-06T10:07:44+00:00"
+        },
+        {
+         "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
+         "source": "reuters.com",
+         "ts": "2026-10-06T09:58:45+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
+       "title": "Nobel prize awarded to scientists studying mysteries of the brain",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Nobel prize awarded to scientists studying mysteries of the brain",
+         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS253MGNkeXZveGVFYVQ3MEtVWVBxWi00MUtkVXNtVjJzZ2FZMFFBQ0JkNXVhYnpxOXNoT2ZFUzdQVURreDJZck9MdjJ0aWRTbVpFbXRxaWstNW10T0xWY3Y3VkY3QU5WTGJXSWpmWjFOUVVyUUFFTkN0WDNYTGZBRnZjVHlhQll2Y0xZNU9yOTVWNDlLZVF0bkI2OWhINmVNMEJPNzctR3UzaWpWTFBJTWxCSHZwcVE?oc=5",
+         "source": "The Independent",
+         "ts": "2026-10-06T08:53:00+00:00"
+        },
+        {
+         "title": "Nobel prize in medicine 2026 awarded for research into mysteries of brain",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHp4ZENrZUFEa0J2WnVzSkRWdTg4VmpISVJ2T0NqSXA2N3NzcnZZU0oxWW1tTGQ2S3g0bmNkeElPdTRBbGxoeFdxMWhBb3A5Z1pMNFZ2UUVHR3VhMlFuM3RPa0ZEa1NGSEZlb1FVSEN5WGJLNmpRdXVZSEE4Rnk0bjI2dDFKa2M?oc=5",
+         "source": "The Guardian",
+         "ts": "2026-10-06T01:31:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
+       "title": "Nobel Medicine Prize Goes To 3 Scientists For Research Into Brain Activity",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Nobel medicine prize goes to scientists who learned to control nerve cells with light",
+         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNlNURVFWbktSWXpXcmFSeFB5c2tiNlFXZnBpY2pfV2ZJMURWVzh0X1A1WlREd3Y0RUY1ZV9KdDNIcE44M1R6bTY3dkJxSE5IQ2FsREU4bEs1WlVoZDlF?oc=5",
+         "source": "Nation Thailand",
+         "ts": "2026-10-06T08:25:00+00:00"
+        },
+        {
+         "title": "Nobel Medicine Prize Goes To 3 Scientists For Research Into Brain Activity",
+         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQS3VwSDVmUFNVeEplcDU4SUJlNVFnakhlVnVad094amNDSEdNMFhxaGxqRDNZYnhvRVFHUF94ZzNSLWE4MDJHcmdtTEFXZXZlNXhSeHZDcmFlal9QbWhwTWJ5ZGlVQkFSY3ZualBLSkZZbnd3MUJTMDFqVjZGZVRZeWJvb0hiREtyX1lZbVNmaEpxRjJhYWFLbjdXYS1BOHhBejdHdGFCLWp0dk1nRU1FamJwZU9RdWNOQ05aZU5GWFZRaXpBVHhrNy1TT2tqRV9rM1hBeFBpc2lmZ1F6VTZ2ZE56LVcxdl9wNnhnSVhn0gH2AUFVX3lxTE85SDE4Y0Njb2xjbmM3VWpZMkt0bDVYdGk0R2haOHBDV1VXQ2FrVzNWbUI2azBnekNEWmd0eWJTNC1US0ZBZFdUYVZJTjRJcng4RG1vNlR5eTFrVW5LdlNnejBkTlNiRFV0ODFVQVAyU0c3M29UTXAyN01hQ2pCVmZucnhHZEVmQzk2UFhzbFA4RGN2NV83MTkydVVSV3d2MFlOSlRlcjQ1Tk9QMmlkaUQ1QThUZW9hSkFrNzRQc2JzbVA3LWdPMmV6QWM4YWZUVUwyNmJFN0k0ZzhKV3MzRU1JTkZDYjRPMDBCaWY5R3RURE9CbzB5UQ?oc=5",
+         "source": "NDTV",
+         "ts": "2026-10-05T09:35:29+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Newspapers",
+   "channels": []
+  },
+  {
+   "name": "Partworks",
+   "channels": []
+  },
+  {
+   "name": "Puzzle Magazines",
+   "channels": []
+  },
+  {
+   "name": "Specials",
+   "channels": []
+  },
+  {
+   "name": "Sport",
+   "channels": [
+    {
+     "name": "Football",
+     "trends": [
+      {
+       "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
+         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTJaY2VIcTl3dGZDYllGeXg1N3pidXBvLXFHOGNDbUVrY0pLckFaR0ZJTHJ0cTlrOWFCRXNQekt1TXh5aXBZRllTMENzdlg1QUo2YVppbUN5Z0tKREdUYm93dERXUi0xdE5vdlY0U2kwUmo0NVBfU1VkWmxRTnItVmdsRkFqLXF0eUE1aW1uRWVibjBkcktHeldaemw1LWZwaHJrUWJ3?oc=5",
+         "source": "ESPN",
+         "ts": "2026-10-04T18:14:00+00:00"
+        },
+        {
+         "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
+         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUkhQS1pvRDNjOUZpRG9EeHVTU25vMm56enB2UE1zaHlsS24xQTRudnRVUlFwNzAwRWZFMjl6NmVBdFlyOXZhUHI2dDJNZFQtRVZqY2FrYlpiajhuMjA5bjNTTEhMNWM2MU1JS1FZMDN3OVRvYUE2UmtZdndHTHpZcGJ3enB5MXhUbFpOUDlsMnBzTkxEZGFVX29aelh2MW1YazZ1NEpfSndOM0Fl?oc=5",
+         "source": "ESPN Singapore",
+         "ts": "2026-10-04T10:53:18+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Football",
+       "topics": []
+      },
+      {
+       "title": "Man Utd transfer news: Arsenal battle; Bundesliga star 'open to move'",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Man Utd transfer news: Arsenal battle; Bundesliga star 'open to move'",
+         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYVBDOUdoREFoTGkwSHJNNFU0R0pPXzR6cjdiRkJPNWxmdERDbUVjdW91OUcxYTdDdkkyYzB0OF9KcFFsQ2I2bXIwVjlTRW1SNkgxajdNY2JrX0pjaFpBNjB6NXM1dzJ5aW8ySmZrN0lvcDRVcENVUm9HaERmNlB2YnYtN1RVWHVTcTRTUEpfbklkMTN1OENma0tkZjNqdFdiWlZz?oc=5",
+         "source": "London Evening Standard",
+         "ts": "2026-10-04T10:13:22+00:00"
+        },
+        {
+         "title": "Manchester United transfer news: Arsenal fight for prolific striker; Bundesliga star 'open to move'",
+         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVF3ZEZibW9kMTc2TjRHaUpaZUlFNmd0TzhERWJTaHN4cE9pdDhyejU5VzJXTmFsT1RRRDRtU3JHU2NGQl9tMTM1WTZ6ZU5TWUhaR0x1UDJnNFJVWXZ0VVpWQVAwZ0NheEZKQ3pwUDZvaFZJT2IzWTI5VlZvOTUzZ195VXNWTWtqTzhoUzl3d0M?oc=5",
+         "source": "Yahoo",
+         "ts": "2026-10-04T10:12:46+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Football",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Cricket & rugby",
+     "trends": [
+      {
+       "title": "Brydon Carse charged by Cricket Regulator over arrest on night out",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Brydon Carse charged by Cricket Regulator over arrest on night out",
+         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWU1wRHlReE1EdHNxNDRmUWEySGdzcVRjS1Qyb2pQOEFLdkRGQ0ladzROaHNBdGp2RGt4RWY5c1dCcUVZUkIzdUxINk1rcjM2UUVWelRaR1hvdlQ1YVhycWx5VXZqN0ozSC1WMkRyQjV3dXVmLU9XT1dfcHRJcDhYODBMMkItZXh0aVNhbHRtWjR0R244NjFYRDVmTTRSM3RfaVNvVEkzNGlBempybFJCc1RR?oc=5",
+         "source": "The Guardian",
+         "ts": "2026-10-03T01:30:00+00:00"
+        },
+        {
+         "title": "Brydon Carse charged by Cricket Regulator over Derby nightclub incident",
+         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX240OGZ0MXBVYl83QTdPNjY5cWxOclhHeG5Pbk05X3BYUE1YYmxlTDgtSmlBMHNfaHN3VGJuOFpGcmxFX0FPUENXVUlmZy05OXlPZUdCWnVPU2lERVR2enRtNWxKWEtubWc1dllqaUxEc093YkgzVWIxWXJTVmpNdU5RaUthMVNQamRoVmswQmJPbjV4Qzc0b3VIMy1Db1RyaGNMMA?oc=5",
+         "source": "The Telegraph",
+         "ts": "2026-10-02T17:21:00+00:00"
+        },
+        {
+         "title": "Brydon Carse charged by Cricket Regulator but remains available for England",
+         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GMkxVaHpKblNPUmh6ZlVRclRENHJQVENyR2FYZ29qVmFZbnZhdUhEWnJld2h5bDZRWXlVTThsS184aERKNUExdVFEcmt0SEV5VHBoendUUEQ2alpsd1E1ektPWk5OUU0?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-02T15:55:06+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Sport",
+       "channel": "Cricket & rugby",
+       "topics": []
+      },
+      {
+       "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
+         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZTVpTjJEeGNERmdWS0hyZ0ppcnZaa19PYnZ5ZkpEeklZMmU3R3N4aHNlUVdNR3h4dnUzUlJSLU11cUxlZkMxdHFVaDl1VllEVklzdWdsMTlIcjB6M2VIV1hUMExjbEpPZ1hSNk5YRWpZYWx6MUUwblU3ZC1CM1dTUDU4MUhrS0JQNUpPazdzTUR5NTRDTi05djZIZ3JYckE?oc=5",
+         "source": "The Guardian",
+         "ts": "2026-10-03T13:24:00+00:00"
+        },
+        {
+         "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQ3BHQ1Y3SVlKc20xUHNodFZGNUFRVGF2U0VGcHptSW9pa0hGbTBGZ2NkS1RQNHBtREQzaUE1aG5pazRHRkZsSEZ6S29WS2dRaFhfNnR2cU1rbkNsZVJJS0Nyd0R6NDg?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-03T09:22:43+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Cricket & rugby",
+       "topics": [
+        "Gaming & digital play"
+       ]
+      },
+      {
+       "title": "India beat Pakistan in blockbuster as golfer Kim wins 'crazy' gold",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "India beat Pakistan in blockbuster as golfer Kim wins 'crazy' gold",
+         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX0ZNRFh3d2l1cFNXdGFXLVEzdE5CejhKbmZoNE9sOU04bDBpYzVpeHNaVmhnY1VoS29uc01rbWZJUld0TEJMTFdUbFdHYlBvSUFDODJoVVY3UF9oUmRKSUVEX2hZRlBONEI0SzBlb0pkU1duSVFBWWFBdGRNVHlpZkpQa2t4QmZQV29NdjQtWQ?oc=5",
+         "source": "Yahoo",
+         "ts": "2026-10-03T13:22:09+00:00"
+        },
+        {
+         "title": "India beat Pakistan in blockbuster as golfer Kim wins 'crazy' gold",
+         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdFlhemYxamtIbkw3a1JHMkYxUWViMm1XRkhjYlZFQ3k5cVZWZ3psN2ZmRE9zSHpyOGtvLUlQVWNPc1hpUnlZN0k5a2RZRF9zdDN0SWpvX2VQTmRBLWJEaEdqNGJ6RVRKNTUwY0p6VE0yQ0xvRjJMMVE1bDRydlhxTWtpWTlvckdkM3ZYZnU4VTRsTlpmREFwdEdJS2RmdmR1RV92MUxVY0hsY2Jkc2FFYg?oc=5",
+         "source": "France 24",
+         "ts": "2026-10-03T09:26:46+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Cricket & rugby",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Golf",
+     "trends": [
+      {
+       "title": "Alfred Dunhill Links Championship | Day three highlights",
+       "signal": "rising",
+       "recent": 4,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Final LIV Golf leaderboard at Alfred Dunhill Links Championship",
+         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX25iMThPRXd6MlZ4cEp0eEhIU0VpTm5yalMzSnkwXzR1c2pqbnFmM1YxcjRBTlN1RUFsa0piYjMwZ0ozUzFBWG4yY1Y0blFxTkV3QnY0bWR3bng3WHBpbDFsdS1fSVJmajNnLTZkSUtwNmlOVHBzcUFSclp1X1FQaEcxcEhEOEsxOXBmY2VHOG5VWWVYa1JwVGRrTkRhSVZQSkE?oc=5",
+         "source": "Golfmagic",
+         "ts": "2026-10-05T10:30:41+00:00"
+        },
+        {
+         "title": "Final LIV Golf Leaderboard At The Alfred Dunhill Links Championship",
+         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWlnU04taVlHTUhhSTJCZ3dfblB4cGl3WmplUEJOSGhRb2g2TzRwelMtNTdMbEFQUFNBRHEzVEZLZHgtQUQ4WnpDUXVHNVRTcmluTGFQNE5mZzNEdGgzLXhkdXBzQXdYYkltbldJV0pKZlprV1liQzc2eEIwcjlsQVBYTlVTU0h2eXctV1A0SElER3NhX2t6QTdB?oc=5",
+         "source": "Golf Monthly",
+         "ts": "2026-10-04T20:20:25+00:00"
+        },
+        {
+         "title": "Alfred Dunhill Links Championship | Day three highlights",
+         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kVWpub2E0cnpLZW83YzhWRHdocEdlajQ2UlJET3hya1pGT1hfZTNBUEZMU1NuUmp0OVphMjNxWkpKSFVXTlpUS0ZQTHFORGM0VTVRSjRaTjBpV2JlZzJwSHhMeXRaUlIyZm5OSXd3OFk?oc=5",
+         "source": "Sky Sports",
+         "ts": "2026-10-03T17:08:00+00:00"
+        },
+        {
+         "title": "Alfred Dunhill Links Championship | Day two highlights",
+         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZW0tbWQyVV9ySUxFVTRJVU4xQXhMQnA0WUllQ3BsTHBqcEJRbzlISFNUaVk1QWNmNk13RUVPRktGY3pwM09CR2VLODVBeW1meUt0VnNkNC1nWUlobUlFQXN6b2lOME5SbGhiV3MxX2VnMm5BV0FpWkh4eFdGdV9PSUcxLWhOenBKYkhzaVFiNVR2U1BRVVltaWs5RUNFcFE?oc=5",
+         "source": "Sky Sports",
+         "ts": "2026-10-02T18:55:12+00:00"
+        }
+       ],
+       "score": 7.6,
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
+      },
+      {
+       "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
+         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZndF85djRrNzR4ZUxKOXdXWEdvU1J6ZTBqbUFna3d6bE1zQjdIdHpKUnNiZHdSMDlSNnoxaW1haHNwRmd0ejdTakZMMF9BV1lubm56ZVN0TzZoVHFueEdSUm5oZTZYWTFBN2pacDVKR2RRRlVrQzJ5V0NtVEUza3F5amFDRGp2QW11VjV2ZHAtSkZMajJJLQ?oc=5",
+         "source": "Today's Golfer",
+         "ts": "2026-10-06T01:24:42+00:00"
+        },
+        {
+         "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
+         "source": "Golfshake.com",
+         "ts": "2026-10-05T14:51:18+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": [
+        "Nostalgia & retro"
+       ]
+      },
+      {
+       "title": "Navee launches Mini Rangefinder",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "NAVEE launches MINI Rangefinder in UK as smart golf technology range expands",
+         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmRmeW9BY3JhNWFpRWZBR09HUTBQLWktM3BzcHoxOTN6QVF3Uk5wSXYwcDdlZ1dVd2pvcHZzQzVTNFZpZ21UM01HU04tVUNPZWsyM3BRQnRUQVlldG1YaDRscEpBSjZ3cWhxNlY0bkI5RVpqMTNfMmxickJOZ0hwdGluMkk4TFVsUVhlNVE3cWdUMUFVOC1CS3VuR1RTUXZMS3BpWVRHWllOVGsycjdyRA?oc=5",
+         "source": "National Club Golfer",
+         "ts": "2026-10-05T15:42:27+00:00"
+        },
+        {
+         "title": "Navee launches Mini Rangefinder",
+         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1FING02YUpmOGhiNWNYS1lqdHlnS0FuLVBBanhNNFdpMFZiZDdNRkpZVXVtTHVyVTBnSnhwVGx1UG1ZY0lFOFIzc3FPdGVaQzE5NlMyLWw0MjQ4SXEyN0FJMUhleFRnNWZ1dE1ZTm1UUDc4amI4UTJVVGdYNUdqeHMyR05nUQ?oc=5",
+         "source": "Golf Business News",
+         "ts": "2026-10-05T14:25:06+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
+      },
+      {
+       "title": "Tour validation process in play for new Titleist Pro V1 golf balls",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "First look at the new Titleist Pro V1 and Pro V1x",
+         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTBXMjBDbGFoTFNKcUFWX25CUXpUU2U5Qng3R3pWeEdyTnhWUWZ6ekpZZ0ZHV2RpQ0hnYjNDUW0wREpXSjd6VloyRUtkSV80Ml9BN1dzOHlfcVpLR3VTLWVKU0NaLW9PR3FIM1loaGg5YVl6eGpnS0lLME9PTWVNTmFieXp1Q2I5bUNXZ2RFNE0xQmJDMnVXbFlzMlNVRk5udk5Qd00tN3VoQQ?oc=5",
+         "source": "Today's Golfer",
+         "ts": "2026-10-05T09:50:19+00:00"
+        },
+        {
+         "title": "Tour validation process in play for new Titleist Pro V1 golf balls",
+         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc0hvQll4emhycmljQmRnMVgyc1ZWeFg2NXhGdnIzcFBpNFh6WGlKUVdWMmZON21xZXF3RmhNdVVuSDRwTGRTczVzSnVpVV9XRmlwX2Q4a0ZZT3Blc1NieEdQdUJVQ0dheFNSX1RHSE14TXBWV1dkY0tfWnNvbk1Gb1JGcVlpMFpuaFNfQkZDWDNkdGNxNC0tOWhIQURUcEhVYWtDeThkaS1MLTRkX09GUHQyT2c?oc=5",
+         "source": "Golf Business News",
+         "ts": "2026-10-05T07:54:18+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
+      },
+      {
+       "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0c0MUJXQlhpTmNLTHRQOGd1Ny1QQ2NFZTM1NGlZVGxMaE8yQlZsY2RyTlU4bUoxRERWdmVXV0lfdjYySjVnZjFCV3BXcl8xSnpMQVd4MkVYQlNnQ2o2TEhJNlFVM2pYTk1hRldBRF9BZVNySjZ5VGF3SUJWY0s4WW9TYXltVjRFTXdYTlM2b1h1S0Zlb0E5OEh6aURpWnVjZV9xZnhDVWYzczJxeGVjTWljSFdwVmMtM3Y4QXJ3LTJLYkpHMldrV1Z3QjJtWVNuOU12dFdENm1mdw?oc=5",
+         "source": "Sky Sports",
+         "ts": "2026-10-03T12:20:11+00:00"
+        },
+        {
+         "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption",
+         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HUnd2X1Y5enlVcktmOWFybTh2a184cnN5MW51ZHIydjltRDdSaTFSMTVDbnZHREVCM1ZqUmJtYlVFRVZaYTNwU3NTcW9aNGk0aW96ZFY2THYxLUU1cHZoT3hSRQ?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-03T08:51:14+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": [
+        "Gaming & digital play"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Teenage Magazines",
+   "channels": []
+  },
+  {
+   "name": "Trade & Professional",
+   "channels": []
+  },
+  {
+   "name": "TV Listings",
+   "channels": [
+    {
+     "name": "TV & radio",
+     "trends": [
+      {
+       "title": "The 5 Biggest Jewellery Trends Spotted On The Streets At London Fashion Week",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "The 5 Biggest Jewellery Trends Spotted On The Streets At London Fashion Week",
+         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGpSSEczN1JVMEJ3VkdTM2g4SUhCM3VOeHJTQmJLQmtwWFE4QWxHXzV1RVRoeExnNVN4aktIZUJMRGtWZzMxQU9RcXRrZnpZM0lPbERZcHJZU183UDd1aVdNaWhHT3BDV2RDbWVTTDhZT005c0sxRm9Kc3RmVHVFSmsxSWQ2Zw?oc=5",
+         "source": "Vogue",
+         "ts": "2026-09-23T07:00:00+00:00"
+        },
+        {
+         "title": "5 Must-See Trends From London Fashion Week to Know Now",
+         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pZm9udVdvOEhpU0tleEFTbEdEMWF6b2w1UUVLOUM3YzQyTXMwdHlHRVJtRzNTcHY5YmhvMW8tcHcxVW92ODVqRXhsV2hNUmc2b19fbEpPUUhXS2tTelRyaS1NR1JNbUNRUGZxOHJhUjdYMGxWMVdUbFJ2UExmZw?oc=5",
+         "source": "Who What Wear",
+         "ts": "2026-09-23T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "TV Listings",
+       "channel": "TV & radio",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Womens Interest",
+   "channels": [
+    {
+     "name": "Fashion",
+     "trends": [
+      {
+       "title": "London Fashion Week Spring/Summer 2027: Key Trends To Know",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 1,
+       "sources": 3,
+       "items": [
+        {
+         "title": "5 spring/summer 2027 fashion trends to know now",
+         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2Q2MjFjem00Y1cxWk9WNUItLTZyWHUyRV9tVERaYU1MczhJb2RhMTlpenk2MVd6SlZyVDNVYXphT2FwWnVldDZZdnl6eGRGRFhnRDlqdS1BNFpJS0l2dE9qd3FOS1M0Y0JJVm9GM1RBRjJNWTg3MDRWMWdObzZMQw?oc=5",
+         "source": "Stylist UK",
+         "ts": "2026-10-03T11:00:14+00:00"
+        },
+        {
+         "title": "7 Spring 2027 Trends to Know From Milan Fashion Week",
+         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYTlN2dmNXaF9pUWRoZTVUc2M5ZkRtZlRiY2F1RUJDV0xFbHhrNGtZTm9XLVphQm9XR183TzlfbDRoWjJDSC1ndlVNVlFkMHN0aEdjX1hZNnNQck5BaHFfS2hrQm5TVXUtYzN5WnM2eFhfM040VjB6eQ?oc=5",
+         "source": "fashionista.com",
+         "ts": "2026-09-29T12:30:00+00:00"
+        },
+        {
+         "title": "London Fashion Week Spring/Summer 2027: Key Trends To Know",
+         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVlIU0g3Q1ctbnFTRkMxa1VReHExMVpiREsyNkNFU1hjejNQWkFaa3FEVUdnYTZHTm5YNW5KeEM2RHFiaHdDUVZPTkxYT2tiV3ZkblhJZVMtQUNDS1VSUzJwQ1JFSGdQWGhSWlpPOTJid0t0aUg3TEQ0Z05NX0E0Si1URFRYR2lhRGpzcGdHZWYwRlZYN2wtbktRWE9vdUNTWlBRU2N4VnB0dF9rUGQzcE5IN2E?oc=5",
+         "source": "Forbes",
+         "ts": "2026-09-24T07:00:00+00:00"
+        }
+       ],
+       "score": 3.8,
+       "segment": "Womens Interest",
+       "channel": "Fashion",
+       "topics": []
+      },
+      {
+       "title": "7 Minimalist Fall Outfits You\u2019ll Want to Wear on Repeat",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "7 Minimalist Fall Outfits You\u2019ll Want to Wear on Repeat",
+         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQclZrekJYRU5yZ0JkTkFBNUZ6dEdfMFFqTDJTSVZSQkgtUHVlaDdIZEdlRHZGNUVOTmZSalJYWWMwME1ZZWFleV9YVDMwOE9ILVZiTklGcVcwdVM2MFB3ZE5sR1RIdEUxZVBzZEdma0VydnBXRm9VUGhLZ2tWRERmd3ZVMzROMWJ4LU93aw?oc=5",
+         "source": "Harper's BAZAAR",
+         "ts": "2026-10-02T07:00:00+00:00"
+        },
+        {
+         "title": "8 Black Boot Outfits You'll Want to Copy This Fall",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkUyaWZieFJyYV8yd2EtSGFQZnY0bFBCVWdQUmVhQndWMUFDMHdDdGlLVm5UYjVldmd3Y3NGaUp2eU80LTZtUDVLclpGdGxSbzUtWnFlYVZLN0hVTzJjbi1TWVBINUF3cDUwdkw5QlpXRnBOS2RmLXNXS0ZHVXU1LVl0MVhYb2M?oc=5",
+         "source": "ELLE",
+         "ts": "2026-10-01T22:09:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Womens Interest",
+       "channel": "Fashion",
+       "topics": []
+      },
+      {
+       "title": "5 swimwear trends you\u2019ll be seeing everywhere in 2026",
+       "signal": "steady",
+       "recent": 1,
+       "previous": 1,
+       "sources": 2,
+       "items": [
+        {
+         "title": "5 swimwear trends you\u2019ll be seeing everywhere in 2026",
+         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPazJUc19PWEpwR0hhRE14Q2gwRUZKeTNGZWNQRG9LSS1nOFFBNEdkT0FnaTN0MHMtS3ZyX3kwTWVXb3JzczZ1UHV2VFF3NTlwTURpaE5fSlFDZ003eVp0SDcydV9JSmFucms4NkN2TFh4VVV4OGVTUDdhRXExYTJRRkhGZHlmdWZVWFlfcWRQelptZkk0T1ZnaWtRQWxoUUFXNmRQU0pvY0YzMjjSAbABQVVfeXFMT1E3SDhCbnBjcjZhWkhZVWVBeTZDU3NQNGQxZ3RBR1g3X2cwVFp2NlcwMDNvVnpSbWh0VTN2MUM3TjZ4QXcyV3Q3dW85Yk16VlZiM3hibFBWb2pmZDRTQ3h5ZnpNQUt2TUxLazdnZlI1dW5UN2p3c3pTSGxuXzBxcENhcDFOWlltRXFwV2NaaHhNT2ZtNEo2ZkQyT1VoWjZXS3hQa1RBSXNJS1lITENpOVI?oc=5",
+         "source": "Vogue AU",
+         "ts": "2026-10-01T07:00:00+00:00"
+        },
+        {
+         "title": "5 Fall Color Trends You\u2019ll Be Seeing Everywhere\u2014and How to Wear Them",
+         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzNGR3UHdfdzhLTVZRUVVlZmZ2LVhCN3NDdTZjN0hjQ0N3X1RrSVllbjUwSk1STkktOG05RjNPVDRwNnZON3FudWNpU2VJQ05Sa3lsNXVCUjYyUE9nUXZJQ1NR?oc=5",
+         "source": "Glamour",
+         "ts": "2026-09-24T07:00:00+00:00"
+        }
+       ],
+       "score": 1.6,
+       "segment": "Womens Interest",
+       "channel": "Fashion",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Beauty & hair",
+     "trends": [
+      {
+       "title": "The Hair And Beauty Trends That Ruled Paris Fashion Week Spring/Summer 2027",
+       "signal": "steady",
+       "recent": 1,
+       "previous": 1,
+       "sources": 2,
+       "items": [
+        {
+         "title": "The Hair And Beauty Trends That Ruled Paris Fashion Week Spring/Summer 2027",
+         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWdHcWFzZm1hLVdyTE0yZS1jSk1mc2QtaTZtb2h4TEtZekd1MnhWdkJsSVRidEE0NWxIZ0xrblhjazgtWENmRXVUNjRRZjdpYjJvZGJoUGtRS2VfX0xHTkNmWGVhajhvZkoySnRsOFJyVGJrWFExV2FUUEtJRE9SOU13Z19fOGhTb2c?oc=5",
+         "source": "grazia.sg",
+         "ts": "2026-10-05T13:12:52+00:00"
+        },
+        {
+         "title": "London Fashion Week: 3 Hair And Beauty Trends Set To Define Spring 2027",
+         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVUJGUFR3TEQteFRFZWlWS3FOU3VncXhyTU1mQmxEYnMyVXNLUmMyTUNXMXlUTUpJdnFCRkVUckg3dzV4R3IzbW5OLTVxMjZzcUtFQ2V2Mzd6b2N4Zm5DMmNnZlhoclpoQVpwZkJxb0dFYzF5VDJFZkVROFNpaFo3YkczYkhLOUwzUS1uQ1ZCMGUxNThIZzdqYXNhWkhVaWN5d0hVcGJFYU92aUFNbGJ6RFZMcDA3dF9GOHFuWUxkZjNXcnBpRmc?oc=5",
+         "source": "Forbes",
+         "ts": "2026-09-26T07:00:00+00:00"
+        }
+       ],
+       "score": 1.6,
+       "segment": "Womens Interest",
+       "channel": "Beauty & hair",
+       "topics": []
+      },
+      {
+       "title": "Celebrities Just Co-Signed These 6 Fall Haircut Trends",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Celebrities Just Co-Signed These 6 Fall Haircut Trends",
+         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU3FnWXFOUWdXOThrby1sRlRJNFExUFoyMnQ4WjhvWWtvQWpBdUZ0ams2cHFUclpNdkItQ1ZKMWRDTUladlEtb21vYnpXdTVlUWFGTVV4WXpJUzloQS1vV0JSdmJqOS1raEQxdlE2emZ0Y0h2d1JucDV5SnZ1dnFfcFNlYXZ6a1ZpeUtz?oc=5",
+         "source": "Cosmopolitan",
+         "ts": "2026-09-28T15:36:27+00:00"
+        },
+        {
+         "title": "Celebrities Just Co-Signed These 6 Fall Haircut Trends",
+         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WZ2VDMzFMeF9URl9HeXRzMjVQQkxib0Z6QmxWd09Fd1lzbldIcmZtd3pqcmNqZXJnbzRsTDZtWjhjb0JXc2xJLXBYR0V6bFFvUkJwT1hqVHlmZ0thOV9HMGN2R3dueXpwSl95elZJdnRDOWVuMWo4WFN4aw?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-09-28T15:30:46+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "Womens Interest",
+       "channel": "Beauty & hair",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Health & slimming",
+     "trends": [
+      {
+       "title": "Grandma-core eating: The anti-diet trend we actually need now",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Grandma-core eating: The anti-diet trend we actually need now",
+         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBheHNWN2U0Tl9aQWVvTGg4ZmVuYldsaDlvSExFNkxLaFFDTDNibEtPZWFCMVFTeW1sRFpkTlotaUl5TnZnUVFPVHhUTllqN2Z2NENrV0s3WlRRVlBwc2QxVDFyTlpoZzAyT1RrTlZkT2JQWVJELU03ak9NTnlOQQ?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-10-01T11:56:37+00:00"
+        },
+        {
+         "title": "Grandma-core eating: The anti-diet trend we actually need now",
+         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9va3RNSlZ5a0dPc3NVTmRTblFlVzV4ZVVUOHEwNFJ1Z1dMcVd4NjE5eWtQb3dPU0hQeDhGbUJKLXFmcDZnWDBNS2otRzlnNUhuRmZiOEFHVGtNQ1gyWVdpWXIwWVRUdU96YVhIVTFlTWNHOGpSeGszZjl6Y08?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-10-01T11:56:37+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Womens Interest",
+       "channel": "Health & slimming",
+       "topics": [
+        "Health & fitness"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Cookery",
+     "trends": [
+      {
+       "title": "The new London restaurants to try in October 2026",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "The new London restaurants to try in October 2026",
+         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vQkRDbW5VSm0xOFJ4aFJfc0ZQUEFMczFMaXFtaTFoUlVodkI5MUxlamdpckFBNF8tV2FwLVhVeUFmRUVBYTRSRk5kUXp5RWF5aUI4VE5tUUo5azFMcnZZcUJ3ZUk4cnlYbmc?oc=5",
+         "source": "CN Traveller",
+         "ts": "2026-10-01T16:31:35+00:00"
+        },
+        {
+         "title": "Hot Right Now - London's hottest restaurants - October 2026",
+         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNnFNNXZSN2lRUWRFU0N2VWdTdVIwcVhCbTNGYUFnc3JVdlZCWXhtOGRGclk4ZjZXWWlrUXkzc2IyVU9zUVFHVVNMczQwY2VMOVRSSWtaVEZrdW5JQ3dUNmlkV1FrcGt5cUJHdWdHMjR4ei0tWEZtdko1TmNESjNqYnN2dmdLOW1pbEdOMFlyREVQTTFiZlN3UE5ZMGNtdjhrOU41VQ?oc=5",
+         "source": "Hot Dinners",
+         "ts": "2026-10-01T07:00:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Womens Interest",
+       "channel": "Cookery",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "Home interiors",
+     "trends": [
+      {
+       "title": "Custom home design trends reflect growing demand for flexible living spaces",
+       "signal": "rising",
+       "recent": 4,
+       "previous": 0,
+       "sources": 4,
+       "items": [
+        {
+         "title": "Custom home design trends reflect growing demand for flexible living spaces",
+         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHdrSnVOcWtZZW5zRk5GYWlzbVJMTVEzNWI2Q3g4Y1ZfbWQ5VURyVDE5Q19HSlFiaGNhX3o2al94RXBkWTZZRGp4MkZoUm92N3p5Q2FzUG83NVB3cHd6WXFjMzJUMF91NTdadVB1QXdfSG9QejdHZ2FoejV4WEZjQktXakY4RG84YkhLREVKX1RHeWgtMjZfM3NtSGRMdFJ0TC0wWXFRSEhhU0M3YTNpaFhR?oc=5",
+         "source": "Arizona Daily Star",
+         "ts": "2026-09-29T15:35:04+00:00"
+        },
+        {
+         "title": "Custom home design trends reflect growing demand for flexible living spaces",
+         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWXNpc2VxZlZ4cDhOVElFQ0dlM0xGTENZUHNPSnktcnU3WWM1cWlMYlUtS0FqTVYwZ1lWU0lRNV9sVFNxZlc3bEJXcDJ0VmhsdTNmVHZHOEk2NURWM1ZHdjEzd0pDbG1fOTdhZlNGcm5mTlB4TmRLQ1JWTmRlTG9ZMS02Qk90OWRraGs4b2RoQ3lBeUlxSUpidkxVMGpBTExOZHJGVlpPd0o5bWRnOGJuekxqZw?oc=5",
+         "source": "Roanoke Times",
+         "ts": "2026-09-29T15:35:04+00:00"
+        },
+        {
+         "title": "Custom home design trends reflect growing demand for flexible living spaces",
+         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRVFySkd0X1RhT1h6c1JoRXJjbXRyTGl1N25xS2FQTnFVblRHY1lHZ1ZBMjVIN1ZkYnpUWGlRSFN0R1E3VUFGdndTNFBGc0pISXc1cVBOdU50dnlvb0xJNWFmMm8zLUVGQ3JTZWQzLVgyckJNZVhLQXhfcUZYVVB6a0V2YVloMGNsUC1PTW5RSDVod3VxZ29xb3Z6YVRCUlFtczNxaHNpdkNNM013QVNVOFlsVTM0VGpJU0l2U2w4S0k4NGM?oc=5",
+         "source": "The Franklin News Post",
+         "ts": "2026-09-29T15:35:04+00:00"
+        },
+        {
+         "title": "Custom home design trends reflect growing demand for flexible living spaces",
+         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZExjd2NfVTdOektBd1RjdEhqX3E4TURWZzJCQy1kZEUxbENjX0Vad0s0X0tJR0RMMUZqQjVBckZtSjMzSlhFYlFTVDVoRDR6b0FrczQ1MDhkUndvdWxRbFhGTFZTWjJfTnp2NlQyMExLdHN3c1JqSExMSlJLR3hONTM2RjZCWGdlNnlNNDBhbFpmbENlaXFmdU1IWXJVMWtsaXRxOXdGXzFYal9aWDFFS1JGdnM0cjM3WS1MRkwwdw?oc=5",
+         "source": "Columbus Telegram",
+         "ts": "2026-09-29T15:35:04+00:00"
+        }
+       ],
+       "score": 8.8,
+       "segment": "Womens Interest",
+       "channel": "Home interiors",
+       "topics": []
+      },
+      {
+       "title": "Rotpunkt's Matt Phillips on 3 key interior design trends set to dominate in 2027",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Rotpunkt's Matt Phillips on 3 key interior design trends set to dominate in 2027",
+         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMEJ3RDZITWZuT1FnWktpbG1LU2dOcmNvWUppYjdzSDFIMzJIUlJ2NVJhS2ZuUEZ4MEtVRXYtaUk2RExXRFE5ME9MeXMwQjNIdG00U3JnN2JlMDl1a1RWYnNTYXRndWowNDREajV2TWhZdkN6cnQxUEs5bDRhakdULXFHWlBhT25CNXZucTB1czc2eUcxZ2ltRlZmbmJMdWpRUXVfWHUyUnZTdi0yb3VV?oc=5",
+         "source": "kbbfocus.com",
+         "ts": "2026-10-01T06:34:01+00:00"
+        },
+        {
+         "title": "Interior design trends",
+         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40Nk9jNmJEQUtEc2JvdkhfZS14N0VLcVpRdVpQMl9lZDdSZU5Ta3FxcF9kcDZJeGNfMzVDWEVodWQ0dDBQMUl2ODJpVFlycnM4aEU3ejQ1Zk91Uko0dmU4ckFzMHTSAWpBVV95cUxQQXNiQ1dGQW02VlZybUswTnZxODJUUF85aUNDTWhfRjZqaWZNc1NSb05uOHR3NlBockdxVGZLYWhyeTRkWWpmNUdNbEVmOFNlcGdwZnlGQ3FjSVc1dmk2eDdqanhTY1FVVUVn?oc=5",
+         "source": "WFLA",
+         "ts": "2026-09-29T14:00:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "segment": "Womens Interest",
+       "channel": "Home interiors",
+       "topics": []
+      },
+      {
+       "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0VGOEozT25kcWlNb25rYnJaaGJWN3VxWk1DdGZwQjFSUzI3TGQzTkJlektoY3NsVUVheW44RmVZUG81S0VBSEpHS2duUW1SQ251cC1EVmx2LWxlLVBBamhJcUR1UUQ2eHhqTW1ITlNKUW5kQ215Vjh0R2cxLXV1VXJpbXF5a3ZCVkRVX3ZVQ2MzMXBSVngxUDRKaw?oc=5",
+         "source": "The Spruce",
+         "ts": "2026-09-25T07:00:00+00:00"
+        },
+        {
+         "title": "Designers Say These 7 Traditional Decor Ideas Never Should Have Gone Out of Style\u2014and They\u2019re Worth Bringing Back",
+         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWklNWl9ER3pWNGpNRnFPQm5nS084d0NsM1I0RW5FQ2Rlb0hrRmpJYS1FVTVEV0V0MXo1MHpxTU8wMmRLQlpwN0QwQ3A5TWhtZmxLSi1Od24zZk9Vc2tfSXh0S0F4S0JMcXVOdGc0cEJFNzlZdzk4YUFMS3dFQ2dhNDZJaWxkZw?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-09-25T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "segment": "Womens Interest",
+       "channel": "Home interiors",
+       "topics": [
+        "Luxury & premium",
+        "Home & lifestyle shifts"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Celebrity",
+     "trends": [
+      {
+       "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
+       "signal": "rising",
+       "recent": 4,
+       "previous": 0,
+       "sources": 4,
+       "items": [
+        {
+         "title": "Celebrity Traitors ends on cliffhanger after first murder and one new traitor",
+         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbklIY3dIeUhmNUJnQ2Z5X0phdl9kOGFwdUtNNlVYZEREOXF3MmltWDhpWHdPNUlzV1RTa1dkXzdkQTYzTVNTQmk1Y19TcXk2N014VVRta2d0UEtFdGxKeG5QMi1NYS1LM3hzdDNvSXRZT19EQjg2RUIydDlWQU5NSEVtQ1FITnZ0RnYwaEs4SWhiaDBrRHFSOVNaUmY4SVN2WENTcllrSU1mdzg2b2RIb2NrcWJZT1prT1hwYQ?oc=5",
+         "source": "oxfordmail.co.uk",
+         "ts": "2026-10-02T21:08:54+00:00"
+        },
+        {
+         "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
+         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjlrUWFDZnlwclpXdVF1bW5ic0F6QkZmaXVzWU5wRDFRT1AwX0l4V2FNbXdmdUhXbk1Xa3Z3Y09HY0lOQ19xMEM5THJHSHdKVTZycFZCTERVa0pFWXM5MHVzZWRiVjRIaHRIUlJvR2xRMldBa2I3cmxvT2ZVQVFTSGlOQUtaYURGMXViTTYwTEQ0Z1RpS0RjUURwcVh5TXVJZUI1WnRIWk9GOUhENzdjQ0FLRmdZeE9fUlM5VENIaw?oc=5",
+         "source": "Daily Echo",
+         "ts": "2026-10-01T20:42:13+00:00"
+        },
+        {
+         "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
+         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdFFDcVhDdV8wX0twWHpmV2hNM1VpZHdCbWpHUzQyRlBBWkFZN0ZwZ1FNM3FNZy1Pak9sT2RCU3JVMFF6TWY0YUlkV3loNjlMaDMtSGtTSEptdll3RDBvRXZvcHZ6Mm51ZUwtSXdPYlBYX09ib3lockxHV1Z1Q3FGSDM0WnNyaURIVllBWXozbEZpdkVKcHJ3LUptWklPT0VUSWFWSTZUV09CQmM3S202RDFRNUlXeEV0UXFkemFHR3BBaTlQMHhv?oc=5",
+         "source": "Halstead Gazette",
+         "ts": "2026-10-01T20:42:13+00:00"
+        },
+        {
+         "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
+         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEJfRU94MXVsa04wYWtrYXRjOWx1UlAyM2RFYTYtY1o0ekllcFhYZ3FTMFBUcURxRTZQYXBPVHdjVzRpRVpYN0tBTi00c1VNWkdyaE0zOEk2enJ0bUU2RWMtWVhNUm9COWFuZHFOVjRlOXR5azZYclNIcTdBdmprbDBsbXdaaEpVNk4yZnN1ZGU1Z2xfNzJyM0ZURW5BZUhZNjQ5d0lyRlFkVjVPTWJtUzFtQnRIUzZqNG03MmdxM1FremE3?oc=5",
+         "source": "The Bolton News",
+         "ts": "2026-10-01T20:42:13+00:00"
+        }
+       ],
+       "score": 8.8,
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      },
+      {
+       "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
+       "signal": "rising",
+       "recent": 4,
+       "previous": 0,
+       "sources": 4,
+       "items": [
+        {
+         "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
+         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZzZnU0pOenJQaXgzaWtNSElyX21TbjFVSzFEUHhCcUZncFFtdFo3QUhyYVZoVjhxRXBTMk00YmZkdlBCOWNoOEZwZ0JkdWVRdnp5OTEwQllCSldjU2pxa0tqenZRNkFGUGhMWXVuWGhsVUlUVzdBVzBOYzFSR1lIV1FIRGhKX1JUdjhhYURTdnlYbk5lRWw4VWxtWVNiYVR1XzR4WFNGbHYwUUlIWXhUSTFLdE5fSnkzQkhoby1WSEhRM3ZJSDhNUG5ua1NOSmpEX0llUi1pTkRuV2RWRy1B?oc=5",
+         "source": "Belfast Telegraph",
+         "ts": "2026-10-01T12:42:02+00:00"
+        },
+        {
+         "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
+         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN043bVlEc1lHMUlOMVVrVEZOQnd6THRwTmZnRm13WWlJcTBWUWpSOWRzV0s3Y1FMblFpM19RdVQwVmkwZG1vT0NrRTZJdXpfenFXQjN3RExlbEgzZk12b2hLS01POWJsVkZRdURaUjJITHlycklnRGhmdngwRWJNRUhYeG5mUGZKVHdZM3RPclloaDJ2bGxySmVZTDJTRk5adnFFcVJrN2hYNmZva3I3eU51bTFvRGRfcDE4MQ?oc=5",
+         "source": "Dudleynews.co.uk",
+         "ts": "2026-10-01T11:42:18+00:00"
+        },
+        {
+         "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
+         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMllnWkxPRV9vM2xxX1ptWnpldWs3VHp4Rl9wNWdiQlRXeE9pbVpIR19rU2xheTFiRmhIdUExRkJubEN1cWhQZ0FVZ2g3RzJtd0IxX3lObFpuamhUT2pQS05xbE51TU1GZUlRTjJhVlBBaS1pTk5UZkVQc3pmd2d0aVJ1eVktcjFveEJvY1JtSXNkRDNFZUtPTHJYZjZ3UjdrM2NYeW9HUFVJVndHamJzMlIzb0RqbE5PVUJtbE50SzA?oc=5",
+         "source": "The Bolton News",
+         "ts": "2026-10-01T11:42:18+00:00"
+        },
+        {
+         "title": "Celebrity Race Across the World 2026 line-up as Princess and Junior Andre sign up",
+         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGdjNUV1VkZ3dmVuM05feEZzLWljUjYwLUxHb0JmdWYtVUJEQ0psWExxMnYwUHJUcnB2aW1fQlJ4WEVxTHIzODdiRjNiY0dHSzYwZHl6SVVzcGIteGVCXzNPb0tzaWVkeTRxVHh4b01OOUlXM3lIeHNvUl9FYkN6X2prWEw?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-10-01T10:43:43+00:00"
+        }
+       ],
+       "score": 8.8,
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      },
+      {
+       "title": "Who was the first celebrity to leave Strictly?",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Who was the first celebrity to leave Strictly?",
+         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubGhSd0xWZG04NDZaMXRTNlAtLVVVQmEwRkh1cTVHRktTdF81MDBNMFo2RTh3RlZzODBLUUlicFFzdXJQUnF4X1FVbDNueHhOQ2RCZG55LWIwZzFNWUt6RjlIV04?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-05T07:33:19+00:00"
+        },
+        {
+         "title": "who was the first Celebrity to leave Strictly this year?",
+         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPekQta2FNN2g0dXp3MHVwV2dtcVJXSlAzbWZlWVZacWlrOFNDdEJuV1Q2RTZDdjJqYVVrM0RKSHI1NVZTeUVxWEp4UGpmOVdfRGRSalBRbGhTYnVMb2dKSXF1TFJ5RVFiTGVtSDJxdWF5LTNSMVhKLWxhcXJ5Z2NJMlFOeEpPSXIyeDBhZFNPcDVtelF5VnhlejF0OExoLUw1YTd2X0NfUHhPa3hXT3VHYlZabw?oc=5",
+         "source": "wheretowatch.tv",
+         "ts": "2026-10-04T22:03:15+00:00"
+        },
+        {
+         "title": "Who was the first celebrity to leave Strictly Come Dancing 2026?",
+         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ25feW5zTWpkVnVpMVBqSWs5elVYMlplQU5Qcnk2NDdqdWpjYXdGZnFENS1ELTBOakR3X1BOUmNZM1VaME9wSTNPelEyNUQydlREQTREUWp4LUpwQXdQVHdjV0tySVRURkdNbGRyWDItcmdJcUNOLVNjTWt0ejRCcGNnamthNlFJS0dTMjlQSm9pRjZ6SmRVM3BRUkRuTDBjZ1FSZ1A5WDk1dDFPX2tTUlJCWQ?oc=5",
+         "source": "Brentwood Live",
+         "ts": "2026-10-04T19:00:00+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      },
+      {
+       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN2RBZFJOWEdiVl8wamMzQmxBd3M5dHZINS1vaExMZlUxMmFTUmJORlhXcnVjWHQ5TUdtSElITDZmTlZzNng1UmhUa3BLeFgwcDQzVVB3anJIbElWTE1nb1FyR2tYSmpnU2FOT3pSZU9rb0RRUHZJTnlBLVRLUHJsbVFqVGZ2S0F1dml1VXJVX25CMGhQSUppRlB1alpOVlpCNElrN2hlQ3JVU0J3OXBQa3F3?oc=5",
+         "source": "Dudleynews.co.uk",
+         "ts": "2026-10-01T20:02:13+00:00"
+        },
+        {
+         "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNblVXeC11b1puelNIeGdzMkZwVldhNk9DOGlTMVd2bUFUd0NRUmltZG5ZSXoyMHhhQlNOQ21vNTM4R05yZlZkVVMyVmw4Q09OTlJVVmk0MWl2anJMdC1nSkprczVkN2V6RFpXUDV1amNPenlwbmpnWjd1cVc5OFJVbzF3eTJRLTBkSmJxM1lGSm9HVklNNGwyNWowZkxiXy14MmNXLWQxLW9FMWhucWNJMw?oc=5",
+         "source": "Daily Echo",
+         "ts": "2026-10-01T20:02:13+00:00"
+        },
+        {
+         "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNalJqdHJHOWs5ajFYelF3ZUd6TzMyUnFDdkhzX2JJTE91SFc1ZDg5X2JKeTY0SFlLSlI0cTJCekxoVlNUdUdnVkY5ZEoxNnZCVHVPSTBjZVp5SlR1bFdYRVkza1Z2MHBPMzQyWmVUNU9Ec2dGRDlTNkhuNFZhN3NER0dGTGRpTWlhdlJEcEJmZTEwYUtsQ043SUwyT2hOaXdVUHVWVGZMa3ZaWThhWS1CT2g0dGJsZw?oc=5",
+         "source": "The Bolton News",
+         "ts": "2026-10-01T20:02:13+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": [
+        "Streaming & screens"
+       ]
+      },
+      {
+       "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
+         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdGxaTTZlTF9rVzF2U0VuQlVyeXpIUjRkdFZuM01LZFJIRGxVQmpIalRzM2dvdzVlY2lYb0diNGhYQUZwWWNhUWx2b3FKN3Eya0ZHY1hRaVlXektzdFE1QXZMVmlvaGZ4MHdoYnFpRDAwMDZBRGdOelJ0QzlyUUFHVVlzMWtvNVNCeGZ6cml2dkJ0dDd2SXh6VkEtMXpVSnlwaTRqOFhB?oc=5",
+         "source": "East Renfrewshire News",
+         "ts": "2026-09-30T13:27:49+00:00"
+        },
+        {
+         "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
+         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX2xNMnZGUTlRR1RuZUhvdGk1THlsUk9kdDZjNUpGR0t4Z2M0bTkzRkVHNzBjOGhwNFJONXoxaHVqRlRtc0xhRGdkUTdoTmNmZDJMSGdGTnRjaVhlRXpPYndMX3d0dFduUGx6RUIyb0FRZzFyQ2pBbWRBcldaeVdTRTlQbVp0YkNwQUhtYWpXVjdpZXVISlBSdFFfWjJFVVp2ei1rRWxydzIwaGs?oc=5",
+         "source": "essexcountynews.co.uk",
+         "ts": "2026-09-30T13:27:49+00:00"
+        },
+        {
+         "title": "All to know about Myha'la as actress takes on Celebrity Traitors",
+         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb21udm1CMWVvZ1F2NzQ1X3A3V3ZnM0RxZjliTUlJMGhVRFZhb2FrQm43WTV5VzhFNGhNWXBhWGVhMFZYY1luMGRGUGxCRUZyRmxLS3M3ajFoQmdyZFVwaHhXUTRIOWtzTXR6alV6TlpKOUJzeTVkYVlqRmFCdXA4eS1zOEdQb0lRbWFyMjNxemFwcE1BMkFuNmZnWDU?oc=5",
+         "source": "edp24.co.uk",
+         "ts": "2026-09-30T11:22:00+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "name": "Gaming & digital play",
+   "total": 5,
+   "trends": [
+    {
+     "title": "Nintendo 64 Turns 30: The Console That Taught Games to Think in 3D",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Nintendo 64 Turns 30: The Console That Taught Games to Think in 3D",
+       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EOVg2WFpvcEQ0YW53YzRwT3JNREN4bGJCWVh0NVRlZHFLQk83UW1SU0hMSkRVRno3R18waEtidmNEVnBUYlFTbVlnRmFqUVdzR1V3YnhkY3ZiUVJtTzl0VXFqV05mcnVlVy1yeWJZQUNRdw?oc=5",
+       "source": "ColombiaOne.com",
+       "ts": "2026-10-01T19:55:00+00:00"
+      },
+      {
+       "title": "The Nintendo 64 turns 30 today, and we're feeling old",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZEE2Nkd2M3dkaFlsRG5fTzkzOVhxYm82TmVKeE5CLTNTaEVaNi1mYldCT0JJLUtuVzY4ZFhkWTBSQ3RmUnVTak1ZaUF3NHpvaTVodFZaSmh0ampXYkVybkdWU2JwOTZvVHdMOEh4U0FpZHN0NDBCVk13emdMX1BQb1EzbDVZRTA?oc=5",
+       "source": "techspot.com",
+       "ts": "2026-09-29T16:38:00+00:00"
+      }
+     ],
+     "score": 3.2,
+     "segment": "Computing",
+     "channel": "Gaming consoles",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
+    {
+     "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "11 underappreciated games you should buy in the Steam Autumn Sale, according to some of our biggest genre sickos",
+       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON0p6SEtlWVpCSWZpS0hPSHZEME5kb2toenQ2dVhxaTBRdlF4QnNaNlZZMDVTaWZXTW5kd2I4TWV6QThsS0Jpdi0taDVHaURGM1phTDZ4SzhiY0JoNHU4bGVIYUhCRm9hbTN4UTF6VlMtUzl3d2F1dXRTWEJwckNadUZFaXBrU1BEZnAzTmJ5MGNoQ0poZUVGREZqbERMZ0V1dkJWWkNIYVlERmhKQ1pFVTBDX2dEcXlaU0tlcl9vRFB1aVl6TG9lNG5ZREVvRjFVaWpHYnZBbXNWUQ?oc=5",
+       "source": "PC Gamer",
+       "ts": "2026-10-03T16:00:00+00:00"
+      },
+      {
+       "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2JPM1JrWVNYYVBYNVMzbWFYY00wanlYbEIzWjNYcnhBQ2dCLVNjdWdDN2szVHUxZ2dsTmRvQllYNG83djFoVGF1VTFNWWw0aUFBdENpVXV0bHUxc29UR1d6U3l5c2puYm9sTjk2NWtXZVc1aEtlWnFWbm5EUFcwcU53S2Z1X1FBVHdWZjZ2Tll2WDdKQWhNMWxRaHE5WUdPUlFSbG9n?oc=5",
+       "source": "GAMINGbible",
+       "ts": "2026-10-03T07:00:02+00:00"
+      }
+     ],
+     "score": 3.2,
+     "segment": "Computing",
+     "channel": "PC gaming",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
+    {
+     "title": "Upcoming PC games: New PC games for 2026 and beyond",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Upcoming PC games: New PC games for 2026 and beyond",
+       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WVldQaXFWMl82ZHQ4anVTN0llcVN3d0NoYjlfZURLTjJBWFVrdVNZWnRsd21GSVdSMHExSGhPeERGSjh0aS1Oc3dOb2hWcXBrVlE?oc=5",
+       "source": "GamesRadar+",
+       "ts": "2026-10-01T14:18:58+00:00"
+      },
+      {
+       "title": "Upcoming 2026 games: All the new PC games you won't want to miss, from big hits to hidden gems",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yRUVmNkFVWm5fMXBsREJlTlFiejNnUTBNYmNyaWNaZHlDUnByVVJwb21tS0QzRm04VVo1X00tdnpqVFhoYkRsZEFRVTIwR2RyMVR4eHJoUWxUWUZr?oc=5",
+       "source": "PC Gamer",
+       "ts": "2026-09-30T20:42:47+00:00"
+      }
+     ],
+     "score": 3.2,
+     "segment": "Computing",
+     "channel": "PC gaming",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
+    {
+     "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZTVpTjJEeGNERmdWS0hyZ0ppcnZaa19PYnZ5ZkpEeklZMmU3R3N4aHNlUVdNR3h4dnUzUlJSLU11cUxlZkMxdHFVaDl1VllEVklzdWdsMTlIcjB6M2VIV1hUMExjbEpPZ1hSNk5YRWpZYWx6MUUwblU3ZC1CM1dTUDU4MUhrS0JQNUpPazdzTUR5NTRDTi05djZIZ3JYckE?oc=5",
+       "source": "The Guardian",
+       "ts": "2026-10-03T13:24:00+00:00"
+      },
+      {
+       "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQ3BHQ1Y3SVlKc20xUHNodFZGNUFRVGF2U0VGcHptSW9pa0hGbTBGZ2NkS1RQNHBtREQzaUE1aG5pazRHRkZsSEZ6S29WS2dRaFhfNnR2cU1rbkNsZVJJS0Nyd0R6NDg?oc=5",
+       "source": "BBC",
+       "ts": "2026-10-03T09:22:43+00:00"
+      }
+     ],
+     "score": 3.2,
+     "segment": "Sport",
+     "channel": "Cricket & rugby",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
+    {
+     "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0c0MUJXQlhpTmNLTHRQOGd1Ny1QQ2NFZTM1NGlZVGxMaE8yQlZsY2RyTlU4bUoxRERWdmVXV0lfdjYySjVnZjFCV3BXcl8xSnpMQVd4MkVYQlNnQ2o2TEhJNlFVM2pYTk1hRldBRF9BZVNySjZ5VGF3SUJWY0s4WW9TYXltVjRFTXdYTlM2b1h1S0Zlb0E5OEh6aURpWnVjZV9xZnhDVWYzczJxeGVjTWljSFdwVmMtM3Y4QXJ3LTJLYkpHMldrV1Z3QjJtWVNuOU12dFdENm1mdw?oc=5",
+       "source": "Sky Sports",
+       "ts": "2026-10-03T12:20:11+00:00"
+      },
+      {
+       "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HUnd2X1Y5enlVcktmOWFybTh2a184cnN5MW51ZHIydjltRDdSaTFSMTVDbnZHREVCM1ZqUmJtYlVFRVZaYTNwU3NTcW9aNGk0aW96ZFY2THYxLUU1cHZoT3hSRQ?oc=5",
+       "source": "BBC",
+       "ts": "2026-10-03T08:51:14+00:00"
+      }
+     ],
+     "score": 3.2,
+     "segment": "Sport",
+     "channel": "Golf",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AI & automation",
+   "total": 3,
+   "trends": [
+    {
+     "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
+       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORWJxaXRyRHNKcFFxaUt0WG1LYnZCd0Nfa2Rmemo3ajBqU2RrLVN1ZUpVQTkzV2ZBT3pqOUJNNlRBLUM1Y2FsdTd6b3pXOU15TUllZEhxeFU3dFBtckc4eHZ1aWEzcEdVN1ltS21mRWI3WDRDaV9xcHA4d2Y3WHRqSWM1eGhyQ0pmLWpPWGdwMVFUU3lmTWtrNjlob0VXeU1CVjZPMXViN19oQ2piQk9GTXhyTlJfRXk4a0otc2VySlhyNmU2MHItQtIBzgFBVV95cUxQNFE4OFhFSVltR2lTanZEZ05SaGhBc05CYVh5Z0txM0c2WFVlTzR1VVBEazdSclFfMTk5TUgyVlhUdDNaWHUzVFBnOGdHNHNzTG0zZjh2Rmc5N3dKckVNdXRDbmRKQVRpVTlhVEFSeFZwRFdCa0lTeVVjb0o0VFN2QlJWQTRmZXNBSzVIaGViZ3dCMUluQ2JTY2JHZUE1M01uMUNwOWUtQ2laYWFVdUNzRHlwNkRNb0lGTjNYbHNLWjNFOEttclBnQmx3MExWZw?oc=5",
+       "source": "MacDailyNews",
+       "ts": "2026-10-05T16:00:02+00:00"
+      },
+      {
+       "title": "Apple Will Add Stricter Mac Controls as AI Agents Seek Full Disk Access",
+       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTDNRdW5MZ0M2X1dCamFEXzlJeGhSM09VbXFyN3UzdXB6RGd1M0N4Q0w4QlRxTUVUTmpOd2Rhdy15bEhrV3Z3VkpKZzNCcko2UTdWeWlVbi1pLS1LejU0QkRoYnlPaXFJYU5IaXRvZk12empSTjhpV0dqNExKMTQ3Z2RJVU5GakZIQXJEYXVn?oc=5",
+       "source": "Technology Org",
+       "ts": "2026-10-05T15:13:00+00:00"
+      },
+      {
+       "title": "Apple to tighten Mac privacy controls against AI agents after Meta Muse complaints",
+       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZXQxWHplNERJVWFDYWc1cGtkZUZJZFpTbGJKUjlCNWVKTGVQM2NobmFmZGtMd0g4QlZRbmtseFFpRzY4ZmFacy10amxDQ2kwRzhjcHo4bXd0VXdrRUxKWmtJZHZjT3h5Zlg2Z1pvNDZMZmNYRkxDN1hsZEp1R042THJXbzNBMnZfMjU1VG1GLVN2eHhtTlhiWHJHaXFJbUxyMGRmeTlDRlFoUUVZaFRvczBwTXJ1QTA1Q2RJdFh2bFo0M0paRFktb2RpRmRsWnJYWWF6aGQySnlfSFYy?oc=5",
+       "source": "thenationalnews.com",
+       "ts": "2026-10-03T09:43:36+00:00"
+      }
+     ],
+     "score": 5.699999999999999,
+     "segment": "Computing",
+     "channel": "Mac & Apple",
+     "topics": [
+      "AI & automation"
+     ]
+    },
+    {
+     "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWDBhbnhyZndNUEQwN3VyRGpNNmdGM1ktNmxfVzNVQVBYaVNaNVpwWjhPTjNmVXlleW5ya3d5bnlhNVdxOWZiczg4cDc3Q0tPNkhuNmhFcHlXYzdXMGxXeXA5OWJFalltU0ZyMlpGbU5xUkRoaWluMlNBemFkMGsyT2pHN1dpVURnY2Z5TW1RS1V6SXdHYkJkOFZlYi1Kb2ZLR1hXbnRFTFRKUGJWX1BydUNpX0hQU0J1ZHVtcnFkeGFfYThTRlltcGdTSl8?oc=5",
+       "source": "TradingView",
+       "ts": "2026-10-03T06:03:00+00:00"
+      },
+      {
+       "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
+       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmZ4MnpUQ1g4bk9PUFZBakdJVHpTaHlSdm1wWjRNNDNQRHRGYUw2WGhidW5QUjhMMk40R2lTN2VHZ01kemZDcmhhWDFlV2dpRTNxdmhHd2VRSW1uMUJBS0lzVF9uelE3MjBkNFM1dHR0RjVGeEdYMTdTNWZrRC15c1otaVhYejBSRUczMmZ4WldSYlJ5eHJrSnlyc1NxTDczMGxCSnZtWmpMRG5jMkg0dmhqOXV4bTlReEE?oc=5",
+       "source": "Investing.com",
+       "ts": "2026-10-02T23:09:59+00:00"
+      },
+      {
+       "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints",
+       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
+       "source": "reuters.com",
+       "ts": "2026-10-02T22:43:45+00:00"
+      }
+     ],
+     "score": 5.699999999999999,
+     "segment": "Computing",
+     "channel": "Mac & Apple",
+     "topics": [
+      "AI & automation"
+     ]
+    },
+    {
+     "title": "AI scientist autonomously generates and validates new biological discoveries",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "AI scientist autonomously generates and validates new biological discoveries",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1ZfTHFBYk10bnQwZEh6aFZ1NHpDWjF3d0RBX3pPTDQwRzc2RnR6dU1aVkl6Z2ExYlJJaU4zT0I2dmdLQXpFZzIyanY3QzQ0TlRXak9lY2xleER4NkFoZE94enhvVU5sZFB6ZlJUZ0Jhazg2bnpBcG1oLUstRHRSZEZGaHdzM2pqcXFDUE1uN2hVMUtBUFdzMTBicm0zVFlaYVpQMEZHQnFqSW5KUGdEbklmNXgyR1RCV292S1dn?oc=5",
+       "source": "Innovation News Network",
+       "ts": "2026-10-02T13:20:54+00:00"
+      },
+      {
+       "title": "AI scientist autonomously generates and validates new biological discoveries",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeHA5QjhIZDRzTEx4RnEyYndWd2JxRTNqcWtaNXBhWjU4b3JfVk9OYUpnWlc5Wld1TGVHbGtScF92b3o0QVRQaWIwTlA0T1QwN2tvMFBCdl9Cb3RpZzZTMGIxX0pPM0pQa0xsLWN2TDFWLWdZSUVvOHZRTmtyUG5KOUo3ZDJSQmc?oc=5",
+       "source": "Phys.org",
+       "ts": "2026-09-30T21:40:13+00:00"
+      },
+      {
+       "title": "AI scientist autonomously generates and validates new biological discoveries",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHdGJtMDRoVWo1dVMxNnlfX2pwSElldzlHUUNFQl9DbkpNVDFZY2lXU1E0T3VyWGJYQlZtalVYYjk1aFVueE81Sm04Tk9QVWpNQ0RXN0dLVDdXOFJE?oc=5",
+       "source": "EurekAlert! Science News Releases",
+       "ts": "2026-09-30T09:58:46+00:00"
+      }
+     ],
+     "score": 5.699999999999999,
+     "segment": "News & Current Affairs",
+     "channel": "Science",
+     "topics": [
+      "AI & automation"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cost of living & value",
+   "total": 2,
    "trends": [
     {
      "title": "House price growth halves to 0.8% in September: Nationwide",
@@ -10,9 +2190,6 @@
      "recent": 7,
      "previous": 0,
      "sources": 6,
-     "channels": [
-      "Property"
-     ],
      "items": [
       {
        "title": "UK house price growth slows to 0.8% in September",
@@ -57,645 +2234,85 @@
        "ts": "2026-09-29T23:01:00+00:00"
       }
      ],
-     "score": 19.599999999999998
-    }
-   ]
-  },
-  {
-   "name": "Children's Magazines",
-   "trends": []
-  },
-  {
-   "name": "Computing",
-   "trends": [
-    {
-     "title": "Is Apple Intelligence Stealing Your Mac's Storage? Here's How to Turn It Off",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Mac & Apple"
-     ],
-     "items": [
-      {
-       "title": "You Can Reclaim Mac Storage With the Apple Intelligence Removal Tool",
-       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNnZVZElXTGRMYTFRbGo3cmhrdlhKXzlYb3lYQ3I2Yy1aY2hteUZoNktmZEV3aE9nRnJBNTktZGpCWUNNZ0Z5dXhWZVNySk9hODZoOEdEZ0xMcEhIc0lGTzZ3SUpmeE5kQWtlQkRqUXd4bk5OMUZ1M3Y4UXN2bnJBeVBZTUJ4Zy1pU29aZVJ2enItWUllN1RmX3U3ZS0zUkdNWGtKdw?oc=5",
-       "source": "The Mac Observer",
-       "ts": "2026-10-05T17:10:46+00:00"
-      },
-      {
-       "title": "Is Apple Intelligence Stealing Your Mac's Storage? Here's How to Turn It Off",
-       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObXNIOG13MDBZNzBGRXlYT3k4cWZ1R3c4cUQtNmJxMmFxMDJUbkJlTW45UmJGQVJ6MkhIRC1SZzdWTE10Y1g2R01HTzA4Q1AzUUVMc19POWNYc1hqQ0ZYaV92OEhJbkxlc0VLb002MzdDeWdqWkxxYVRIajJMUnZ5V3UxcE1XT09lR0duVVloNWYyNVlRVUU0d05OV0JFZ2wtUTdxY1ZxTFJpN0MxbXc?oc=5",
-       "source": "PCMag Middle East",
-       "ts": "2026-10-02T04:06:16+00:00"
-      },
-      {
-       "title": "Is Apple Intelligence Stealing Your Mac's Storage? Here's How to Turn It Off",
-       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ1ZjNWlhdnpwaWcwa2lleGtpVm9BcUlwVDFQZDR0cEkyMDdYYXAyREtIWGx5ZFJ6T0t5Zy01QVVpY1BQR2diLVNmclBSNVRydFVJdDFHaFYxVEdYeFo0bWNkWU1iRklnWUk5MEZvSmdfSnM3UGcxenZNQURZUU5xQ19temk0WmxtT19mZXpSQTU3NEFGVk9uVS1iNUxQbVR1YlE?oc=5",
-       "source": "PCMag",
-       "ts": "2026-10-01T14:41:07+00:00"
-      }
-     ],
-     "score": 5.699999999999999
+     "score": 19.599999999999998,
+     "segment": "Buying & Selling",
+     "channel": "Property",
+     "topics": [
+      "Cost of living & value"
+     ]
     },
     {
-     "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Mac & Apple"
-     ],
-     "items": [
-      {
-       "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
-       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORWJxaXRyRHNKcFFxaUt0WG1LYnZCd0Nfa2Rmemo3ajBqU2RrLVN1ZUpVQTkzV2ZBT3pqOUJNNlRBLUM1Y2FsdTd6b3pXOU15TUllZEhxeFU3dFBtckc4eHZ1aWEzcEdVN1ltS21mRWI3WDRDaV9xcHA4d2Y3WHRqSWM1eGhyQ0pmLWpPWGdwMVFUU3lmTWtrNjlob0VXeU1CVjZPMXViN19oQ2piQk9GTXhyTlJfRXk4a0otc2VySlhyNmU2MHItQtIBzgFBVV95cUxQNFE4OFhFSVltR2lTanZEZ05SaGhBc05CYVh5Z0txM0c2WFVlTzR1VVBEazdSclFfMTk5TUgyVlhUdDNaWHUzVFBnOGdHNHNzTG0zZjh2Rmc5N3dKckVNdXRDbmRKQVRpVTlhVEFSeFZwRFdCa0lTeVVjb0o0VFN2QlJWQTRmZXNBSzVIaGViZ3dCMUluQ2JTY2JHZUE1M01uMUNwOWUtQ2laYWFVdUNzRHlwNkRNb0lGTjNYbHNLWjNFOEttclBnQmx3MExWZw?oc=5",
-       "source": "MacDailyNews",
-       "ts": "2026-10-05T16:00:02+00:00"
-      },
-      {
-       "title": "Apple Will Add Stricter Mac Controls as AI Agents Seek Full Disk Access",
-       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTDNRdW5MZ0M2X1dCamFEXzlJeGhSM09VbXFyN3UzdXB6RGd1M0N4Q0w4QlRxTUVUTmpOd2Rhdy15bEhrV3Z3VkpKZzNCcko2UTdWeWlVbi1pLS1LejU0QkRoYnlPaXFJYU5IaXRvZk12empSTjhpV0dqNExKMTQ3Z2RJVU5GakZIQXJEYXVn?oc=5",
-       "source": "Technology Org",
-       "ts": "2026-10-05T15:13:00+00:00"
-      },
-      {
-       "title": "Apple to tighten Mac privacy controls against AI agents after Meta Muse complaints",
-       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZXQxWHplNERJVWFDYWc1cGtkZUZJZFpTbGJKUjlCNWVKTGVQM2NobmFmZGtMd0g4QlZRbmtseFFpRzY4ZmFacy10amxDQ2kwRzhjcHo4bXd0VXdrRUxKWmtJZHZjT3h5Zlg2Z1pvNDZMZmNYRkxDN1hsZEp1R042THJXbzNBMnZfMjU1VG1GLVN2eHhtTlhiWHJHaXFJbUxyMGRmeTlDRlFoUUVZaFRvczBwTXJ1QTA1Q2RJdFh2bFo0M0paRFktb2RpRmRsWnJYWWF6aGQySnlfSFYy?oc=5",
-       "source": "thenationalnews.com",
-       "ts": "2026-10-03T09:43:36+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Your next MacBook Pro could be \"significantly lighter\" than ever before, claims expert",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Mac & Apple"
-     ],
-     "items": [
-      {
-       "title": "Your next MacBook Pro could be \"significantly lighter\" than ever before, claims expert",
-       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXhiSlJqN1Rhb1BWNmFyTUtxZGxUdUVGeHVkY0k1WFYtQlJ5YmphN25kZGJpUlJnWjNpdkNvNy1Gbmg2UncyVlVxaUNzWmc2eS1MZjlrTWZjNzBDQW9ZSFE3RUtGNnI5MlViakJJLTRnRWNqMjRiVm96VkhMUElhZEZvWmozM2ZnYXo0Z1ctYTJqdnc0R1FPbDRzenN1UXZ1dHY2a0JpbVZ5M09hWkJVd0lmOU1nUQ?oc=5",
-       "source": "t3.com",
-       "ts": "2026-10-05T15:00:00+00:00"
-      },
-      {
-       "title": "Apple's touchscreen MacBook Pro to be significantly lighter, launch expected by November",
-       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNVpLZW8xMkh6UXkzQkFUZkFHZmQ2V1ZnbnhGYTNva0dNQnBBVDZQdVJNSXp4YlRGemRzV1hmUlkxTGVqUVMzWVRyZ0Z6ekJDVnQ0X0NNVGttaWtWb20tdnBxSUg3dXlsNzFTOFRoaDlpT3Y3VkpHNjlCVUZUekpuV3FPejF0LTJscDJfdFdmOFgtRTlCSTdVT1BzYjVGMVNJbzhQZGZieFJLWkxtT0thTWVrVF84Tk5EZlBoQ2pwM1o3bG95REVBOUsxTkNYZ3d3cFRJUnhrZkxWZlNiMFEtaEFycUcyaHloR3pSeUVLNjk0UFQzRzZZRW5NUm1zQdIBgwJBVV95cUxNYk1ocVdaM1NPaGNfNk1lZWl0TmZnY2Z3NWFVbjNfQnd6MFRCSW5aVnBKLThEbjltSmpYTC1MQWIzOG1GSnZCX3hFOGlIUXBRYmQ0c0s4T0UycjZFUUpxQ3VxcGtxMnNjLXNUZkRkYXlnSmx5QUNWZFFrVVNjbjM0bjVseUxRa2xpT3J6cXFCR2w2U2hlQnFJbFNUYVM4bXJVWmJMUzB0X2hnMnNvZ203dUc0eWFlUlVmRVc5VWRndDNjaDRBV3RXT2ZKUHhZSzg4NXdjaXd0NXVESXRPOHVtS0RhVV9OM1F3WDNObndKWWR6MUtQYW8xeXNuaFJvTTZ0cnJR?oc=5",
-       "source": "The Times of India",
-       "ts": "2026-10-04T18:08:00+00:00"
-      },
-      {
-       "title": "Redesigned OLED MacBook Pro will be \u2018significantly lighter,\u2019 report says",
-       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWWFKaUdIRGxVUUkxNTE0c3BZbWJaTGdBbVpVZ0RrajNmb3R2b09BOXNUa2x6b1F3RGhfaC1CenpZc1VXdl9DUmF4ZkFXZTBwd2I2Rm42cXdCd1VxMENhM1JJQjAxY0pVQVZEeDVQdzVzYkR0ZzBHdkhQZ1BQSl9VeUZUdko5aWdxRDZ0bXAxNWNtckJFZGZhLVA1SWI5RWVDOWpjZm94cG0yUThZX28xMktnQk1hbEnSAbwBQVVfeXFMT19MMUtWdDJIcEhuNU85WjQySkVHRkxRa1JDWEJ5LUlMcmpYNjY3OHlWVTlDZHpMOW9CbzIyZV9Sek5meHBIcGgtU1BrRU1fczd0VGpqTmFWbUlxcXVJc1VLV29qajNSYWtRand5eS1XM0ZoZjR6ZkxHemo1dTF3d3hzMGtoNXBqeU1MNmhEN3JZeWNXU0tuNkhZejdVWjlzd083eENmQlFHNE9vVlRSVkhsRXRkVWNsN3cwOXc?oc=5",
-       "source": "The Apple Post",
-       "ts": "2026-10-04T14:36:40+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Mac & Apple"
-     ],
-     "items": [
-      {
-       "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
-       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT0JaSEVSSlhtcUVSczdaZTR3UUFlWnJwVWt3Z1NYTTIyMThYNkxwNGg4WlJ6UGVDcGRjOF9GZTMxYTRxeFl3cWRENU85MmhoQ3FqZElIMG1hMVVVcExraE4xYzNCQ2poTWZjNGM3QnIyTWo3TGRJcm4wUTF4bXROX1VmNWdUQnNmU09HVFhDMVl6ODlKUXZlYnMxbUNvd2M5alhtUWVpZzdfN3Bzb1lmV2pYXzVONTDSAbwBQVVfeXFMUDAybHNDWnN0ZVVzNGVYUUdqN1VNYVp2a0Z3QjJXWHd5ZE4tYzY5ZTlHdk5hMlNDMDMybm9jaExGX0JTZ2dWNWR3V2xCbU9KbGh4WC15LUZ3LU1DY3ZrWUUtTWdkQjM2a0ZVOHFpMGNiSy1PLTJoZ3I1cGhkNVdPT1J2cnV0VUVELUdVTmdtWHU1VG1xR0NfVjZ1dUJmUVh4R1VYRUNjQlVRZWVCbWdDdUZVOWFpZkx3aGFaWFg?oc=5",
-       "source": "MacDailyNews",
-       "ts": "2026-10-05T14:00:44+00:00"
-      },
-      {
-       "title": "Apple tests OLED touchscreen MacBook Pro with macOS 27.2",
-       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNalpwSVo4ak45eFAwUFlmRWZ5NnNnUDVHbV84ZW5qN0JCU0M0dnhNTU1uVC1ndl9lem02WTNVNlVPM1g5dHY4Rmlub3pYVGtGWDNrQ2NXRVp4MTBWTkw2QXBxZ25xT0tjZ2pZLXVMa2dlS3ItRExqbTY4QkhxcXd2VHBqb1pCdWJP?oc=5",
-       "source": "The Mac Observer",
-       "ts": "2026-10-04T16:48:38+00:00"
-      },
-      {
-       "title": "Redesigned MacBook Pro with OLED to feature \u2018significantly lighter\u2019 design: report",
-       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWlpGazEtREZwMTEyZUJfbFVCVTM2b1pac2NiYTdjRjU2WWFNd18weEpFSXpKdFJ1TVZzN0lvNW9PN0dxSjI0WlZQSlRpeHYzYTd0OFItOWxaWlZLODJULUI0M0xnNGNRZTNXS0lLSUZ3RE5OYlR4OFRQNUdJdmVXWUlsUVVDM1l6UDRjWg?oc=5",
-       "source": "9to5Mac",
-       "ts": "2026-10-04T14:11:00+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Linux & open source"
-     ],
-     "items": [
-      {
-       "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
-       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWx3MUVOdkExTHE2bVJhOEJZdlYwODFScWlxUGlDSE5oU0FsWHB6TWN6WnZHc1NxY3kwQTkwaXZYS08tMnU5OFBOTkpYNGNxejhxdURVR2FueVJ4WUJzQ0xjNFV3Z1hva3kzSmJfeXBMQVo0M29hc3BwYnp3b0NlbDM4bjlvQUg2dktPOEFjcC1UYmVqaUUxQlJNMmpqZWNWcHFpVjBnQ0s3eGtla21hYl9LY2hnTlVDSE8wRFB0TGnSAcABQVVfeXFMUHlsdzFFTnZBMUxxNm1SYThCWXZWMDgxUnFpcVBpQ0hOaFNBbFhwek1jelp2R3NTcWN5MEE5MGl2WEtPLTJ1OThQTk5KWDRjcXo4cXVEVUdhbnlSeFlCc0NMYzRVd2dYb2t5M0piX3lwTEFaNDNvYXNwcGJ6d29DZWwzOG45b0FINnZLTzhBY3AtVGJlamlFMUJSTTJqamVjVnBxaVYwZ0NLN3hrZWttYWJfS2NoZ05VQ0hPMERQdExp?oc=5",
-       "source": "StoryBoard 18",
-       "ts": "2026-10-03T08:01:02+00:00"
-      },
-      {
-       "title": "Meta launches Muse Gadgets: open-source SDK for building hardware around its Muse agent",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckRHLWhDU2wxZGJ2YXFZUXNQWl9oN3NmMzdvZWppUHhoNkZBRGY2T0pnRzMwd3o1bWZoVGpXRFl0SkdKUXNZdG1ic2tBbzAwclRHYkswS19vTlBYaGJJb2ZNM3IzWDZ6MEdzbHRwTTVGM2FoaWl2MTlpbXJHSzQxYTdjYld1dklzTjd6RDFBclFoaHhwTFZDbFdoZENFR2JNb2xuS2FKMFBTQUpjWXNDTXl2bEhQd2NEdEQxZw?oc=5",
-       "source": "Dealroom",
-       "ts": "2026-10-03T07:34:17+00:00"
-      },
-      {
-       "title": "Meta Announces Muse Gadgets, an Open Source ESP32 Firmware",
-       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQkxYXy1OanVZSTczckFMU3o0VmxQOWliT0g5VUg1NVJDU25tOEtXSjJLeTVrM3hCMEFPdlBDYWxQaDc4b253QVpWSTVjOHJHSDZTbjZfTU9DcXZmVjBuNGxpWVMyMEZNSVhfbVhtenhLY3FtblhxbVhVeDZBUVlFVlZocFlqaHdBR0Vpdm9KUQ?oc=5",
-       "source": "Pasquale Pillitteri",
-       "ts": "2026-10-03T06:55:21+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Mac & Apple"
-     ],
-     "items": [
-      {
-       "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
-       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWDBhbnhyZndNUEQwN3VyRGpNNmdGM1ktNmxfVzNVQVBYaVNaNVpwWjhPTjNmVXlleW5ya3d5bnlhNVdxOWZiczg4cDc3Q0tPNkhuNmhFcHlXYzdXMGxXeXA5OWJFalltU0ZyMlpGbU5xUkRoaWluMlNBemFkMGsyT2pHN1dpVURnY2Z5TW1RS1V6SXdHYkJkOFZlYi1Kb2ZLR1hXbnRFTFRKUGJWX1BydUNpX0hQU0J1ZHVtcnFkeGFfYThTRlltcGdTSl8?oc=5",
-       "source": "TradingView",
-       "ts": "2026-10-03T06:03:00+00:00"
-      },
-      {
-       "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
-       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmZ4MnpUQ1g4bk9PUFZBakdJVHpTaHlSdm1wWjRNNDNQRHRGYUw2WGhidW5QUjhMMk40R2lTN2VHZ01kemZDcmhhWDFlV2dpRTNxdmhHd2VRSW1uMUJBS0lzVF9uelE3MjBkNFM1dHR0RjVGeEdYMTdTNWZrRC15c1otaVhYejBSRUczMmZ4WldSYlJ5eHJrSnlyc1NxTDczMGxCSnZtWmpMRG5jMkg0dmhqOXV4bTlReEE?oc=5",
-       "source": "Investing.com",
-       "ts": "2026-10-02T23:09:59+00:00"
-      },
-      {
-       "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints",
-       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
-       "source": "reuters.com",
-       "ts": "2026-10-02T22:43:45+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    }
-   ]
-  },
-  {
-   "name": "Countryside & County",
-   "trends": []
-  },
-  {
-   "name": "General",
-   "trends": []
-  },
-  {
-   "name": "Home Improvement",
-   "trends": []
-  },
-  {
-   "name": "Leisure Interests",
-   "trends": []
-  },
-  {
-   "name": "Mens Fashion / Interest",
-   "trends": []
-  },
-  {
-   "name": "Motoring & Motorcycling",
-   "trends": [
-    {
-     "title": "Leasing.com launches Insight platform for real-time automotive market intelligence",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Cars"
-     ],
-     "items": [
-      {
-       "title": "Leasing.com launches real-time automotive market intelligence",
-       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWRUZTUybXhJN3J0VWdnQ2Fhc0E5T2p4MXVkd2pDZ2RMQjUwYzYtSGN3Qk10aDJNM2RFaXAyMVZ0RkhRbk5iR3RQcHM4Zmo1a1FXSnluQmtnWTM2STBZTFU1aUpueVlfcUlxLVd4d2ozQ21VNU5OcFZUemxaWHVBSDZMRkxQQnhadGU3MkN1ay0?oc=5",
-       "source": "brokernews.co.uk",
-       "ts": "2026-10-05T18:12:35+00:00"
-      },
-      {
-       "title": "Leasing.com launches Insight platform for real-time automotive market intelligence",
-       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVNicnNfVl9rVU5HTlpRNHVwVmhrRTUyeHYyaElDRm5uUWF6WFJVbWFaa0pXWDIzcmEyNElwVG5CcWVPM0o3c0FORktPVjVCN0J0Q1FlMkdUam5tSjZUUGRjdWppR0duY2RNUWpTa3NfSFJIUTdNdGd3WXd3X1gyWDFNaUNod2Vhb1JpMUowY2ZITkljQUc5NE9jRHJoSDFLbzZqcnJYdlZQQmxS?oc=5",
-       "source": "Fleet World",
-       "ts": "2026-10-05T10:19:56+00:00"
-      },
-      {
-       "title": "Leasing.com launches Insight for real-time market data",
-       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdU5NYTF6cnJHQzFfZE9qN21DR0dLdU4zVHVJcE9raXN1cXVPVGczcmRWMXMyTkVMOWs1aWxGeThaQWprRG9XRzA2YWp3aDZ4SzZfZGd6bUstSXA1SUcxei0wZXdHX1Y4aUJNcHBITWxRUVZqTE1ud1Jwc2RKUFRGU21yUzR1NFdEaThvX0dxa3pOQ0NDWGVmMm03V2F2SlpKVEdiZA?oc=5",
-       "source": "motortradenews.com",
-       "ts": "2026-10-05T08:12:36+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Germany Motorcycles - Data & Facts 2026",
+     "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
      "signal": "fading",
      "recent": 0,
-     "previous": 4,
+     "previous": 2,
      "sources": 2,
-     "channels": [
-      "Cars",
-      "Motorcycling"
-     ],
      "items": [
       {
-       "title": "Thailand Motorcycles - Data & Facts 2026",
-       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oajB0OWswMERrWEt2WnhqMmVaRG13Nm9aUVRTeUVPcGx0TjNvYWVQTC0zSk5PVERHSXJlX0lndU82YWV1VVRNNG5HUkhjVnpEaXAwRHd2VTZoSlJHa0hUVDVYbHJpUmpzY3lQNzZITWk3QQ?oc=5",
-       "source": "Motorcycles Data",
-       "ts": "2026-09-29T07:00:22+00:00"
+       "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX2VpNzhHYXJldVR2ZWFUdWVFYU0yNlBIeTV3cFhodE4yaDRuMnZVaTdvWTBqZGwzX3JleWVjSjNnbjVpSWowc2dJRk9vbjRHdVdHLVBhTGVxX1UtVzFnTzZQRUhKcnNtallNTHV3M0tFU3Z5MzV0Q3dOUVZoU3FkQw?oc=5",
+       "source": "AOL.ca",
+       "ts": "2026-09-23T09:07:54+00:00"
       },
       {
-       "title": "Ghana Motorcycles - Data & Facts 2026",
-       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SSzctVk1WV0VaQk1GaXZzRVBYUlpjRWJkRTFpeWpPX2IwY2lTT1B6elRiNTNsVmNHWThNanlNOFhCNUF1TXMtUTkyeVhNVFhNaGZSS29NRkd0WGtycjdDZU9HaE9aM0doLXpFanVn?oc=5",
-       "source": "Motorcycles Data",
-       "ts": "2026-09-29T06:04:32+00:00"
-      },
-      {
-       "title": "Greek Cars Market - Data & Facts 2026",
-       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QOEpjQjVEZ0VTTkdjY3dhTUt2Wl81VHdqNEF3U25RWTl6YUl4dVkxWDV1cUx6alFoSzd4R09rWkEzR3JsR2g1MmFQenE3cnZVX3lQdFdQamU?oc=5",
-       "source": "Focus2Move",
-       "ts": "2026-09-28T10:00:35+00:00"
-      },
-      {
-       "title": "Germany Motorcycles - Data & Facts 2026",
-       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PTXVvTVhpREhNYWNnVWtGVDVBd3ZJcjA5RWZXMU5wSS1nWXM1ZzJiMlJ3M3RPbVNqNEhFYzB5ejJNaGNGZVh2WERkZ1dqelNVVWFEWEkybmVsMkZiTlF4UEVlYmFKeGxLYlRqVjhnemE?oc=5",
-       "source": "Motorcycles Data",
-       "ts": "2026-09-28T06:04:26+00:00"
+       "title": "UK business activity slows to three-month low amid Iran war inflation pressure",
+       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVDNMejVQblVVcVZMRUN6MC1iTmFkZnpCT1M3Q1hrNGx1b2xRN3hlcTY0Q2ZMRjJfd1RMNGlrbkhaYU9GcW9mUnByWDFJclVpbnZzQmt5d0RjMy03d0xybThneUV4dC01aEQzZUJIN3ZWUlo2S1UxXzVydHlxREVOSVlueDhGMTg0LXpaMFUtekpYV0NlRVgtU0ZxdkJ6UjNKdjdReVZpUW95M0pQVUVzcDZqRHBPdlA5N0VUVWFheVZ3M1R1MWVhOGtfeE51RHBzaWRHUU42cw?oc=5",
+       "source": "The Irish News",
+       "ts": "2026-09-23T07:00:00+00:00"
       }
      ],
-     "score": 0.0
+     "score": 0.0,
+     "segment": "News & Current Affairs",
+     "channel": "Business & finance",
+     "topics": [
+      "Cost of living & value"
+     ]
     }
    ]
   },
   {
-   "name": "Music",
-   "trends": []
-  },
-  {
-   "name": "News & Current Affairs",
+   "name": "Wellbeing & mental health",
+   "total": 1,
    "trends": [
     {
-     "title": "German and US scientists win Nobel Prize in medicine",
+     "title": "5 odd wellness trends people have sworn by",
      "signal": "rising",
-     "recent": 4,
+     "recent": 2,
      "previous": 0,
-     "sources": 4,
-     "channels": [
-      "Science"
-     ],
+     "sources": 2,
      "items": [
       {
-       "title": "U.S. and German scientists win Nobel Price in medicine for discoveries on optogenetics",
-       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlc3Um1BTTk3WGJZTlBiUTRGV2l3SHhfS2h3RGFuUUZIRHFHRHNtc0I1VU9mVGJLckxMNVpTT2R6dWU0R043NHZSWG5YajVoVGJITnJYZ2U2T09Pb2xNMkFsMGtBdHNOYkpNcWo1elFvWnRHZDlVS01Dc0J2Vk41NEk1WDQ?oc=5",
-       "source": "Yahoo",
-       "ts": "2026-10-06T01:36:00+00:00"
+       "title": "5 odd wellness trends people have sworn by",
+       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzZBcUFYelhzeGVhb1duNlJFYUZ6S1VCX1JDV25TXzd4RGlmZmZNcklBSW1UZjhwT1ltV3M0ZldTdDRrSkJkTklxNVRyaG0tZTdWRG1Pal9ZWmRNN3EzQXp5ZU5LZHRuWjBtMGgtTUFHYlFObjZGRnU3MEV4X08xMGc5dFZzRjgzTWs5SXNTaU8yck01QkFpUzFJaUFuYjBaWTVUa3VUWVZrN3pBOWdKWWltVmFYUmlXM0wtRzhzMmh2WTJRSWRmVTZsdVR1c0ZHaFdR?oc=5",
+       "source": "ttownmedia.com",
+       "ts": "2026-10-05T16:00:05+00:00"
       },
       {
-       "title": "German, US scientists win Nobel medicine prize for work on optogenetics",
-       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNjdjTXRLN2UycURCWHJOY1l6XzdsLS1rZmtNMDNoeEpNTTVzR2tSVEgwQzQtRHdLVzVqaDRZT3U3OTcwa1FCc2h4Q0h1ZkJqVXlyb1VVVjNaWWNsbFZMYzRFRzNibDNmQjdzTDF2MElaMXVQazlsWkhfcWJCS2o0UFd3aWgxUTBvWkJ4ZkdVM28yTVhZc0FVdjdkbExRZ0d2VUtTQW1XVVpkaEItaGxFMjlpYUfSAboBQVVfeXFMTi0yQzd2bmFWeWt3N1Q0NmtuWnJjakhza25WV3EtNG9tYUc2ZlRIcENMS2l6bTQ5WGpzbHBWaGFxQXNTWFRTWU8zNUZwRXlSYnVzSDJUTGpFNElHSVBUOXBsODBFdjhndGtUZzdJQW1iMkFrN1Z4UjBBZ1g1V1lNY0k3VzBOcEtLaGVWRVFQWEpXbmtQR2tDVlRGRHpQMlF1UVFVTDQ1RG44VUd2THJtTmMxQW96NHlTMjd3?oc=5",
-       "source": "koreatimes.co.kr",
-       "ts": "2026-10-05T10:41:02+00:00"
-      },
-      {
-       "title": "German, U.S. scientists win Nobel in medicine for advancements in optogenetics",
-       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1VSeFlMRDN1N0lJbmNEcXZKeTB6MlRaUFhmMkFLaS1DZXhtb1VPVjRVQ2o0TUM5bkdUX09tRmlSdHg4Q2hQM3d5WXJsdHVXMzQxYmI2VW5kZENxSHZzRkc5NDhuSWtST1dDSkxQVVZ1MmJWSkdGVkMyZjlFWEZTT1dqZ2E?oc=5",
-       "source": "CBC",
-       "ts": "2026-10-05T10:05:00+00:00"
-      },
-      {
-       "title": "German and US scientists win Nobel Prize in medicine",
-       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVRMVEdKbnM5MFhmTjRQdnFEdm5qSzMydldXU1paSDFoVk5HQ00wWmVjc1FfRDdrQ1pFNXRmQkhZcUQ2MWF3YUJaWHZKQTl2R0lHUkI0RXh1TUt1ekNrOVNnTF84X2kyOWRORHdMbDVFbHlFaWdEQTRROTJkTjE4eDZoVWI5QjlJY0R1WFRR0gGOAUFVX3lxTE41blN6M3pGTlZBQVAwbW9xQVExUnEzS1dxejViYlZGUDdHajE3SUhSck9HZk9XdHFQMDRib2hZNm1uaDRaTzNLUGJDTk9oa2RiYTE0emRjSGZkTVFlM0NLbmRzRklYSDUzMlYtRGNMT0tGQXhVNzhmd25WWWxiZ0tmdVI3aDhRLWNpdk9SMWc?oc=5",
-       "source": "DW.com",
-       "ts": "2026-10-05T09:41:38+00:00"
+       "title": "5 odd wellness trends people have sworn by",
+       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVlZDRkpUOVZoUkt5OHJsQ0oxaTN0YlQ4Ry1EZkRxcjRjS0l3UWVYblM3N0QzejRQX2hJM2hnZDN3OTRGcHlSMFNFSU4tbHBpQWRFbS1YeXR2Nk1yY25mc3lDZnJnTTFPcFUwT3NWejVPY0VVTV9kR1BWNjdqcXF4XzVHdWNKXzlDaGVPSzlpVkNxOGg4Z241WjJuelBycUNhSmhRakhWWDI0cm5EbkZpMVhvNjcxTVJIaUVyNGcySnFKdVhKRUVBaVRxbDBqZHdY?oc=5",
+       "source": "The Rochester Sentinel",
+       "ts": "2026-10-05T16:00:05+00:00"
       }
      ],
-     "score": 8.8
-    },
-    {
-     "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Science"
-     ],
-     "items": [
-      {
-       "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
-       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLTd6bzQxUURWV3JQYUFwbHVTd2VBYmFVMVBQSU50QTNFTjNEajBSc2lFcHVsZEhmcHZKYlhjcUY1QWNnVkdPREhPU2FlVktFdWxDdTBrTE50TGt6Y0R2WWVDd2ZoZ1hCRG96bmNVX2FoRXpRVUpOMDBGazJiQWNXNDZCTXlOR1B1bDNNTXpsT1N6M0ZMLXJpNHNrZUtLRUNweU83OUNDS3ZreWNONVNyYlpkZ0hudWVKcnhNbVhfTlFfT21IUnhv?oc=5",
-       "source": "BGNES",
-       "ts": "2026-10-06T10:07:44+00:00"
-      },
-      {
-       "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
-       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
-       "source": "reuters.com",
-       "ts": "2026-10-06T09:58:45+00:00"
-      },
-      {
-       "title": "2026 Nobel Prize in Physics awarded to Francis Halzen for discovery of high-energy neutrinos",
-       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObDJDNjFJd3dQaVhoa3FjcWoxbXFRX0o0RFU3dFpqNmgzc24yejBjYTRCQl9NN2NPaXdXNmRDVFRqWVhaX0gzalNoZzNucWtpSU8tbVVFeWNNb3MyM1ZrSkRSTk80MDBBNXprOGZ4VmdBZTdEZGlIaHJvZGllY1RMWHd4YXRUZkFRQ0JMWk5zak5KbXNzejdLY1VXM1pTT0NwZ1AwT3lQUHZmdzVCb0RmRGxWeTQ2UU52U3VEYXZseFBRUjJ5X3JacmJRaDhzVVFkYkE?oc=5",
-       "source": "Scientific American",
-       "ts": "2026-10-06T09:45:00+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "57 new species discovered in deep-sea canyon near Argentina",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Science"
-     ],
-     "items": [
-      {
-       "title": "57 new species discovered in deep-sea canyon near Argentina",
-       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFYkdGNmFvUERCWUFqYXAxUEtxaVlKX0FpTlc0RGx3eUdjQ0V4T0NBNHJGSkh0a0k1NjNIZ0tZaFBCN19VcGhTbDJRQm56bGljLVhGUm51QXpPdER6Rm41OUViQ2o3TFluV1Y2ZTI5c3Y5UUMz?oc=5",
-       "source": "Popular Science",
-       "ts": "2026-10-05T17:48:43+00:00"
-      },
-      {
-       "title": "Scientists identified 57 new deep-sea species from Argentina's Mar del Plata Canyon, including a transluc",
-       "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPZHpFSDhMVWFOOHktdlAzeVFQX3JWazEyWUx3QVN4Tm5BRGk0a0pDMmgwbTdSN2pkamVpMnUtWFVQZndzQmFMM042WTVKUUNyRlZORjV4ellJU1k4RmxLUU9JZmxERnpnMkNFbXY4T3B5TW9OYW1tNGdiSy1LV0J1eTBMYlcyeVpvT0JzZXZXQUZwdmlQMG5lUFBZSDV3NjctVXl4YWk1Y0VuZFlxOUUyaFlCWGVRZFZLZkZpSHJnak56ZmY3R3lCTGZxMkRDLXMxZVh5MmFnU21CYUM3Ty1VbXpvWEphTThQWWFZelRSUFNTVnhyUnhMVm44LWIxbEl3dmZQSUlhQ3doUVlKUXhMVFRuTTJJMnhPWlJ3eHhyeHJqb282ZlMwR0RxZWNZcmNPT3VRckZhV3JJN0pVb3dENkhuNVpXZVFoMXNVam9UUkhhbjc4d3E3OGhpOWpJTF9kODl2bG5NZlJOV3dYZm81Z0lod09wa0h0LVJpYXYzVdIBhANBVV95cUxQMDVhQ0QtSDFTSDBRVEgyZUpCbHhhaWN4Sk5nSU44MEs1UDdtWXl1N0x0QW5UM216XzIwUzhUSmYtWmxBQ2xhMkJNSm04aTFUQ3RLbzJyTmd5X1RUUTk2bGgwSU45bnBIYnNOV2U2d2EtSUdqS1FaQmFOT3lfVnpRa2VmbVRMZ3NSendHZGI1WDFuWXNWN2k3SUNDLS04V3ZkWmJRV3pJN1NQamV4dmR5eG1fZVJvaWY3alJnaWZOTDhuX0lRb1lBU19obTI5ZTFBaWlFaWxaV0RqdWhWaWZEdW95OVA1TklJZnNyb0RVenVMaGZBVHRxZjJ3ejZERFpOVWFXVHNxNHZ4VmpNcnVSV0w3b2d1cXpwRVlJY21qbUpCY0g2ZnozSnVOTWEzUUNHbUV1cC1aNmRmdUxKQ3hDX3p5VEIxeWdPRVZrcXZUaFFOU3I4UDYycDJjUGc5Ym1KSzNoMks0X2ZvYXZ5ZVNWR2ZvMWUzd2k1RjU1LWdGZDFmdGti?oc=5",
-       "source": "The Times of India",
-       "ts": "2026-10-03T13:42:00+00:00"
-      },
-      {
-       "title": "Deep-sea scientists discover 57 new species in a canyon nearly twice as deep as the Grand Canyon",
-       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUEFSTWpNNWlqbTlPeE8yaW1DYjUxbmhMbG5BVnZpbUsxT2Z3bUl5SHpuX0NralJ6eVZUOU4wR25FSS05b2dKNlotbExvU1pZRFNiUTFtWEtOc043bVRyS0lMOHBEeFJiTzBTUDVkRENJdTR6YUlTcEQ2NkZRRnZvQWxsVHc5UkY2Q1FpbWcwMU43Szhtd1lKZUYtbzM3XzdPdUNvSTBsclJqUQ?oc=5",
-       "source": "BBC Wildlife Magazine",
-       "ts": "2026-10-03T00:05:57+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Trio Awarded Nobel Prize in Physiology or Medicine for Neuroscience Discoveries",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Science"
-     ],
-     "items": [
-      {
-       "title": "Trio Awarded Nobel Prize in Physiology or Medicine for Neuroscience Discoveries",
-       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalJiUUlzLTBQZkxWN09qaWJHcDFjU01tdjBFX2FWNUNuZUhYWi1kVFhRSHZyY191ek5RT0Q5c2pXY3ItYWVQWXc5c3o3a0o2S3RxbUNUelduaDd1Um5vQlZ1YnJ2UHZEOUswUlRnNERjYWFZc05YRExub2JIYUZhTWNFaU5QQ2hoakFzakZSTktWdjludnFnVlNIR1ZUZHpRMTBaVkc1S3V2SnE4V2xMVXQ3V3Y5YnM?oc=5",
-       "source": "WSJ",
-       "ts": "2026-10-05T17:18:00+00:00"
-      },
-      {
-       "title": "Trio share 2026 medicine Nobel for neuroscience discoveries",
-       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYUlrOUpjSVlVSEk1SW4zbGhTUGpudzJXZU1aSDFyMS1BUWJmWm5ETkl6MGR2M1dCMUk2dGd3bVBMT2R0UzAzSUlIUHRFQkhMYkVwbHVYUmtXMGs2LTJjVFFIaWJGdTB6cWx0SmRDbTV4MXB1czlpYlRfRHJscXJZUl9wOWNjcUJidzVudHBIX2Rodk56Q0RTNmVLSnZ4UQ?oc=5",
-       "source": "Times Higher Education",
-       "ts": "2026-10-05T10:52:00+00:00"
-      },
-      {
-       "title": "2026 Nobel Prize in Physiology or Medicine awarded to scientists behind optogenetics",
-       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYlA1ZzJObjJqWVFtSmljTnM4WFFxaXFLM1Qta3J3LTNJeHJiNHNTZ0p1YlEwZHEzaHpHeEpEMm9lTTNrR1ZFdkRvaGdhN1cxWjlFUlRTVlh5ZS0zX21Ib05sNWtIV3NoZDZkVnNlS2M5b2pHX2NvZWkxVVozTjdDbnVDWWw0QVZYTG84MERGTk1qR3czVEhFbHN4Nk5QaUNRLWlSZm1ONUl1d3daNVUzNkluMmdNT1B2Qjl1Zzc2cUFOWnNLQW9zWXBCTG9waU16NEdzS2FWeUljdU5BV2NON25KeTFsZFE4OG8tQlByU3BDeHJGTmVXYkJmUW42Wjg?oc=5",
-       "source": "Scientific American",
-       "ts": "2026-10-05T09:30:00+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "AI scientist autonomously generates and validates new biological discoveries",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Science"
-     ],
-     "items": [
-      {
-       "title": "AI scientist autonomously generates and validates new biological discoveries",
-       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1ZfTHFBYk10bnQwZEh6aFZ1NHpDWjF3d0RBX3pPTDQwRzc2RnR6dU1aVkl6Z2ExYlJJaU4zT0I2dmdLQXpFZzIyanY3QzQ0TlRXak9lY2xleER4NkFoZE94enhvVU5sZFB6ZlJUZ0Jhazg2bnpBcG1oLUstRHRSZEZGaHdzM2pqcXFDUE1uN2hVMUtBUFdzMTBicm0zVFlaYVpQMEZHQnFqSW5KUGdEbklmNXgyR1RCV292S1dn?oc=5",
-       "source": "Innovation News Network",
-       "ts": "2026-10-02T13:20:54+00:00"
-      },
-      {
-       "title": "AI scientist autonomously generates and validates new biological discoveries",
-       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeHA5QjhIZDRzTEx4RnEyYndWd2JxRTNqcWtaNXBhWjU4b3JfVk9OYUpnWlc5Wld1TGVHbGtScF92b3o0QVRQaWIwTlA0T1QwN2tvMFBCdl9Cb3RpZzZTMGIxX0pPM0pQa0xsLWN2TDFWLWdZSUVvOHZRTmtyUG5KOUo3ZDJSQmc?oc=5",
-       "source": "Phys.org",
-       "ts": "2026-09-30T21:40:13+00:00"
-      },
-      {
-       "title": "AI scientist autonomously generates and validates new biological discoveries",
-       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHdGJtMDRoVWo1dVMxNnlfX2pwSElldzlHUUNFQl9DbkpNVDFZY2lXU1E0T3VyWGJYQlZtalVYYjk1aFVueE81Sm04Tk9QVWpNQ0RXN0dLVDdXOFJE?oc=5",
-       "source": "EurekAlert! Science News Releases",
-       "ts": "2026-09-30T09:58:46+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "UK economy grows faster than first thought amid service sector boost",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Business & finance"
-     ],
-     "items": [
-      {
-       "title": "UK economy grows faster than first thought amid service sector boost",
-       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcXgyOVlIaTRZdnBZS0pNLWUyX0F4ZkNBeGRNWTVvMXpWYTN6bG5Cci1JT25CVlNNRHR1VVJYWmtqS3M5MFAzeGRpbjN1TWpvWFpkTmp4aS12RHdEV1RPb0hSVjl0MU5sa05OZHlvWWw1NGI0S1Bod3ZMdXg0X0lJa1BjZllFZzdOWUpWOWxLdlRXWjNSb2FZeV9zOTlEeEUzMTd4UFE2U3NRNXNxYnFUUEJ4RlpOUlloQkZkVFJZcEVsZ0RwSGk4WGNBMGJIajVkbUhUdg?oc=5",
-       "source": "London Evening Standard",
-       "ts": "2026-09-30T12:32:45+00:00"
-      },
-      {
-       "title": "UK economy grows faster than first estimated in second quarter",
-       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMFd4RzZWWkNwZC05d0VQRmtZWjNBcEdQMGFCQ2R6UXBhdXhrYlUwXzdMZURzU21feDJUODVBQnZnc1VsckpiU3NDcFlTVU9kc2JEWEstS2w1cXZMQW5wZ3J4WUVyNHdOZUFJb3M0VWRpTm03TWtkUG50b1VESnZ1UEhISEk?oc=5",
-       "source": "Financial Times",
-       "ts": "2026-09-30T07:32:58+00:00"
-      },
-      {
-       "title": "UK economy grows faster than first thought amid service sector boost",
-       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOHhYR3RTdWRLMUxVUl9aN2NFb2FVSGljSTF2aXBhelc5cVpiZ1JYVG8xQmVwcUVsczE4X0t5bDlDOUVsMC1xV3pEVGNwdFZsS1NBeC15R0lsZU01ZmdOMDQxY2tOdmExY3pzTmE1UDNSMjAzU2kxSTlfRnJkTVZ4LU5WZjNOQkVsVE5nNms3UWNsUWdwSVNjQlRPcUdicEJ2d05YczB6M3htelZpMUpNM0t1dDMtdk11WlNibURzOGxQWDlRN0NaYVFnd19QZDB3WnFZYw?oc=5",
-       "source": "Belfast Telegraph",
-       "ts": "2026-09-30T07:23:09+00:00"
-      }
-     ],
-     "score": 5.699999999999999
+     "score": 3.2,
+     "segment": "Leisure Interests",
+     "channel": "Health & fitness",
+     "topics": [
+      "Wellbeing & mental health"
+     ]
     }
    ]
   },
   {
-   "name": "Newspapers",
-   "trends": []
-  },
-  {
-   "name": "Partworks",
-   "trends": []
-  },
-  {
-   "name": "Puzzle Magazines",
-   "trends": []
-  },
-  {
-   "name": "Specials",
-   "trends": []
-  },
-  {
-   "name": "Sport",
+   "name": "Nostalgia & retro",
+   "total": 1,
    "trends": [
     {
-     "title": "Alfred Dunhill Links Championship | Day three highlights",
+     "title": "Baycurrent Classic 2026 preview, picks & betting tips",
      "signal": "rising",
-     "recent": 7,
-     "previous": 0,
-     "sources": 4,
-     "channels": [
-      "Golf"
-     ],
-     "items": [
-      {
-       "title": "Final LIV Golf leaderboard at Alfred Dunhill Links Championship",
-       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX25iMThPRXd6MlZ4cEp0eEhIU0VpTm5yalMzSnkwXzR1c2pqbnFmM1YxcjRBTlN1RUFsa0piYjMwZ0ozUzFBWG4yY1Y0blFxTkV3QnY0bWR3bng3WHBpbDFsdS1fSVJmajNnLTZkSUtwNmlOVHBzcUFSclp1X1FQaEcxcEhEOEsxOXBmY2VHOG5VWWVYa1JwVGRrTkRhSVZQSkE?oc=5",
-       "source": "Golfmagic",
-       "ts": "2026-10-05T10:30:41+00:00"
-      },
-      {
-       "title": "Final LIV Golf Leaderboard At The Alfred Dunhill Links Championship",
-       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWlnU04taVlHTUhhSTJCZ3dfblB4cGl3WmplUEJOSGhRb2g2TzRwelMtNTdMbEFQUFNBRHEzVEZLZHgtQUQ4WnpDUXVHNVRTcmluTGFQNE5mZzNEdGgzLXhkdXBzQXdYYkltbldJV0pKZlprV1liQzc2eEIwcjlsQVBYTlVTU0h2eXctV1A0SElER3NhX2t6QTdB?oc=5",
-       "source": "Golf Monthly",
-       "ts": "2026-10-04T20:20:25+00:00"
-      },
-      {
-       "title": "How does the Alfred Dunhill Links Championship work?",
-       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcG5GQ1EyRG03WndieEJINzY3UV96VjJBbndvUFdIQ3BCbTF0NldaUll0V1VMMElPSGJPZldaQ3U4YU9raUZxNXA3X1pScEdwS2RKR3BOMTh6U2tEVjNTSVI3NHp3NjM5dXF5TmxmX1poTnFvWFZWLTIyUnRuQV9IYUx0SW0yM0RNWmZUc1YtVWJjclhXVXlCMktuellkQ2s3bzMyVl92MHZRaUJrdGFuQ1Vud2ZfcmtfczZ6UzlUcFVBN0ZnbUNEeUstbW1IR2FXYXJZUkgxNnRLWHJOMEZpQmdiQzF0SWVybHVPcU9nVUw2aXh1bzhyNW5GS1JyRkYzOGo0QzV3?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-04T11:58:01+00:00"
-      },
-      {
-       "title": "Alfred Dunhill Links Championship Tee Times: Final Round",
-       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTmxtaG05OFVEeXlna0E2SjJOZnhiYm9fY1NSaGw3MGgxN0xDdHdXdTZhcFJiSldsbzA3U3lxVVRJakM1RzBZbDRrZndPb0hsOWNjY04tdHE4czE2RDAtTTNOYjlQUmxwTERmUXlWald4anpKVDhQalJJU0hrekdLaTBFNEdubmFsMnFtTEQ3TkNJbkVjTV85dw?oc=5",
-       "source": "Golf Monthly",
-       "ts": "2026-10-03T19:38:29+00:00"
-      },
-      {
-       "title": "Alfred Dunhill Links Championship | Day three highlights",
-       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kVWpub2E0cnpLZW83YzhWRHdocEdlajQ2UlJET3hya1pGT1hfZTNBUEZMU1NuUmp0OVphMjNxWkpKSFVXTlpUS0ZQTHFORGM0VTVRSjRaTjBpV2JlZzJwSHhMeXRaUlIyZm5OSXd3OFk?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-03T17:08:00+00:00"
-      },
-      {
-       "title": "Alfred Dunhill Links Championship | Day two highlights",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZW0tbWQyVV9ySUxFVTRJVU4xQXhMQnA0WUllQ3BsTHBqcEJRbzlISFNUaVk1QWNmNk13RUVPRktGY3pwM09CR2VLODVBeW1meUt0VnNkNC1nWUlobUlFQXN6b2lOME5SbGhiV3MxX2VnMm5BV0FpWkh4eFdGdV9PSUcxLWhOenBKYkhzaVFiNVR2U1BRVVltaWs5RUNFcFE?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-02T18:55:12+00:00"
-      },
-      {
-       "title": "The 22 LIV golfers playing the Alfred Dunhill Links Championship",
-       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdDQ3RlpYaDdWSl9wUWVSaXNiYUNRR2dpRG5HbGlGaDgtRl9UcUxhVVdTZVJkUlBYdnk3RTVaRVVIaGs2enZXRHROdU9sS1RFeUxYUU5QbHpTMVk2RUhYREZaSUlCS013UE8wNzB6SnMwb3l2MTd0cEJzLVg1RHl2eGZNc1ZBR3VNblJBSGtyYnBYbXAwdDFSWDNhZU5rYjFEaTFVcw?oc=5",
-       "source": "bunkered.co.uk",
-       "ts": "2026-09-30T10:07:39+00:00"
-      }
-     ],
-     "score": 15.400000000000002
-    },
-    {
-     "title": "Brydon Carse charged by Cricket Regulator over arrest on night out",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Cricket & rugby"
-     ],
-     "items": [
-      {
-       "title": "Brydon Carse charged by Cricket Regulator over arrest on night out",
-       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWU1wRHlReE1EdHNxNDRmUWEySGdzcVRjS1Qyb2pQOEFLdkRGQ0ladzROaHNBdGp2RGt4RWY5c1dCcUVZUkIzdUxINk1rcjM2UUVWelRaR1hvdlQ1YVhycWx5VXZqN0ozSC1WMkRyQjV3dXVmLU9XT1dfcHRJcDhYODBMMkItZXh0aVNhbHRtWjR0R244NjFYRDVmTTRSM3RfaVNvVEkzNGlBempybFJCc1RR?oc=5",
-       "source": "The Guardian",
-       "ts": "2026-10-03T01:30:00+00:00"
-      },
-      {
-       "title": "Brydon Carse charged by Cricket Regulator over Derby nightclub incident",
-       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX240OGZ0MXBVYl83QTdPNjY5cWxOclhHeG5Pbk05X3BYUE1YYmxlTDgtSmlBMHNfaHN3VGJuOFpGcmxFX0FPUENXVUlmZy05OXlPZUdCWnVPU2lERVR2enRtNWxKWEtubWc1dllqaUxEc093YkgzVWIxWXJTVmpNdU5RaUthMVNQamRoVmswQmJPbjV4Qzc0b3VIMy1Db1RyaGNMMA?oc=5",
-       "source": "The Telegraph",
-       "ts": "2026-10-02T17:21:00+00:00"
-      },
-      {
-       "title": "Brydon Carse charged by Cricket Regulator but remains available for England",
-       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GMkxVaHpKblNPUmh6ZlVRclRENHJQVENyR2FYZ29qVmFZbnZhdUhEWnJld2h5bDZRWXlVTThsS184aERKNUExdVFEcmt0SEV5VHBoendUUEQ2alpsd1E1ektPWk5OUU0?oc=5",
-       "source": "BBC",
-       "ts": "2026-10-02T15:55:06+00:00"
-      }
-     ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "Lifeline for LIV Golf with potential $300m investment as league looks to continue into 2027",
-     "signal": "rising",
-     "recent": 3,
+     "recent": 2,
      "previous": 0,
      "sources": 2,
-     "channels": [
-      "Golf"
-     ],
-     "items": [
-      {
-       "title": "Lifeline for LIV Golf with potential $300m investment as league looks to continue into 2027",
-       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUk5nUldVOUZGd1J0eHE5SGcyYkl6VFZkRk13NnlfNVIwS1Q0QzdFQUNOcHpRZTcwYXJSQTB6SndYLUNzV2tmNV82eW1oS3NXUnl6VlJ1UmRBTHhTMVRPTTc5bXJ4Rk55X2FYZ0lGQUVoZWh6SzRtSlZUTDE4UEl4bERVZVhEaWdLRUl3c2NQRGhCSzBrM0FVdnltT25RZ2dsMmN6WURpNFN6RDNOVWpvQVpWUzFxRVVqYllBQUFFUkZzdE1FSE9hVHlrSWY4TllL?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-06T09:34:46+00:00"
-      },
-      {
-       "title": "Lifeline for LIV Golf with potential $300m investment as league looks to continue into 2027",
-       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN1NDSzVHZjBaZWJfZjQ0ckdLYkRYcm1ObjFVUDI0MENOZTFTYklRczRTNmRMSU1zLS1TWjN3QWZvTmcyTl9hMWNGeWRzY2VxU2ktUEpjQXllN0JmU2tZcnQyZ1BVbzJsbEJMd25PX3llcG5Gd2RKT3VpMzZvdGxVR0xibzdsX2ZBZXhEM0FDWXRsbUtGRndNMkpwQmVlNHI1U3BsTVdNVUtMcVlPQUcxMG5LNVQ4a3dWaFJ0aHY1Ull3YXh3eEVjSy1SSnFWRXdFN0pYUXFlNGE?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-06T08:39:57+00:00"
-      },
-      {
-       "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
-       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnanZ5Q3doODdEWmNOU2xRalduYTZONk1FSTlPU0prSU9aVzRYTGNPanhnNWVqTkFGMTlTWGw3RVNVcUk2ZUNfYy1VZ0l1aU0tcHNPcnVSMTdtRnVHSnV5dU5RSWdJUQ?oc=5",
-       "source": "BBC",
-       "ts": "2026-10-06T07:02:33+00:00"
-      }
-     ],
-     "score": 4.800000000000001
-    },
-    {
-     "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 2,
-     "channels": [
-      "Golf"
-     ],
      "items": [
       {
        "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
@@ -704,219 +2321,132 @@
        "ts": "2026-10-06T01:24:42+00:00"
       },
       {
-       "title": "2026 Open de Espana betting tips \u2013 including a 66/1 shot in fine form",
-       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUzRUMjBrT2RRR2Rza1hBcko1cjlKOE5ZRUJfcWg1WmoxbVNnRG9Odk1TN3BZaGhKMXRTenhXOC1IdGlKVXRHMUpQcDlERklMaEVrc256WTZ0VmhfV2w0UU1RWXJTLUlOZDhYOEtSdURMMGhLV0I2TTQ1bnRhUU1pamgtM1Q4QkZKMUpvblA4WndIODg?oc=5",
-       "source": "Today's Golfer",
-       "ts": "2026-10-06T01:22:04+00:00"
-      },
-      {
        "title": "Baycurrent Classic 2026 preview, picks & betting tips",
        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
        "source": "Golfshake.com",
        "ts": "2026-10-05T14:51:18+00:00"
       }
      ],
-     "score": 4.800000000000001
-    },
-    {
-     "title": "Highlights - Golf - US retain the Presidents Cup with final day comeback",
-     "signal": "fading",
-     "recent": 0,
-     "previous": 3,
-     "sources": 2,
-     "channels": [
-      "Golf"
-     ],
-     "items": [
-      {
-       "title": "Highlights - Golf - US retain the Presidents Cup with final day comeback",
-       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSNW5HeGxQZlBiQU4yOUlhbUNnQWF3Q2RhZ2hab0lfZkF5anAwRjd5NlhJSGhoTEhVaWtzc0ppTElGZTRDcDNYbGdqc055bU82TG1yaV9FM1V5WG1uSkJiZndORQ?oc=5",
-       "source": "BBC",
-       "ts": "2026-09-28T07:00:00+00:00"
-      },
-      {
-       "title": "Presidents Cup - Day four highlights",
-       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa3hfZDhmUmRiVDYtZDNtWUd2SmVEOVNZZTNDckNqZHNSYk1aVEpKa2NPZ1JKMUQzTWxKVmVxMzBSNjUwejFBU0ZJdWV6WVc3Y2JpMnlzaEdXTzdFcy1FdFFqTXgzNW83RzRBbUJwSWxSX25nbkkta3BQTmlhaW1ncTMxT1VRN3c?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-09-27T23:08:25+00:00"
-      },
-      {
-       "title": "US complete thrilling comeback to retain Presidents Cup",
-       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81YlNnaEQ1NkRRcmtFQ2hwOHRCVVc4ZldBZVA2cmZVZG56THYxM0tTUHhLS0loQnRvUmJiRUx3NVd3cUJkdWd1M00tenE0Zjg4MGNuTVQ0X0dwdmJhZmVEVFpqSQ?oc=5",
-       "source": "BBC",
-       "ts": "2026-09-27T07:00:00+00:00"
-      }
-     ],
-     "score": 0.0
+     "score": 3.2,
+     "segment": "Sport",
+     "channel": "Golf",
+     "topics": [
+      "Nostalgia & retro"
+     ]
     }
    ]
   },
   {
-   "name": "Teenage Magazines",
-   "trends": []
-  },
-  {
-   "name": "Trade & Professional",
-   "trends": []
-  },
-  {
-   "name": "TV Listings",
-   "trends": []
-  },
-  {
-   "name": "Womens Interest",
+   "name": "Health & fitness",
+   "total": 1,
    "trends": [
     {
-     "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
+     "title": "Grandma-core eating: The anti-diet trend we actually need now",
      "signal": "rising",
-     "recent": 4,
+     "recent": 2,
      "previous": 0,
-     "sources": 4,
-     "channels": [
-      "Celebrity"
-     ],
+     "sources": 2,
      "items": [
       {
-       "title": "Celebrity Traitors ends on cliffhanger after first murder and one new traitor",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbklIY3dIeUhmNUJnQ2Z5X0phdl9kOGFwdUtNNlVYZEREOXF3MmltWDhpWHdPNUlzV1RTa1dkXzdkQTYzTVNTQmk1Y19TcXk2N014VVRta2d0UEtFdGxKeG5QMi1NYS1LM3hzdDNvSXRZT19EQjg2RUIydDlWQU5NSEVtQ1FITnZ0RnYwaEs4SWhiaDBrRHFSOVNaUmY4SVN2WENTcllrSU1mdzg2b2RIb2NrcWJZT1prT1hwYQ?oc=5",
-       "source": "oxfordmail.co.uk",
-       "ts": "2026-10-02T21:08:54+00:00"
-      },
-      {
-       "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
-       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjlrUWFDZnlwclpXdVF1bW5ic0F6QkZmaXVzWU5wRDFRT1AwX0l4V2FNbXdmdUhXbk1Xa3Z3Y09HY0lOQ19xMEM5THJHSHdKVTZycFZCTERVa0pFWXM5MHVzZWRiVjRIaHRIUlJvR2xRMldBa2I3cmxvT2ZVQVFTSGlOQUtaYURGMXViTTYwTEQ0Z1RpS0RjUURwcVh5TXVJZUI1WnRIWk9GOUhENzdjQ0FLRmdZeE9fUlM5VENIaw?oc=5",
-       "source": "Daily Echo",
-       "ts": "2026-10-01T20:42:13+00:00"
-      },
-      {
-       "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
-       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdFFDcVhDdV8wX0twWHpmV2hNM1VpZHdCbWpHUzQyRlBBWkFZN0ZwZ1FNM3FNZy1Pak9sT2RCU3JVMFF6TWY0YUlkV3loNjlMaDMtSGtTSEptdll3RDBvRXZvcHZ6Mm51ZUwtSXdPYlBYX09ib3lockxHV1Z1Q3FGSDM0WnNyaURIVllBWXozbEZpdkVKcHJ3LUptWklPT0VUSWFWSTZUV09CQmM3S202RDFRNUlXeEV0UXFkemFHR3BBaTlQMHhv?oc=5",
-       "source": "Halstead Gazette",
-       "ts": "2026-10-01T20:42:13+00:00"
-      },
-      {
-       "title": "Celebrity Traitors ends on cliffhanger with two stars pleading to avoid murder",
-       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEJfRU94MXVsa04wYWtrYXRjOWx1UlAyM2RFYTYtY1o0ekllcFhYZ3FTMFBUcURxRTZQYXBPVHdjVzRpRVpYN0tBTi00c1VNWkdyaE0zOEk2enJ0bUU2RWMtWVhNUm9COWFuZHFOVjRlOXR5azZYclNIcTdBdmprbDBsbXdaaEpVNk4yZnN1ZGU1Z2xfNzJyM0ZURW5BZUhZNjQ5d0lyRlFkVjVPTWJtUzFtQnRIUzZqNG03MmdxM1FremE3?oc=5",
-       "source": "The Bolton News",
-       "ts": "2026-10-01T20:42:13+00:00"
-      }
-     ],
-     "score": 8.8
-    },
-    {
-     "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
-     "signal": "rising",
-     "recent": 4,
-     "previous": 0,
-     "sources": 4,
-     "channels": [
-      "Celebrity"
-     ],
-     "items": [
-      {
-       "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
-       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZzZnU0pOenJQaXgzaWtNSElyX21TbjFVSzFEUHhCcUZncFFtdFo3QUhyYVZoVjhxRXBTMk00YmZkdlBCOWNoOEZwZ0JkdWVRdnp5OTEwQllCSldjU2pxa0tqenZRNkFGUGhMWXVuWGhsVUlUVzdBVzBOYzFSR1lIV1FIRGhKX1JUdjhhYURTdnlYbk5lRWw4VWxtWVNiYVR1XzR4WFNGbHYwUUlIWXhUSTFLdE5fSnkzQkhoby1WSEhRM3ZJSDhNUG5ua1NOSmpEX0llUi1pTkRuV2RWRy1B?oc=5",
-       "source": "Belfast Telegraph",
-       "ts": "2026-10-01T12:42:02+00:00"
-      },
-      {
-       "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
-       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN043bVlEc1lHMUlOMVVrVEZOQnd6THRwTmZnRm13WWlJcTBWUWpSOWRzV0s3Y1FMblFpM19RdVQwVmkwZG1vT0NrRTZJdXpfenFXQjN3RExlbEgzZk12b2hLS01POWJsVkZRdURaUjJITHlycklnRGhmdngwRWJNRUhYeG5mUGZKVHdZM3RPclloaDJ2bGxySmVZTDJTRk5adnFFcVJrN2hYNmZva3I3eU51bTFvRGRfcDE4MQ?oc=5",
-       "source": "Dudleynews.co.uk",
-       "ts": "2026-10-01T11:42:18+00:00"
-      },
-      {
-       "title": "Princess and Junior Andre lead stars in new Celebrity Race Across The World",
-       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMllnWkxPRV9vM2xxX1ptWnpldWs3VHp4Rl9wNWdiQlRXeE9pbVpIR19rU2xheTFiRmhIdUExRkJubEN1cWhQZ0FVZ2g3RzJtd0IxX3lObFpuamhUT2pQS05xbE51TU1GZUlRTjJhVlBBaS1pTk5UZkVQc3pmd2d0aVJ1eVktcjFveEJvY1JtSXNkRDNFZUtPTHJYZjZ3UjdrM2NYeW9HUFVJVndHamJzMlIzb0RqbE5PVUJtbE50SzA?oc=5",
-       "source": "The Bolton News",
-       "ts": "2026-10-01T11:42:18+00:00"
-      },
-      {
-       "title": "Celebrity Race Across the World 2026 line-up as Princess and Junior Andre sign up",
-       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGdjNUV1VkZ3dmVuM05feEZzLWljUjYwLUxHb0JmdWYtVUJEQ0psWExxMnYwUHJUcnB2aW1fQlJ4WEVxTHIzODdiRjNiY0dHSzYwZHl6SVVzcGIteGVCXzNPb0tzaWVkeTRxVHh4b01OOUlXM3lIeHNvUl9FYkN6X2prWEw?oc=5",
+       "title": "Grandma-core eating: The anti-diet trend we actually need now",
+       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBheHNWN2U0Tl9aQWVvTGg4ZmVuYldsaDlvSExFNkxLaFFDTDNibEtPZWFCMVFTeW1sRFpkTlotaUl5TnZnUVFPVHhUTllqN2Z2NENrV0s3WlRRVlBwc2QxVDFyTlpoZzAyT1RrTlZkT2JQWVJELU03ak9NTnlOQQ?oc=5",
        "source": "AOL.com",
-       "ts": "2026-10-01T10:43:43+00:00"
+       "ts": "2026-10-01T11:56:37+00:00"
+      },
+      {
+       "title": "Grandma-core eating: The anti-diet trend we actually need now",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9va3RNSlZ5a0dPc3NVTmRTblFlVzV4ZVVUOHEwNFJ1Z1dMcVd4NjE5eWtQb3dPU0hQeDhGbUJKLXFmcDZnWDBNS2otRzlnNUhuRmZiOEFHVGtNQ1gyWVdpWXIwWVRUdU96YVhIVTFlTWNHOGpSeGszZjl6Y08?oc=5",
+       "source": "AOL.ca",
+       "ts": "2026-10-01T11:56:37+00:00"
       }
      ],
-     "score": 8.8
-    },
+     "score": 3.2,
+     "segment": "Womens Interest",
+     "channel": "Health & slimming",
+     "topics": [
+      "Health & fitness"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Luxury & premium",
+   "total": 1,
+   "trends": [
     {
-     "title": "Custom home design trends reflect growing demand for flexible living spaces",
-     "signal": "rising",
-     "recent": 4,
-     "previous": 0,
-     "sources": 4,
-     "channels": [
-      "Home interiors"
-     ],
+     "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+     "signal": "fading",
+     "recent": 0,
+     "previous": 2,
+     "sources": 2,
      "items": [
       {
-       "title": "Custom home design trends reflect growing demand for flexible living spaces",
-       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHdrSnVOcWtZZW5zRk5GYWlzbVJMTVEzNWI2Q3g4Y1ZfbWQ5VURyVDE5Q19HSlFiaGNhX3o2al94RXBkWTZZRGp4MkZoUm92N3p5Q2FzUG83NVB3cHd6WXFjMzJUMF91NTdadVB1QXdfSG9QejdHZ2FoejV4WEZjQktXakY4RG84YkhLREVKX1RHeWgtMjZfM3NtSGRMdFJ0TC0wWXFRSEhhU0M3YTNpaFhR?oc=5",
-       "source": "Arizona Daily Star",
-       "ts": "2026-09-29T15:35:04+00:00"
+       "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0VGOEozT25kcWlNb25rYnJaaGJWN3VxWk1DdGZwQjFSUzI3TGQzTkJlektoY3NsVUVheW44RmVZUG81S0VBSEpHS2duUW1SQ251cC1EVmx2LWxlLVBBamhJcUR1UUQ2eHhqTW1ITlNKUW5kQ215Vjh0R2cxLXV1VXJpbXF5a3ZCVkRVX3ZVQ2MzMXBSVngxUDRKaw?oc=5",
+       "source": "The Spruce",
+       "ts": "2026-09-25T07:00:00+00:00"
       },
       {
-       "title": "Custom home design trends reflect growing demand for flexible living spaces",
-       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWXNpc2VxZlZ4cDhOVElFQ0dlM0xGTENZUHNPSnktcnU3WWM1cWlMYlUtS0FqTVYwZ1lWU0lRNV9sVFNxZlc3bEJXcDJ0VmhsdTNmVHZHOEk2NURWM1ZHdjEzd0pDbG1fOTdhZlNGcm5mTlB4TmRLQ1JWTmRlTG9ZMS02Qk90OWRraGs4b2RoQ3lBeUlxSUpidkxVMGpBTExOZHJGVlpPd0o5bWRnOGJuekxqZw?oc=5",
-       "source": "Roanoke Times",
-       "ts": "2026-09-29T15:35:04+00:00"
-      },
-      {
-       "title": "Custom home design trends reflect growing demand for flexible living spaces",
-       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRVFySkd0X1RhT1h6c1JoRXJjbXRyTGl1N25xS2FQTnFVblRHY1lHZ1ZBMjVIN1ZkYnpUWGlRSFN0R1E3VUFGdndTNFBGc0pISXc1cVBOdU50dnlvb0xJNWFmMm8zLUVGQ3JTZWQzLVgyckJNZVhLQXhfcUZYVVB6a0V2YVloMGNsUC1PTW5RSDVod3VxZ29xb3Z6YVRCUlFtczNxaHNpdkNNM013QVNVOFlsVTM0VGpJU0l2U2w4S0k4NGM?oc=5",
-       "source": "The Franklin News Post",
-       "ts": "2026-09-29T15:35:04+00:00"
-      },
-      {
-       "title": "Custom home design trends reflect growing demand for flexible living spaces",
-       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZExjd2NfVTdOektBd1RjdEhqX3E4TURWZzJCQy1kZEUxbENjX0Vad0s0X0tJR0RMMUZqQjVBckZtSjMzSlhFYlFTVDVoRDR6b0FrczQ1MDhkUndvdWxRbFhGTFZTWjJfTnp2NlQyMExLdHN3c1JqSExMSlJLR3hONTM2RjZCWGdlNnlNNDBhbFpmbENlaXFmdU1IWXJVMWtsaXRxOXdGXzFYal9aWDFFS1JGdnM0cjM3WS1MRkwwdw?oc=5",
-       "source": "Columbus Telegram",
-       "ts": "2026-09-29T15:35:04+00:00"
+       "title": "Designers Say These 7 Traditional Decor Ideas Never Should Have Gone Out of Style\u2014and They\u2019re Worth Bringing Back",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWklNWl9ER3pWNGpNRnFPQm5nS084d0NsM1I0RW5FQ2Rlb0hrRmpJYS1FVTVEV0V0MXo1MHpxTU8wMmRLQlpwN0QwQ3A5TWhtZmxLSi1Od24zZk9Vc2tfSXh0S0F4S0JMcXVOdGc0cEJFNzlZdzk4YUFMS3dFQ2dhNDZJaWxkZw?oc=5",
+       "source": "AOL.com",
+       "ts": "2026-09-25T07:00:00+00:00"
       }
      ],
-     "score": 8.8
-    },
+     "score": 0.0,
+     "segment": "Womens Interest",
+     "channel": "Home interiors",
+     "topics": [
+      "Luxury & premium",
+      "Home & lifestyle shifts"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Home & lifestyle shifts",
+   "total": 1,
+   "trends": [
     {
-     "title": "Who was the first celebrity to leave Strictly?",
-     "signal": "rising",
-     "recent": 3,
-     "previous": 0,
-     "sources": 3,
-     "channels": [
-      "Celebrity"
-     ],
+     "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+     "signal": "fading",
+     "recent": 0,
+     "previous": 2,
+     "sources": 2,
      "items": [
       {
-       "title": "Who was the first celebrity to leave Strictly?",
-       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubGhSd0xWZG04NDZaMXRTNlAtLVVVQmEwRkh1cTVHRktTdF81MDBNMFo2RTh3RlZzODBLUUlicFFzdXJQUnF4X1FVbDNueHhOQ2RCZG55LWIwZzFNWUt6RjlIV04?oc=5",
-       "source": "BBC",
-       "ts": "2026-10-05T07:33:19+00:00"
+       "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0VGOEozT25kcWlNb25rYnJaaGJWN3VxWk1DdGZwQjFSUzI3TGQzTkJlektoY3NsVUVheW44RmVZUG81S0VBSEpHS2duUW1SQ251cC1EVmx2LWxlLVBBamhJcUR1UUQ2eHhqTW1ITlNKUW5kQ215Vjh0R2cxLXV1VXJpbXF5a3ZCVkRVX3ZVQ2MzMXBSVngxUDRKaw?oc=5",
+       "source": "The Spruce",
+       "ts": "2026-09-25T07:00:00+00:00"
       },
       {
-       "title": "who was the first Celebrity to leave Strictly this year?",
-       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPekQta2FNN2g0dXp3MHVwV2dtcVJXSlAzbWZlWVZacWlrOFNDdEJuV1Q2RTZDdjJqYVVrM0RKSHI1NVZTeUVxWEp4UGpmOVdfRGRSalBRbGhTYnVMb2dKSXF1TFJ5RVFiTGVtSDJxdWF5LTNSMVhKLWxhcXJ5Z2NJMlFOeEpPSXIyeDBhZFNPcDVtelF5VnhlejF0OExoLUw1YTd2X0NfUHhPa3hXT3VHYlZabw?oc=5",
-       "source": "wheretowatch.tv",
-       "ts": "2026-10-04T22:03:15+00:00"
-      },
-      {
-       "title": "Who was the first celebrity to leave Strictly Come Dancing 2026?",
-       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ25feW5zTWpkVnVpMVBqSWs5elVYMlplQU5Qcnk2NDdqdWpjYXdGZnFENS1ELTBOakR3X1BOUmNZM1VaME9wSTNPelEyNUQydlREQTREUWp4LUpwQXdQVHdjV0tySVRURkdNbGRyWDItcmdJcUNOLVNjTWt0ejRCcGNnamthNlFJS0dTMjlQSm9pRjZ6SmRVM3BRUkRuTDBjZ1FSZ1A5WDk1dDFPX2tTUlJCWQ?oc=5",
-       "source": "Brentwood Live",
-       "ts": "2026-10-04T19:00:00+00:00"
+       "title": "Designers Say These 7 Traditional Decor Ideas Never Should Have Gone Out of Style\u2014and They\u2019re Worth Bringing Back",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWklNWl9ER3pWNGpNRnFPQm5nS084d0NsM1I0RW5FQ2Rlb0hrRmpJYS1FVTVEV0V0MXo1MHpxTU8wMmRLQlpwN0QwQ3A5TWhtZmxLSi1Od24zZk9Vc2tfSXh0S0F4S0JMcXVOdGc0cEJFNzlZdzk4YUFMS3dFQ2dhNDZJaWxkZw?oc=5",
+       "source": "AOL.com",
+       "ts": "2026-09-25T07:00:00+00:00"
       }
      ],
-     "score": 5.699999999999999
-    },
+     "score": 0.0,
+     "segment": "Womens Interest",
+     "channel": "Home interiors",
+     "topics": [
+      "Luxury & premium",
+      "Home & lifestyle shifts"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Streaming & screens",
+   "total": 1,
+   "trends": [
     {
      "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
      "signal": "rising",
      "recent": 3,
      "previous": 0,
      "sources": 3,
-     "channels": [
-      "Celebrity"
-     ],
      "items": [
       {
        "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
@@ -937,45 +2467,12 @@
        "ts": "2026-10-01T20:02:13+00:00"
       }
      ],
-     "score": 5.699999999999999
-    },
-    {
-     "title": "London Fashion Week Spring/Summer 2027: Key Trends To Know",
-     "signal": "steady",
-     "recent": 2,
-     "previous": 2,
-     "sources": 3,
-     "channels": [
-      "Beauty & hair",
-      "Fashion"
-     ],
-     "items": [
-      {
-       "title": "The Hair And Beauty Trends That Ruled Paris Fashion Week Spring/Summer 2027",
-       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWdHcWFzZm1hLVdyTE0yZS1jSk1mc2QtaTZtb2h4TEtZekd1MnhWdkJsSVRidEE0NWxIZ0xrblhjazgtWENmRXVUNjRRZjdpYjJvZGJoUGtRS2VfX0xHTkNmWGVhajhvZkoySnRsOFJyVGJrWFExV2FUUEtJRE9SOU13Z19fOGhTb2c?oc=5",
-       "source": "grazia.sg",
-       "ts": "2026-10-05T13:12:52+00:00"
-      },
-      {
-       "title": "5 spring/summer 2027 fashion trends to know now",
-       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2Q2MjFjem00Y1cxWk9WNUItLTZyWHUyRV9tVERaYU1MczhJb2RhMTlpenk2MVd6SlZyVDNVYXphT2FwWnVldDZZdnl6eGRGRFhnRDlqdS1BNFpJS0l2dE9qd3FOS1M0Y0JJVm9GM1RBRjJNWTg3MDRWMWdObzZMQw?oc=5",
-       "source": "Stylist UK",
-       "ts": "2026-10-03T11:00:14+00:00"
-      },
-      {
-       "title": "London Fashion Week: 3 Hair And Beauty Trends Set To Define Spring 2027",
-       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVUJGUFR3TEQteFRFZWlWS3FOU3VncXhyTU1mQmxEYnMyVXNLUmMyTUNXMXlUTUpJdnFCRkVUckg3dzV4R3IzbW5OLTVxMjZzcUtFQ2V2Mzd6b2N4Zm5DMmNnZlhoclpoQVpwZkJxb0dFYzF5VDJFZkVROFNpaFo3YkczYkhLOUwzUS1uQ1ZCMGUxNThIZzdqYXNhWkhVaWN5d0hVcGJFYU92aUFNbGJ6RFZMcDA3dF9GOHFuWUxkZjNXcnBpRmc?oc=5",
-       "source": "Forbes",
-       "ts": "2026-09-26T07:00:00+00:00"
-      },
-      {
-       "title": "London Fashion Week Spring/Summer 2027: Key Trends To Know",
-       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVlIU0g3Q1ctbnFTRkMxa1VReHExMVpiREsyNkNFU1hjejNQWkFaa3FEVUdnYTZHTm5YNW5KeEM2RHFiaHdDUVZPTkxYT2tiV3ZkblhJZVMtQUNDS1VSUzJwQ1JFSGdQWGhSWlpPOTJid0t0aUg3TEQ0Z05NX0E0Si1URFRYR2lhRGpzcGdHZWYwRlZYN2wtbktRWE9vdUNTWlBRU2N4VnB0dF9rUGQzcE5IN2E?oc=5",
-       "source": "Forbes",
-       "ts": "2026-09-24T07:00:00+00:00"
-      }
-     ],
-     "score": 3.8
+     "score": 5.699999999999999,
+     "segment": "Womens Interest",
+     "channel": "Celebrity",
+     "topics": [
+      "Streaming & screens"
+     ]
     }
    ]
   }
