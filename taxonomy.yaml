@@ -1,0 +1,88 @@
+# Segment -> channel: search query. Segments come from Categories_and_Sub_Cats.xlsx.
+# UNKNOWN and DEL rows are dropped; near-duplicate sub-segments are merged into channels.
+# Foreign Language Titles is left for phase 2 (needs local-language sources).
+Buying & Selling:
+  Property: UK property market trends
+  General: second-hand resale marketplace trends
+Children's Magazines:
+  Pre-school: preschool kids toys and TV trends
+  Primary: primary school children's entertainment trends
+Computing:
+  PC & hardware: PC hardware news
+  Mac & Apple: Apple Mac news
+  Gaming consoles: video game console news
+  PC gaming: PC gaming news
+  Internet & software: internet software trends
+  Linux & open source: Linux open source news
+Countryside & County:
+  Rural life: UK countryside rural living trends
+General:
+  Crime & true crime: true crime media trends
+  Literary: books publishing trends UK
+  Sci-fi: science fiction fandom trends
+  Astrology & wellbeing: astrology spirituality trends
+Home Improvement:
+  DIY: DIY home improvement trends
+  Gardening: gardening trends UK
+Leisure Interests:
+  Photography: photography trends
+  Pets: pet ownership trends UK
+  Outdoors: walking camping climbing trends UK
+  Travel & holiday: UK holiday travel trends
+  Film & TV: film streaming trends
+  Hi-fi & home entertainment: hi-fi home cinema trends
+  Art & antiques: art antiques collecting market
+  Crafts: crafting hobby trends
+  Health & fitness: fitness wellbeing trends UK
+  Transport & hobbies: model railways aviation hobby trends
+Mens Fashion / Interest:
+  Mens lifestyle: menswear grooming lifestyle trends
+Motoring & Motorcycling:
+  Cars: UK car market trends
+  Electric vehicles: electric vehicle trends UK
+  Classic cars: classic car market
+  Motorcycling: motorcycle market trends
+  Caravanning: caravan motorhome trends UK
+Music:
+  Pop & rock: pop rock music industry trends
+  Dance: dance electronic music trends
+  Classical & jazz: classical jazz music trends
+  Playing & gear: musical instruments gear trends
+News & Current Affairs:
+  Business & finance: UK business economy
+  Politics: UK politics
+  World: international news
+  Science: science discoveries
+Newspapers:
+  Publishing industry: newspaper industry trends
+Partworks:
+  Collectables: partwork collectables trends
+Puzzle Magazines:
+  Puzzles: puzzle books crosswords trends
+Specials:
+  Annuals & one-shots: special issue magazines annuals trends
+Sport:
+  Football: football transfer news
+  Cricket & rugby: cricket rugby news
+  Golf: golf news
+  Cycling: cycling news
+  Combat & fitness: boxing MMA bodybuilding news
+  Angling & shooting: fishing shooting trends UK
+  Winter & water sports: skiing snowboarding watersports trends
+Teenage Magazines:
+  Teen culture: teenage culture social media trends
+Trade & Professional:
+  Publishing & media: magazine publishing industry
+  Advertising: advertising marketing trends
+TV Listings:
+  TV & radio: UK TV viewing trends
+Womens Interest:
+  Fashion: womens fashion trends
+  Beauty & hair: beauty hair trends
+  Health & slimming: womens health diet trends
+  Cookery: food cooking trends UK
+  Home interiors: interior design trends
+  Parenthood: parenting trends UK
+  Weddings: wedding trends UK
+  Celebrity: celebrity news
+  Knitting & sewing: knitting sewing crochet trends

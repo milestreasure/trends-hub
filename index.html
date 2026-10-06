@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Magazine Trends Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f9;--ink:#14213d;--mute:#5b6577;--card:#fff;--line:#dfe3ea;--up:#0a7d4f;--flat:#5b6577;--down:#b3402a;--hi:#14213d;--hit:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1524;--ink:#e8ecf5;--mute:#9aa5ba;--card:#18203a;--line:#2a3555;--up:#4fd09a;--flat:#9aa5ba;--down:#ff8f77;--hi:#e8ecf5;--hit:#0f1524}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Instrument Sans",system-ui,sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font:700 clamp(2rem,6vw,3.4rem)/1.05 "Bricolage Grotesque",sans-serif;margin:0 0 8px;letter-spacing:-.02em}
+.sub{color:var(--mute);margin:0 0 24px}
+.tiles{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.tile{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;cursor:pointer}
+.tile[aria-pressed=true]{background:var(--hi);color:var(--hit);border-color:var(--hi)}
+.tile:focus-visible,summary:focus-visible{outline:3px solid var(--up);outline-offset:2px}
+.tile small{opacity:.7;margin-left:6px}
+section{margin-bottom:36px}h2{font:700 1.5rem "Bricolage Grotesque",sans-serif;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+article h3{font-size:1.05rem;line-height:1.3;margin:6px 0 8px}
+.sig{font-weight:600;font-size:.9rem}.rising{color:var(--up)}.steady{color:var(--flat)}.fading{color:var(--down)}
+.meta{color:var(--mute);font-size:.88rem}.angle{margin:8px 0 0;font-size:.92rem}
+details{margin-top:10px}summary{cursor:pointer;color:var(--mute);font-size:.9rem}
+li{margin:6px 0;font-size:.9rem}a{color:inherit}
+</style></head><body><main>
+<h1>Magazine Trends Hub</h1>
+<p class="sub" id="updated">Loading latest trends…</p>
+<div class="tiles" id="tiles" role="group" aria-label="Magazine segments"></div>
+<div id="out"></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let data,active="All";
+fetch("data/trends.json").then(r=>r.json()).then(d=>{data=d;
+  $("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Rising or fading compares the last 7 days with the 7 before.";
+  draw()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
+function draw(){
+  const segs=data.segments.filter(s=>s.trends.length);
+  $("tiles").innerHTML=["All",...segs.map(s=>s.name)].map(n=>{
+    const c=n==="All"?segs.reduce((a,s)=>a+s.trends.length,0):segs.find(s=>s.name===n).trends.length;
+    return `<button class="tile" aria-pressed="${n===active}" data-n="${esc(n)}">${esc(n)}<small>${c}</small></button>`}).join("");
+  document.querySelectorAll(".tile").forEach(b=>b.onclick=()=>{active=b.dataset.n;draw()});
+  $("out").innerHTML=segs.filter(s=>active==="All"||s.name===active).map(s=>`<section><h2>${esc(s.name)}</h2><div class="grid">`+
+    s.trends.map(t=>`<article><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>
+      <h3>${esc(t.title)}</h3>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p class="angle"><b>Angle:</b> ${esc(t.angle)}</p>`:""}
+      <div class="meta">${t.recent} stories this week (${t.previous} before) from ${t.sources} sources</div>
+      <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.source)}</span></li>`).join("")}</ul></details></article>`).join("")+`</div></section>`).join("")||"<p>No trends found yet.</p>";
+}
+</script></body></html>

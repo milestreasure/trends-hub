@@ -1,0 +1,5 @@
+feedparser
+pyyaml
+scikit-learn
+numpy
+anthropic
