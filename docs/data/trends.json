@@ -1,5 +1,21 @@
 {
- "updated": "2026-10-06T10:33:57.659347+00:00",
+ "updated": "2026-10-06T10:51:10.256082+00:00",
+ "days": [
+  "2026-09-23",
+  "2026-09-24",
+  "2026-09-25",
+  "2026-09-26",
+  "2026-09-27",
+  "2026-09-28",
+  "2026-09-29",
+  "2026-09-30",
+  "2026-10-01",
+  "2026-10-02",
+  "2026-10-03",
+  "2026-10-04",
+  "2026-10-05",
+  "2026-10-06"
+ ],
  "segments": [
   {
    "name": "Buying & Selling",
@@ -58,6 +74,22 @@
         }
        ],
        "score": 19.599999999999998,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
@@ -86,6 +118,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
@@ -112,18 +160,85 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      2
+     ],
+     "change": 1100
     }
-   ]
+   ],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    2
+   ],
+   "change": 1100
   },
   {
    "name": "Children's Magazines",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Computing",
@@ -158,6 +273,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
@@ -190,6 +321,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
@@ -224,6 +371,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
@@ -256,6 +419,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
@@ -264,7 +443,7 @@
        ]
       },
       {
-       "title": "Sources: Apple Planning Two Sets of Product Launches in October",
+       "title": "Apple to kickstart two sets of product launches in October, reports say",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -284,12 +463,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      2,
+      8
+     ],
+     "change": 1400
     },
     {
      "name": "Gaming consoles",
@@ -315,6 +527,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Gaming consoles",
@@ -322,7 +550,24 @@
         "Gaming & digital play"
        ]
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": 200
     },
     {
      "name": "PC gaming",
@@ -348,6 +593,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "PC gaming",
@@ -376,6 +637,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "PC gaming",
@@ -383,13 +660,30 @@
         "Gaming & digital play"
        ]
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+     ],
+     "change": 400
     },
     {
      "name": "Internet & software",
      "trends": [
       {
-       "title": "Core Network Software Market Forecast To Hit $31.82Billion By 2030 Amid Strong Industry Growth",
+       "title": "Development Tools Market Forecast To Hit $15.91Billion By 2030 Amid Strong Industry Growth",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -409,16 +703,91 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Internet & software",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "change": 200
     },
     {
      "name": "Linux & open source",
      "trends": [
+      {
+       "title": "OpenSSF Shares Expanded Membership and New Global Policy Resources During Community Day Europe",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "OpenSSF Shares Expanded Membership and New Global Policy Resources During Community Day Europe",
+         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa2JuTkZrczlfTV9yUk0wVFQ3VWJxZFotbzJiMWxOU3NpUFVnMGF0NXp4NGNpVlpyYnJPaWZKNEtGa2VpNTVlcUdJRHRTalJEenFwc0tNSVRCNjlKc3hfOWRsN3hqc1BHdnVzSmdTbU1QZUZwV3JZYjFpNTlSOWF2WkxMdno1c3kyMmUtZVJvbV9wbGVKTWQwZWtQdFYzNlR3R0xuVW92RGczbHRJUXJxVHJucktNd2NRUHkzQ2s3RWRueDVnek9vdk02YzPSAdwBQVVfeXFMT2s0VkNQVDdHb21fX0ZKRlRTM0hGbFVIVnFFRWJHVENMTlJOZFY4REVCVGdaaG11MENEbE0weU12NVV4UzZKRmRsQzlVbm1HQVVzSXBJM1VrVks1Vi1lSzA3NGhxT3ZGbkJpRWFidXVXeGlYQ1ZPSDJMZUdQMVVqODBXNy1WOGlSREs4Wmt2SDY0cXZrcU5EYkh2S2tVOUNERWxYWlktSWdBMjZraEs5TnVCZXZ3NXcxNHBtYnR2U3FpNEp0TmRmWkpFeVZIbGhmRjhmV3FyWlI1N2ctbw?oc=5",
+         "source": "Linux Foundation",
+         "ts": "2026-10-06T09:34:50+00:00"
+        },
+        {
+         "title": "OpenSSF Shares Expanded Membership and New Global Policy Resources During Community Day Europe",
+         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMWlLX3kyZmJOS3JuM185a3pCWHNQS3ZHbno4dk05eC05Q1FLR0oySzNONldGQUZHX1Q0V0Nib3hsNUdLbDZLVFpiZ3NWc0haNVBZUjlOMjMwaTBTS0szUmgwOF84Ql9pZEpNbDUxRkV3UDZYYjYyNGNOZHpmbU1Nb3psWEFqNGs1bjRQUFNIOXJ1YjVrb2M3TFFZYzlQUURRTG9GcDhzSl9mSjBnZjE5RVVmbjZ6U0N6RFJtM0swUUlYQXgwREUzN084aWhtaWxNcGhEbEFCbktRclUzcXZ5UGhLZHg?oc=5",
+         "source": "PR Newswire",
+         "ts": "2026-10-06T07:00:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
+       "signals": [],
+       "segment": "Computing",
+       "channel": "Linux & open source",
+       "topics": []
+      },
       {
        "title": "Kagi gives up on Orion browser plan for Windows and Linux; to open source the code",
        "signal": "rising",
@@ -440,13 +809,29 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Linux & open source",
        "topics": []
       },
       {
-       "title": "Meta launches Muse Gadgets: open-source SDK for building hardware around its Muse agent",
+       "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -466,26 +851,127 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Computing",
        "channel": "Linux & open source",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      3
+     ],
+     "change": 600
     }
-   ]
+   ],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    7,
+    2,
+    2,
+    12
+   ],
+   "change": 2800
   },
   {
    "name": "Countryside & County",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "General",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Home Improvement",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Leisure Interests",
@@ -514,6 +1000,22 @@
         }
        ],
        "score": 4.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -545,6 +1047,22 @@
         }
        ],
        "score": 4.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -557,9 +1075,9 @@
       },
       {
        "title": "SOFTSWISS unveils 2027 iGaming Trends report",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
+       "signal": "steady",
+       "recent": 1,
+       "previous": 1,
        "sources": 2,
        "items": [
         {
@@ -575,7 +1093,23 @@
          "ts": "2026-09-29T10:36:02+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 1.6,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
@@ -602,12 +1136,45 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      1
+     ],
+     "change": 67
     },
     {
      "name": "Health & fitness",
@@ -633,6 +1200,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Health & fitness",
@@ -640,13 +1223,64 @@
         "Wellbeing & mental health"
        ]
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "change": 200
     }
-   ]
+   ],
+   "daily": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    3
+   ],
+   "change": 133
   },
   {
    "name": "Mens Fashion / Interest",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Motoring & Motorcycling",
@@ -655,12 +1289,18 @@
      "name": "Cars",
      "trends": [
       {
-       "title": "Leasing.com launches Insight platform for real-time automotive market intelligence",
+       "title": "Leasing.com launches real-time automotive market intelligence",
        "signal": "rising",
        "recent": 3,
        "previous": 0,
        "sources": 3,
        "items": [
+        {
+         "title": "Real-time automotive market intelligence service launched",
+         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObEtQTXFMWXVPZGY5MVVuTHphd0ctaFFXcmhhRmpKUVlUUWhBUzdNZk50U0VMZTJJeGhCeUt0Q3lFb2dnM3NiTjNEU09WcGZwaVN1Tmo3M1d5QmFhM1JPdDA2eW5EcmtmWjRWcm1lRTVyYjJsUnh2b2RIM3pteWFxTG03ZjhKdVkwV3BuMjMxbGhqc09L?oc=5",
+         "source": "FleetNews",
+         "ts": "2026-10-06T10:39:15+00:00"
+        },
         {
          "title": "Leasing.com launches real-time automotive market intelligence",
          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWRUZTUybXhJN3J0VWdnQ2Fhc0E5T2p4MXVkd2pDZ2RMQjUwYzYtSGN3Qk10aDJNM2RFaXAyMVZ0RkhRbk5iR3RQcHM4Zmo1a1FXSnluQmtnWTM2STBZTFU1aUpueVlfcUlxLVd4d2ozQ21VNU5OcFZUemxaWHVBSDZMRkxQQnhadGU3MkN1ay0?oc=5",
@@ -672,15 +1312,25 @@
          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVNicnNfVl9rVU5HTlpRNHVwVmhrRTUyeHYyaElDRm5uUWF6WFJVbWFaa0pXWDIzcmEyNElwVG5CcWVPM0o3c0FORktPVjVCN0J0Q1FlMkdUam5tSjZUUGRjdWppR0duY2RNUWpTa3NfSFJIUTdNdGd3WXd3X1gyWDFNaUNod2Vhb1JpMUowY2ZITkljQUc5NE9jRHJoSDFLbzZqcnJYdlZQQmxS?oc=5",
          "source": "Fleet World",
          "ts": "2026-10-05T10:19:56+00:00"
-        },
-        {
-         "title": "Leasing.com launches Insight for real-time market data",
-         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdU5NYTF6cnJHQzFfZE9qN21DR0dLdU4zVHVJcE9raXN1cXVPVGczcmRWMXMyTkVMOWs1aWxGeThaQWprRG9XRzA2YWp3aDZ4SzZfZGd6bUstSXA1SUcxei0wZXdHX1Y4aUJNcHBITWxRUVZqTE1ud1Jwc2RKUFRGU21yUzR1NFdEaThvX0dxa3pOQ0NDWGVmMm03V2F2SlpKVEdiZA?oc=5",
-         "source": "motortradenews.com",
-         "ts": "2026-10-05T08:12:36+00:00"
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Cars",
@@ -707,12 +1357,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Cars",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      2
+     ],
+     "change": 500
     },
     {
      "name": "Electric vehicles",
@@ -738,12 +1421,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Electric vehicles",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+     ],
+     "change": 200
     },
     {
      "name": "Classic cars",
@@ -769,6 +1485,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Classic cars",
@@ -795,12 +1527,45 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Classic cars",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+     ],
+     "change": 0
     },
     {
      "name": "Motorcycling",
@@ -826,14 +1591,64 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+       ],
        "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Motorcycling",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+     ],
+     "change": 200
     }
-   ]
+   ],
+   "daily": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    2,
+    2,
+    3
+   ],
+   "change": 450
   },
   {
    "name": "Music",
@@ -862,6 +1677,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Music",
        "channel": "Dance",
@@ -888,14 +1719,64 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Music",
        "channel": "Dance",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "change": 0
     }
-   ]
+   ],
+   "daily": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "News & Current Affairs",
@@ -930,6 +1811,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
@@ -956,6 +1853,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
@@ -982,13 +1895,29 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": []
       },
       {
-       "title": "UK economy Q2 growth revised slightly upward",
+       "title": "UK economic growth revised up to 0.5% in Q2",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1008,6 +1937,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
@@ -1034,6 +1979,22 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
@@ -1041,13 +2002,30 @@
         "Cost of living & value"
        ]
       }
-     ]
+     ],
+     "daily": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": 350
     },
     {
      "name": "Politics",
      "trends": [
       {
-       "title": "Tories would expand free childcare to high earners, Badenoch says",
+       "title": "Badenoch pledges to restore free childcare for high earners",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1067,6 +2045,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Politics",
@@ -1093,12 +2087,45 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Politics",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+     ],
+     "change": 0
     },
     {
      "name": "World",
@@ -1130,12 +2157,45 @@
         }
        ],
        "score": 4.800000000000001,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "World",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2
+     ],
+     "change": 300
     },
     {
      "name": "Science",
@@ -1173,6 +2233,22 @@
         }
        ],
        "score": 11.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1
+       ],
        "signals": [
         {
          "kind": "mastodon",
@@ -1210,6 +2286,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Science",
@@ -1238,6 +2330,22 @@
         }
        ],
        "score": 4.800000000000001,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [
         {
          "kind": "google",
@@ -1273,6 +2381,22 @@
         }
        ],
        "score": 4.800000000000001,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -1308,6 +2432,22 @@
         }
        ],
        "score": 4.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [
         {
          "kind": "mastodon",
@@ -1318,25 +2458,192 @@
        "channel": "Science",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      5,
+      5
+     ],
+     "change": 1300
     }
-   ]
+   ],
+   "daily": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    2,
+    1,
+    1,
+    2,
+    5,
+    7
+   ],
+   "change": 575
   },
   {
    "name": "Newspapers",
-   "channels": []
+   "channels": [
+    {
+     "name": "Publishing industry",
+     "trends": [
+      {
+       "title": "3 Berkshire Hathaway Holdings to Buy While They Sit at Least 15% Below Their Highs",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "3 Berkshire Hathaway Holdings to Buy While They Sit at Least 15% Below Their Highs",
+         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdGpndk5jbkZfQzc4dHBwcWc2Yk5OOWxMMDVxSkpBbF9XdTFhVkxqSzJXMFhXTmw5UmlFU3Zpd3pfVVpSd1lQUk1LT0wzYWVuUkpBVmIyTGhPUFdJcDNPSnByMUVOQzdNWm9veVZ1OG5mVHd2Tkk0VFhLcVZSblZkTlFXYw?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-10-06T10:20:00+00:00"
+        },
+        {
+         "title": "3 Berkshire Hathaway Holdings to Buy While They Sit at Least 15% Below Their Highs",
+         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWNBQ3JubllmdnhTUTZYc2wzdklQN2N4SnhRUkJTX29lRzlUdnk3Z1lhYmhBYUJlTXA4bVI1YnlxOVJNVVBLQk05eDhJczVDZW9KVW1TenQyaUNVR0pFc1lrQ2wzTmhINVZTU1daTEJYVFNGdk44M1UySk9oRWFwR09VQjVJaUl4MVhEU1FJckJsWmVUQ0l6bQ?oc=5",
+         "source": "The Motley Fool",
+         "ts": "2026-10-06T10:05:35+00:00"
+        }
+       ],
+       "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
+       "signals": [],
+       "segment": "Newspapers",
+       "channel": "Publishing industry",
+       "topics": []
+      }
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "change": 200
+    }
+   ],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "change": 200
   },
   {
    "name": "Partworks",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Puzzle Magazines",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Specials",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Sport",
@@ -1365,13 +2672,29 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Football",
        "topics": []
       },
       {
-       "title": "Manchester United transfer news: Arsenal fight for prolific striker; Bundesliga star 'open to move'",
+       "title": "Man Utd transfer news: Arsenal battle; Bundesliga star 'open to move'",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1391,12 +2714,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Football",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0
+     ],
+     "change": 400
     },
     {
      "name": "Cricket & rugby",
@@ -1428,6 +2784,22 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Cricket & rugby",
@@ -1454,6 +2826,22 @@
         }
        ],
        "score": 4.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -1487,12 +2875,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Cricket & rugby",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      2,
+      0,
+      0
+     ],
+     "change": 700
     },
     {
      "name": "Golf",
@@ -1530,6 +2951,22 @@
         }
        ],
        "score": 7.6,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
@@ -1556,6 +2993,22 @@
         }
        ],
        "score": 4.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -1589,6 +3042,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
@@ -1617,6 +3086,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
@@ -1643,22 +3128,106 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+       ],
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      6
+     ],
+     "change": 1200
     }
-   ]
+   ],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    6,
+    4,
+    6
+   ],
+   "change": 2300
   },
   {
    "name": "Teenage Magazines",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "Trade & Professional",
-   "channels": []
+   "channels": [],
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 0
   },
   {
    "name": "TV Listings",
@@ -1687,14 +3256,64 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "TV Listings",
        "channel": "TV & radio",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": -100
     }
-   ]
+   ],
+   "daily": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": -100
   },
   {
    "name": "Womens Interest",
@@ -1729,6 +3348,22 @@
         }
        ],
        "score": 3.8,
+       "daily": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
@@ -1755,6 +3390,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
@@ -1781,12 +3432,45 @@
         }
        ],
        "score": 1.6,
+       "daily": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      0,
+      0
+     ],
+     "change": 150
     },
     {
      "name": "Beauty & hair",
@@ -1812,6 +3496,22 @@
         }
        ],
        "score": 1.6,
+       "daily": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Beauty & hair",
@@ -1838,12 +3538,45 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Beauty & hair",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "change": -67
     },
     {
      "name": "Health & slimming",
@@ -1869,6 +3602,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Health & slimming",
@@ -1876,7 +3625,24 @@
         "Health & fitness"
        ]
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": 200
     },
     {
      "name": "Cookery",
@@ -1902,12 +3668,45 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Cookery",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": 200
     },
     {
      "name": "Home interiors",
@@ -1945,6 +3744,22 @@
         }
        ],
        "score": 8.8,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
@@ -1971,6 +3786,22 @@
         }
        ],
        "score": 3.2,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
@@ -1997,6 +3828,22 @@
         }
        ],
        "score": 0.0,
+       "daily": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
@@ -2005,7 +3852,24 @@
         "Home & lifestyle shifts"
        ]
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "change": 200
     },
     {
      "name": "Celebrity",
@@ -2043,6 +3907,22 @@
         }
        ],
        "score": 8.8,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
@@ -2081,6 +3961,22 @@
         }
        ],
        "score": 8.8,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
@@ -2113,6 +4009,22 @@
         }
        ],
        "score": 7.124999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -2152,6 +4064,22 @@
         }
        ],
        "score": 7.124999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
        "signals": [
         {
          "kind": "wikipedia",
@@ -2189,20 +4117,87 @@
         }
        ],
        "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+       ],
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": []
       }
-     ]
+     ],
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      9,
+      1,
+      0,
+      3,
+      0
+     ],
+     "change": 1700
     }
-   ]
+   ],
+   "daily": [
+    0,
+    2,
+    2,
+    1,
+    0,
+    0,
+    2,
+    6,
+    7,
+    14,
+    1,
+    1,
+    3,
+    1
+   ],
+   "change": 371
   }
  ],
  "topics": [
   {
    "name": "Gaming & digital play",
    "total": 5,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    0,
+    0
+   ],
+   "change": 1000,
    "trends": [
     {
      "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
@@ -2225,6 +4220,22 @@
       }
      ],
      "score": 4.0,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
      "signals": [
       {
        "kind": "wikipedia",
@@ -2258,6 +4269,22 @@
       }
      ],
      "score": 4.0,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
      "signals": [
       {
        "kind": "wikipedia",
@@ -2291,6 +4318,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Computing",
      "channel": "Gaming consoles",
@@ -2319,6 +4362,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Computing",
      "channel": "PC gaming",
@@ -2347,6 +4406,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Computing",
      "channel": "PC gaming",
@@ -2359,6 +4434,23 @@
   {
    "name": "AI & automation",
    "total": 3,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    5,
+    0,
+    0,
+    2
+   ],
+   "change": 900,
    "trends": [
     {
      "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
@@ -2387,6 +4479,22 @@
       }
      ],
      "score": 5.699999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2
+     ],
      "signals": [],
      "segment": "Computing",
      "channel": "Mac & Apple",
@@ -2421,6 +4529,22 @@
       }
      ],
      "score": 5.699999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Computing",
      "channel": "Mac & Apple",
@@ -2455,6 +4579,22 @@
       }
      ],
      "score": 5.699999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "News & Current Affairs",
      "channel": "Science",
@@ -2467,6 +4607,23 @@
   {
    "name": "Cost of living & value",
    "total": 2,
+   "daily": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 250,
    "trends": [
     {
      "title": "House price growth halves to 0.8% in September: Nationwide",
@@ -2519,6 +4676,22 @@
       }
      ],
      "score": 19.599999999999998,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Buying & Selling",
      "channel": "Property",
@@ -2547,6 +4720,22 @@
       }
      ],
      "score": 0.0,
+     "daily": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "News & Current Affairs",
      "channel": "Business & finance",
@@ -2559,6 +4748,23 @@
   {
    "name": "Wellbeing & mental health",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "change": 200,
    "trends": [
     {
      "title": "5 odd wellness trends people have sworn by",
@@ -2581,6 +4787,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
      "signals": [],
      "segment": "Leisure Interests",
      "channel": "Health & fitness",
@@ -2593,6 +4815,23 @@
   {
    "name": "Nostalgia & retro",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "change": 200,
    "trends": [
     {
      "title": "Baycurrent Classic 2026 preview, picks & betting tips",
@@ -2615,6 +4854,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
      "signals": [],
      "segment": "Sport",
      "channel": "Golf",
@@ -2627,6 +4882,23 @@
   {
    "name": "Health & fitness",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 200,
    "trends": [
     {
      "title": "Grandma-core eating: The anti-diet trend we actually need now",
@@ -2649,6 +4921,22 @@
       }
      ],
      "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Womens Interest",
      "channel": "Health & slimming",
@@ -2661,6 +4949,23 @@
   {
    "name": "Luxury & premium",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": -100,
    "trends": [
     {
      "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
@@ -2683,6 +4988,22 @@
       }
      ],
      "score": 0.0,
+     "daily": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Womens Interest",
      "channel": "Home interiors",
@@ -2696,6 +5017,23 @@
   {
    "name": "Home & lifestyle shifts",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": -100,
    "trends": [
     {
      "title": "7 Traditional Decor Ideas Designers Wish Had Never Gone Out of Style\u2014and Want to See in Homes Again",
@@ -2718,6 +5056,22 @@
       }
      ],
      "score": 0.0,
+     "daily": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [],
      "segment": "Womens Interest",
      "channel": "Home interiors",
@@ -2731,6 +5085,23 @@
   {
    "name": "Streaming & screens",
    "total": 1,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "change": 300,
    "trends": [
     {
      "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
@@ -2759,6 +5130,22 @@
       }
      ],
      "score": 7.124999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+     ],
      "signals": [
       {
        "kind": "wikipedia",
