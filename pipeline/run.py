@@ -1,6 +1,7 @@
 """Daily trends pipeline: ingest -> dedupe -> cluster -> score -> (optional) summarise."""
 import datetime as dt, hashlib, json, os, pathlib, re, time, urllib.parse
 import feedparser, numpy as np, yaml
+from signals import Signals
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -63,7 +64,7 @@ def summarise(trend):
     except Exception as e:
         print("summary skipped:", e)
 
-def build_trends(items, d7):
+def build_trends(items, d7, sig):
     if len(items) < MIN_ITEMS: return []
     S, labels = cluster(items)
     trends = []
@@ -74,10 +75,13 @@ def build_trends(items, d7):
         if len(members) < MIN_ITEMS or len(srcs) < MIN_SOURCES: continue
         cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in members)
         medoid = idx[int(np.argmax(S[np.ix_(idx, idx)].sum(axis=1)))]
-        trends.append(dict(title=items[medoid]["title"], signal=signal(cur, len(members) - cur),
-                           recent=cur, previous=len(members) - cur, sources=len(srcs),
-                           items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
-                           score=cur * (1 + 0.3 * len(srcs))))
+        t = dict(title=items[medoid]["title"], signal=signal(cur, len(members) - cur),
+                 recent=cur, previous=len(members) - cur, sources=len(srcs),
+                 items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
+                 score=cur * (1 + 0.3 * len(srcs)))
+        t["signals"] = sig.match([m["title"] for m in members])
+        t["score"] *= 1 + 0.25 * len(t["signals"])  # boost trends seen on other platforms
+        trends.append(t)
     return sorted(trends, key=lambda t: -t["score"])[:TOP_N]
 
 def tag_topics(trend, topics):
@@ -92,6 +96,7 @@ def main():
     tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text())
     tp = ROOT / "topics.yaml"
     topics = yaml.safe_load(tp.read_text()) if tp.exists() else {}
+    sig = Signals()
     store = load_items()
     for seg, chans in tax.items():
         for chan, q in chans.items():
@@ -105,7 +110,7 @@ def main():
         for chan in chans:
             items = sorted((i for i in store.values() if i["seg"] == seg and i["chan"] == chan and
                             dt.datetime.fromisoformat(i["ts"]) > d14), key=lambda i: i["ts"], reverse=True)
-            trends = build_trends(items, d7)
+            trends = build_trends(items, d7, sig)
             for n, t in enumerate(trends):
                 if n < 2: summarise(t)  # limit LLM calls to the top 2 per channel
                 t["segment"], t["channel"] = seg, chan
