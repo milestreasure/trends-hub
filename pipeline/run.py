@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ITEMS, OUT = ROOT / "data" / "items.json", ROOT / "docs" / "data" / "trends.json"
-KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N = 60, 0.35, 2, 2, 5, 15
+KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.35, 2, 2, 5, 15, 14
 NOW = dt.datetime.now(dt.timezone.utc)
 
 def fetch(seg, chan, q):
@@ -64,6 +64,18 @@ def summarise(trend):
     except Exception as e:
         print("summary skipped:", e)
 
+def daily(members):
+    out = [0] * DAYS  # oldest -> newest, by publish date
+    for m in members:
+        age = (NOW - dt.datetime.fromisoformat(m["ts"])).days
+        if 0 <= age < DAYS: out[DAYS - 1 - age] += 1
+    return out
+
+def agg(ts):
+    d = [sum(c) for c in zip(*[t["daily"] for t in ts])] or [0] * DAYS
+    a, b = sum(d[7:]), sum(d[:7])
+    return dict(daily=d, change=round(100 * (a - b) / max(b, 1)))
+
 def build_trends(items, d7, sig):
     if len(items) < MIN_ITEMS: return []
     S, labels = cluster(items)
@@ -79,6 +91,7 @@ def build_trends(items, d7, sig):
                  recent=cur, previous=len(members) - cur, sources=len(srcs),
                  items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
                  score=cur * (1 + 0.3 * len(srcs)))
+        t["daily"] = daily(members)
         t["signals"] = sig.match([m["title"] for m in members])
         t["score"] *= 1 + 0.25 * len(t["signals"])  # boost trends seen on other platforms
         trends.append(t)
@@ -116,12 +129,12 @@ def main():
                 t["segment"], t["channel"] = seg, chan
                 t["topics"] = tag_topics(t, topics)
                 for name in t["topics"]: by_topic.setdefault(name, []).append(t)
-            if trends: out_chans.append(dict(name=chan, trends=trends))
-        segments.append(dict(name=seg, channels=out_chans))
-    topic_out = sorted(({"name": n, "total": len(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
+            if trends: out_chans.append(dict(name=chan, trends=trends, **agg(trends)))
+        segments.append(dict(name=seg, channels=out_chans, **agg([t for c in out_chans for t in c['trends']])))
+    topic_out = sorted(({"name": n, "total": len(v), **agg(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
                         for n, v in by_topic.items()), key=lambda t: -t["total"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(dict(updated=NOW.isoformat(), segments=segments, topics=topic_out), indent=1))
+    OUT.write_text(json.dumps(dict(updated=NOW.isoformat(), days=[(NOW - dt.timedelta(days=DAYS - 1 - i)).date().isoformat() for i in range(DAYS)], segments=segments, topics=topic_out), indent=1))
     print("done:", sum(len(c["trends"]) for s in segments for c in s["channels"]), "trends,", len(topic_out), "topics")
 
 if __name__ == "__main__":
