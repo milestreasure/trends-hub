@@ -40,13 +40,14 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let data,mode="segment",active="All",chan="All";
 fetch("data/trends.json").then(r=>r.json()).then(d=>{data=d;
+  if(!d.segments.every(s=>Array.isArray(s.channels))){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
   $("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Rising or fading compares the last 7 days with the 7 before.";
   draw()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
 const btn=(n,label,count,on,cls="")=>`<button class="tile ${cls}" aria-pressed="${on}" data-n="${esc(n)}">${esc(label)}${count!=null?`<small>${count}</small>`:""}</button>`;
 const card=(t,where)=>`<article><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>
   <h4>${esc(t.title)}</h4>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p class="angle"><b>Angle:</b> ${esc(t.angle)}</p>`:""}
   <div class="meta">${t.recent} stories this week (${t.previous} before) from ${t.sources} sources</div>
-  ${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}${(where?[]:t.topics||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}
+  ${(t.signals||[]).map(s=>`<div class="meta">${esc(s.label)}</div>`).join("")}${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}${(where?[]:t.topics||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}
   <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.source)}</span></li>`).join("")}</ul></details></article>`;
 function draw(){
   $("view").innerHTML=btn("segment","By segment",null,mode==="segment")+btn("topic","By topic",null,mode==="topic");
