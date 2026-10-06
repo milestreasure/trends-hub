@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T10:26:22.564015+00:00",
+ "updated": "2026-10-06T10:33:57.659347+00:00",
  "segments": [
   {
    "name": "Buying & Selling",
@@ -58,6 +58,7 @@
         }
        ],
        "score": 19.599999999999998,
+       "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
        "topics": [
@@ -85,6 +86,33 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
+       "segment": "Buying & Selling",
+       "channel": "Property",
+       "topics": []
+      },
+      {
+       "title": "UK annual house price growth weakest since December 2025 after su",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "UK annual house price growth weakest since December 2025 after su",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdHpoUnlSYlViZUtzUFpRbE9FVmc4dnBDbzZqamdXUTU1UjBzaDQ1UXVXWi0zczY5WllxU1hsWXNobjlpSDlPeGZ2NWE5Q1VyQ2JvaU80ZkRTWmJzOG9iMDFNbERJNEgweXEtTGtHZ1Q4R1MxWHlwMnJ6cWZWVkhwUlI5ZlducGhNUTJlUmZPdENXLXgxSS0xOV92UHMwZw?oc=5",
+         "source": "Global Banking & Finance Review",
+         "ts": "2026-10-01T06:57:37+00:00"
+        },
+        {
+         "title": "Annual house price growth falls to 0.8%: Zoopla",
+         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUlVUSEMxeXZCNWxZQkFHZ0pTU1VKUFJYRWdmWVd1NmRwSVRLWWZoeUE2aUN2M0Jxa3VMU09jdEJFSzNEWUtZVlFnMDRnVkNuWk1RSjFqbGNMMkVId1c3MGhSYzBDc0F0a3VFVjNLdFFTZGoxcUhJTGJQbUY3SVo3LXhmREJTRFFhTGJIbHR0aw?oc=5",
+         "source": "Mortgage Strategy",
+         "ts": "2026-09-30T09:30:53+00:00"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
        "topics": []
@@ -103,6 +131,38 @@
     {
      "name": "Mac & Apple",
      "trends": [
+      {
+       "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Mac users can now delete Apple Intelligence and reclaim up to 12GB of storage, but there is a catch",
+         "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQnlJSGkyN3ZJbXhNMnpBUnB2TDBfN3F1bTVrV19fVXJqSGlwYm44NjdJNmd6dzdSYXlMcFpja2JhVkxucUNSSVRfTVQ2UzhKSzFUUlR1cUxKdVFhQlp2a0xMbzdTMG5tZGhWWlBETkJFLUNnWFNodXBXUmpRVm9MREJWVU85bEl1eVRWOVpZLThDRGNEWlJoR1IxTkFXNWJIRktMOWVkbFdWVDdWbmRfVVI4eUFKQzZQNGpweXJTOXgxem1CYVBiZW9RLW5sa3RHQ2ZPYS01Vld3THlWMk1qVDhJTl9fcXphbkJPclA3M3o0RFRNemp3dFZnNVFQZ9IB_gFBVV95cUxOQnlJSGkyN3ZJbXhNMnpBUnB2TDBfN3F1bTVrV19fVXJqSGlwYm44NjdJNmd6dzdSYXlMcFpja2JhVkxucUNSSVRfTVQ2UzhKSzFUUlR1cUxKdVFhQlp2a0xMbzdTMG5tZGhWWlBETkJFLUNnWFNodXBXUmpRVm9MREJWVU85bEl1eVRWOVpZLThDRGNEWlJoR1IxTkFXNWJIRktMOWVkbFdWVDdWbmRfVVI4eUFKQzZQNGpweXJTOXgxem1CYVBiZW9RLW5sa3RHQ2ZPYS01Vld3THlWMk1qVDhJTl9fcXphbkJPclA3M3o0RFRNemp3dFZnNVFQZw?oc=5",
+         "source": "India Today",
+         "ts": "2026-10-06T05:48:20+00:00"
+        },
+        {
+         "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
+         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVXZ0Q3Qm5EbEVYMm85VFFkb3oyd1lsazJqWUI5ekMxQXZhV2QyYmo0V1p4ajVVNzRtT3pzWE5GYU5TaEJQXzNNclN6dUZtdnk5SmdTVjg4RFhVVWRKQ2MzTUZHMlJINlVYcUFobVdNRFFweGZCUmY2X3NxcUtFZzRnRWFsS1ZkZFZxNzB2cnBzZ25yU3RLeEVSTEdlWVVjOWJDV2NhaXVEU05JYjlENGYxVy1CVGxxdDVr0gHAAUFVX3lxTE4zbGJWcFhuQ1JvZ3lzMERRRzBnQ0hnSUlqSU1CZXQ4NGdmRjgtcXhKR0JrM3Fhclh2REtXWGZIVjU1WVd5NURrMF9Ma3U5ZWJLdVFmZWNfejJRM3lldHBkenJTME5FUTc0ajRON2hkWXVhclU2UE9JRHUwVnFVUmFXeUp6dk9zQS1KXzUzN3RoOG0yQWFWbEx6UzNyVXNHaENoVGtzNnp1Y2dZd0wya0hTWE9MYjJ3QjdjMWpHYVlKbg?oc=5",
+         "source": "MacDailyNews",
+         "ts": "2026-10-05T20:00:32+00:00"
+        },
+        {
+         "title": "Mac Users Reclaim 12GB+ of Storage With Apple Intelligence Removal Tool",
+         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkNVOXFFS0R4R0gtdXFueUxybkFGUm9tbTJCbVVzRFltQ1o5dlE2TzIxU2RrTjExYkc1NlZUTGl4NWl0ejVWdjhiZVQwdjFHNExyVmdZR1pRU21teldhb29mUGszZ29XVVdnenViWEh5eGVKYVJXRE15RWowM3lOVXNRNXBtMUwyaVp1cnFVRTI?oc=5",
+         "source": "MacRumors",
+         "ts": "2026-10-05T14:14:38+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "signals": [],
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      },
       {
        "title": "Apple to tighten Mac prompts when AI agents seek full-disk access after Meta Muse complaints",
        "signal": "rising",
@@ -130,6 +190,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
        "topics": [
@@ -163,6 +224,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
        "topics": []
@@ -194,6 +256,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
        "topics": [
@@ -201,51 +264,27 @@
        ]
       },
       {
-       "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
+       "title": "Sources: Apple Planning Two Sets of Product Launches in October",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
        "sources": 2,
        "items": [
         {
-         "title": "New tool lets Mac users strip Apple Intelligence and reclaim about 12GB of storage",
-         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVXZ0Q3Qm5EbEVYMm85VFFkb3oyd1lsazJqWUI5ekMxQXZhV2QyYmo0V1p4ajVVNzRtT3pzWE5GYU5TaEJQXzNNclN6dUZtdnk5SmdTVjg4RFhVVWRKQ2MzTUZHMlJINlVYcUFobVdNRFFweGZCUmY2X3NxcUtFZzRnRWFsS1ZkZFZxNzB2cnBzZ25yU3RLeEVSTEdlWVVjOWJDV2NhaXVEU05JYjlENGYxVy1CVGxxdDVr0gHAAUFVX3lxTE4zbGJWcFhuQ1JvZ3lzMERRRzBnQ0hnSUlqSU1CZXQ4NGdmRjgtcXhKR0JrM3Fhclh2REtXWGZIVjU1WVd5NURrMF9Ma3U5ZWJLdVFmZWNfejJRM3lldHBkenJTME5FUTc0ajRON2hkWXVhclU2UE9JRHUwVnFVUmFXeUp6dk9zQS1KXzUzN3RoOG0yQWFWbEx6UzNyVXNHaENoVGtzNnp1Y2dZd0wya0hTWE9MYjJ3QjdjMWpHYVlKbg?oc=5",
-         "source": "MacDailyNews",
-         "ts": "2026-10-05T20:00:32+00:00"
+         "title": "Apple to kickstart two sets of product launches in October, reports say",
+         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMGpGaE5JR1J4WHprWEc4TGV4QkNkQjVvcnJHRnI3bWhKZTVna3RZYlFhdDcyVFU0UGtUNXR4eU5mQVkzLTFtTmFHb2F2ajF1UjJnSTlpYXRubkFmSWpoR1l5bjg5bGVuWHdjUXlMOHVFWlVPSHY4NWFQQUJDRnlRekZLeTJVRWM2R21iNHJUTmpLanFMNGRCNVVrOHdNQmtZMDVqTTVKUjJqQQ?oc=5",
+         "source": "Appleosophy",
+         "ts": "2026-10-06T02:49:00+00:00"
         },
         {
-         "title": "Mac Users Reclaim 12GB+ of Storage With Apple Intelligence Removal Tool",
-         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkNVOXFFS0R4R0gtdXFueUxybkFGUm9tbTJCbVVzRFltQ1o5dlE2TzIxU2RrTjExYkc1NlZUTGl4NWl0ejVWdjhiZVQwdjFHNExyVmdZR1pRU21teldhb29mUGszZ29XVVdnenViWEh5eGVKYVJXRE15RWowM3lOVXNRNXBtMUwyaVp1cnFVRTI?oc=5",
+         "title": "Sources: Apple Planning Two Sets of Product Launches in October",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWVNYWxaUkYweEd2cFdKZEFZN3g2Ym5hZ1V6Z3BJdFJXMTMzSU9LRG1qZFdRMlZVRVBwNkk0WkZ3NHBCUGxydzBIa3hKTnQ1NGRBNDZpSDhMWE1NcVQ4NURxa0poYTRQSVhvOHlJdVNNSXhaeHZFVmxscktfeExqUHcxb3RVajQ?oc=5",
          "source": "MacRumors",
-         "ts": "2026-10-05T14:14:38+00:00"
+         "ts": "2026-10-06T02:24:00+00:00"
         }
        ],
        "score": 3.2,
-       "segment": "Computing",
-       "channel": "Mac & Apple",
-       "topics": []
-      },
-      {
-       "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
-        {
-         "title": "Apple\u2019s redesigned OLED touchscreen MacBook Pro said to be significantly lighter",
-         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT0JaSEVSSlhtcUVSczdaZTR3UUFlWnJwVWt3Z1NYTTIyMThYNkxwNGg4WlJ6UGVDcGRjOF9GZTMxYTRxeFl3cWRENU85MmhoQ3FqZElIMG1hMVVVcExraE4xYzNCQ2poTWZjNGM3QnIyTWo3TGRJcm4wUTF4bXROX1VmNWdUQnNmU09HVFhDMVl6ODlKUXZlYnMxbUNvd2M5alhtUWVpZzdfN3Bzb1lmV2pYXzVONTDSAbwBQVVfeXFMUDAybHNDWnN0ZVVzNGVYUUdqN1VNYVp2a0Z3QjJXWHd5ZE4tYzY5ZTlHdk5hMlNDMDMybm9jaExGX0JTZ2dWNWR3V2xCbU9KbGh4WC15LUZ3LU1DY3ZrWUUtTWdkQjM2a0ZVOHFpMGNiSy1PLTJoZ3I1cGhkNVdPT1J2cnV0VUVELUdVTmdtWHU1VG1xR0NfVjZ1dUJmUVh4R1VYRUNjQlVRZWVCbWdDdUZVOWFpZkx3aGFaWFg?oc=5",
-         "source": "MacDailyNews",
-         "ts": "2026-10-05T14:00:44+00:00"
-        },
-        {
-         "title": "Apple tests OLED touchscreen MacBook Pro with macOS 27.2",
-         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNalpwSVo4ak45eFAwUFlmRWZ5NnNnUDVHbV84ZW5qN0JCU0M0dnhNTU1uVC1ndl9lem02WTNVNlVPM1g5dHY4Rmlub3pYVGtGWDNrQ2NXRVp4MTBWTkw2QXBxZ25xT0tjZ2pZLXVMa2dlS3ItRExqbTY4QkhxcXd2VHBqb1pCdWJP?oc=5",
-         "source": "The Mac Observer",
-         "ts": "2026-10-04T16:48:38+00:00"
-        }
-       ],
-       "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
        "topics": []
@@ -276,6 +315,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "Gaming consoles",
        "topics": [
@@ -288,7 +328,7 @@
      "name": "PC gaming",
      "trends": [
       {
-       "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+       "title": "11 underappreciated games you should buy in the Steam Autumn Sale, according to some of our biggest genre sickos",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -308,6 +348,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "PC gaming",
        "topics": [
@@ -335,6 +376,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "PC gaming",
        "topics": [
@@ -367,6 +409,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "Internet & software",
        "topics": []
@@ -397,12 +440,13 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "Linux & open source",
        "topics": []
       },
       {
-       "title": "Meta introduces Muse Gadgets with open-source tools for custom hardware",
+       "title": "Meta launches Muse Gadgets: open-source SDK for building hardware around its Muse agent",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -422,6 +466,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Computing",
        "channel": "Linux & open source",
        "topics": []
@@ -449,7 +494,69 @@
      "name": "Film & TV",
      "trends": [
       {
-       "title": "SOFTSWISS rolls out 2027 iGaming Trends report, backed by industry research",
+       "title": "OTT Releases This Week: Spider-Man: Brand New Day, Reporting Live & More On Netflix, Prime Video & JioHotstar",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "OTT Releases This Week: Spider-Man: Brand New Day, Reporting Live & More On Netflix, Prime Video & JioHotstar",
+         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYU9PbDBXYlY5YzJzeGRXellvMlo5d2NpUXN3ZkItb2FuT2xPNTFnenAzNHVFaTBLRW12c19sMG5pU2NweGNfMjJPcVdNV01IRnJyUk9HVzlwYktqelNDWGhnekVlTmtxZE1abmF4NzM1Z2g5bnk0NlBjcG9XZ3B6NlBMYUZnM1NZS2NlVnVvemFEY0JuLTBXWTg1T0oteWpTSWljLWd1blBpcHNUMHplaFJJSmk1dnV3RTdwMmhzelNXQWlCZGRFbUFhdGZJV3BzWVRhM29teHJhSGNiNkduZ3B3QUNVOWvSAewBQVVfeXFMUF9NYzl4aDJDRVh0MkFORnVtRlJQNGJHaFNNclp1MFdjeDR3TERuUDhsUGMtNjZtcG94T2JYX2x6ZGs4M3MtLUpXUzZBcGR2b19NbDI2Q1RETlZvTnl0WEtwaldwbVhmeTdjSWZDRTBrcXVMNWFQZ21wRWRRTmFJZUg2eGxFYmZKSHNfZklsZVRPc2hkM015aWZaeXJhTU9NdC1GdElMcjJ3dHhMOGhUZHBFQi1kQjJIX0hiMlBGdFFhOUViN1FaYnRSWlRaNmV3UEZwWDJjVkw4b0hHamQ3UnMxNG5HWFlieE8yLUg?oc=5",
+         "source": "ABP Live English",
+         "ts": "2026-10-06T00:47:59+00:00"
+        },
+        {
+         "title": "ott releases this week",
+         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DSEpoT1NhLXhGNHV5YW1uZlQyYXN2M0hfZVRKeGFkSl9vaWpCWnRwOFB6UnRVQmttUi1HVkpzQ0wtdTVSNUlPeUQxY1JpR2JobEpQVzg3YldHaFdtYkxKVkhHR1JrSEtWVE92cndVSDZjZDlVaExQbTRNdw?oc=5",
+         "source": "LatestLY",
+         "ts": "2026-10-01T13:01:47+00:00"
+        }
+       ],
+       "score": 4.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Spider-Man: Brand New Day (277,012 views)"
+        }
+       ],
+       "segment": "Leisure Interests",
+       "channel": "Film & TV",
+       "topics": []
+      },
+      {
+       "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
+         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkxnLWNMbm5TaUlqeXc4WXdIVXVFUUVmdWpmNnhseFhpT2hpM2t1anhfTXNoUkZFZ0xTSHlVQzF5YnBTbU9MQWVaX2dKR1NtVk1NUF9CQ1YycWI1LVJoU3dGM3k2Y3hQMldxcldjMXVSSDFJQi1TMktibEx5TGZTaUJBU0lJS1RiSlJiTmlnTGNfSXROY2oydFZ1STBxd2NQMTZEdzdnZw?oc=5",
+         "source": "Yahoo",
+         "ts": "2026-09-30T22:42:49+00:00"
+        },
+        {
+         "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1BIS1cyaGNvbU85NldnSldrTUYtUk1WM3JEQS1vRzB6M2oxSEVBV0JmNzBDN2lqVnh3Yi1nU1ZDd2l6eVNwN29MaG5RT000WF9YbHktQ0llZklKalZubV9aX1NPTUpleFd5MUNoaU9TOHQ3ME9LQlNfSlpmdTFSWWtaU3BUYnc?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-09-30T22:42:49+00:00"
+        }
+       ],
+       "score": 4.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Backrooms (film) (292,583 views)"
+        }
+       ],
+       "segment": "Leisure Interests",
+       "channel": "Film & TV",
+       "topics": []
+      },
+      {
+       "title": "SOFTSWISS unveils 2027 iGaming Trends report",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -469,12 +576,13 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
        "topics": []
       },
       {
-       "title": "3 excellent Netflix documentaries to watch this weekend (September 25-27) - How-To Geek",
+       "title": "3 underrated movies on Prime Video you should watch this weekend (September 25-27)",
        "signal": "fading",
        "recent": 0,
        "previous": 2,
@@ -494,6 +602,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
        "topics": []
@@ -524,6 +633,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Leisure Interests",
        "channel": "Health & fitness",
        "topics": [
@@ -571,6 +681,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Cars",
        "topics": []
@@ -596,6 +707,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Cars",
        "topics": []
@@ -626,6 +738,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Electric vehicles",
        "topics": []
@@ -656,12 +769,13 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Classic cars",
        "topics": []
       },
       {
-       "title": "Broad Arrow Auctions Releases Digital Catalog for Inaugural Audrain Auction in Newport",
+       "title": "Broad Arrow\u2019s inaugural Audrain Concours Auction aims to please all car enthusiasts",
        "signal": "fading",
        "recent": 0,
        "previous": 2,
@@ -681,6 +795,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Classic cars",
        "topics": []
@@ -711,6 +826,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Motoring & Motorcycling",
        "channel": "Motorcycling",
        "topics": []
@@ -746,6 +862,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Music",
        "channel": "Dance",
        "topics": []
@@ -771,6 +888,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "Music",
        "channel": "Dance",
        "topics": []
@@ -812,6 +930,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": []
@@ -837,6 +956,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": []
@@ -862,6 +982,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": []
@@ -887,6 +1008,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": []
@@ -912,6 +1034,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Business & finance",
        "topics": [
@@ -923,6 +1046,32 @@
     {
      "name": "Politics",
      "trends": [
+      {
+       "title": "Tories would expand free childcare to high earners, Badenoch says",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Tories would expand free childcare to high earners, Badenoch says",
+         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHk0YVpzczNZVjFSenp0ZThOUUlmU2xKZlFVdGtyd1djM25qM3BmY2pwT1gydzdiZWJjLTBXdmpwcHpyNEg2ak9PREZzdmdWUGxtTFRlZWxXR0hDOFY4TXVSN0hrOEpVUkM2Uk9XSkVhdVFMUFVLNVBORlhCTGFJYlNfdHkxdVg5YjFmckJjbjFQNWJ3UG1WQWFnREFiR0pCU2ZMNEpuWUkwQ1ZBckhjMU1VWGhiRjI0dkl3?oc=5",
+         "source": "The Guardian",
+         "ts": "2026-10-03T21:00:14+00:00"
+        },
+        {
+         "title": "Badenoch pledges to restore free childcare for high earners",
+         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVpqZmphTEMyMml3bjJnNHI4NUNsc0hON3RlSnlaZk9vWXpvX1JCSHpiUGxxMzlKRzdSOVhRZmFPcUlHR3c4bjhGdWY5VHc2NS1yTlo2dV9iVktsNzBvU1ZuRktGMXNtZm5scGZ0NVZCT0lreVJqTXZzTHV2UmRIYm0yQmtpMDR5QlRST2g0WndfMHVHUTc3ODFDa2J1VnVXV2c?oc=5",
+         "source": "The Telegraph",
+         "ts": "2026-10-03T21:00:00+00:00"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
+       "segment": "News & Current Affairs",
+       "channel": "Politics",
+       "topics": []
+      },
       {
        "title": "Wes Streeting: Chagos Islands deal is not good enough",
        "signal": "fading",
@@ -944,8 +1093,46 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Politics",
+       "topics": []
+      }
+     ]
+    },
+    {
+     "name": "World",
+     "trends": [
+      {
+       "title": "Baxter International Inc. (BAX) stock price, news, quote and history",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Baxter International Inc. (BAX) stock price, news, quote and history",
+         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Oc18tal95aEFnSWNmNy14bmY0OHBxbGFEendxQWxnTl9EOGswNGdJOEZUVXZRSFR1NllpSU1jeW45MnlUV3NSeGUyemIwV0hr?oc=5",
+         "source": "Yahoo Finance UK",
+         "ts": "2026-10-05T15:32:36+00:00"
+        },
+        {
+         "title": "Logitech International S.A. (LOGI) stock price, news, quote and history",
+         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFeU9kMDZSVGRVVS1Fdi1jOGRRSkx0Q0drTVVseW9vRTlhaDNmTXZEOXN4bDVlQ19pYnc1UmpmNlFyeFF3TWNOV280ZW91c1RsY2c?oc=5",
+         "source": "Yahoo Finance UK",
+         "ts": "2026-10-05T14:37:12+00:00"
+        },
+        {
+         "title": "Rex International Holding Limited (5WH.SI) stock price, news, quote and history",
+         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BcnlUMm54b3NMSXhIUWkwOEREODVPUDlJdkpUblVpdWJJYWZ1OFVVS21OUVNDRzRybU1nNG9zX3paTVJXSTlsZDFqOTl1RUFwMWp5WA?oc=5",
+         "source": "uk.finance.yahoo.com",
+         "ts": "2026-10-02T09:04:49+00:00"
+        }
+       ],
+       "score": 4.800000000000001,
+       "signals": [],
+       "segment": "News & Current Affairs",
+       "channel": "World",
        "topics": []
       }
      ]
@@ -985,7 +1172,13 @@
          "ts": "2026-10-05T09:41:38+00:00"
         }
        ],
-       "score": 8.8,
+       "score": 11.0,
+       "signals": [
+        {
+         "kind": "mastodon",
+         "label": "Trending on Mastodon: #nobelprize"
+        }
+       ],
        "segment": "News & Current Affairs",
        "channel": "Science",
        "topics": []
@@ -1017,6 +1210,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Science",
        "topics": [
@@ -1024,7 +1218,7 @@
        ]
       },
       {
-       "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
+       "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1043,13 +1237,58 @@
          "ts": "2026-10-06T09:58:45+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 4.800000000000001,
+       "signals": [
+        {
+         "kind": "google",
+         "label": "Trending on Google searches: francis halzen (500+ searches)"
+        },
+        {
+         "kind": "mastodon",
+         "label": "Trending on Mastodon: #nobelprize"
+        }
+       ],
        "segment": "News & Current Affairs",
        "channel": "Science",
        "topics": []
       },
       {
-       "title": "Nobel prize awarded to scientists studying mysteries of the brain",
+       "title": "Nobel Prize in Medicine 2026 awarded to Karl Deisseroth, Peter Hegemann, Georg Nagel",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Nobel Prize in Medicine 2026 awarded to Karl Deisseroth, Peter Hegemann, Georg Nagel",
+         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1hIUHNZaGd3UmNVc3BiRUJfTXg3SF9TMUktNUVMZTBOUEZ0NVY1RE4tZmZJRTdsV2p6TkFROS1iU0F4a0VSUmROMldvWGtzaG1OTWIxSUZjOGZvU2x0T0ZiTDlQZVRTUmRQckRXb3ZkdWN2THRvb3ZISDRWdUNVcTNhQm16UWxOUFRIanJfTHZ1NEQ2M3dvSEZ4WWJDS0pkU193SWZLX2hySG5aaXRONEpFaW9kTGR5TncyRmlTTEhwRFZibDBj0gHMAUFVX3lxTE1ZdWUxNjU5X1BuV19oVDR2cm5ubFItbklKX1BtVnhSRUdNMFBmdnRrLWJTa01qM1BuNTc0LVd3cXlWd1lWRFN1WTRwV1NtUmdlcTRUYTFUSFI2UDN0c2cxRHdTOThaTndYclNqWHFoRS00RWpmSUo2cFNBLTlybEY3OXdua09BVGhTWUdTcmFESzRSRmdlTjduRXRXWjhzNkRGZG5NdF8xdnluazVTMmhBV2l2VFU1dFpXTy11MG5QVWJEMEU4bmYwOTdUQQ?oc=5",
+         "source": "Firstpost",
+         "ts": "2026-10-05T09:39:32+00:00"
+        },
+        {
+         "title": "[Nobel Prize 2026] Karl Deisseroth, Peter Hegemann and Georg Nagel win Physiology or Medicine Prize",
+         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GSG5rcW50OEpmdHZPOUpjTG1QQ3VqU1A5RTc2REdRcERMWTlmcmJIMzNwS24xT2JQRW43bGh2V3V6d1VqazJRSGpnSVE1NjNRRm1udA?oc=5",
+         "source": "DongA Science",
+         "ts": "2026-10-05T09:38:00+00:00"
+        }
+       ],
+       "score": 4.800000000000001,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Karl Deisseroth (112,054 views)"
+        },
+        {
+         "kind": "mastodon",
+         "label": "Trending on Mastodon: #nobelprize"
+        }
+       ],
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
+       "title": "Nobel prize in medicine 2026 awarded for research into mysteries of brain",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1068,32 +1307,13 @@
          "ts": "2026-10-06T01:31:00+00:00"
         }
        ],
-       "score": 3.2,
-       "segment": "News & Current Affairs",
-       "channel": "Science",
-       "topics": []
-      },
-      {
-       "title": "Nobel Medicine Prize Goes To 3 Scientists For Research Into Brain Activity",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
+       "score": 4.0,
+       "signals": [
         {
-         "title": "Nobel medicine prize goes to scientists who learned to control nerve cells with light",
-         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNlNURVFWbktSWXpXcmFSeFB5c2tiNlFXZnBpY2pfV2ZJMURWVzh0X1A1WlREd3Y0RUY1ZV9KdDNIcE44M1R6bTY3dkJxSE5IQ2FsREU4bEs1WlVoZDlF?oc=5",
-         "source": "Nation Thailand",
-         "ts": "2026-10-06T08:25:00+00:00"
-        },
-        {
-         "title": "Nobel Medicine Prize Goes To 3 Scientists For Research Into Brain Activity",
-         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQS3VwSDVmUFNVeEplcDU4SUJlNVFnakhlVnVad094amNDSEdNMFhxaGxqRDNZYnhvRVFHUF94ZzNSLWE4MDJHcmdtTEFXZXZlNXhSeHZDcmFlal9QbWhwTWJ5ZGlVQkFSY3ZualBLSkZZbnd3MUJTMDFqVjZGZVRZeWJvb0hiREtyX1lZbVNmaEpxRjJhYWFLbjdXYS1BOHhBejdHdGFCLWp0dk1nRU1FamJwZU9RdWNOQ05aZU5GWFZRaXpBVHhrNy1TT2tqRV9rM1hBeFBpc2lmZ1F6VTZ2ZE56LVcxdl9wNnhnSVhn0gH2AUFVX3lxTE85SDE4Y0Njb2xjbmM3VWpZMkt0bDVYdGk0R2haOHBDV1VXQ2FrVzNWbUI2azBnekNEWmd0eWJTNC1US0ZBZFdUYVZJTjRJcng4RG1vNlR5eTFrVW5LdlNnejBkTlNiRFV0ODFVQVAyU0c3M29UTXAyN01hQ2pCVmZucnhHZEVmQzk2UFhzbFA4RGN2NV83MTkydVVSV3d2MFlOSlRlcjQ1Tk9QMmlkaUQ1QThUZW9hSkFrNzRQc2JzbVA3LWdPMmV6QWM4YWZUVUwyNmJFN0k0ZzhKV3MzRU1JTkZDYjRPMDBCaWY5R3RURE9CbzB5UQ?oc=5",
-         "source": "NDTV",
-         "ts": "2026-10-05T09:35:29+00:00"
+         "kind": "mastodon",
+         "label": "Trending on Mastodon: #nobelprize"
         }
        ],
-       "score": 3.2,
        "segment": "News & Current Affairs",
        "channel": "Science",
        "topics": []
@@ -1145,12 +1365,13 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Sport",
        "channel": "Football",
        "topics": []
       },
       {
-       "title": "Man Utd transfer news: Arsenal battle; Bundesliga star 'open to move'",
+       "title": "Manchester United transfer news: Arsenal fight for prolific striker; Bundesliga star 'open to move'",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1170,6 +1391,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Sport",
        "channel": "Football",
        "topics": []
@@ -1206,6 +1428,7 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Sport",
        "channel": "Cricket & rugby",
        "topics": []
@@ -1230,7 +1453,13 @@
          "ts": "2026-10-03T09:22:43+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 4.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Asian Games (222,522 views)"
+        }
+       ],
        "segment": "Sport",
        "channel": "Cricket & rugby",
        "topics": [
@@ -1258,6 +1487,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Sport",
        "channel": "Cricket & rugby",
        "topics": []
@@ -1268,7 +1498,7 @@
      "name": "Golf",
      "trends": [
       {
-       "title": "Alfred Dunhill Links Championship | Day three highlights",
+       "title": "Final LIV Golf leaderboard at Alfred Dunhill Links Championship",
        "signal": "rising",
        "recent": 4,
        "previous": 0,
@@ -1300,83 +1530,7 @@
         }
        ],
        "score": 7.6,
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": []
-      },
-      {
-       "title": "Baycurrent Classic 2026 preview, picks & betting tips",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
-        {
-         "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
-         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZndF85djRrNzR4ZUxKOXdXWEdvU1J6ZTBqbUFna3d6bE1zQjdIdHpKUnNiZHdSMDlSNnoxaW1haHNwRmd0ejdTakZMMF9BV1lubm56ZVN0TzZoVHFueEdSUm5oZTZYWTFBN2pacDVKR2RRRlVrQzJ5V0NtVEUza3F5amFDRGp2QW11VjV2ZHAtSkZMajJJLQ?oc=5",
-         "source": "Today's Golfer",
-         "ts": "2026-10-06T01:24:42+00:00"
-        },
-        {
-         "title": "Baycurrent Classic 2026 preview, picks & betting tips",
-         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
-         "source": "Golfshake.com",
-         "ts": "2026-10-05T14:51:18+00:00"
-        }
-       ],
-       "score": 3.2,
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": [
-        "Nostalgia & retro"
-       ]
-      },
-      {
-       "title": "Navee launches Mini Rangefinder",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
-        {
-         "title": "NAVEE launches MINI Rangefinder in UK as smart golf technology range expands",
-         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmRmeW9BY3JhNWFpRWZBR09HUTBQLWktM3BzcHoxOTN6QVF3Uk5wSXYwcDdlZ1dVd2pvcHZzQzVTNFZpZ21UM01HU04tVUNPZWsyM3BRQnRUQVlldG1YaDRscEpBSjZ3cWhxNlY0bkI5RVpqMTNfMmxickJOZ0hwdGluMkk4TFVsUVhlNVE3cWdUMUFVOC1CS3VuR1RTUXZMS3BpWVRHWllOVGsycjdyRA?oc=5",
-         "source": "National Club Golfer",
-         "ts": "2026-10-05T15:42:27+00:00"
-        },
-        {
-         "title": "Navee launches Mini Rangefinder",
-         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1FING02YUpmOGhiNWNYS1lqdHlnS0FuLVBBanhNNFdpMFZiZDdNRkpZVXVtTHVyVTBnSnhwVGx1UG1ZY0lFOFIzc3FPdGVaQzE5NlMyLWw0MjQ4SXEyN0FJMUhleFRnNWZ1dE1ZTm1UUDc4amI4UTJVVGdYNUdqeHMyR05nUQ?oc=5",
-         "source": "Golf Business News",
-         "ts": "2026-10-05T14:25:06+00:00"
-        }
-       ],
-       "score": 3.2,
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": []
-      },
-      {
-       "title": "Tour validation process in play for new Titleist Pro V1 golf balls",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
-        {
-         "title": "First look at the new Titleist Pro V1 and Pro V1x",
-         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTBXMjBDbGFoTFNKcUFWX25CUXpUU2U5Qng3R3pWeEdyTnhWUWZ6ekpZZ0ZHV2RpQ0hnYjNDUW0wREpXSjd6VloyRUtkSV80Ml9BN1dzOHlfcVpLR3VTLWVKU0NaLW9PR3FIM1loaGg5YVl6eGpnS0lLME9PTWVNTmFieXp1Q2I5bUNXZ2RFNE0xQmJDMnVXbFlzMlNVRk5udk5Qd00tN3VoQQ?oc=5",
-         "source": "Today's Golfer",
-         "ts": "2026-10-05T09:50:19+00:00"
-        },
-        {
-         "title": "Tour validation process in play for new Titleist Pro V1 golf balls",
-         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc0hvQll4emhycmljQmRnMVgyc1ZWeFg2NXhGdnIzcFBpNFh6WGlKUVdWMmZON21xZXF3RmhNdVVuSDRwTGRTczVzSnVpVV9XRmlwX2Q4a0ZZT3Blc1NieEdQdUJVQ0dheFNSX1RHSE14TXBWV1dkY0tfWnNvbk1Gb1JGcVlpMFpuaFNfQkZDWDNkdGNxNC0tOWhIQURUcEhVYWtDeThkaS1MLTRkX09GUHQyT2c?oc=5",
-         "source": "Golf Business News",
-         "ts": "2026-10-05T07:54:18+00:00"
-        }
-       ],
-       "score": 3.2,
+       "signals": [],
        "segment": "Sport",
        "channel": "Golf",
        "topics": []
@@ -1401,12 +1555,98 @@
          "ts": "2026-10-03T08:51:14+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 4.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Asian Games (222,522 views)"
+        }
+       ],
        "segment": "Sport",
        "channel": "Golf",
        "topics": [
         "Gaming & digital play"
        ]
+      },
+      {
+       "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
+         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZndF85djRrNzR4ZUxKOXdXWEdvU1J6ZTBqbUFna3d6bE1zQjdIdHpKUnNiZHdSMDlSNnoxaW1haHNwRmd0ejdTakZMMF9BV1lubm56ZVN0TzZoVHFueEdSUm5oZTZYWTFBN2pacDVKR2RRRlVrQzJ5V0NtVEUza3F5amFDRGp2QW11VjV2ZHAtSkZMajJJLQ?oc=5",
+         "source": "Today's Golfer",
+         "ts": "2026-10-06T01:24:42+00:00"
+        },
+        {
+         "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
+         "source": "Golfshake.com",
+         "ts": "2026-10-05T14:51:18+00:00"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": [
+        "Nostalgia & retro"
+       ]
+      },
+      {
+       "title": "Ben Coley's golf betting tips: Baycurrent Classic preview and best bets",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Ben Coley's golf betting tips: Baycurrent Classic preview and best bets",
+         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcVNHWWhuUzhraG4zWjE2TXBhX0p2UXliWFJ0a2FQU0Q4TWxoUnljOWRNZlBGeDhNc2ItLVVGUkM4ZFJRZWF4a1pOb1NHbV9lQ3BETlBxRlN4TW40STlKeGg1TXFvd0ZjczJ6b3BrTjZDeEUwbnE3emk3S2Q4UlJTemppS0k1eUhPOWVqZ0hqTXNXTDRTQi0xZGE1bW00ajZtZVBWX1RTTEJmeVl1MmVhR3M3Y3NrQQ?oc=5",
+         "source": "sportinglife.com",
+         "ts": "2026-10-06T00:10:47+00:00"
+        },
+        {
+         "title": "Ben Coley's golf betting tips: Open de Espana preview and best bets",
+         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaGNvdVNXSmhfenhac0kxcUd4bXpjeWQyWkhCWHptT2hQM0IwZlM4TVF1eUhxam1vOFgyNW1GdEUzTW1OYkJQa2ZYZ0U5c2RDMHFTcjI3U2Q0cnI1cXJabW96MWlpNF9wZWhUQVpzM3cyeWxvUWFBRHRScWkzc2loUlFhQUVvbFRiUnY4a3c3MUF1TG1vRl9SbGFkZldIdnFRV0p0TlZUc3VWUmx4OE9ZMw?oc=5",
+         "source": "Sporting Life",
+         "ts": "2026-10-05T22:18:46+00:00"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
+      },
+      {
+       "title": "NAVEE launches MINI Rangefinder in UK as smart golf technology range expands",
+       "signal": "rising",
+       "recent": 2,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "NAVEE launches MINI Rangefinder in UK as smart golf technology range expands",
+         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmRmeW9BY3JhNWFpRWZBR09HUTBQLWktM3BzcHoxOTN6QVF3Uk5wSXYwcDdlZ1dVd2pvcHZzQzVTNFZpZ21UM01HU04tVUNPZWsyM3BRQnRUQVlldG1YaDRscEpBSjZ3cWhxNlY0bkI5RVpqMTNfMmxickJOZ0hwdGluMkk4TFVsUVhlNVE3cWdUMUFVOC1CS3VuR1RTUXZMS3BpWVRHWllOVGsycjdyRA?oc=5",
+         "source": "National Club Golfer",
+         "ts": "2026-10-05T15:42:27+00:00"
+        },
+        {
+         "title": "Navee launches Mini Rangefinder",
+         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1FING02YUpmOGhiNWNYS1lqdHlnS0FuLVBBanhNNFdpMFZiZDdNRkpZVXVtTHVyVTBnSnhwVGx1UG1ZY0lFOFIzc3FPdGVaQzE5NlMyLWw0MjQ4SXEyN0FJMUhleFRnNWZ1dE1ZTm1UUDc4amI4UTJVVGdYNUdqeHMyR05nUQ?oc=5",
+         "source": "Golf Business News",
+         "ts": "2026-10-05T14:25:06+00:00"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
       }
      ]
     }
@@ -1447,6 +1687,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "TV Listings",
        "channel": "TV & radio",
        "topics": []
@@ -1488,6 +1729,7 @@
         }
        ],
        "score": 3.8,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
        "topics": []
@@ -1513,6 +1755,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
        "topics": []
@@ -1538,6 +1781,7 @@
         }
        ],
        "score": 1.6,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Fashion",
        "topics": []
@@ -1568,6 +1812,7 @@
         }
        ],
        "score": 1.6,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Beauty & hair",
        "topics": []
@@ -1593,6 +1838,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Beauty & hair",
        "topics": []
@@ -1623,6 +1869,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Health & slimming",
        "topics": [
@@ -1635,7 +1882,7 @@
      "name": "Cookery",
      "trends": [
       {
-       "title": "The new London restaurants to try in October 2026",
+       "title": "London's Best New Restaurants - October 2026",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1648,13 +1895,14 @@
          "ts": "2026-10-01T16:31:35+00:00"
         },
         {
-         "title": "Hot Right Now - London's hottest restaurants - October 2026",
-         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNnFNNXZSN2lRUWRFU0N2VWdTdVIwcVhCbTNGYUFnc3JVdlZCWXhtOGRGclk4ZjZXWWlrUXkzc2IyVU9zUVFHVVNMczQwY2VMOVRSSWtaVEZrdW5JQ3dUNmlkV1FrcGt5cUJHdWdHMjR4ei0tWEZtdko1TmNESjNqYnN2dmdLOW1pbEdOMFlyREVQTTFiZlN3UE5ZMGNtdjhrOU41VQ?oc=5",
-         "source": "Hot Dinners",
-         "ts": "2026-10-01T07:00:00+00:00"
+         "title": "London's Best New Restaurants - October 2026",
+         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONnpfNDZ5R0tVQVJGcWVTblBOQlZrUzJWWWRGNkFQbTVabFV0ekxtQXlGWDhUU2NtQkx0VldNVjRlaFdBVDhxOTBGdDF3YjN2azRyeUo1cW5WZUYwU1U5ZWtrbHhUeExGajhVajZad3hOSXYtei0ycEp5SGlKNDdHdXhRRQ?oc=5",
+         "source": "Time Out Worldwide",
+         "ts": "2026-09-30T23:00:00+00:00"
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Cookery",
        "topics": []
@@ -1697,6 +1945,7 @@
         }
        ],
        "score": 8.8,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
        "topics": []
@@ -1722,6 +1971,7 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
        "topics": []
@@ -1747,6 +1997,7 @@
         }
        ],
        "score": 0.0,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Home interiors",
        "topics": [
@@ -1792,6 +2043,7 @@
         }
        ],
        "score": 8.8,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": []
@@ -1829,37 +2081,7 @@
         }
        ],
        "score": 8.8,
-       "segment": "Womens Interest",
-       "channel": "Celebrity",
-       "topics": []
-      },
-      {
-       "title": "Who was the first celebrity to leave Strictly?",
-       "signal": "rising",
-       "recent": 3,
-       "previous": 0,
-       "sources": 3,
-       "items": [
-        {
-         "title": "Who was the first celebrity to leave Strictly?",
-         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubGhSd0xWZG04NDZaMXRTNlAtLVVVQmEwRkh1cTVHRktTdF81MDBNMFo2RTh3RlZzODBLUUlicFFzdXJQUnF4X1FVbDNueHhOQ2RCZG55LWIwZzFNWUt6RjlIV04?oc=5",
-         "source": "BBC",
-         "ts": "2026-10-05T07:33:19+00:00"
-        },
-        {
-         "title": "who was the first Celebrity to leave Strictly this year?",
-         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPekQta2FNN2g0dXp3MHVwV2dtcVJXSlAzbWZlWVZacWlrOFNDdEJuV1Q2RTZDdjJqYVVrM0RKSHI1NVZTeUVxWEp4UGpmOVdfRGRSalBRbGhTYnVMb2dKSXF1TFJ5RVFiTGVtSDJxdWF5LTNSMVhKLWxhcXJ5Z2NJMlFOeEpPSXIyeDBhZFNPcDVtelF5VnhlejF0OExoLUw1YTd2X0NfUHhPa3hXT3VHYlZabw?oc=5",
-         "source": "wheretowatch.tv",
-         "ts": "2026-10-04T22:03:15+00:00"
-        },
-        {
-         "title": "Who was the first celebrity to leave Strictly Come Dancing 2026?",
-         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ25feW5zTWpkVnVpMVBqSWs5elVYMlplQU5Qcnk2NDdqdWpjYXdGZnFENS1ELTBOakR3X1BOUmNZM1VaME9wSTNPelEyNUQydlREQTREUWp4LUpwQXdQVHdjV0tySVRURkdNbGRyWDItcmdJcUNOLVNjTWt0ejRCcGNnamthNlFJS0dTMjlQSm9pRjZ6SmRVM3BRUkRuTDBjZ1FSZ1A5WDk1dDFPX2tTUlJCWQ?oc=5",
-         "source": "Brentwood Live",
-         "ts": "2026-10-04T19:00:00+00:00"
-        }
-       ],
-       "score": 5.699999999999999,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": []
@@ -1890,7 +2112,13 @@
          "ts": "2026-10-01T20:02:13+00:00"
         }
        ],
-       "score": 5.699999999999999,
+       "score": 7.124999999999999,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: The Celebrity Traitors (114,936 views)"
+        }
+       ],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": [
@@ -1923,7 +2151,45 @@
          "ts": "2026-09-30T11:22:00+00:00"
         }
        ],
+       "score": 7.124999999999999,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Myha'la (167,668 views)"
+        }
+       ],
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      },
+      {
+       "title": "Who was the first celebrity to leave Strictly?",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Who was the first celebrity to leave Strictly?",
+         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubGhSd0xWZG04NDZaMXRTNlAtLVVVQmEwRkh1cTVHRktTdF81MDBNMFo2RTh3RlZzODBLUUlicFFzdXJQUnF4X1FVbDNueHhOQ2RCZG55LWIwZzFNWUt6RjlIV04?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-05T07:33:19+00:00"
+        },
+        {
+         "title": "who was the first Celebrity to leave Strictly this year?",
+         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPekQta2FNN2g0dXp3MHVwV2dtcVJXSlAzbWZlWVZacWlrOFNDdEJuV1Q2RTZDdjJqYVVrM0RKSHI1NVZTeUVxWEp4UGpmOVdfRGRSalBRbGhTYnVMb2dKSXF1TFJ5RVFiTGVtSDJxdWF5LTNSMVhKLWxhcXJ5Z2NJMlFOeEpPSXIyeDBhZFNPcDVtelF5VnhlejF0OExoLUw1YTd2X0NfUHhPa3hXT3VHYlZabw?oc=5",
+         "source": "wheretowatch.tv",
+         "ts": "2026-10-04T22:03:15+00:00"
+        },
+        {
+         "title": "Who was the first celebrity to leave Strictly Come Dancing 2026?",
+         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ25feW5zTWpkVnVpMVBqSWs5elVYMlplQU5Qcnk2NDdqdWpjYXdGZnFENS1ELTBOakR3X1BOUmNZM1VaME9wSTNPelEyNUQydlREQTREUWp4LUpwQXdQVHdjV0tySVRURkdNbGRyWDItcmdJcUNOLVNjTWt0ejRCcGNnamthNlFJS0dTMjlQSm9pRjZ6SmRVM3BRUkRuTDBjZ1FSZ1A5WDk1dDFPX2tTUlJCWQ?oc=5",
+         "source": "Brentwood Live",
+         "ts": "2026-10-04T19:00:00+00:00"
+        }
+       ],
        "score": 5.699999999999999,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": []
@@ -1938,6 +2204,72 @@
    "name": "Gaming & digital play",
    "total": 5,
    "trends": [
+    {
+     "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZTVpTjJEeGNERmdWS0hyZ0ppcnZaa19PYnZ5ZkpEeklZMmU3R3N4aHNlUVdNR3h4dnUzUlJSLU11cUxlZkMxdHFVaDl1VllEVklzdWdsMTlIcjB6M2VIV1hUMExjbEpPZ1hSNk5YRWpZYWx6MUUwblU3ZC1CM1dTUDU4MUhrS0JQNUpPazdzTUR5NTRDTi05djZIZ3JYckE?oc=5",
+       "source": "The Guardian",
+       "ts": "2026-10-03T13:24:00+00:00"
+      },
+      {
+       "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQ3BHQ1Y3SVlKc20xUHNodFZGNUFRVGF2U0VGcHptSW9pa0hGbTBGZ2NkS1RQNHBtREQzaUE1aG5pazRHRkZsSEZ6S29WS2dRaFhfNnR2cU1rbkNsZVJJS0Nyd0R6NDg?oc=5",
+       "source": "BBC",
+       "ts": "2026-10-03T09:22:43+00:00"
+      }
+     ],
+     "score": 4.0,
+     "signals": [
+      {
+       "kind": "wikipedia",
+       "label": "Popular on Wikipedia this week: Asian Games (222,522 views)"
+      }
+     ],
+     "segment": "Sport",
+     "channel": "Cricket & rugby",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
+    {
+     "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
+       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0c0MUJXQlhpTmNLTHRQOGd1Ny1QQ2NFZTM1NGlZVGxMaE8yQlZsY2RyTlU4bUoxRERWdmVXV0lfdjYySjVnZjFCV3BXcl8xSnpMQVd4MkVYQlNnQ2o2TEhJNlFVM2pYTk1hRldBRF9BZVNySjZ5VGF3SUJWY0s4WW9TYXltVjRFTXdYTlM2b1h1S0Zlb0E5OEh6aURpWnVjZV9xZnhDVWYzczJxeGVjTWljSFdwVmMtM3Y4QXJ3LTJLYkpHMldrV1Z3QjJtWVNuOU12dFdENm1mdw?oc=5",
+       "source": "Sky Sports",
+       "ts": "2026-10-03T12:20:11+00:00"
+      },
+      {
+       "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HUnd2X1Y5enlVcktmOWFybTh2a184cnN5MW51ZHIydjltRDdSaTFSMTVDbnZHREVCM1ZqUmJtYlVFRVZaYTNwU3NTcW9aNGk0aW96ZFY2THYxLUU1cHZoT3hSRQ?oc=5",
+       "source": "BBC",
+       "ts": "2026-10-03T08:51:14+00:00"
+      }
+     ],
+     "score": 4.0,
+     "signals": [
+      {
+       "kind": "wikipedia",
+       "label": "Popular on Wikipedia this week: Asian Games (222,522 views)"
+      }
+     ],
+     "segment": "Sport",
+     "channel": "Golf",
+     "topics": [
+      "Gaming & digital play"
+     ]
+    },
     {
      "title": "Nintendo 64 Turns 30: The Console That Taught Games to Think in 3D",
      "signal": "rising",
@@ -1959,6 +2291,7 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Computing",
      "channel": "Gaming consoles",
      "topics": [
@@ -1966,7 +2299,7 @@
      ]
     },
     {
-     "title": "5 must-buy PC games for less than $3 in the Steam Autumn Sale",
+     "title": "11 underappreciated games you should buy in the Steam Autumn Sale, according to some of our biggest genre sickos",
      "signal": "rising",
      "recent": 2,
      "previous": 0,
@@ -1986,6 +2319,7 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Computing",
      "channel": "PC gaming",
      "topics": [
@@ -2013,62 +2347,9 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Computing",
      "channel": "PC gaming",
-     "topics": [
-      "Gaming & digital play"
-     ]
-    },
-    {
-     "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
-     "signal": "rising",
-     "recent": 2,
-     "previous": 0,
-     "sources": 2,
-     "items": [
-      {
-       "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
-       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZTVpTjJEeGNERmdWS0hyZ0ppcnZaa19PYnZ5ZkpEeklZMmU3R3N4aHNlUVdNR3h4dnUzUlJSLU11cUxlZkMxdHFVaDl1VllEVklzdWdsMTlIcjB6M2VIV1hUMExjbEpPZ1hSNk5YRWpZYWx6MUUwblU3ZC1CM1dTUDU4MUhrS0JQNUpPazdzTUR5NTRDTi05djZIZ3JYckE?oc=5",
-       "source": "The Guardian",
-       "ts": "2026-10-03T13:24:00+00:00"
-      },
-      {
-       "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
-       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQ3BHQ1Y3SVlKc20xUHNodFZGNUFRVGF2U0VGcHptSW9pa0hGbTBGZ2NkS1RQNHBtREQzaUE1aG5pazRHRkZsSEZ6S29WS2dRaFhfNnR2cU1rbkNsZVJJS0Nyd0R6NDg?oc=5",
-       "source": "BBC",
-       "ts": "2026-10-03T09:22:43+00:00"
-      }
-     ],
-     "score": 3.2,
-     "segment": "Sport",
-     "channel": "Cricket & rugby",
-     "topics": [
-      "Gaming & digital play"
-     ]
-    },
-    {
-     "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
-     "signal": "rising",
-     "recent": 2,
-     "previous": 0,
-     "sources": 2,
-     "items": [
-      {
-       "title": "Tom Kim gains exemption from South Korea\u2019s military service after securing Asian Games gold medal",
-       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0c0MUJXQlhpTmNLTHRQOGd1Ny1QQ2NFZTM1NGlZVGxMaE8yQlZsY2RyTlU4bUoxRERWdmVXV0lfdjYySjVnZjFCV3BXcl8xSnpMQVd4MkVYQlNnQ2o2TEhJNlFVM2pYTk1hRldBRF9BZVNySjZ5VGF3SUJWY0s4WW9TYXltVjRFTXdYTlM2b1h1S0Zlb0E5OEh6aURpWnVjZV9xZnhDVWYzczJxeGVjTWljSFdwVmMtM3Y4QXJ3LTJLYkpHMldrV1Z3QjJtWVNuOU12dFdENm1mdw?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-03T12:20:11+00:00"
-      },
-      {
-       "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption",
-       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HUnd2X1Y5enlVcktmOWFybTh2a184cnN5MW51ZHIydjltRDdSaTFSMTVDbnZHREVCM1ZqUmJtYlVFRVZaYTNwU3NTcW9aNGk0aW96ZFY2THYxLUU1cHZoT3hSRQ?oc=5",
-       "source": "BBC",
-       "ts": "2026-10-03T08:51:14+00:00"
-      }
-     ],
-     "score": 3.2,
-     "segment": "Sport",
-     "channel": "Golf",
      "topics": [
       "Gaming & digital play"
      ]
@@ -2106,6 +2387,7 @@
       }
      ],
      "score": 5.699999999999999,
+     "signals": [],
      "segment": "Computing",
      "channel": "Mac & Apple",
      "topics": [
@@ -2139,6 +2421,7 @@
       }
      ],
      "score": 5.699999999999999,
+     "signals": [],
      "segment": "Computing",
      "channel": "Mac & Apple",
      "topics": [
@@ -2172,6 +2455,7 @@
       }
      ],
      "score": 5.699999999999999,
+     "signals": [],
      "segment": "News & Current Affairs",
      "channel": "Science",
      "topics": [
@@ -2235,6 +2519,7 @@
       }
      ],
      "score": 19.599999999999998,
+     "signals": [],
      "segment": "Buying & Selling",
      "channel": "Property",
      "topics": [
@@ -2262,6 +2547,7 @@
       }
      ],
      "score": 0.0,
+     "signals": [],
      "segment": "News & Current Affairs",
      "channel": "Business & finance",
      "topics": [
@@ -2295,6 +2581,7 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Leisure Interests",
      "channel": "Health & fitness",
      "topics": [
@@ -2328,6 +2615,7 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Sport",
      "channel": "Golf",
      "topics": [
@@ -2361,6 +2649,7 @@
       }
      ],
      "score": 3.2,
+     "signals": [],
      "segment": "Womens Interest",
      "channel": "Health & slimming",
      "topics": [
@@ -2394,6 +2683,7 @@
       }
      ],
      "score": 0.0,
+     "signals": [],
      "segment": "Womens Interest",
      "channel": "Home interiors",
      "topics": [
@@ -2428,6 +2718,7 @@
       }
      ],
      "score": 0.0,
+     "signals": [],
      "segment": "Womens Interest",
      "channel": "Home interiors",
      "topics": [
@@ -2467,7 +2758,13 @@
        "ts": "2026-10-01T20:02:13+00:00"
       }
      ],
-     "score": 5.699999999999999,
+     "score": 7.124999999999999,
+     "signals": [
+      {
+       "kind": "wikipedia",
+       "label": "Popular on Wikipedia this week: The Celebrity Traitors (114,936 views)"
+      }
+     ],
      "segment": "Womens Interest",
      "channel": "Celebrity",
      "topics": [
