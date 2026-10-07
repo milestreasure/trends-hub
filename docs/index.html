@@ -29,7 +29,7 @@ h3{font:700 1.1rem "Bricolage Grotesque",sans-serif;margin:24px 0 10px}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
 .sig{font-weight:600;font-size:.9rem}.rising{color:var(--up)}.steady{color:var(--flat)}.fading{color:var(--down)}
-.meta{color:var(--mute);font-size:.88rem}p{margin:6px 0}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:0 7px;font-size:.8rem;color:var(--mute);margin:6px 6px 0 0}.tag.us{border-color:var(--ch);color:var(--ch);font-weight:600}.region{margin-left:auto;display:flex;gap:4px;align-items:center}.meta{color:var(--mute);font-size:.88rem}p{margin:6px 0}
 article h4{font-size:1.02rem;line-height:1.3;margin:6px 0}
 .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}.chips .btn{padding:3px 11px;font-size:.88rem}
@@ -55,6 +55,11 @@ function chart(v){const w=640,h=170,m=Math.max(...v,1),d=data.days,f=s=>new Date
   return `<svg viewBox="0 0 ${w} ${h+20}" width="100%" role="img" aria-label="Stories per day over the last ${v.length} days"><g style="color:var(--ch)">${spark(v,w,h,true).replace(/^<svg[^>]*>/,"").replace("</svg>","")}</g>
   <text x="2" y="12" fill="var(--mute)" font-size="12">${m} stories a day at peak</text><text x="0" y="${h+16}" fill="var(--mute)" font-size="12">${f(d[0])}</text><text x="${w}" y="${h+16}" text-anchor="end" fill="var(--mute)" font-size="12">${f(d[d.length-1])} (today so far)</text></svg>`}
 const items=m=>view[m];
+let region="uk";try{region=localStorage.getItem("th_reg")||"uk"}catch{}
+const sg=(c,p)=>{const r=(c+1)/(p+1);return r>=1.5?"rising":r<=.67?"fading":"steady"};
+const rs=t=>{if(region==="uk")return t.uk;if(region==="us")return t.us;const a=t.uk,b=t.us,c=a.recent+b.recent,p=a.previous+b.previous;return{recent:c,previous:p,sources:t.sources,daily:a.daily.map((x,i)=>x+b.daily[i]),signal:sg(c,p)}};
+const live=t=>{const r=rs(t);return r.recent+r.previous>0};
+const mkt=ts=>ts.filter(live).sort((a,b)=>rs(b).recent-rs(a).recent||b.score-a.score);
 let sel=null,chosen=false,view={segments:[],topics:[]};const KEY="th_sel",k=(s,c)=>s+"|"+c,has=(s,c)=>!sel||sel.has(k(s,c));
 const PRESETS=[["Women's & lifestyle",["Womens Interest","Home Improvement","Countryside & County"]],["Entertainment & culture",["Music","TV Listings","General","Leisure Interests"]],["Tech & gaming",["Computing"]],["Motoring",["Motoring & Motorcycling"]],["Sport",["Sport"]],["News & business",["News & Current Affairs","Newspapers","Trade & Professional"]]];
 const save=v=>{try{localStorage.setItem(KEY,v)}catch{}};
@@ -62,9 +67,12 @@ function ser(){if(!sel)return"*";const o=[];data.segments.forEach(s=>{const ks=s
 function loadSel(){let raw=new URLSearchParams(location.search).get("sel");if(raw===null){try{raw=localStorage.getItem(KEY)}catch{}}
   if(!raw)return false;if(raw==="*"){sel=null;return true}sel=new Set();
   raw.split("~").forEach(t=>t.includes("|")?sel.add(t):data.segments.filter(s=>s.name===t).forEach(s=>s.channels.forEach(c=>sel.add(k(s.name,c.name)))));return sel.size>0}
-function agg(ts){const n=data.days.length,d=[...Array(n)].map((_,i)=>sum(ts.map(t=>t.daily[i]||0))),a=sum(d.slice(7)),b=sum(d.slice(0,7));return{daily:d,change:Math.round(100*(a-b)/Math.max(b,1))}}
-function derive(){const segs=[];data.segments.forEach(s=>{const chs=s.channels.filter(c=>has(s.name,c.name));if(chs.length)segs.push({...s,channels:chs,...agg(chs.flatMap(c=>c.trends))})});
-  const tops=(data.topics||[]).map(t=>{const tr=t.trends.filter(x=>has(x.segment,x.channel));return{...t,trends:tr,total:tr.length,...agg(tr)}}).filter(t=>t.trends.length).sort((a,b)=>b.total-a.total);view={segments:segs,topics:tops}}
+function agg(ts){const d=data.days.map((_,i)=>sum(ts.map(t=>rs(t).daily[i]||0))),a=sum(d.slice(7)),b=sum(d.slice(0,7));return{daily:d,change:Math.round(100*(a-b)/Math.max(b,1))}}
+function derive(){const segs=[],early=[];
+  data.segments.forEach(s=>{const chs=s.channels.filter(c=>has(s.name,c.name));chs.forEach(c=>c.trends.forEach(t=>t.origin==="us"&&early.push(t)));
+    const cc=chs.map(c=>{const tr=mkt(c.trends);return{...c,trends:tr,...agg(tr)}}).filter(c=>c.trends.length);if(cc.length)segs.push({...s,channels:cc,...agg(cc.flatMap(c=>c.trends))})});
+  const tops=(data.topics||[]).map(t=>{const tr=mkt(t.trends.filter(x=>has(x.segment,x.channel)));return{...t,trends:tr,total:tr.length,...agg(tr)}}).filter(t=>t.trends.length).sort((a,b)=>b.total-a.total);
+  view={segments:segs,topics:tops,early:early.sort((a,b)=>b.us.recent-a.us.recent).slice(0,6)}}
 const scope=()=>{if(!sel)return"everything";const n=view.segments.map(s=>s.name);return n.slice(0,3).join(", ")+(n.length>3?` and ${n.length-3} more`:"")};
 function picker(){$("modes").innerHTML="";$("side").style.display="none";document.querySelector(".layout").classList.add("wide");
   const all=data.segments.flatMap(s=>s.channels.map(c=>k(s.name,c.name)));const draft=new Set(chosen?(sel||all):[]);
@@ -83,28 +91,30 @@ function picker(){$("modes").innerHTML="";$("side").style.display="none";documen
 function done(){if(location.hash==="#topics"||location.hash==="")show();else location.hash="#topics"}
 function show(){if(!chosen||location.hash==="#pick")picker();else{derive();render()}}
 const stat=i=>`${sum(i.daily.slice(7))} stories this week, <b class="chg ${cls(i.change)}">${fmt(i.change)}</b> on the week before`;
-const card=(t,where)=>`<article class="panel" style="margin:0"><div class="row"><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>${spark(t.daily)}</div>
-  <h4>${esc(t.title)}</h4>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
-  <div class="meta">${t.recent} stories this week (${t.previous} before) from ${t.sources} sources</div>
+const ORIGIN={us:["Emerging in the US","us"],uk:["UK only",""],both:["UK and US",""]};
+const card=(t,where,r)=>{r=r||rs(t);const o=ORIGIN[t.origin];return `<article class="panel" style="margin:0"><div class="row"><span class="sig ${r.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[r.signal]}</span>${spark(r.daily)}</div>
+  <h4>${esc(t.title)}</h4><span class="tag ${o[1]}">${o[0]}</span>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
+  <div class="meta">UK ${t.uk.recent} stories this week (${t.uk.previous} before). US ${t.us.recent} (${t.us.previous} before). ${t.sources} sources.</div>
   ${(t.signals||[]).map(s=>`<div class="meta">${esc(s.label)}</div>`).join("")}${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}
-  <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.source)}</span></li>`).join("")}</ul></details></article>`;
+  <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.region)}, ${esc(i.source)}</span></li>`).join("")}</ul></details></article>`};
 function render(){
   const r=route(),list=items(r.m),cur=list.find(i=>i.name===r.n);
   $("side").style.display="";document.querySelector(".layout").classList.remove("wide");
-  $("modes").innerHTML=["topics","segments"].map(m=>`<a class="btn" href="${href(m)}" ${m===r.m?'aria-current="page"':""}>${m==="topics"?"By topic":"By segment"}</a>`).join("")+`<span class="meta">Showing ${esc(scope())}</span><a class="btn" href="#pick">Change</a><button class="btn" id="copy">Copy link</button>`;
+  $("modes").innerHTML=["topics","segments"].map(m=>`<a class="btn" href="${href(m)}" ${m===r.m?'aria-current="page"':""}>${m==="topics"?"By topic":"By segment"}</a>`).join("")+`<span class="meta">Showing ${esc(scope())}</span><a class="btn" href="#pick">Change</a><span class="region" role="group" aria-label="Region">${[["uk","UK"],["us","US"],["both","UK and US"]].map(([v,l])=>`<button class="btn" data-r="${v}" aria-pressed="${region===v}">${l}</button>`).join("")}</span><button class="btn" id="copy">Copy link</button>`;
+  $("modes").querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{region=b.dataset.r;try{localStorage.setItem("th_reg",region)}catch{}derive();render()});
   $("copy").onclick=async e=>{try{await navigator.clipboard.writeText(location.origin+location.pathname+"?sel="+encodeURIComponent(ser())+location.hash);e.target.textContent="Copied"}catch{e.target.textContent="Copy failed"}};
   $("side").innerHTML=`<a class="nav" href="${href(r.m)}" ${!cur?'aria-current="page"':""}><b>Overview</b></a>`+list.map(i=>`<a class="nav" href="${href(r.m,i.name)}" ${cur===i?'aria-current="page"':""}><span>${esc(i.name)}</span><span class="chg ${cls(i.change)}">${fmt(i.change)}</span><small>${spark(i.daily,120,20)}</small></a>`).join("");
   if(!cur){const top=[...list].sort((a,b)=>b.change-a.change);
-    $("main").innerHTML=`<h2>${r.m==="topics"?"Topics":"Segments"}</h2><p class="meta">Biggest movers first. Click one to see its trends.</p><div class="grid" style="margin-top:12px">`+top.map(i=>{const t=r.m==="topics"?i.trends[0]:i.channels[0].trends[0];
+    $("main").innerHTML=`<h2>${r.m==="topics"?"Topics":"Segments"}</h2><p class="meta">Biggest movers first. Click one to see its trends.</p>${region!=="us"&&view.early.length?`<h3>Emerging in the US, not yet in the UK</h3><div class="grid">${view.early.map(t=>card(t,true,t.us)).join("")}</div><h3>Biggest movers</h3>`:""}<div class="grid" style="margin-top:12px">`+top.map(i=>{const t=r.m==="topics"?i.trends[0]:i.channels[0].trends[0];
       return `<a class="panel" style="margin:0;text-decoration:none" href="${href(r.m,i.name)}"><div class="row"><b>${esc(i.name)}</b><span class="chg ${cls(i.change)}">${fmt(i.change)}</span></div>${spark(i.daily,260,50,true)}<div class="meta">${sum(i.daily.slice(7))} stories this week</div>${t?`<p style="font-size:.92rem">Top trend: ${esc(t.title)}</p>`:""}</a>`}).join("")+`</div>`;return}
   let h=`<h2>${esc(cur.name)}</h2><p class="meta">${stat(cur)}</p><div class="panel">${chart(cur.daily)}</div>`;
-  if(r.m==="topics"){const by={};cur.trends.forEach(t=>by[t.segment]=(by[t.segment]||0)+t.recent);const mx=Math.max(...Object.values(by),1);
+  if(r.m==="topics"){const by={};cur.trends.forEach(t=>by[t.segment]=(by[t.segment]||0)+rs(t).recent);const mx=Math.max(...Object.values(by),1);
     h+=`<h3>Where it shows up</h3><div class="panel">`+Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${v/mx*100}%"></i><span>${v}</span></div>`).join("")+`</div><h3>Latest trends</h3><div class="grid">${cur.trends.map(t=>card(t,true)).join("")}</div>`}
   else{h+=`<div class="chips"><a class="btn" href="${href("segments",cur.name)}" ${!r.c?'aria-current="page"':""}>All sub-categories</a>`+cur.channels.map(c=>`<a class="btn" href="${href("segments",cur.name,c.name)}" ${r.c===c.name?'aria-current="page"':""}>${esc(c.name)}</a>`).join("")+`</div>`;
     h+=cur.channels.filter(c=>!r.c||c.name===r.c).map(c=>`<div class="row"><h3>${esc(c.name)}</h3><span class="meta">${stat(c)} ${spark(c.daily,70,20)}</span></div><div class="grid">${c.trends.map(t=>card(t,false)).join("")}</div>`).join("")}
   $("main").innerHTML=h;window.scrollTo(0,0)}
 fetch("data/trends.json").then(r=>r.json()).then(d=>{
-  if(!d.days||!d.segments.every(s=>Array.isArray(s.daily))){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
+  if(d.version!==2){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
   data=d;$("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Charts count news stories per day from UK sources, so read them as relative interest, not search volume.";
   addEventListener("hashchange",show);chosen=loadSel();show()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
 </script></body></html>
