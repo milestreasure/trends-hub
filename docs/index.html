@@ -13,6 +13,7 @@ h1{font:700 clamp(1.8rem,5vw,2.8rem)/1.05 "Bricolage Grotesque",sans-serif;margi
 .modes{display:flex;gap:8px;margin-bottom:14px}
 .layout{display:grid;grid-template-columns:270px 1fr;gap:20px;max-width:1280px;margin:0 auto;padding:0 16px 64px}
 aside{position:sticky;top:8px;align-self:start;max-height:calc(100vh - 16px);overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.layout.wide{grid-template-columns:1fr;max-width:820px}.sub2{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:4px;padding:6px 0 10px 26px;font-size:.92rem}details.seg{border-bottom:1px solid var(--line);padding:8px 0}details.seg:last-child{border:0}input[type=checkbox]{width:18px;height:18px;vertical-align:-3px;margin-right:6px}.modes{align-items:center;flex-wrap:wrap}
 @media(max-width:800px){.layout{grid-template-columns:1fr}aside{position:static;max-height:230px}}
 .nav{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center;padding:9px 12px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
 .nav:hover{background:var(--bg)}.nav[aria-current=page]{background:var(--hi);color:var(--hit)}
@@ -53,7 +54,34 @@ function spark(v,w=90,h=26,area=false){const m=Math.max(...v,1),n=v.length,x=i=>
 function chart(v){const w=640,h=170,m=Math.max(...v,1),d=data.days,f=s=>new Date(s).toLocaleDateString("en-GB",{day:"numeric",month:"short"});
   return `<svg viewBox="0 0 ${w} ${h+20}" width="100%" role="img" aria-label="Stories per day over the last ${v.length} days"><g style="color:var(--ch)">${spark(v,w,h,true).replace(/^<svg[^>]*>/,"").replace("</svg>","")}</g>
   <text x="2" y="12" fill="var(--mute)" font-size="12">${m} stories a day at peak</text><text x="0" y="${h+16}" fill="var(--mute)" font-size="12">${f(d[0])}</text><text x="${w}" y="${h+16}" text-anchor="end" fill="var(--mute)" font-size="12">${f(d[d.length-1])} (today so far)</text></svg>`}
-const items=m=>m==="topics"?data.topics||[]:data.segments.filter(s=>s.channels.length);
+const items=m=>view[m];
+let sel=null,chosen=false,view={segments:[],topics:[]};const KEY="th_sel",k=(s,c)=>s+"|"+c,has=(s,c)=>!sel||sel.has(k(s,c));
+const PRESETS=[["Women's & lifestyle",["Womens Interest","Home Improvement","Countryside & County"]],["Entertainment & culture",["Music","TV Listings","General","Leisure Interests"]],["Tech & gaming",["Computing"]],["Motoring",["Motoring & Motorcycling"]],["Sport",["Sport"]],["News & business",["News & Current Affairs","Newspapers","Trade & Professional"]]];
+const save=v=>{try{localStorage.setItem(KEY,v)}catch{}};
+function ser(){if(!sel)return"*";const o=[];data.segments.forEach(s=>{const ks=s.channels.map(c=>k(s.name,c.name)),on=ks.filter(x=>sel.has(x));on.length&&on.length===ks.length?o.push(s.name):o.push(...on)});return o.join("~")}
+function loadSel(){let raw=new URLSearchParams(location.search).get("sel");if(raw===null){try{raw=localStorage.getItem(KEY)}catch{}}
+  if(!raw)return false;if(raw==="*"){sel=null;return true}sel=new Set();
+  raw.split("~").forEach(t=>t.includes("|")?sel.add(t):data.segments.filter(s=>s.name===t).forEach(s=>s.channels.forEach(c=>sel.add(k(s.name,c.name)))));return sel.size>0}
+function agg(ts){const n=data.days.length,d=[...Array(n)].map((_,i)=>sum(ts.map(t=>t.daily[i]||0))),a=sum(d.slice(7)),b=sum(d.slice(0,7));return{daily:d,change:Math.round(100*(a-b)/Math.max(b,1))}}
+function derive(){const segs=[];data.segments.forEach(s=>{const chs=s.channels.filter(c=>has(s.name,c.name));if(chs.length)segs.push({...s,channels:chs,...agg(chs.flatMap(c=>c.trends))})});
+  const tops=(data.topics||[]).map(t=>{const tr=t.trends.filter(x=>has(x.segment,x.channel));return{...t,trends:tr,total:tr.length,...agg(tr)}}).filter(t=>t.trends.length).sort((a,b)=>b.total-a.total);view={segments:segs,topics:tops}}
+const scope=()=>{if(!sel)return"everything";const n=view.segments.map(s=>s.name);return n.slice(0,3).join(", ")+(n.length>3?` and ${n.length-3} more`:"")};
+function picker(){$("modes").innerHTML="";$("side").style.display="none";document.querySelector(".layout").classList.add("wide");
+  const all=data.segments.flatMap(s=>s.channels.map(c=>k(s.name,c.name)));const draft=new Set(chosen?(sel||all):[]);
+  $("main").innerHTML=`<h2>What do you cover?</h2><p class="meta">Choose the segments that matter to you and we'll only show those. You can change this at any time.</p>
+  <div class="chips">${PRESETS.map((p,i)=>`<button class="btn" data-p="${i}">${esc(p[0])}</button>`).join("")}</div>
+  <div class="panel">${data.segments.filter(s=>s.channels.length).map(s=>`<details class="seg"><summary><label><input type="checkbox" data-s="${esc(s.name)}"><b>${esc(s.name)}</b></label> <span class="meta">${s.channels.length} sub-categories</span></summary><div class="sub2">${s.channels.map(c=>`<label><input type="checkbox" data-k="${esc(k(s.name,c.name))}">${esc(c.name)}</label>`).join("")}</div></details>`).join("")}</div>
+  <div class="chips"><button class="btn" id="go" aria-pressed="true">Show my trends</button><button class="btn" id="every">Show everything</button><span class="meta" id="warn"></span></div>`;
+  const M=$("main"),ks=()=>[...M.querySelectorAll("[data-k]")];
+  const sync=()=>{ks().forEach(i=>i.checked=draft.has(i.dataset.k));M.querySelectorAll("[data-s]").forEach(i=>{const g=ks().filter(x=>x.dataset.k.startsWith(i.dataset.s+"|")),n=g.filter(x=>draft.has(x.dataset.k)).length;i.checked=n===g.length;i.indeterminate=n>0&&n<g.length})};
+  M.onchange=e=>{const t=e.target;if(t.dataset.k)t.checked?draft.add(t.dataset.k):draft.delete(t.dataset.k);if(t.dataset.s)ks().filter(x=>x.dataset.k.startsWith(t.dataset.s+"|")).forEach(x=>t.checked?draft.add(x.dataset.k):draft.delete(x.dataset.k));sync()};
+  M.onclick=e=>{const b=e.target.closest("button");if(!b)return;
+    if(b.dataset.p!==undefined){draft.clear();ks().forEach(x=>PRESETS[b.dataset.p][1].includes(x.dataset.k.split("|")[0])&&draft.add(x.dataset.k));sync()}
+    if(b.id==="every"){sel=null;chosen=true;save("*");done()}
+    if(b.id==="go"){if(!draft.size){$("warn").textContent="Tick at least one segment first.";return}sel=new Set(draft);chosen=true;save(ser());done()}};
+  sync()}
+function done(){if(location.hash==="#topics"||location.hash==="")show();else location.hash="#topics"}
+function show(){if(!chosen||location.hash==="#pick")picker();else{derive();render()}}
 const stat=i=>`${sum(i.daily.slice(7))} stories this week, <b class="chg ${cls(i.change)}">${fmt(i.change)}</b> on the week before`;
 const card=(t,where)=>`<article class="panel" style="margin:0"><div class="row"><span class="sig ${t.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[t.signal]}</span>${spark(t.daily)}</div>
   <h4>${esc(t.title)}</h4>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
@@ -62,7 +90,9 @@ const card=(t,where)=>`<article class="panel" style="margin:0"><div class="row">
   <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.source)}</span></li>`).join("")}</ul></details></article>`;
 function render(){
   const r=route(),list=items(r.m),cur=list.find(i=>i.name===r.n);
-  $("modes").innerHTML=["topics","segments"].map(m=>`<a class="btn" href="${href(m)}" ${m===r.m?'aria-current="page"':""}>${m==="topics"?"By topic":"By segment"}</a>`).join("");
+  $("side").style.display="";document.querySelector(".layout").classList.remove("wide");
+  $("modes").innerHTML=["topics","segments"].map(m=>`<a class="btn" href="${href(m)}" ${m===r.m?'aria-current="page"':""}>${m==="topics"?"By topic":"By segment"}</a>`).join("")+`<span class="meta">Showing ${esc(scope())}</span><a class="btn" href="#pick">Change</a><button class="btn" id="copy">Copy link</button>`;
+  $("copy").onclick=async e=>{try{await navigator.clipboard.writeText(location.origin+location.pathname+"?sel="+encodeURIComponent(ser())+location.hash);e.target.textContent="Copied"}catch{e.target.textContent="Copy failed"}};
   $("side").innerHTML=`<a class="nav" href="${href(r.m)}" ${!cur?'aria-current="page"':""}><b>Overview</b></a>`+list.map(i=>`<a class="nav" href="${href(r.m,i.name)}" ${cur===i?'aria-current="page"':""}><span>${esc(i.name)}</span><span class="chg ${cls(i.change)}">${fmt(i.change)}</span><small>${spark(i.daily,120,20)}</small></a>`).join("");
   if(!cur){const top=[...list].sort((a,b)=>b.change-a.change);
     $("main").innerHTML=`<h2>${r.m==="topics"?"Topics":"Segments"}</h2><p class="meta">Biggest movers first. Click one to see its trends.</p><div class="grid" style="margin-top:12px">`+top.map(i=>{const t=r.m==="topics"?i.trends[0]:i.channels[0].trends[0];
@@ -76,5 +106,5 @@ function render(){
 fetch("data/trends.json").then(r=>r.json()).then(d=>{
   if(!d.days||!d.segments.every(s=>Array.isArray(s.daily))){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
   data=d;$("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Charts count news stories per day from UK sources, so read them as relative interest, not search volume.";
-  addEventListener("hashchange",render);render()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
+  addEventListener("hashchange",show);chosen=loadSel();show()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
 </script></body></html>
