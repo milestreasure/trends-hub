@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T11:25:28.716037+00:00",
+ "updated": "2026-10-07T13:20:13.939138+00:00",
  "days": [
   "2026-09-24",
   "2026-09-25",
@@ -24,23 +24,17 @@
      "name": "Property",
      "trends": [
       {
-       "title": "House price growth halved in September",
+       "title": "House price growth halves to 0.8% in September: Nationwide",
        "signal": "rising",
-       "recent": 6,
+       "recent": 5,
        "previous": 2,
-       "sources": 7,
+       "sources": 6,
        "items": [
         {
          "title": "UK house price growth slows to 0.8% in September",
          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSXpSWlhORzd2Tko3VGNfbXN6UHFZM0I3cGVuazZPNER1R1ExREpaZFpmOUtWSnRsaG1sVWJEYjJVNGRhU3B2VnV1Tkt4RDRvVXh0dE82c2dnUUxzNHJfdDB0dmpkSEhDTXFQQ3FaLTdDX0d0ZE1zXzNmV3VfMXgzRllJTlk5NUZqRHc?oc=5",
          "source": "PropertyWire",
          "ts": "2026-10-02T05:03:28+00:00"
-        },
-        {
-         "title": "UK house price growth halved in September as slump continues: Nationwide HPI",
-         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uQy1US2R4SVFOUVhpcms3MEdkUDhTcUsyenZ3Q3ZDVS0yRUdLZEhTQVJjbHRwRkEtNU5YQjJOUUVkdXl0Z20tSFZlMDFRa2RnVHpJYWZFcjVwYWlvN0x2MGZNMTYyTTdWSGpJZ0t1NUNZMV9EbzRHTEg3ZmNxQQ?oc=5",
-         "source": "Moneyfacts",
-         "ts": "2026-10-01T23:15:35+00:00"
         },
         {
          "title": "House price growth halved in September",
@@ -79,7 +73,7 @@
          "ts": "2026-09-29T23:01:00+00:00"
         }
        ],
-       "score": 18.6,
+       "score": 14.0,
        "daily": [
         0,
         0,
@@ -88,8 +82,8 @@
         0,
         0,
         2,
-        3,
-        3,
+        4,
+        1,
         0,
         0,
         0,
@@ -104,7 +98,7 @@
        ]
       },
       {
-       "title": "Yields up for investors despite Renters Rights Act",
+       "title": "Renters Rights Act reshapes London market, claims agency",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -136,8 +130,8 @@
         0,
         0,
         0,
-        0,
-        2,
+        1,
+        1,
         0
        ],
        "signals": [],
@@ -188,6 +182,48 @@
        "topics": [
         "Cost of living & value"
        ]
+      },
+      {
+       "title": "Annual house price growth falls to 0.8%: Zoopla",
+       "signal": "steady",
+       "recent": 1,
+       "previous": 1,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Annual house price growth halves in September, Nationwide reports",
+         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLS1CMFE0YzFpeFVoQ1plazcwT2xQb2IzbWRpMjJRTHJYUTl3aEhjS2JVRXhZa0RPLV9ncmk0d1RIU3dpRjFSUF9ydW9hOTlOMkFEcXFvZjBwZ2d4QXh0UFByc1VjcDNsbVJWbmNpbklfUlJubjdXNmt3S19zM0x3OFZOWDJlUGxicUtrVmM4TDdCRzl0bTYtaEx1alVLdjA?oc=5",
+         "source": "Show House",
+         "ts": "2026-10-01T09:32:45+00:00"
+        },
+        {
+         "title": "Annual house price growth falls to 0.8%: Zoopla",
+         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUlVUSEMxeXZCNWxZQkFHZ0pTU1VKUFJYRWdmWVd1NmRwSVRLWWZoeUE2aUN2M0Jxa3VMU09jdEJFSzNEWUtZVlFnMDRnVkNuWk1RSjFqbGNMMkVId1c3MGhSYzBDc0F0a3VFVjNLdFFTZGoxcUhJTGJQbUY3SVo3LXhmREJTRFFhTGJIbHR0aw?oc=5",
+         "source": "Mortgage Strategy",
+         "ts": "2026-09-30T09:30:53+00:00"
+        }
+       ],
+       "score": 1.6,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
+       "signals": [],
+       "segment": "Buying & Selling",
+       "channel": "Property",
+       "topics": []
       }
      ],
      "daily": [
@@ -197,16 +233,16 @@
       0,
       0,
       0,
-      2,
       3,
+      5,
+      1,
+      0,
+      0,
+      1,
       3,
-      0,
-      0,
-      0,
-      4,
       0
      ],
-     "change": 400
+     "change": 233
     },
     {
      "name": "General",
@@ -214,10 +250,16 @@
       {
        "title": "Ikea launches second-hand marketplace for its own furniture and homewares",
        "signal": "rising",
-       "recent": 2,
+       "recent": 3,
        "previous": 0,
-       "sources": 2,
+       "sources": 3,
        "items": [
+        {
+         "title": "Ikea launches second-hand marketplace in the UK",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkNnY0M4c1BpZnlNelQ3Wngtc3lXalpfckVQY3Z0eFJnZjFTMzUtSEp4eTR0SnJhdk91RVNYUklXVUQ0dUNEQUktT0F4NWZRSkVoRzFCM1poZFB1Q2pxcFRKLXJHYmE0alI3dEJrMW1sWHh0WmR4czVPeFVManFkbEEteHJZREk?oc=5",
+         "source": "Retail Systems",
+         "ts": "2026-10-07T12:01:05+00:00"
+        },
         {
          "title": "Ikea launches second-hand marketplace for its own furniture and homewares",
          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2tpWXkzbFdFdFBwOXdPQ3FTVk1rQkJPY3pReEkwYXBTYk1UUDRCVkZPUXdIRkNKWlFlWXpwQ25rbzJLOWZZWDVaWHlHcC00RHpBVnlYeThEWFFQcDRsS05xTFRZUHNVQ2MzLTJuWVJab2lFdFIxOUpCaXdxV1lOYzhjWlNPLVVrcE9YeGFDbzRwR0RiblJSZGZ6eUtJWHo0NG5scWxmRjYtZw?oc=5",
@@ -231,7 +273,7 @@
          "ts": "2026-10-06T23:01:00+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 5.699999999999999,
        "daily": [
         0,
         0,
@@ -246,7 +288,7 @@
         0,
         0,
         0,
-        2
+        3
        ],
        "signals": [],
        "segment": "Buying & Selling",
@@ -324,9 +366,9 @@
       0,
       0,
       0,
-      2
+      3
      ],
-     "change": -50
+     "change": -25
     }
    ],
    "daily": [
@@ -336,16 +378,16 @@
     1,
     0,
     0,
-    2,
     3,
+    5,
+    1,
+    0,
+    0,
+    1,
     3,
-    0,
-    0,
-    0,
-    4,
-    2
+    3
    ],
-   "change": 100
+   "change": 86
   },
   {
    "name": "Children's Magazines",
@@ -422,6 +464,56 @@
         0,
         0,
         0
+       ],
+       "signals": [],
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": [
+        "AI & automation"
+       ]
+      },
+      {
+       "title": "Apple to Tighten Mac Data Access Rules for AI Agents",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Apple to Tighten Mac Data Access Rules for AI Agents",
+         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDJMUDRYQlFCTEZESmJNUWlaNzMtSGJuV193TUtkSk1ZYnBIWGo1VjhrZXZLbjFSUUtmNWs4MUxkQldxVUZoNC1ZUm9KTHRZekM4cEVFMEtCVmM2UnFNcnRqaUkwQV9Da3BlV0s2RXYzS05Lc3BRX2ZoZ1hLbTAwQXVNSHQ1ZVhzbnBnMmRWQ1hwc05tYnl3?oc=5",
+         "source": "StratNews Global",
+         "ts": "2026-10-07T12:08:04+00:00"
+        },
+        {
+         "title": "Apple to tighten Mac data access rules as AI agent concerns grow",
+         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVNsUVdXMS0yRVk3X3NSbG8tVGxoNlI0b3o5dzJvODNycFZsS2w1aU43eDdpYV9jellUc3pWWEJaaDZDZ1R1bzU3bFJodkNhX0lwcl9TTkVDM1B1TnlwVXBwZHlTN3VGWmR1WDdwMzl3RjNnNWN0THV2Sk5tQWo3WW1UenIzMFllckNvbG12UXlKdWxMMF9rRG5oMVNGcktrYkduXzVR?oc=5",
+         "source": "Indian Television Dot Com",
+         "ts": "2026-10-05T08:42:16+00:00"
+        },
+        {
+         "title": "Apple to Tighten Mac Data Controls in Guard Against AI Agents",
+         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcURqM3dBMUhJQjBZX25xaGtXTE5uUXd5cHo3MVNoM09xb2lPcnZlcTFJOFoyR2VLTmdpb1RkZ3otTUlaMzdjQVJITkstV0p4ZU10WXBOLUV4SHBoblRGM0xyWmRRMXBuaE9kM3B0WGpzVHVKZVBCZXJhWGNXcDA4aGhieFdHXzNDSmRKZ0Q2c3pobWhFV1ljSU9mNEwzRGkxdFZiVEpaYmtUSFByWU1QQWp3?oc=5",
+         "source": "Bloomberg.com",
+         "ts": "2026-10-02T20:50:08+00:00"
+        }
+       ],
+       "score": 5.699999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
        ],
        "signals": [],
        "segment": "Computing",
@@ -575,54 +667,6 @@
        "topics": [
         "AI & automation"
        ]
-      },
-      {
-       "title": "Touch-screen MacBook Pro will be significantly lighter",
-       "signal": "rising",
-       "recent": 3,
-       "previous": 0,
-       "sources": 3,
-       "items": [
-        {
-         "title": "Your next MacBook Pro could be \"significantly lighter\" than ever before, claims expert",
-         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaXhiSlJqN1Rhb1BWNmFyTUtxZGxUdUVGeHVkY0k1WFYtQlJ5YmphN25kZGJpUlJnWjNpdkNvNy1Gbmg2UncyVlVxaUNzWmc2eS1MZjlrTWZjNzBDQW9ZSFE3RUtGNnI5MlViakJJLTRnRWNqMjRiVm96VkhMUElhZEZvWmozM2ZnYXo0Z1ctYTJqdnc0R1FPbDRzenN1UXZ1dHY2a0JpbVZ5M09hWkJVd0lmOU1nUQ?oc=5",
-         "source": "t3.com",
-         "ts": "2026-10-05T15:00:00+00:00"
-        },
-        {
-         "title": "Redesigned OLED MacBook Pro will be \u2018significantly lighter,\u2019 report says",
-         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWWFKaUdIRGxVUUkxNTE0c3BZbWJaTGdBbVpVZ0RrajNmb3R2b09BOXNUa2x6b1F3RGhfaC1CenpZc1VXdl9DUmF4ZkFXZTBwd2I2Rm42cXdCd1VxMENhM1JJQjAxY0pVQVZEeDVQdzVzYkR0ZzBHdkhQZ1BQSl9VeUZUdko5aWdxRDZ0bXAxNWNtckJFZGZhLVA1SWI5RWVDOWpjZm94cG0yUThZX28xMktnQk1hbEnSAbwBQVVfeXFMT19MMUtWdDJIcEhuNU85WjQySkVHRkxRa1JDWEJ5LUlMcmpYNjY3OHlWVTlDZHpMOW9CbzIyZV9Sek5meHBIcGgtU1BrRU1fczd0VGpqTmFWbUlxcXVJc1VLV29qajNSYWtRand5eS1XM0ZoZjR6ZkxHemo1dTF3d3hzMGtoNXBqeU1MNmhEN3JZeWNXU0tuNkhZejdVWjlzd083eENmQlFHNE9vVlRSVkhsRXRkVWNsN3cwOXc?oc=5",
-         "source": "The Apple Post",
-         "ts": "2026-10-04T14:36:40+00:00"
-        },
-        {
-         "title": "Touch-screen MacBook Pro will be significantly lighter",
-         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWWNtX2sxNHBLektBR0cxanVjZjE0aDB4dS0yeVpIWTFwUG14T3hDN2dab0c3d1NYeGVpREtyOXNhYnUxVlNqMlRSb0cydkNMME5RWTE1b0w2RGVfM2Z5bk5hcTJ2TEtZNk1aTEZDbkJDbDdGY3V6dmVUOHpxWUZsX0trc1djV05KUUk1SHlDVmpSc3JING91cE5lcWpsZw?oc=5",
-         "source": "AppleInsider",
-         "ts": "2026-10-04T14:35:00+00:00"
-        }
-       ],
-       "score": 5.699999999999999,
-       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        1,
-        0
-       ],
-       "signals": [],
-       "segment": "Computing",
-       "channel": "Mac & Apple",
-       "topics": []
       }
      ],
      "daily": [
@@ -635,11 +679,11 @@
       0,
       0,
       0,
-      5,
+      6,
       0,
-      2,
-      8,
-      1
+      1,
+      7,
+      2
      ],
      "change": 1600
     },
@@ -867,7 +911,7 @@
        ]
       },
       {
-       "title": "Core Network Software Market Forecast To Hit $31.82Billion By 2030 Amid Strong Industry Growth",
+       "title": "Development Tools Market Forecast To Hit $15.91Billion By 2030 Amid Strong Industry Growth",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1021,7 +1065,7 @@
        "topics": []
       },
       {
-       "title": "Kagi gives up on Orion browser plan for Windows and Linux; to open source the code",
+       "title": "Kagi Ends Orion Browser Development for Linux, Will Open-Source It",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1063,7 +1107,7 @@
        "topics": []
       },
       {
-       "title": "Meta launches Muse Gadgets, open-source hardware for its AI assistant, targeting developers and small businesses.",
+       "title": "Meta launches Muse Gadgets: open-source SDK for building hardware around its Muse agent",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -1134,11 +1178,11 @@
     1,
     1,
     3,
-    8,
+    9,
     1,
-    3,
-    15,
-    3
+    2,
+    14,
+    4
    ],
    "change": 3300
   },
@@ -1203,8 +1247,8 @@
         0,
         0,
         0,
-        1,
-        1
+        2,
+        0
        ],
        "signals": [
         {
@@ -1230,8 +1274,8 @@
       0,
       0,
       0,
-      1,
-      1
+      2,
+      0
      ],
      "change": 200
     }
@@ -1249,8 +1293,8 @@
     0,
     0,
     0,
-    1,
-    1
+    2,
+    0
    ],
    "change": 200
   },
@@ -1372,8 +1416,8 @@
         0,
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0,
         0,
         0,
@@ -1396,8 +1440,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -1414,9 +1458,9 @@
       {
        "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
        "signal": "rising",
-       "recent": 3,
+       "recent": 4,
        "previous": 0,
-       "sources": 3,
+       "sources": 4,
        "items": [
         {
          "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
@@ -1435,9 +1479,15 @@
          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeUp1WFBobDJRMEUyYlVBNnRxWVFIUFc3WDl0SDZNTnFFcWlsQkpJNV95Rm5xVTI1dVNsT094UThDOTJsXzA4bWlWZVB6Sk53eUUyNEhNaFd2NEEzOHp0a3E3NmswVi1OYnBzVkZ3cVpoalloQTc2VnQydTdyM3pNUFZ6R3lQUk5u?oc=5",
          "source": "AOL.com",
          "ts": "2026-09-30T22:42:49+00:00"
+        },
+        {
+         "title": "The SCP Foundation: Horror Trend Like Backrooms Gets New Movie From a Surprising Company",
+         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUXg2WlJrNV9KT2RXbjIyVXEtb0NNTkh6OEJ3YllOLVNuVGFnVHdRYVJHbXY4bFNuN1FzeVQ2V0tmSDFLZS1vdzUyVTVadWFEZHQwLXhJRUY3ZjdsRTV3X2hRanpWYmsyT0w5ZlJTR0gweTFGMlFnTk5JVk5tVFZRUDg4WlB4cUhzR25ORlc4OW92MjJsVHVidG5ZOG9SdC1RVVcyYUhNVlhBQdIBrwFBVV95cUxPYjdEaGlhUjlQcDBBTzJTWU1qeXB1WVhvNVQxWjlya2g3RkpJODhMdUJ1allPTTd0RDhWNXlqZ1JWLThVczR1My0wLTJaYkN3MzdDOHk2X0dlNTlEbnV0YVJtRUNoNFBnLUJoWUpEakR1Tkg2SnZ5b1hsd0ctcGI0dFhieVlVU0xQVEZJaGhMeDQ2UG9Dd1V1Y0x0cnpXTlYta3dJVGdDM0xRVTlUZ3Vr?oc=5",
+         "source": "ComingSoon.net",
+         "ts": "2026-09-30T22:42:49+00:00"
         }
        ],
-       "score": 7.124999999999999,
+       "score": 11.0,
        "daily": [
         0,
         0,
@@ -1446,7 +1496,7 @@
         0,
         0,
         0,
-        3,
+        4,
         0,
         0,
         0,
@@ -1493,8 +1543,8 @@
         0,
         0,
         0,
-        0,
         1,
+        0,
         0,
         0,
         0,
@@ -1602,7 +1652,7 @@
        "topics": []
       },
       {
-       "title": "3 underrated movies on Prime Video you should watch this weekend (September 25-27)",
+       "title": "3 excellent Netflix documentaries to watch this weekend (September 25-27) - How-To Geek",
        "signal": "fading",
        "recent": 0,
        "previous": 2,
@@ -1652,15 +1702,15 @@
       0,
       1,
       1,
-      4,
-      3,
+      6,
+      2,
       0,
       0,
       0,
       1,
       0
      ],
-     "change": 100
+     "change": 125
     },
     {
      "name": "Crafts",
@@ -1799,17 +1849,17 @@
     0,
     0,
     0,
-    2,
-    2,
+    3,
+    1,
+    6,
     4,
-    5,
     0,
     2,
     0,
     3,
     0
    ],
-   "change": 133
+   "change": 150
   },
   {
    "name": "Mens Fashion / Interest",
@@ -1887,7 +1937,7 @@
        "topics": []
       },
       {
-       "title": "Chinese brands drive September new car sales growth",
+       "title": "UK New Car Sales Up 12% in September; EVs, Chinese Brands Surge",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -2069,8 +2119,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         0,
         0,
         0
@@ -2091,8 +2141,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       2,
       0,
       0
@@ -2103,7 +2153,7 @@
      "name": "Classic cars",
      "trends": [
       {
-       "title": "Michael Jordan\u2019s Ferrari 550 Maranello Sells for a Record $2.7 Million",
+       "title": "Jordan's Ferrari 550 Brought $2.7 Million. The Car Was Never the Asset.",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -2322,8 +2372,8 @@
     3,
     2,
     0,
-    4,
-    2,
+    6,
+    0,
     4,
     3,
     1
@@ -2466,9 +2516,9 @@
      "trends": [
       {
        "title": "UK economy grows faster than first thought amid service sector boost",
-       "signal": "steady",
-       "recent": 1,
-       "previous": 1,
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
        "sources": 2,
        "items": [
         {
@@ -2484,7 +2534,7 @@
          "ts": "2026-09-30T07:23:09+00:00"
         }
        ],
-       "score": 1.6,
+       "score": 0.0,
        "daily": [
         0,
         0,
@@ -2492,8 +2542,8 @@
         0,
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0,
         0,
         0,
@@ -2549,7 +2599,7 @@
        "topics": []
       },
       {
-       "title": "UK economic growth revised up to 0.5% in Q2",
+       "title": "UK economy Q2 growth revised slightly upward",
        "signal": "fading",
        "recent": 0,
        "previous": 2,
@@ -2594,8 +2644,8 @@
        "title": "UK business morale hits 17-month low, Lloyds says",
        "signal": "fading",
        "recent": 0,
-       "previous": 4,
-       "sources": 4,
+       "previous": 5,
+       "sources": 5,
        "items": [
         {
          "title": "UK business morale hits 17-month low, Lloyds says",
@@ -2620,6 +2670,12 @@
          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QV0tmMm5XYndfUGQyaHBMWFg0Yzd6eXFhc3FDZnI5X0RudFVzc1RGRWdVRHgxYl92NjhKZ0R5bWtDUjlkeklSb25ROWdMSW1LOW1RejFVZ1dmQTJXeFdoNDJ2ZnJJNkNQenVsakdsZUhvZkh2S1pJbw?oc=5",
          "source": "AOL.ca",
          "ts": "2026-09-29T23:02:50+00:00"
+        },
+        {
+         "title": "UK business morale hits 17-month low, Lloyds says",
+         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYS04S215UzdSNzJPYTZMek96N0Z5YmwzM0ZwdVlFNU44b2NQam43RU9ybVdqM2gzVUxvVXJUeGhiVXZnQkNjZVBsbFp3QUZ3WkRxb0kzYXozd3BpcXpqR0UxRnZHNjNBXzBLY3o1bmdWSnlwX3hyZVpZbkNkUFNIeExyelZkT0NJSWIzbg?oc=5",
+         "source": "Yahoo Finance",
+         "ts": "2026-09-29T07:00:00+00:00"
         }
        ],
        "score": 0.0,
@@ -2629,7 +2685,7 @@
         0,
         0,
         0,
-        0,
+        1,
         4,
         0,
         0,
@@ -2651,9 +2707,9 @@
       0,
       0,
       0,
-      0,
-      9,
       1,
+      10,
+      0,
       0,
       0,
       0,
@@ -2661,7 +2717,7 @@
       0,
       0
      ],
-     "change": -89
+     "change": -100
     },
     {
      "name": "Politics",
@@ -2686,7 +2742,7 @@
          "ts": "2026-10-03T21:00:00+00:00"
         }
        ],
-       "score": 4.0,
+       "score": 3.2,
        "daily": [
         0,
         0,
@@ -2703,12 +2759,7 @@
         0,
         0
        ],
-       "signals": [
-        {
-         "kind": "google",
-         "label": "Trending on Google searches: badenoch (2000+ searches)"
-        }
-       ],
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Politics",
        "topics": []
@@ -2736,7 +2787,7 @@
      "name": "World",
      "trends": [
       {
-       "title": "Heaven scores first international goal",
+       "title": "Zirkzee scores second international goal",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -2778,7 +2829,7 @@
        "topics": []
       },
       {
-       "title": "Luke Littler: World number one knocked out of World Youth Championships in semi-finals",
+       "title": "Luke Littler beaten by Cam Crabtree in semi-finals of World Youth Championship",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -2842,75 +2893,6 @@
      "name": "Science",
      "trends": [
       {
-       "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
-       "signal": "rising",
-       "recent": 5,
-       "previous": 0,
-       "sources": 4,
-       "items": [
-        {
-         "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
-         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0daRG1RUzM2OFA2LU9aTTBOTFYtWk9ZdmdycFB0Yl9fdE55VW5aZHExQ3RRZVhWLXNPRVRVQm16aHczRUQzYlVmZVhNVHhORGNBOWFGSU1oVkRWb3RVWHE2U0w1ZGNabnI1WWN1MXR5VXg0ckx3UjdPY05CUlZaWUZjcWR2YlFRM0Jtd0FuWko0bHZ2NXNfZ2NR?oc=5",
-         "source": "Yeni \u015eafak English",
-         "ts": "2026-10-06T11:13:01+00:00"
-        },
-        {
-         "title": "Nobel prize in physics goes to Francis Halzen for south pole work on neutrinos",
-         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEZzbXJNdkVMZkpMLXBQZmVPdE16WmJPZkFseVE5QlhkY0hwcUtvNG1uc1JoZklIVTRhT2tfN0lwNHFyUnNrRVR0dy1HcXAtR0N2QUE0clEwXzVlWDlPRVZDTWhmekRsSE50Y3duRktETzhjSk5HVkdPSkFkVEpKUUJ4d3dQdjlWMUw5RmlUaVV6M3RIc1Y2ZjF2clhvR0VwbG5UOVl2V1R2VmZVd19pd3B5SVFMM3NmNjFNVFVic2Q?oc=5",
-         "source": "The Guardian",
-         "ts": "2026-10-06T10:11:00+00:00"
-        },
-        {
-         "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
-         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLTd6bzQxUURWV3JQYUFwbHVTd2VBYmFVMVBQSU50QTNFTjNEajBSc2lFcHVsZEhmcHZKYlhjcUY1QWNnVkdPREhPU2FlVktFdWxDdTBrTE50TGt6Y0R2WWVDd2ZoZ1hCRG96bmNVX2FoRXpRVUpOMDBGazJiQWNXNDZCTXlOR1B1bDNNTXpsT1N6M0ZMLXJpNHNrZUtLRUNweU83OUNDS3ZreWNONVNyYlpkZ0hudWVKcnhNbVhfTlFfT21IUnhv?oc=5",
-         "source": "BGNES",
-         "ts": "2026-10-06T10:07:44+00:00"
-        },
-        {
-         "title": "Belgian Physicist Francis Halzen Wins Nobel Prize in Physics for Discoveries About Cosmic Neutrinos",
-         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRG94Y0VXQ2Z3Z0ppbm9hamFacF9JOXFEOFY2bWI4SFRzenZGaTlIV2xyZExSR0FPR2lEMWVTMHBGdEtRLWtSbzB1cE5vN0dYNENobjV0cEtTNVN4WWNxWWZBSFZKMWpvUkZsM2tNNUVWM2JIRTZjUmcydWFjTksxOGY1NFdJNFQtMHVCOUx5dUI5NmdaQWpSVkZ1elVIdVRQTUl0UkRtbWM2MkNzeVI4bUQ1cWExdWNXZ0s2bzZhSkhPMGgwZjBRSg?oc=5",
-         "source": "BGNES",
-         "ts": "2026-10-06T10:07:44+00:00"
-        },
-        {
-         "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
-         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
-         "source": "reuters.com",
-         "ts": "2026-10-06T09:58:45+00:00"
-        }
-       ],
-       "score": 16.5,
-       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        0
-       ],
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Francis Halzen (127,578 views)"
-        },
-        {
-         "kind": "mastodon",
-         "label": "Trending on Mastodon: #neutrinos"
-        }
-       ],
-       "segment": "News & Current Affairs",
-       "channel": "Science",
-       "topics": []
-      },
-      {
        "title": "U.S. and German scientists win Nobel Price in medicine for discoveries on optogenetics",
        "signal": "rising",
        "recent": 5,
@@ -2971,6 +2953,59 @@
        "topics": []
       },
       {
+       "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 3,
+       "items": [
+        {
+         "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
+         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0daRG1RUzM2OFA2LU9aTTBOTFYtWk9ZdmdycFB0Yl9fdE55VW5aZHExQ3RRZVhWLXNPRVRVQm16aHczRUQzYlVmZVhNVHhORGNBOWFGSU1oVkRWb3RVWHE2U0w1ZGNabnI1WWN1MXR5VXg0ckx3UjdPY05CUlZaWUZjcWR2YlFRM0Jtd0FuWko0bHZ2NXNfZ2NR?oc=5",
+         "source": "Yeni \u015eafak English",
+         "ts": "2026-10-06T11:13:01+00:00"
+        },
+        {
+         "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
+         "source": "reuters.com",
+         "ts": "2026-10-06T09:58:45+00:00"
+        },
+        {
+         "title": "Nobel Prize in Physics Is Awarded to Francis Halzen for Work on Neutrinos",
+         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OWjJMYW1Rd211OXFZQnMyTFhseGNpMXJ1ckxuNnJwbmNHV3EzN0xtN0lHTWlSbkEwYjh0VUgyMVM3ZTF4SE9yejNKU19xZVhFSFh0U2x3cDVZR2NDUXByX3RkcndaWTJldjg4QnYwUXhGODZBSlE?oc=5",
+         "source": "The New York Times",
+         "ts": "2026-10-06T09:54:18+00:00"
+        }
+       ],
+       "score": 7.124999999999999,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+       ],
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Francis Halzen (127,578 views)"
+        }
+       ],
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
        "title": "2026 Nobel Prize in Physics awarded to Francis Halzen for discovery of high-energy neutrinos",
        "signal": "rising",
        "recent": 2,
@@ -2990,7 +3025,7 @@
          "ts": "2026-10-06T09:45:00+00:00"
         }
        ],
-       "score": 4.800000000000001,
+       "score": 4.0,
        "daily": [
         0,
         0,
@@ -3004,17 +3039,13 @@
         0,
         0,
         0,
-        1,
-        1
+        2,
+        0
        ],
        "signals": [
         {
          "kind": "wikipedia",
          "label": "Popular on Wikipedia this week: Francis Halzen (127,578 views)"
-        },
-        {
-         "kind": "mastodon",
-         "label": "Trending on Mastodon: #neutrinos"
         }
        ],
        "segment": "News & Current Affairs",
@@ -3132,10 +3163,10 @@
       1,
       0,
       5,
-      8,
-      1
+      7,
+      0
      ],
-     "change": 1500
+     "change": 1300
     }
    ],
    "daily": [
@@ -3144,17 +3175,17 @@
     0,
     0,
     0,
-    0,
-    10,
-    2,
+    1,
+    11,
+    1,
     0,
     1,
     2,
     6,
-    10,
-    2
+    9,
+    1
    ],
-   "change": 130
+   "change": 67
   },
   {
    "name": "Newspapers",
@@ -3444,7 +3475,7 @@
        "topics": []
       },
       {
-       "title": "Erling Haaland to Real Madrid transfer reality clear after Man City 115 charges verdict given",
+       "title": "Erling Haaland to Arsenal transfer reality clear as 'contacted' claims made over Man City striker",
        "signal": "fading",
        "recent": 0,
        "previous": 2,
@@ -3556,7 +3587,7 @@
        "topics": []
       },
       {
-       "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+       "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -3605,7 +3636,7 @@
        ]
       },
       {
-       "title": "Sky Sports to show England's ODI tri-series against Pakistan and Sri Lanka live from October 18-31",
+       "title": "England ODI series against Pakistan and Sri Lanka avoids TV blackout",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -3682,8 +3713,8 @@
         0,
         0,
         0,
-        0,
-        2
+        1,
+        1
        ],
        "signals": [],
        "segment": "Sport",
@@ -3746,8 +3777,8 @@
       4,
       1,
       0,
-      2,
-      3
+      3,
+      2
      ],
      "change": 1100
     },
@@ -3872,13 +3903,63 @@
         0,
         0,
         0,
-        4,
-        1
+        5,
+        0
        ],
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
        "topics": []
+      },
+      {
+       "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
+       "signal": "rising",
+       "recent": 3,
+       "previous": 0,
+       "sources": 2,
+       "items": [
+        {
+         "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
+         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZndF85djRrNzR4ZUxKOXdXWEdvU1J6ZTBqbUFna3d6bE1zQjdIdHpKUnNiZHdSMDlSNnoxaW1haHNwRmd0ejdTakZMMF9BV1lubm56ZVN0TzZoVHFueEdSUm5oZTZYWTFBN2pacDVKR2RRRlVrQzJ5V0NtVEUza3F5amFDRGp2QW11VjV2ZHAtSkZMajJJLQ?oc=5",
+         "source": "Today's Golfer",
+         "ts": "2026-10-06T01:24:42+00:00"
+        },
+        {
+         "title": "2026 Open de Espana betting tips \u2013 including a 66/1 shot in fine form",
+         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUzRUMjBrT2RRR2Rza1hBcko1cjlKOE5ZRUJfcWg1WmoxbVNnRG9Odk1TN3BZaGhKMXRTenhXOC1IdGlKVXRHMUpQcDlERklMaEVrc256WTZ0VmhfV2w0UU1RWXJTLUlOZDhYOEtSdURMMGhLV0I2TTQ1bnRhUU1pamgtM1Q4QkZKMUpvblA4WndIODg?oc=5",
+         "source": "Today's Golfer",
+         "ts": "2026-10-06T01:22:04+00:00"
+        },
+        {
+         "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
+         "source": "Golfshake.com",
+         "ts": "2026-10-05T14:51:18+00:00"
+        }
+       ],
+       "score": 4.800000000000001,
+       "daily": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+       ],
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": [
+        "Nostalgia & retro"
+       ]
       },
       {
        "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption",
@@ -3911,8 +3992,8 @@
         0,
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0,
         0,
         0
@@ -3930,73 +4011,27 @@
        ]
       },
       {
-       "title": "Is this the ultimate golf watch? New Garmin Approach S72",
+       "title": "What Next For Sergio Garcia After LIV Golf Exit?",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
        "sources": 2,
        "items": [
         {
-         "title": "Why The New Garmin Approach S72 Watch Will Change How You Play Golf",
-         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSUp2LXBycXpWR3hnSWl4d0RHS2dINXVEdWZUSTFrbEk3ajFha2FraTlfck1EWmJnTVVGMGJyajJXYnM4cWN4a3JNTHljOC1GZTBUcGpGUzVoekItUjBXRlcxVXJ1Y0d3NjA1R09URlFQdkZRa0k5enc3RF8wWkxFa18tUDBYRmR5T1lYWUk1QzJIV2xWSjNfeG93by1ueTJ5NVE?oc=5",
+         "title": "What Next For Sergio Garcia After LIV Golf Exit?",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVTRfQmRzN3V2aEVhLUo1eFQ2ckl1Y1FnUDBRNnAwRkotdTU5VDRIM2NJVXNhRGE3M196RllsWVJWS2Vqb1BRd1NXLXpGT2tHOUtXVGEyQkc1Z19xY01BS0hWRzI3ZXFxeEVjeFJHellDdGt4dXNQVWVHcTl6WnlyWVpNMVdXMDg?oc=5",
          "source": "Golf Monthly",
-         "ts": "2026-10-06T13:13:47+00:00"
+         "ts": "2026-10-07T10:50:40+00:00"
         },
         {
-         "title": "Is this the ultimate golf watch? New Garmin Approach S72",
-         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEViWVhnWWNVYlpiMFNKX2M1cVRGZGVLbHhJeVZXeV9OWFdpdkJwZUVmSWlxdktBOEZ5d0RiY2ZSZjZfR0VZanNFQUVEekFBSklVSVJscTRiYXR3OTQ2SHBaQVdjT0pZTlM3MGQ1cUV6ME42X3B6bXJmZFIwWnA3d2dLaGpmTzRSUDFCcE5MZkxNcmExZU1rN2ZFTjFtaUFkeDNxLQ?oc=5",
-         "source": "Golfshake.com",
-         "ts": "2026-10-06T12:36:14+00:00"
-        }
-       ],
-       "score": 3.2,
-       "daily": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-       ],
-       "signals": [],
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": []
-      },
-      {
-       "title": "Jon Rahm's Last-Minute Spanish Open Withdrawal Confirmed",
-       "signal": "rising",
-       "recent": 2,
-       "previous": 0,
-       "sources": 2,
-       "items": [
-        {
-         "title": "Jon Rahm's Last-Minute Spanish Open Withdrawal Confirmed",
-         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWHI0WGVPZ3AwRVN3N2tweWJNMnFVSENiYWRXblpDdEdhTnFTb3dwdzNEY3FNLTNWMzNERGxWQmdsanprTnljdURvRTNWbDdEZ3l2Wk15V1JRVGJDUzVHZU1KUlF6LWdzWWlLYjZ6TkRWT2pGeXBkY1BpQVYxVE9ZeV9RMXVGSEthWGxpaE5CQQ?oc=5",
-         "source": "Golf Monthly",
-         "ts": "2026-10-06T11:48:37+00:00"
-        },
-        {
-         "title": "Jon Rahm forced to withdraw from Spanish Open",
-         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTUx3UG04Z2VGZGZoSGkxXzBla0Y0c3pZU0w1N0tuTTBVUklmZkFsbE1yWjBmWllQay1aQkZiQVZIUEYtREVqYlZZZ0hreU4xVS1rMXBIY1laMjZMbXl1U0hSVlB1NVk4cHRKZHpMTG1sX1F1aVRRbGVabEJwVG5rbkRURkRRSktaVHlB?oc=5",
+         "title": "Sergio Garcia makes move to quit LIV Golf",
+         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NRFVnS0F5bk53c3U5LXpPdHI5cHl6NXlOZ1RkdUF1M1dtVXVKWUw1dHFXRUVlZXpGQlg5by1CeWRGUjFxbUZpNWNCMkhjZUdxY3RHQTQzR2Y1TXU4eUlSd3FmQVVpekxMSFZub2JhWVBfNHM?oc=5",
          "source": "bunkered.co.uk",
-         "ts": "2026-10-06T11:21:27+00:00"
+         "ts": "2026-10-02T09:06:21+00:00"
         }
        ],
        "score": 3.2,
        "daily": [
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -4006,6 +4041,10 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
         1
        ],
        "signals": [],
@@ -4023,14 +4062,14 @@
       0,
       0,
       0,
-      0,
+      1,
+      3,
       2,
       3,
-      3,
-      5,
-      4
+      8,
+      1
      ],
-     "change": 1700
+     "change": 1800
     }
    ],
    "daily": [
@@ -4042,14 +4081,14 @@
     0,
     0,
     0,
-    1,
-    6,
+    2,
     7,
+    6,
     4,
-    9,
-    7
+    13,
+    3
    ],
-   "change": 1600
+   "change": 1650
   },
   {
    "name": "Teenage Magazines",
@@ -4249,8 +4288,8 @@
         0,
         0,
         1,
-        0,
         1,
+        0,
         0,
         0,
         1,
@@ -4265,7 +4304,7 @@
        "topics": []
       },
       {
-       "title": "The Beauty Trends Black Women Should Try From Paris Fashion Week",
+       "title": "4 Beauty Trends Black Women Should Try From London Fashion Week SS27",
        "signal": "steady",
        "recent": 1,
        "previous": 1,
@@ -4307,7 +4346,7 @@
        "topics": []
       },
       {
-       "title": "The 6 Denim Trends Experts Say Will Define Fall 2026",
+       "title": "The 8 Biggest Denim Trends to Shop for Fall 2026",
        "signal": "steady",
        "recent": 1,
        "previous": 1,
@@ -4355,8 +4394,8 @@
       0,
       0,
       1,
-      0,
       1,
+      0,
       0,
       2,
       1,
@@ -4445,8 +4484,8 @@
         0,
         0,
         0,
-        0,
-        2,
+        1,
+        1,
         0
        ],
        "signals": [],
@@ -4509,8 +4548,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       2
      ],
      "change": 100
@@ -4591,8 +4630,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         0,
         0,
         0,
@@ -4649,25 +4688,69 @@
        "topics": [
         "Health & fitness"
        ]
+      },
+      {
+       "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+       "signal": "fading",
+       "recent": 0,
+       "previous": 2,
+       "sources": 2,
+       "items": [
+        {
+         "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEZRWktHcHNiR2MtNlBuaEVaUU1lQ2V1UEpOaHhITG9NazFhTkNNMDFZU2tQV2FpUERuQlZGbGptbHdDczVOTW12c19Obk9HU1JpYUhKNjg2V01taE5Rc0lvaUlocHVCTU1PaS0td0ktclZXQU5nX29qbkt3XzcydTJYM2EwVjlXNGpkOE9IZ2dkZw?oc=5",
+         "source": "Women's Health",
+         "ts": "2026-09-24T07:00:00+00:00"
+        },
+        {
+         "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVTYk91dTJiRWZERGhXMW1hTVk3RXdwZEkxd1RPMi1GZ09udHZtNFU2VHNveFFyOUZVYnpqaGVOMEdSaVB4YmtUQXZtY2FKa0NqM0M0cnhQS2RxT0pwRVpESGltZ1U4aHdUMXhJYlA1R3RLX3kwbzdaQTRKVHlWMVU1dw?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-09-24T07:00:00+00:00"
+        }
+       ],
+       "score": 0.0,
+       "daily": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+       ],
+       "signals": [],
+       "segment": "Womens Interest",
+       "channel": "Health & slimming",
+       "topics": [
+        "Health & fitness"
+       ]
       }
      ],
      "daily": [
-      0,
+      2,
       0,
       0,
       2,
       0,
       0,
       0,
-      0,
       2,
+      0,
       0,
       2,
       0,
       0,
       0
      ],
-     "change": 100
+     "change": 0
     },
     {
      "name": "Cookery",
@@ -4675,9 +4758,9 @@
       {
        "title": "Air fryer ranks as UK's most-used cooking appliance, poll finds",
        "signal": "rising",
-       "recent": 2,
+       "recent": 3,
        "previous": 0,
-       "sources": 2,
+       "sources": 3,
        "items": [
         {
          "title": "Air fryer ranks as UK's most-used cooking appliance, poll finds",
@@ -4690,9 +4773,15 @@
          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZklkUWJGb2hMd21oS1NqZm01YmJsSEp0OGV4bVJIYnNDc1FQMmo2Yml1UVhQb01IRjMtN096c3RxQ0F2WHVtbFBJM0N0WThpWXo3TFhScnlJYVI4aGMwMzd5TzdTSEJwNjJ6QzdRaTdyY2Flei0yS0VyTUhwZEN2YVRrNlAxUdIBiwFBVV95cUxQcVlraUhvQk5IT0QyVmVjYXhSZkVtVWhKcVhDdlZDYzRpTEtVbW1oY09kQ1hDazVCbnY2dFBCSXlRTjduNlpQaE5FOGtYbGEtdlNRbFk0N3hmT0FULVMtUHpWQTR2RnVLY2dVbExzdjY0T194cS1vTDlzUmttb0FYWXh1RWR1c29jVFQ4?oc=5",
          "source": "Daily Express",
          "ts": "2026-10-04T06:01:00+00:00"
+        },
+        {
+         "title": "Air fryer ranks as UK's most-used cooking appliance, poll finds",
+         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZcDAxRUZZWjlaWUFYdWNtXzRveDNOSkxFZEtpTEQ0RGRZeGlSZzd1U3RWMG83NjJBdy04V0MyV1dpZy1IZ1N3S2tCOXlSWkdhVUU2UVhtQjNGT29WVmwyVmFORU4xWEZQWGZrWDVjVHpNS3F2SkE?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-10-04T06:01:00+00:00"
         }
        ],
-       "score": 3.2,
+       "score": 5.699999999999999,
        "daily": [
         0,
         0,
@@ -4704,7 +4793,7 @@
         0,
         0,
         0,
-        2,
+        3,
         0,
         0,
         0
@@ -4715,7 +4804,7 @@
        "topics": []
       },
       {
-       "title": "The new London restaurants to try in October 2026",
+       "title": "London's Best New Restaurants - October 2026",
        "signal": "rising",
        "recent": 2,
        "previous": 0,
@@ -4768,12 +4857,12 @@
       1,
       1,
       0,
-      2,
+      3,
       0,
       0,
       0
      ],
-     "change": 400
+     "change": 500
     },
     {
      "name": "Home interiors",
@@ -5122,8 +5211,8 @@
         0,
         0,
         0,
-        1,
-        3,
+        4,
+        0,
         0,
         0,
         0,
@@ -5239,32 +5328,32 @@
        "topics": []
       },
       {
-       "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
+       "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
        "signal": "rising",
-       "recent": 2,
-       "previous": 1,
+       "recent": 3,
+       "previous": 0,
        "sources": 3,
        "items": [
         {
-         "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
-         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdGxaTTZlTF9rVzF2U0VuQlVyeXpIUjRkdFZuM01LZFJIRGxVQmpIalRzM2dvdzVlY2lYb0diNGhYQUZwWWNhUWx2b3FKN3Eya0ZHY1hRaVlXektzdFE1QXZMVmlvaGZ4MHdoYnFpRDAwMDZBRGdOelJ0QzlyUUFHVVlzMWtvNVNCeGZ6cml2dkJ0dDd2SXh6VkEtMXpVSnlwaTRqOFhB?oc=5",
+         "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWHlmekRKX3VkZHA0aEdiSUVyeVY2SFBnNkdsa2psbHhHVlVRRlVXMU5nNUdHekstM2VaS3lWVUFwU0h2UEtUSmxrTS1ZeGR4V2xkWThCQnRNVlNYNUtSdTh1c3k4c3I5TWFrNTFldFZqVWpMYjJpZS1PSjQ3YTFJa2p2VW5FTXJNMkpJU0FKZFZOb1Rfek5OWEFGOG1udF9G?oc=5",
          "source": "East Renfrewshire News",
-         "ts": "2026-09-30T13:27:49+00:00"
+         "ts": "2026-10-01T19:30:00+00:00"
         },
         {
-         "title": "All to know on Sharon Rooney as actress takes on Celebrity Traitors",
-         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX2xNMnZGUTlRR1RuZUhvdGk1THlsUk9kdDZjNUpGR0t4Z2M0bTkzRkVHNzBjOGhwNFJONXoxaHVqRlRtc0xhRGdkUTdoTmNmZDJMSGdGTnRjaVhlRXpPYndMX3d0dFduUGx6RUIyb0FRZzFyQ2pBbWRBcldaeVdTRTlQbVp0YkNwQUhtYWpXVjdpZXVISlBSdFFfWjJFVVp2ei1rRWxydzIwaGs?oc=5",
-         "source": "essexcountynews.co.uk",
-         "ts": "2026-09-30T13:27:49+00:00"
+         "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVY2N0ZrMUpUbm0xbWYyRVB3U2RqQmlJcmQxTjlpN1BZd0JXRFZITmlGSnFQcU1IRmVieHNvMlFJUUVGRnpLVktYbkxjTGxRdGd2Uk5zeGJtU1o2M3A3bG5MWU41dDMta1UtRzRROXFKb2VUY193S00zTTJzWHVwUVNtZlI3WDA3aFdqN2lDOWJwYnZnaHRaUzVIUVY2THZib1dzVTdn?oc=5",
+         "source": "Halstead Gazette",
+         "ts": "2026-10-01T19:30:00+00:00"
         },
         {
-         "title": "All to know about Myha'la as actress takes on Celebrity Traitors",
-         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb21udm1CMWVvZ1F2NzQ1X3A3V3ZnM0RxZjliTUlJMGhVRFZhb2FrQm43WTV5VzhFNGhNWXBhWGVhMFZYY1luMGRGUGxCRUZyRmxLS3M3ajFoQmdyZFVwaHhXUTRIOWtzTXR6alV6TlpKOUJzeTVkYVlqRmFCdXA4eS1zOEdQb0lRbWFyMjNxemFwcE1BMkFuNmZnWDU?oc=5",
-         "source": "edp24.co.uk",
-         "ts": "2026-09-30T11:22:00+00:00"
+         "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVBJelBjX0twT1VRcGJaanJ0dmU3OS1rcWFqTVozLXA3dFRUalNtaVpkUThoMFBsWXpPNGxnMTFrSERLNGZqSlpFaTVOVFZQU2o1YzkyMm42ZUtkb3dXX2xSUUNad19jOW53OHVUOWFtRm5Kd2t1aXAzU01CWS1UelAxZnpDdVMyM1dSX0t4QlE5b00yODJXcVdObHd3MXVKQXNxSlFkV2I?oc=5",
+         "source": "Andover Advertiser",
+         "ts": "2026-10-01T19:30:00+00:00"
         }
        ],
-       "score": 4.75,
+       "score": 5.699999999999999,
        "daily": [
         0,
         0,
@@ -5272,24 +5361,21 @@
         0,
         0,
         0,
-        1,
-        2,
         0,
+        0,
+        3,
         0,
         0,
         0,
         0,
         0
        ],
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Myha'la (167,668 views)"
-        }
-       ],
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
-       "topics": []
+       "topics": [
+        "Streaming & screens"
+       ]
       }
      ],
      "daily": [
@@ -5299,8 +5385,8 @@
       0,
       0,
       0,
-      1,
-      3,
+      0,
+      4,
       9,
       1,
       0,
@@ -5308,49 +5394,49 @@
       0,
       0
      ],
-     "change": 1500
+     "change": 1700
     }
    ],
    "daily": [
-    3,
+    5,
     2,
     0,
     2,
     1,
-    2,
-    7,
-    5,
-    14,
-    2,
-    5,
     3,
+    5,
+    8,
+    12,
+    2,
     6,
+    4,
+    5,
     6
    ],
-   "change": 141
+   "change": 139
   }
  ],
  "topics": [
   {
    "name": "AI & automation",
-   "total": 6,
+   "total": 7,
    "daily": [
     0,
     0,
     0,
     0,
     0,
+    2,
+    2,
     1,
-    3,
+    0,
+    7,
+    0,
     1,
-    0,
-    6,
-    0,
-    0,
     4,
-    1
+    2
    ],
-   "change": 200,
+   "change": 275,
    "trends": [
     {
      "title": "Apple to flag AI requests for Mac data after Meta\u2019s Muse complaints",
@@ -5400,6 +5486,56 @@
       0,
       0,
       0
+     ],
+     "signals": [],
+     "segment": "Computing",
+     "channel": "Mac & Apple",
+     "topics": [
+      "AI & automation"
+     ]
+    },
+    {
+     "title": "Apple to Tighten Mac Data Access Rules for AI Agents",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "Apple to Tighten Mac Data Access Rules for AI Agents",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDJMUDRYQlFCTEZESmJNUWlaNzMtSGJuV193TUtkSk1ZYnBIWGo1VjhrZXZLbjFSUUtmNWs4MUxkQldxVUZoNC1ZUm9KTHRZekM4cEVFMEtCVmM2UnFNcnRqaUkwQV9Da3BlV0s2RXYzS05Lc3BRX2ZoZ1hLbTAwQXVNSHQ1ZVhzbnBnMmRWQ1hwc05tYnl3?oc=5",
+       "source": "StratNews Global",
+       "ts": "2026-10-07T12:08:04+00:00"
+      },
+      {
+       "title": "Apple to tighten Mac data access rules as AI agent concerns grow",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVNsUVdXMS0yRVk3X3NSbG8tVGxoNlI0b3o5dzJvODNycFZsS2w1aU43eDdpYV9jellUc3pWWEJaaDZDZ1R1bzU3bFJodkNhX0lwcl9TTkVDM1B1TnlwVXBwZHlTN3VGWmR1WDdwMzl3RjNnNWN0THV2Sk5tQWo3WW1UenIzMFllckNvbG12UXlKdWxMMF9rRG5oMVNGcktrYkduXzVR?oc=5",
+       "source": "Indian Television Dot Com",
+       "ts": "2026-10-05T08:42:16+00:00"
+      },
+      {
+       "title": "Apple to Tighten Mac Data Controls in Guard Against AI Agents",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcURqM3dBMUhJQjBZX25xaGtXTE5uUXd5cHo3MVNoM09xb2lPcnZlcTFJOFoyR2VLTmdpb1RkZ3otTUlaMzdjQVJITkstV0p4ZU10WXBOLUV4SHBoblRGM0xyWmRRMXBuaE9kM3B0WGpzVHVKZVBCZXJhWGNXcDA4aGhieFdHXzNDSmRKZ0Q2c3pobWhFV1ljSU9mNEwzRGkxdFZiVEpaYmtUSFByWU1QQWp3?oc=5",
+       "source": "Bloomberg.com",
+       "ts": "2026-10-02T20:50:08+00:00"
+      }
+     ],
+     "score": 5.699999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
      ],
      "signals": [],
      "segment": "Computing",
@@ -5623,8 +5759,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -5655,8 +5791,8 @@
     1,
     1,
     2,
-    3,
-    2,
+    4,
+    1,
     1,
     0,
     0
@@ -5664,7 +5800,7 @@
    "change": 800,
    "trends": [
     {
-     "title": "Asian Games 2026: India beat rivals Pakistan to win men's cricket gold",
+     "title": "India beat arch-rivals Pakistan in Japan to claim Asian Games cricket gold",
      "signal": "rising",
      "recent": 2,
      "previous": 0,
@@ -5743,8 +5879,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0
@@ -5897,24 +6033,24 @@
   },
   {
    "name": "Health & fitness",
-   "total": 3,
+   "total": 4,
    "daily": [
-    0,
+    2,
     0,
     0,
     2,
     0,
     0,
     0,
-    0,
     2,
+    0,
     0,
     2,
     0,
     0,
     0
    ],
-   "change": 100,
+   "change": 0,
    "trends": [
     {
      "title": "Fibre or protein \u2013 which is more important? \u2018It\u2019s about balance,\u2019 experts say",
@@ -5989,8 +6125,8 @@
       0,
       0,
       0,
-      0,
       2,
+      0,
       0,
       0,
       0,
@@ -6047,6 +6183,222 @@
      "topics": [
       "Health & fitness"
      ]
+    },
+    {
+     "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+     "signal": "fading",
+     "recent": 0,
+     "previous": 2,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEZRWktHcHNiR2MtNlBuaEVaUU1lQ2V1UEpOaHhITG9NazFhTkNNMDFZU2tQV2FpUERuQlZGbGptbHdDczVOTW12c19Obk9HU1JpYUhKNjg2V01taE5Rc0lvaUlocHVCTU1PaS0td0ktclZXQU5nX29qbkt3XzcydTJYM2EwVjlXNGpkOE9IZ2dkZw?oc=5",
+       "source": "Women's Health",
+       "ts": "2026-09-24T07:00:00+00:00"
+      },
+      {
+       "title": "Getting Enough Protein in Your 50s Is Crucial. A Registered Dietitian Explains How",
+       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzVTYk91dTJiRWZERGhXMW1hTVk3RXdwZEkxd1RPMi1GZ09udHZtNFU2VHNveFFyOUZVYnpqaGVOMEdSaVB4YmtUQXZtY2FKa0NqM0M0cnhQS2RxT0pwRVpESGltZ1U4aHdUMXhJYlA1R3RLX3kwbzdaQTRKVHlWMVU1dw?oc=5",
+       "source": "AOL.ca",
+       "ts": "2026-09-24T07:00:00+00:00"
+      }
+     ],
+     "score": 0.0,
+     "daily": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "signals": [],
+     "segment": "Womens Interest",
+     "channel": "Health & slimming",
+     "topics": [
+      "Health & fitness"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Streaming & screens",
+   "total": 3,
+   "daily": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "change": 800,
+   "trends": [
+    {
+     "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN2RBZFJOWEdiVl8wamMzQmxBd3M5dHZINS1vaExMZlUxMmFTUmJORlhXcnVjWHQ5TUdtSElITDZmTlZzNng1UmhUa3BLeFgwcDQzVVB3anJIbElWTE1nb1FyR2tYSmpnU2FOT3pSZU9rb0RRUHZJTnlBLVRLUHJsbVFqVGZ2S0F1dml1VXJVX25CMGhQSUppRlB1alpOVlpCNElrN2hlQ3JVU0J3OXBQa3F3?oc=5",
+       "source": "Dudleynews.co.uk",
+       "ts": "2026-10-01T20:02:13+00:00"
+      },
+      {
+       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNblVXeC11b1puelNIeGdzMkZwVldhNk9DOGlTMVd2bUFUd0NRUmltZG5ZSXoyMHhhQlNOQ21vNTM4R05yZlZkVVMyVmw4Q09OTlJVVmk0MWl2anJMdC1nSkprczVkN2V6RFpXUDV1amNPenlwbmpnWjd1cVc5OFJVbzF3eTJRLTBkSmJxM1lGSm9HVklNNGwyNWowZkxiXy14MmNXLWQxLW9FMWhucWNJMw?oc=5",
+       "source": "Daily Echo",
+       "ts": "2026-10-01T20:02:13+00:00"
+      },
+      {
+       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNalJqdHJHOWs5ajFYelF3ZUd6TzMyUnFDdkhzX2JJTE91SFc1ZDg5X2JKeTY0SFlLSlI0cTJCekxoVlNUdUdnVkY5ZEoxNnZCVHVPSTBjZVp5SlR1bFdYRVkza1Z2MHBPMzQyWmVUNU9Ec2dGRDlTNkhuNFZhN3NER0dGTGRpTWlhdlJEcEJmZTEwYUtsQ043SUwyT2hOaXdVUHVWVGZMa3ZaWThhWS1CT2g0dGJsZw?oc=5",
+       "source": "The Bolton News",
+       "ts": "2026-10-01T20:02:13+00:00"
+      }
+     ],
+     "score": 7.124999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "signals": [
+      {
+       "kind": "wikipedia",
+       "label": "Popular on Wikipedia this week: The Celebrity Traitors (124,116 views)"
+      }
+     ],
+     "segment": "Womens Interest",
+     "channel": "Celebrity",
+     "topics": [
+      "Streaming & screens"
+     ]
+    },
+    {
+     "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+     "signal": "rising",
+     "recent": 3,
+     "previous": 0,
+     "sources": 3,
+     "items": [
+      {
+       "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWHlmekRKX3VkZHA0aEdiSUVyeVY2SFBnNkdsa2psbHhHVlVRRlVXMU5nNUdHekstM2VaS3lWVUFwU0h2UEtUSmxrTS1ZeGR4V2xkWThCQnRNVlNYNUtSdTh1c3k4c3I5TWFrNTFldFZqVWpMYjJpZS1PSjQ3YTFJa2p2VW5FTXJNMkpJU0FKZFZOb1Rfek5OWEFGOG1udF9G?oc=5",
+       "source": "East Renfrewshire News",
+       "ts": "2026-10-01T19:30:00+00:00"
+      },
+      {
+       "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVY2N0ZrMUpUbm0xbWYyRVB3U2RqQmlJcmQxTjlpN1BZd0JXRFZITmlGSnFQcU1IRmVieHNvMlFJUUVGRnpLVktYbkxjTGxRdGd2Uk5zeGJtU1o2M3A3bG5MWU41dDMta1UtRzRROXFKb2VUY193S00zTTJzWHVwUVNtZlI3WDA3aFdqN2lDOWJwYnZnaHRaUzVIUVY2THZib1dzVTdn?oc=5",
+       "source": "Halstead Gazette",
+       "ts": "2026-10-01T19:30:00+00:00"
+      },
+      {
+       "title": "Who was picked as the Traitors on the new series of Celebrity Traitors?",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVBJelBjX0twT1VRcGJaanJ0dmU3OS1rcWFqTVozLXA3dFRUalNtaVpkUThoMFBsWXpPNGxnMTFrSERLNGZqSlpFaTVOVFZQU2o1YzkyMm42ZUtkb3dXX2xSUUNad19jOW53OHVUOWFtRm5Kd2t1aXAzU01CWS1UelAxZnpDdVMyM1dSX0t4QlE5b00yODJXcVdObHd3MXVKQXNxSlFkV2I?oc=5",
+       "source": "Andover Advertiser",
+       "ts": "2026-10-01T19:30:00+00:00"
+      }
+     ],
+     "score": 5.699999999999999,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "signals": [],
+     "segment": "Womens Interest",
+     "channel": "Celebrity",
+     "topics": [
+      "Streaming & screens"
+     ]
+    },
+    {
+     "title": "England ODI series against Pakistan and Sri Lanka avoids TV blackout",
+     "signal": "rising",
+     "recent": 2,
+     "previous": 0,
+     "sources": 2,
+     "items": [
+      {
+       "title": "Sky Sports to show England's ODI tri-series against Pakistan and Sri Lanka live from October 18-31",
+       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZV9YbXV2Z2g2eEhEbFFleERrRjNBcU4tMGJhSXZVUGp6bkNJODVOUEMxVHROeUxsTkJFME1oNmNUWWQ5cUdqdS1XNGdfYmtZNHI2d0VMMGVsVHZqZVR4Mm5OLVc0WDBZRG9EUUZ4XzVNQ2FBRmdJZ1Fmbk5pQkQ4Qi1QOXA5aTBzS2liYUFNMXloLTRoTFlfTm5NbzJKY3JaNUZGQnVHR3pUSy1kU2NYS2kwMC1RUEE1SHUwRWM5UE5ZUUk2R2t1QVBFVFpQWXRLTm45b2FXbHhXZWJybjloV09mbldtZw?oc=5",
+       "source": "Sky Sports",
+       "ts": "2026-10-07T10:00:32+00:00"
+      },
+      {
+       "title": "England ODI series against Pakistan and Sri Lanka avoids TV blackout",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSXdXNEFyVVBYbHZiUzBoUEJmZVJIdkRXRjVzcENyMG5rZjhmRFBPNXZYT1N4NkdJVWoxZktnVEx3Uk9KU0tYVWtKQnd5OU1SaWFxZENOdUtkV1N2OTVCMUxiSTQycnZzMlpyU011UWZyS012ekZCaXN6R3R4eUZZaDdKVzVYWjdXdWFYME9QdFVnNjlyMDhrSVpFZlNJQnBhaTlhYjh6UQ?oc=5",
+       "source": "The Telegraph",
+       "ts": "2026-10-06T09:47:00+00:00"
+      }
+     ],
+     "score": 3.2,
+     "daily": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+     ],
+     "signals": [],
+     "segment": "Sport",
+     "channel": "Cricket & rugby",
+     "topics": [
+      "Streaming & screens"
+     ]
     }
    ]
   },
@@ -6061,34 +6413,28 @@
     0,
     0,
     2,
-    3,
-    3,
+    4,
+    1,
     0,
     0,
     0,
     2,
     0
    ],
-   "change": 300,
+   "change": 250,
    "trends": [
     {
-     "title": "House price growth halved in September",
+     "title": "House price growth halves to 0.8% in September: Nationwide",
      "signal": "rising",
-     "recent": 6,
+     "recent": 5,
      "previous": 2,
-     "sources": 7,
+     "sources": 6,
      "items": [
       {
        "title": "UK house price growth slows to 0.8% in September",
        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSXpSWlhORzd2Tko3VGNfbXN6UHFZM0I3cGVuazZPNER1R1ExREpaZFpmOUtWSnRsaG1sVWJEYjJVNGRhU3B2VnV1Tkt4RDRvVXh0dE82c2dnUUxzNHJfdDB0dmpkSEhDTXFQQ3FaLTdDX0d0ZE1zXzNmV3VfMXgzRllJTlk5NUZqRHc?oc=5",
        "source": "PropertyWire",
        "ts": "2026-10-02T05:03:28+00:00"
-      },
-      {
-       "title": "UK house price growth halved in September as slump continues: Nationwide HPI",
-       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uQy1US2R4SVFOUVhpcms3MEdkUDhTcUsyenZ3Q3ZDVS0yRUdLZEhTQVJjbHRwRkEtNU5YQjJOUUVkdXl0Z20tSFZlMDFRa2RnVHpJYWZFcjVwYWlvN0x2MGZNMTYyTTdWSGpJZ0t1NUNZMV9EbzRHTEg3ZmNxQQ?oc=5",
-       "source": "Moneyfacts",
-       "ts": "2026-10-01T23:15:35+00:00"
       },
       {
        "title": "House price growth halved in September",
@@ -6127,7 +6473,7 @@
        "ts": "2026-09-29T23:01:00+00:00"
       }
      ],
-     "score": 18.6,
+     "score": 14.0,
      "daily": [
       0,
       0,
@@ -6136,8 +6482,8 @@
       0,
       0,
       2,
-      3,
-      3,
+      4,
+      1,
       0,
       0,
       0,
@@ -6198,7 +6544,7 @@
    ]
   },
   {
-   "name": "Streaming & screens",
+   "name": "Nostalgia & retro",
    "total": 2,
    "daily": [
     0,
@@ -6209,42 +6555,42 @@
     0,
     0,
     0,
-    3,
     0,
     0,
     0,
-    1,
-    1
+    0,
+    5,
+    0
    ],
    "change": 500,
    "trends": [
     {
-     "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
+     "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
      "signal": "rising",
      "recent": 3,
      "previous": 0,
-     "sources": 3,
+     "sources": 2,
      "items": [
       {
-       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
-       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN2RBZFJOWEdiVl8wamMzQmxBd3M5dHZINS1vaExMZlUxMmFTUmJORlhXcnVjWHQ5TUdtSElITDZmTlZzNng1UmhUa3BLeFgwcDQzVVB3anJIbElWTE1nb1FyR2tYSmpnU2FOT3pSZU9rb0RRUHZJTnlBLVRLUHJsbVFqVGZ2S0F1dml1VXJVX25CMGhQSUppRlB1alpOVlpCNElrN2hlQ3JVU0J3OXBQa3F3?oc=5",
-       "source": "Dudleynews.co.uk",
-       "ts": "2026-10-01T20:02:13+00:00"
+       "title": "2026 Baycurrent Classic betting tips \u2013 including a 100/1 shot with course form",
+       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZndF85djRrNzR4ZUxKOXdXWEdvU1J6ZTBqbUFna3d6bE1zQjdIdHpKUnNiZHdSMDlSNnoxaW1haHNwRmd0ejdTakZMMF9BV1lubm56ZVN0TzZoVHFueEdSUm5oZTZYWTFBN2pacDVKR2RRRlVrQzJ5V0NtVEUza3F5amFDRGp2QW11VjV2ZHAtSkZMajJJLQ?oc=5",
+       "source": "Today's Golfer",
+       "ts": "2026-10-06T01:24:42+00:00"
       },
       {
-       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
-       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNblVXeC11b1puelNIeGdzMkZwVldhNk9DOGlTMVd2bUFUd0NRUmltZG5ZSXoyMHhhQlNOQ21vNTM4R05yZlZkVVMyVmw4Q09OTlJVVmk0MWl2anJMdC1nSkprczVkN2V6RFpXUDV1amNPenlwbmpnWjd1cVc5OFJVbzF3eTJRLTBkSmJxM1lGSm9HVklNNGwyNWowZkxiXy14MmNXLWQxLW9FMWhucWNJMw?oc=5",
-       "source": "Daily Echo",
-       "ts": "2026-10-01T20:02:13+00:00"
+       "title": "2026 Open de Espana betting tips \u2013 including a 66/1 shot in fine form",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUzRUMjBrT2RRR2Rza1hBcko1cjlKOE5ZRUJfcWg1WmoxbVNnRG9Odk1TN3BZaGhKMXRTenhXOC1IdGlKVXRHMUpQcDlERklMaEVrc256WTZ0VmhfV2w0UU1RWXJTLUlOZDhYOEtSdURMMGhLV0I2TTQ1bnRhUU1pamgtM1Q4QkZKMUpvblA4WndIODg?oc=5",
+       "source": "Today's Golfer",
+       "ts": "2026-10-06T01:22:04+00:00"
       },
       {
-       "title": "The Celebrity Traitors chosen as hit BBC series returns to screens",
-       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNalJqdHJHOWs5ajFYelF3ZUd6TzMyUnFDdkhzX2JJTE91SFc1ZDg5X2JKeTY0SFlLSlI0cTJCekxoVlNUdUdnVkY5ZEoxNnZCVHVPSTBjZVp5SlR1bFdYRVkza1Z2MHBPMzQyWmVUNU9Ec2dGRDlTNkhuNFZhN3NER0dGTGRpTWlhdlJEcEJmZTEwYUtsQ043SUwyT2hOaXdVUHVWVGZMa3ZaWThhWS1CT2g0dGJsZw?oc=5",
-       "source": "The Bolton News",
-       "ts": "2026-10-01T20:02:13+00:00"
+       "title": "Baycurrent Classic 2026 preview, picks & betting tips",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdnFkN2VYdk5nWU44R0NRekZmclRISzllSHN6WFJ1cWtZSnVab0NWa3dpRFdXV2NfX3NHLUs0Zm9nZkY1UDd3Mkp4V2lrWGFjX0FlR3RiYWlsRkpoaE5xMWlZTkxFWjdmenFTMUN2VkdIUm1HdW9GcTJndnpHclgtZG5YaFhWZ3cyTUQ0SjFpSldOc1dJYVJXSV9XZHE3Zw?oc=5",
+       "source": "Golfshake.com",
+       "ts": "2026-10-05T14:51:18+00:00"
       }
      ],
-     "score": 7.124999999999999,
+     "score": 4.800000000000001,
      "daily": [
       0,
       0,
@@ -6254,43 +6600,38 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
       3,
-      0,
-      0,
-      0,
-      0,
       0
      ],
-     "signals": [
-      {
-       "kind": "wikipedia",
-       "label": "Popular on Wikipedia this week: The Celebrity Traitors (124,116 views)"
-      }
-     ],
-     "segment": "Womens Interest",
-     "channel": "Celebrity",
+     "signals": [],
+     "segment": "Sport",
+     "channel": "Golf",
      "topics": [
-      "Streaming & screens"
+      "Nostalgia & retro"
      ]
     },
     {
-     "title": "Sky Sports to show England's ODI tri-series against Pakistan and Sri Lanka live from October 18-31",
+     "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
      "signal": "rising",
      "recent": 2,
      "previous": 0,
      "sources": 2,
      "items": [
       {
-       "title": "Sky Sports to show England's ODI tri-series against Pakistan and Sri Lanka live from October 18-31",
-       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZV9YbXV2Z2g2eEhEbFFleERrRjNBcU4tMGJhSXZVUGp6bkNJODVOUEMxVHROeUxsTkJFME1oNmNUWWQ5cUdqdS1XNGdfYmtZNHI2d0VMMGVsVHZqZVR4Mm5OLVc0WDBZRG9EUUZ4XzVNQ2FBRmdJZ1Fmbk5pQkQ4Qi1QOXA5aTBzS2liYUFNMXloLTRoTFlfTm5NbzJKY3JaNUZGQnVHR3pUSy1kU2NYS2kwMC1RUEE1SHUwRWM5UE5ZUUk2R2t1QVBFVFpQWXRLTm45b2FXbHhXZWJybjloV09mbldtZw?oc=5",
-       "source": "Sky Sports",
-       "ts": "2026-10-07T10:00:32+00:00"
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
+       "source": "AOL.com",
+       "ts": "2026-10-05T19:15:00+00:00"
       },
       {
-       "title": "England ODI series against Pakistan and Sri Lanka avoids TV blackout",
-       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSXdXNEFyVVBYbHZiUzBoUEJmZVJIdkRXRjVzcENyMG5rZjhmRFBPNXZYT1N4NkdJVWoxZktnVEx3Uk9KU0tYVWtKQnd5OU1SaWFxZENOdUtkV1N2OTVCMUxiSTQycnZzMlpyU011UWZyS012ekZCaXN6R3R4eUZZaDdKVzVYWjdXdWFYME9QdFVnNjlyMDhrSVpFZlNJQnBhaTlhYjh6UQ?oc=5",
-       "source": "The Telegraph",
-       "ts": "2026-10-06T09:47:00+00:00"
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
+       "source": "Apartment Therapy",
+       "ts": "2026-10-05T15:15:00+00:00"
       }
      ],
      "score": 3.2,
@@ -6307,14 +6648,14 @@
       0,
       0,
       0,
-      1,
-      1
+      2,
+      0
      ],
      "signals": [],
-     "segment": "Sport",
-     "channel": "Cricket & rugby",
+     "segment": "Womens Interest",
+     "channel": "Home interiors",
      "topics": [
-      "Streaming & screens"
+      "Nostalgia & retro"
      ]
     }
    ]
@@ -6336,17 +6677,23 @@
     0,
     0,
     0,
-    2
+    3
    ],
-   "change": 200,
+   "change": 300,
    "trends": [
     {
      "title": "Ikea launches second-hand marketplace for its own furniture and homewares",
      "signal": "rising",
-     "recent": 2,
+     "recent": 3,
      "previous": 0,
-     "sources": 2,
+     "sources": 3,
      "items": [
+      {
+       "title": "Ikea launches second-hand marketplace in the UK",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkNnY0M4c1BpZnlNelQ3Wngtc3lXalpfckVQY3Z0eFJnZjFTMzUtSEp4eTR0SnJhdk91RVNYUklXVUQ0dUNEQUktT0F4NWZRSkVoRzFCM1poZFB1Q2pxcFRKLXJHYmE0alI3dEJrMW1sWHh0WmR4czVPeFVManFkbEEteHJZREk?oc=5",
+       "source": "Retail Systems",
+       "ts": "2026-10-07T12:01:05+00:00"
+      },
       {
        "title": "Ikea launches second-hand marketplace for its own furniture and homewares",
        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2tpWXkzbFdFdFBwOXdPQ3FTVk1rQkJPY3pReEkwYXBTYk1UUDRCVkZPUXdIRkNKWlFlWXpwQ25rbzJLOWZZWDVaWHlHcC00RHpBVnlYeThEWFFQcDRsS05xTFRZUHNVQ2MzLTJuWVJab2lFdFIxOUpCaXdxV1lOYzhjWlNPLVVrcE9YeGFDbzRwR0RiblJSZGZ6eUtJWHo0NG5scWxmRjYtZw?oc=5",
@@ -6360,7 +6707,7 @@
        "ts": "2026-10-06T23:01:00+00:00"
       }
      ],
-     "score": 3.2,
+     "score": 5.699999999999999,
      "daily": [
       0,
       0,
@@ -6375,7 +6722,7 @@
       0,
       0,
       0,
-      2
+      3
      ],
      "signals": [],
      "segment": "Buying & Selling",
@@ -6516,73 +6863,6 @@
      "channel": "Electric vehicles",
      "topics": [
       "Electric & green mobility"
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Nostalgia & retro",
-   "total": 1,
-   "daily": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    2,
-    0
-   ],
-   "change": 200,
-   "trends": [
-    {
-     "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-     "signal": "rising",
-     "recent": 2,
-     "previous": 0,
-     "sources": 2,
-     "items": [
-      {
-       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
-       "source": "AOL.com",
-       "ts": "2026-10-05T19:15:00+00:00"
-      },
-      {
-       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
-       "source": "Apartment Therapy",
-       "ts": "2026-10-05T15:15:00+00:00"
-      }
-     ],
-     "score": 3.2,
-     "daily": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      0
-     ],
-     "signals": [],
-     "segment": "Womens Interest",
-     "channel": "Home interiors",
-     "topics": [
-      "Nostalgia & retro"
      ]
     }
    ]
