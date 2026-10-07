@@ -1,4 +1,4 @@
-"""Daily trends pipeline: ingest -> dedupe -> cluster -> score -> (optional) summarise."""
+"""Daily trends pipeline: ingest (UK + US) -> cluster -> score per region -> signals -> (optional) summaries."""
 import datetime as dt, hashlib, json, os, pathlib, re, time, urllib.parse
 import feedparser, numpy as np, yaml
 from signals import Signals
@@ -8,20 +8,23 @@ from sklearn.metrics.pairwise import cosine_similarity
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ITEMS, OUT = ROOT / "data" / "items.json", ROOT / "docs" / "data" / "trends.json"
 KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.35, 2, 2, 5, 60, 14
+REGIONS = {"UK": ("en-GB", "GB", "GB:en"), "US": ("en-US", "US", "US:en")}
 NOW = dt.datetime.now(dt.timezone.utc)
 
-def fetch(seg, chan, q):
+def fetch(seg, chan, q, region):
+    hl, gl, ceid = REGIONS[region]
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": f"{q} when:14d", "hl": "en-GB", "gl": "GB", "ceid": "GB:en"})
+        {"q": f"{q} when:14d", "hl": hl, "gl": gl, "ceid": ceid})
     try:
         feed = feedparser.parse(url)
     except Exception as e:  # one failing source must not stop the run
-        print(f"skip {seg}/{chan}: {e}"); return []
+        print(f"skip {region} {seg}/{chan}: {e}"); return []
     out = []
     for e in feed.entries:
         if not e.get("published_parsed"): continue
+        key = e.link if region == "UK" else "US|" + e.link  # UK ids unchanged from earlier versions
         out.append(dict(
-            id=hashlib.md5(e.link.encode()).hexdigest(), seg=seg, chan=chan,
+            id=hashlib.md5(key.encode()).hexdigest(), seg=seg, chan=chan, region=region,
             title=re.sub(r"\s+-\s+[^-]+$", "", e.title), link=e.link,
             source=(e.get("source") or {}).get("title", ""),
             ts=dt.datetime(*e.published_parsed[:6], tzinfo=dt.timezone.utc).isoformat()))
@@ -31,7 +34,9 @@ def fetch(seg, chan, q):
 def load_items():
     store = {i["id"]: i for i in json.loads(ITEMS.read_text())} if ITEMS.exists() else {}
     cutoff = NOW - dt.timedelta(days=KEEP_DAYS)
-    return {k: v for k, v in store.items() if dt.datetime.fromisoformat(v["ts"]) > cutoff}
+    store = {k: v for k, v in store.items() if dt.datetime.fromisoformat(v["ts"]) > cutoff}
+    for v in store.values(): v.setdefault("region", "UK")
+    return store
 
 def cluster(items):
     X = TfidfVectorizer(stop_words="english", ngram_range=(1, 2)).fit_transform([i["title"] for i in items])
@@ -52,12 +57,12 @@ def summarise(trend):
     if not os.getenv("ANTHROPIC_API_KEY"): return
     try:
         import anthropic
-        heads = "\n".join(f"- {i['title']} ({i['source']})" for i in trend["items"][:8])
+        heads = "\n".join(f"- {i['title']} ({i['source']}, {i['region']})" for i in trend["items"][:8])
         msg = anthropic.Anthropic().messages.create(
             model="claude-haiku-4-5-20251001", max_tokens=300,
             messages=[{"role": "user", "content":
-                "You brief magazine editors. Using ONLY these headlines, write two lines.\n"
-                "Line 1: what the trend is and why it matters (max 30 words).\n"
+                "You brief UK magazine editors. Using ONLY these headlines, write two lines.\n"
+                "Line 1: what the trend is and why it matters (max 30 words). Say if it is mainly a US trend.\n"
                 "Line 2: one content or commercial angle for a UK publisher (max 25 words).\n\n" + heads}])
         a, _, b = msg.content[0].text.strip().partition("\n")
         trend["summary"], trend["angle"] = a.strip(), b.strip()
@@ -71,10 +76,11 @@ def daily(members):
         if 0 <= age < DAYS: out[DAYS - 1 - age] += 1
     return out
 
-def agg(ts):
-    d = [sum(c) for c in zip(*[t["daily"] for t in ts])] or [0] * DAYS
-    a, b = sum(d[7:]), sum(d[:7])
-    return dict(daily=d, change=round(100 * (a - b) / max(b, 1)))
+def region_stats(members, d7, region):
+    ms = [m for m in members if m["region"] == region]
+    cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in ms)
+    return dict(recent=cur, previous=len(ms) - cur, daily=daily(ms), signal=signal(cur, len(ms) - cur),
+                sources=len({m["source"] for m in ms if m["source"]}))
 
 def build_trends(items, d7, sig):
     if len(items) < MIN_ITEMS: return []
@@ -85,13 +91,15 @@ def build_trends(items, d7, sig):
         members = [items[n] for n in idx]
         srcs = {m["source"] for m in members if m["source"]}
         if len(members) < MIN_ITEMS or len(srcs) < MIN_SOURCES: continue
-        cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in members)
-        medoid = idx[int(np.argmax(S[np.ix_(idx, idx)].sum(axis=1)))]
-        t = dict(title=items[medoid]["title"], signal=signal(cur, len(members) - cur),
-                 recent=cur, previous=len(members) - cur, sources=len(srcs),
-                 items=[{k: m[k] for k in ("title", "link", "source", "ts")} for m in members[:8]],
-                 score=cur * (1 + 0.3 * len(srcs)))
-        t["daily"] = daily(members)
+        uk, us = region_stats(members, d7, "UK"), region_stats(members, d7, "US")
+        ut, st = uk["recent"] + uk["previous"], us["recent"] + us["previous"]
+        origin = "us" if ut == 0 else "uk" if st == 0 else "us" if (st >= 3 and ut <= 1) else "both"
+        pool = [n for n in idx if items[n]["region"] == "UK"] or idx  # prefer a UK headline as the title
+        medoid = pool[int(np.argmax(S[np.ix_(pool, idx)].sum(axis=1)))]
+        show = [m for m in members if m["region"] == "UK"][:5] + [m for m in members if m["region"] == "US"][:3]
+        t = dict(title=items[medoid]["title"], origin=origin, uk=uk, us=us, sources=len(srcs),
+                 items=[{k: m[k] for k in ("title", "link", "source", "ts", "region")} for m in show],
+                 score=(uk["recent"] + 0.5 * us["recent"]) * (1 + 0.3 * len(srcs)))
         t["signals"] = sig.match([m["title"] for m in members])
         t["score"] *= 1 + 0.25 * len(t["signals"])  # boost trends seen on other platforms
         trends.append(t)
@@ -113,7 +121,8 @@ def main():
     store = load_items()
     for seg, chans in tax.items():
         for chan, q in chans.items():
-            for it in fetch(seg, chan, q): store.setdefault(it["id"], it)
+            for region in REGIONS:
+                for it in fetch(seg, chan, q, region): store.setdefault(it["id"], it)
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
@@ -129,12 +138,14 @@ def main():
                 t["segment"], t["channel"] = seg, chan
                 t["topics"] = tag_topics(t, topics)
                 for name in t["topics"]: by_topic.setdefault(name, []).append(t)
-            if trends: out_chans.append(dict(name=chan, trends=trends, **agg(trends)))
-        segments.append(dict(name=seg, channels=out_chans, **agg([t for c in out_chans for t in c['trends']])))
-    topic_out = sorted(({"name": n, "total": len(v), **agg(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
+            if trends: out_chans.append(dict(name=chan, trends=trends))
+        segments.append(dict(name=seg, channels=out_chans))
+    topic_out = sorted(({"name": n, "total": len(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
                         for n, v in by_topic.items()), key=lambda t: -t["total"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(dict(updated=NOW.isoformat(), days=[(NOW - dt.timedelta(days=DAYS - 1 - i)).date().isoformat() for i in range(DAYS)], segments=segments, topics=topic_out), indent=1))
+    OUT.write_text(json.dumps(dict(version=2, updated=NOW.isoformat(),
+        days=[(NOW - dt.timedelta(days=DAYS - 1 - i)).date().isoformat() for i in range(DAYS)],
+        segments=segments, topics=topic_out), indent=1))
     print("done:", sum(len(c["trends"]) for s in segments for c in s["channels"]), "trends,", len(topic_out), "topics")
 
 if __name__ == "__main__":
