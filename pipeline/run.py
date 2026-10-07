@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ITEMS, OUT = ROOT / "data" / "items.json", ROOT / "docs" / "data" / "trends.json"
-KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.35, 2, 2, 5, 15, 14
+KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.35, 2, 2, 5, 60, 14
 NOW = dt.datetime.now(dt.timezone.utc)
 
 def fetch(seg, chan, q):
