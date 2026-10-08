@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-08T11:23:48.949223+00:00",
+ "updated": "2026-10-08T11:40:50.320275+00:00",
  "days": [
   "2026-09-25",
   "2026-09-26",
@@ -28,8 +28,8 @@
        "title": "UK house price growth slows to 0.8% in September",
        "origin": "uk",
        "uk": {
-        "recent": 3,
-        "previous": 4,
+        "recent": 2,
+        "previous": 5,
         "daily": [
          0,
          0,
@@ -37,8 +37,8 @@
          0,
          0,
          2,
-         2,
          3,
+         2,
          0,
          0,
          0,
@@ -46,7 +46,7 @@
          0,
          0
         ],
-        "signal": "steady",
+        "signal": "fading",
         "sources": 6
        },
        "us": {
@@ -109,7 +109,7 @@
          "region": "UK"
         }
        ],
-       "score": 8.399999999999999,
+       "score": 5.6,
        "signals": [],
        "segment": "Buying & Selling",
        "channel": "Property",
@@ -183,7 +183,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,333 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,338 views)"
         }
        ],
        "segment": "Buying & Selling",
@@ -752,7 +752,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Man City\u2019s Punishment Could Be MORE Than Relegation \ud83d\ude33\ud83d\udd25 (1,732,793 views)"
+         "label": "Popular on YouTube (UK): Man City\u2019s Punishment Could Be MORE Than Relegation \ud83d\ude33\ud83d\udd25 (1,732,838 views)"
         }
        ],
        "segment": "Computing",
@@ -983,7 +983,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): We Built the Product Apple Gave Up On... (9,477,278 views)"
+         "label": "Popular on YouTube (UK): We Built the Product Apple Gave Up On... (9,477,490 views)"
         }
        ],
        "segment": "Computing",
@@ -1135,7 +1135,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): She built one console out of a PS5, Xbox, and Nintendo Switch \ud83e\udd2f\ud83d\udd27 (4,086,730 views)"
+         "label": "Popular on YouTube (UK): She built one console out of a PS5, Xbox, and Nintendo Switch \ud83e\udd2f\ud83d\udd27 (4,087,514 views)"
         }
        ],
        "segment": "Computing",
@@ -1221,6 +1221,76 @@
     {
      "name": "PC gaming",
      "trends": [
+      {
+       "title": "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever",
+       "origin": "both",
+       "uk": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "us": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "sources": 2,
+       "items": [
+        {
+         "title": "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever",
+         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDJVN2Y0S25oTjFjQnFVMGhkMXpna1N6WHpyMERCRkVPNGtXeVRSdUo2VURSZ29KTVNYUjAxRW9TVWN6YkwyQkIzRE85NTh4VkY0RVE4OVZJaFpuS2VBaGk1VE1IRGJ1aFBydlltTk14RFpkS1RGRzZGcnFsbjFvMFh1b2twSFhXbHhPX2Z6WDAzNEwxTE1wMlgtYlB6VEFRV2c?oc=5",
+         "source": "PC Gamer",
+         "ts": "2026-10-08T09:11:18+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "PC Gamer magazine's new issue is on sale now: World of Warcraft: Forever",
+         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTW1KYlI3TWlZejlYekRoUEJSUTFSaHdCZHkxV1RmMXl3TUNEWUJoWE5nOHhOVVEwZkc5NXZPVmpzQWk4S0lxWGRTdF92UV8wT2otOEg4Y2tRWGF2SGhYemRHUjRadExXUGV0MGFsanJ5SkhYYWFlWl9pd1l0QlBpTmhKck94RDhUVHVwa1JxQmhweEk0X3Z5ZG41QQ?oc=5",
+         "source": "Yahoo",
+         "ts": "2026-10-08T09:11:18+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 2.4000000000000004,
+       "signals": [],
+       "segment": "Computing",
+       "channel": "PC gaming",
+       "topics": []
+      },
       {
        "title": "Upcoming PC games: New PC games for 2026 and beyond",
        "origin": "uk",
@@ -3123,7 +3193,7 @@
          "title": "Mercedes-Benz Car Sales Fall on China Market Weakness",
          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX19VM0NpYnVVQWltSWV5SWp6dG40S0l1c2ZlMkN6Z2k1ZklzSmFNMmRfVXVRTHZBRzlteE5oenV4bDZnTFBTRmZBQlc0d3FjOVVqMGhDOC1oUFdXQlpnRVFDRmc1R2lrajk2aXI2R292TktKaTcyb1RKT2hHTnI2SEZGZjlLUkw3YXQyaTV2V0d4amotT3Q0bUxaNXdJdw?oc=5",
          "source": "WSJ",
-         "ts": "2026-10-07T09:50:00+00:00",
+         "ts": "2026-10-07T11:15:54+00:00",
          "region": "US"
         }
        ],
@@ -3204,7 +3274,7 @@
        "topics": []
       },
       {
-       "title": "[Gen-AI Analysis] UK - New car sales in 2026 by OEM, vehicle type",
+       "title": "[Gen-AI Analysis] UK - Automotive production in 2026 by vehicle type",
        "origin": "uk",
        "uk": {
         "recent": 1,
@@ -4094,7 +4164,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (476,664 views)"
+         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (478,868 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -4484,7 +4554,7 @@
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): WE ARE BEING LIED TO: Richard Sanders EXPOSES Green Party Zionism is Racism Smears (187,349 views)"
+         "label": "Popular on YouTube (UK): WE ARE BEING LIED TO: Richard Sanders EXPOSES Green Party Zionism is Racism Smears (187,486 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -4774,7 +4844,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Scholes STUNNED by Luke Littler\u2019s all-time Man United XI! \ud83e\udd2f (194,890 views)"
+         "label": "Popular on YouTube (UK): Scholes STUNNED by Luke Littler\u2019s all-time Man United XI! \ud83e\udd2f (195,268 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -5022,7 +5092,7 @@
         "sources": 9
        },
        "us": {
-        "recent": 4,
+        "recent": 6,
         "previous": 0,
         "daily": [
          0,
@@ -5037,13 +5107,13 @@
          0,
          0,
          0,
-         1,
-         3
+         2,
+         4
         ],
         "signal": "rising",
-        "sources": 4
+        "sources": 6
        },
-       "sources": 13,
+       "sources": 15,
        "items": [
         {
          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
@@ -5096,13 +5166,13 @@
         },
         {
          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
-         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVjViM1JhMVhSaUwtdkdxajA0LVJOUDMtMl9wSDhmSUxBMjhJSDRLMUxiR1plLWVXZjNWdzVyZ3BDSWlzQjQxNEFaaW5CMUVMSC1OQWZET2JRc3I3Z3p0ZXdaZmRvSWVJQ19XNm55UnFESGZzQmlUdDY3dFdjeE5MN3VjcDd3RzdKLVFfSXJfZGt0b0RXYXFLLXUyR212SEFoVUs0ZDZTc25KT1BwWnYxcnJlMHMwNDc5cjE4M19NVTBhbDZoUV9RbGxzZDF1b0NMdUU2S3MtZmwwVkdXUWQ0aUljY0NVd2c?oc=5",
-         "source": "Oskaloosa Herald",
-         "ts": "2026-10-07T12:23:35+00:00",
+         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUXE4U2swczFQa1U3MXhCb1dTN0R3MGpOTTBjcHVsRmx0Y01Nem00VFBWMFMwZklua3Z3YzA3M0dSRl8ycWFLTEtDX1JRWWY1dWNFMEVsbkpTalpmbXdzUERxN2NmRXdxdThScXloeTk1b0NJZjBKQmZZeE13ZWIwWmVaNjB5dG9udUpYZjE4MWs5TlpiVnZhTnlpU3hfdW120gGmAUFVX3lxTE1zV0RJYzFLVEZFTlpaNEZkYXV1S1hvWXRCRXpuTXRYVEtyTTNnRFNaVjZsT3VFQzkwNWdQNWYyRFV1UDQ2U2dwLS1LR1ViSnEyeU9TOUdpNUVkRjNqbXZ6Y2hYcTYzdV82M0RrYU41ZDBDWkppWmFMVWhWXzRHVDIwVEdId0lpbFlDOHhRUjZERWJBQTRLX1k4Rnh4ZVpvVExyaUJCcVE?oc=5",
+         "source": "WJHL",
+         "ts": "2026-10-07T17:25:52+00:00",
          "region": "US"
         }
        ],
-       "score": 53.900000000000006,
+       "score": 66.0,
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Science",
@@ -5205,88 +5275,6 @@
         {
          "kind": "wikipedia",
          "label": "Popular on Wikipedia this week: Optogenetics (66,453 views)"
-        }
-       ],
-       "segment": "News & Current Affairs",
-       "channel": "Science",
-       "topics": []
-      },
-      {
-       "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
-       "origin": "uk",
-       "uk": {
-        "recent": 3,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         3,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 3
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "sources": 3,
-       "items": [
-        {
-         "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
-         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0daRG1RUzM2OFA2LU9aTTBOTFYtWk9ZdmdycFB0Yl9fdE55VW5aZHExQ3RRZVhWLXNPRVRVQm16aHczRUQzYlVmZVhNVHhORGNBOWFGSU1oVkRWb3RVWHE2U0w1ZGNabnI1WWN1MXR5VXg0ckx3UjdPY05CUlZaWUZjcWR2YlFRM0Jtd0FuWko0bHZ2NXNfZ2NR?oc=5",
-         "source": "Yeni \u015eafak English",
-         "ts": "2026-10-06T11:13:01+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
-         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
-         "source": "reuters.com",
-         "ts": "2026-10-06T09:58:45+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Nobel Prize in Physics Is Awarded to Francis Halzen for Work on Neutrinos",
-         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OWjJMYW1Rd211OXFZQnMyTFhseGNpMXJ1ckxuNnJwbmNHV3EzN0xtN0lHTWlSbkEwYjh0VUgyMVM3ZTF4SE9yejNKU19xZVhFSFh0U2x3cDVZR2NDUXByX3RkcndaWTJldjg4QnYwUXhGODZBSlE?oc=5",
-         "source": "The New York Times",
-         "ts": "2026-10-06T09:54:18+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 7.124999999999999,
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Francis Halzen (162,630 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -5452,7 +5440,89 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): AI image editing goes wrong... (262,371 views)"
+         "label": "Popular on YouTube (UK): AI image editing goes wrong... (262,543 views)"
+        }
+       ],
+       "segment": "News & Current Affairs",
+       "channel": "Science",
+       "topics": []
+      },
+      {
+       "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
+       "origin": "both",
+       "uk": {
+        "recent": 2,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "sources": 3,
+       "items": [
+        {
+         "title": "Francis Halzen awarded 2026 Nobel Prize in Physics",
+         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0daRG1RUzM2OFA2LU9aTTBOTFYtWk9ZdmdycFB0Yl9fdE55VW5aZHExQ3RRZVhWLXNPRVRVQm16aHczRUQzYlVmZVhNVHhORGNBOWFGSU1oVkRWb3RVWHE2U0w1ZGNabnI1WWN1MXR5VXg0ckx3UjdPY05CUlZaWUZjcWR2YlFRM0Jtd0FuWko0bHZ2NXNfZ2NR?oc=5",
+         "source": "Yeni \u015eafak English",
+         "ts": "2026-10-06T11:13:01+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0hVTTdSN0xhUUhTTVlvRE5ndVE5eE5jUF9rek9ldjVvendOOVNBWnkzNVFueEEwdUxBeS1TX19SeklDYWVURWZ5QW9ZWnVhdXZQNGRJMC1HMWFDY3owd0Z0bmFSUl9OcDlXdGdmQTJ0WlZpQVZrYTdQZmRBTDV0Ymw5MEVfRDE1NVlxVW9xQ0V0UQ?oc=5",
+         "source": "reuters.com",
+         "ts": "2026-10-06T09:58:45+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Nobel Prize in Physics Is Awarded to Francis Halzen for Work on Neutrinos",
+         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OWjJMYW1Rd211OXFZQnMyTFhseGNpMXJ1ckxuNnJwbmNHV3EzN0xtN0lHTWlSbkEwYjh0VUgyMVM3ZTF4SE9yejNKU19xZVhFSFh0U2x3cDVZR2NDUXByX3RkcndaWTJldjg4QnYwUXhGODZBSlE?oc=5",
+         "source": "The New York Times",
+         "ts": "2026-10-06T09:54:18+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 5.9375,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Francis Halzen (162,630 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -5646,6 +5716,81 @@
      "name": "Football",
      "trends": [
       {
+       "title": "Liverpool news: Record-breaking bid made for wonderkid as race for 'unsellable' star heats up",
+       "origin": "uk",
+       "uk": {
+        "recent": 2,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "sources": 2,
+       "items": [
+        {
+         "title": "Liverpool news: Record-breaking bid made for wonderkid as race for 'unsellable' star heats up",
+         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkNJbEtySWJKaGM1UGlJcmR5Wkl1YTEydjlDTU14V0JUQ1lNZzlOdENoSUJWZDJSYVJZTXVEYng3OUVMWEZqQWVPR1AzTkZfbVRXRjNCTU1SX0s3Q2h6cXVpSHVEQnd0RjR2M1hJWkhwM0pTejcxR1JQNDVMNThVUVR4TUcyU1hNTExLbXBZYXNiZ9IBlwFBVV95cUxNQkpLZUlZZzZSaGJwdktOUi1DVV9qaGU3alQzc050aGFCZUc5MGZueVpXTEhzbzd1bXNDYmp4Zi1VY2Z6QkNoX3B5QW03dG9QcnpacHFjQXFQYVRQeW5HeW1iLUpMVnNsQnczcl9BbkVxZUc1NTVMNGZxMEVWY1RZR0s3a2xlY3h6SXk5Y1djdS01NnppZ2g0?oc=5",
+         "source": "The Mirror",
+         "ts": "2026-10-08T04:00:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Liverpool news: Record-breaking bid made for wonderkid as race for 'unsellable' star heats up",
+         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQkpLZUlZZzZSaGJwdktOUi1DVV9qaGU3alQzc050aGFCZUc5MGZueVpXTEhzbzd1bXNDYmp4Zi1VY2Z6QkNoX3B5QW03dG9QcnpacHFjQXFQYVRQeW5HeW1iLUpMVnNsQnczcl9BbkVxZUc1NTVMNGZxMEVWY1RZR0s3a2xlY3h6SXk5Y1djdS01NnppZ2g00gGXAUFVX3lxTE1CSktlSVlnNlJoYnB2S05SLUNVX2poZTdqVDNzTnRoYUJlRzkwZm55WldMSHNvN3Vtc0NianhmLVVjZnpCQ2hfcHlBbTd0b1ByelpwcWNBcVBhVFB5bkd5bWItSkxWc2xCdzNyX0FuRXFlRzU1NUw0ZnEwRVZjVFlHSzdrbGVjeHpJeTljV2N1LTU2emlnaDQ?oc=5",
+         "source": "Daily Mirror",
+         "ts": "2026-10-08T04:00:00+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 4.0,
+       "signals": [
+        {
+         "kind": "youtube",
+         "label": "Popular on YouTube (UK): BREAKING NEWS FlyDubai: No ONE Is Reporting THIS! (1,806,685 views)"
+        }
+       ],
+       "segment": "Sport",
+       "channel": "Football",
+       "topics": []
+      },
+      {
        "title": "Transfer rumors, news: Man United, Arsenal, Chelsea battle for Freiburg striker",
        "origin": "uk",
        "uk": {
@@ -5780,6 +5925,76 @@
         }
        ],
        "score": 3.2,
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Football",
+       "topics": []
+      },
+      {
+       "title": "Chelsea 'lead race' for perfect \u20ac100m signing",
+       "origin": "both",
+       "uk": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "us": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "sources": 2,
+       "items": [
+        {
+         "title": "Chelsea 'lead race' for perfect \u20ac100m signing",
+         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZXhUR3E1X3ZwSUFiWDBtLWxuNnhoT2FRcURqWmVRekg1ZjFvQkg0VXFpaHEyaTkwbW1odDJoWENxS0lFRnp0cHBtZGdEQWlaNjdmOEI3bFZjdFh6ZDVoelY4YlhwWjJkYnFQTkh6R09oZUlZTXFqdDlGdTB6NUJjV3oxX0RGVERPYi1yUEF1OTdWaUVWbFhNZTEtUHJHMlhVcVNCNFpIUDhzX2NOajFzNEpXVmFpY21YSURRTUN1VHBrQmlyUXZNWWQzcHRhcVJlOG52SlR6cEdMcnNWTlJuSF9LMGRjN2YtQVJ1VVdDS3c2cnBNbUE?oc=5",
+         "source": "footballtransfers.com",
+         "ts": "2026-10-05T08:01:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Chelsea 'lead race' for perfect \u20ac100m signing",
+         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOE9seXdOV0Jrdm9FUUU4czVWV0E2VUZLaWFnLXBvTFNmTGNKdThPaEJhdW5rbGtaSnl3dGVtT0FWNWo2RmpTalBIc0JpQ3dJU3h0NnNfTzJ4Q1I4c25Kby1MMmJYdTFSNWxvRDhHQjVneDVvZDlJVFI0cDU5TUJhTzF3SFFrM0h0NXNaeVlPb21odmF5MWhKN2hhcnlrVm0zVVhaVkR0TFliSENfVGtLQnZSZzRKXzZaUFJtQ1k0cnVELXR1NzQzVlFVd2RfOGVhS011Rm8tZU1IY0RvUVFr?oc=5",
+         "source": "www.footballtransfers.com",
+         "ts": "2026-10-05T09:30:00+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 2.4000000000000004,
        "signals": [],
        "segment": "Sport",
        "channel": "Football",
@@ -6020,7 +6235,7 @@
        "topics": []
       },
       {
-       "title": "England ODI series against Pakistan and Sri Lanka avoids TV blackout",
+       "title": "Sky Sports to show England's ODI tri-series against Pakistan and Sri Lanka live from October 18-31",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -6087,7 +6302,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,333 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,338 views)"
         }
        ],
        "segment": "Sport",
@@ -6162,7 +6377,7 @@
        "signals": [
         {
          "kind": "google",
-         "label": "Trending on Google searches: school (1000+ searches)"
+         "label": "Trending on Google searches: school (2000+ searches)"
         }
        ],
        "segment": "Sport",
@@ -6341,97 +6556,6 @@
        "topics": []
       },
       {
-       "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
-       "origin": "uk",
-       "uk": {
-        "recent": 5,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         4,
-         1,
-         0
-        ],
-        "signal": "rising",
-        "sources": 3
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "sources": 3,
-       "items": [
-        {
-         "title": "LIV Golf secures potential $300m investment for 2027 season",
-         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkFNZktFVjVnVmlJVUFuUXJSTS1aa1ZISVMwNVNBZG9DWjRoVVR3dU9ORVRXRXNFS1N3NmNiUjMtX3dYMVJqdnhCeURLbHBkWXdzYW5sMkhiR3ZqdGY2YU83SlROVlBWVHpPbEhCOXljYnItWFd3UG1uXzg5TUNhSWpUWUxfS2RHYVlCY1puS0x2QWtLRFcwQk5TTlBTVnJqMTN4YlFiV2VvbktTZDhrbGxPNEhFZ3M?oc=5",
-         "source": "Golf Business News",
-         "ts": "2026-10-06T13:06:59+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Lifeline for LIV Golf with potential $300m investment as league looks to continue into 2027",
-         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUk5nUldVOUZGd1J0eHE5SGcyYkl6VFZkRk13NnlfNVIwS1Q0QzdFQUNOcHpRZTcwYXJSQTB6SndYLUNzV2tmNV82eW1oS3NXUnl6VlJ1UmRBTHhTMVRPTTc5bXJ4Rk55X2FYZ0lGQUVoZWh6SzRtSlZUTDE4UEl4bERVZVhEaWdLRUl3c2NQRGhCSzBrM0FVdnltT25RZ2dsMmN6WURpNFN6RDNOVWpvQVpWUzFxRVVqYllBQUFFUkZzdE1FSE9hVHlrSWY4TllL?oc=5",
-         "source": "Sky Sports",
-         "ts": "2026-10-06T09:34:46+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Lifeline for LIV Golf with potential $300m investment as league looks to continue into 2027",
-         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN1NDSzVHZjBaZWJfZjQ0ckdLYkRYcm1ObjFVUDI0MENOZTFTYklRczRTNmRMSU1zLS1TWjN3QWZvTmcyTl9hMWNGeWRzY2VxU2ktUEpjQXllN0JmU2tZcnQyZ1BVbzJsbEJMd25PX3llcG5Gd2RKT3VpMzZvdGxVR0xibzdsX2ZBZXhEM0FDWXRsbUtGRndNMkpwQmVlNHI1U3BsTVdNVUtMcVlPQUcxMG5LNVQ4a3dWaFJ0aHY1Ull3YXh3eEVjSy1SSnFWRXdFN0pYUXFlNGE?oc=5",
-         "source": "Sky Sports",
-         "ts": "2026-10-06T08:39:57+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
-         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnanZ5Q3doODdEWmNOU2xRalduYTZONk1FSTlPU0prSU9aVzRYTGNPanhnNWVqTkFGMTlTWGw3RVNVcUk2ZUNfYy1VZ0l1aU0tcHNPcnVSMTdtRnVHSnV5dU5RSWdJUQ?oc=5",
-         "source": "BBC",
-         "ts": "2026-10-06T07:02:33+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
-         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RMTlJNGE3SmF6c0pwcS1mT0QzRDVraTIxVkRaUzI3bXNBcjQ0ZFpITmhvUFh5ZlJ1SW4wQl8yZVJJYlNyZDgydU1lQkZpQ2JfUFBGRE11UDhoRUUxYUV5eU5tWQ?oc=5",
-         "source": "BBC",
-         "ts": "2026-10-06T07:02:33+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 9.5,
-       "signals": [],
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": []
-      },
-      {
        "title": "Ben Coley's golf betting tips: Baycurrent Classic preview and best bets",
        "origin": "uk",
        "uk": {
@@ -6503,6 +6627,83 @@
         }
        ],
        "score": 5.699999999999999,
+       "signals": [],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
+      },
+      {
+       "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
+       "origin": "uk",
+       "uk": {
+        "recent": 3,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "sources": 2,
+       "items": [
+        {
+         "title": "LIV Golf secures potential $300m investment for 2027 season",
+         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkFNZktFVjVnVmlJVUFuUXJSTS1aa1ZISVMwNVNBZG9DWjRoVVR3dU9ORVRXRXNFS1N3NmNiUjMtX3dYMVJqdnhCeURLbHBkWXdzYW5sMkhiR3ZqdGY2YU83SlROVlBWVHpPbEhCOXljYnItWFd3UG1uXzg5TUNhSWpUWUxfS2RHYVlCY1puS0x2QWtLRFcwQk5TTlBTVnJqMTN4YlFiV2VvbktTZDhrbGxPNEhFZ3M?oc=5",
+         "source": "Golf Business News",
+         "ts": "2026-10-06T13:06:59+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
+         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnanZ5Q3doODdEWmNOU2xRalduYTZONk1FSTlPU0prSU9aVzRYTGNPanhnNWVqTkFGMTlTWGw3RVNVcUk2ZUNfYy1VZ0l1aU0tcHNPcnVSMTdtRnVHSnV5dU5RSWdJUQ?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-06T07:02:33+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "LIV Golf: Competition secures potential $300m investment to emerge from restructuring",
+         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RMTlJNGE3SmF6c0pwcS1mT0QzRDVraTIxVkRaUzI3bXNBcjQ0ZFpITmhvUFh5ZlJ1SW4wQl8yZVJJYlNyZDgydU1lQkZpQ2JfUFBGRE11UDhoRUUxYUV5eU5tWQ?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-06T07:02:33+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 4.800000000000001,
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
@@ -6675,7 +6876,7 @@
      "name": "Publishing & media",
      "trends": [
       {
-       "title": "UK media brands unite with industry-wide campaign to champion magazine sales at retail",
+       "title": "The UK\u2019s most trusted media brands unite with industry-wide campaign to champion magazine sales at retail",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -7643,7 +7844,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,333 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,338 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -7655,6 +7856,85 @@
     {
      "name": "Home interiors",
      "trends": [
+      {
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "origin": "uk",
+       "uk": {
+        "recent": 3,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         3,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 3
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "sources": 3,
+       "items": [
+        {
+         "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
+         "source": "AOL.com",
+         "ts": "2026-10-05T19:15:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZNTBkaVlEMHRBaXkzZ0VXdldRR2l2WGNDZFdFNXZ5MmtySFBRbXc4ZnlMVV81a0ZiLXNyODhyc1Q1czJFNi1teXJrejhWSUhuZkg1UXY3QXotQXJOQ3JEc2I3T3UzZ0dzY1RtUzk3Vl82cjVu?oc=5",
+         "source": "AOL.ca",
+         "ts": "2026-10-05T19:15:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
+         "source": "Apartment Therapy",
+         "ts": "2026-10-05T15:15:00+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 5.699999999999999,
+       "signals": [],
+       "segment": "Womens Interest",
+       "channel": "Home interiors",
+       "topics": [
+        "Nostalgia & retro"
+       ]
+      },
       {
        "title": "Trend Spotter seminar to focus on industry\u2019s key challenges",
        "origin": "uk",
@@ -7726,79 +8006,7 @@
        "topics": []
       },
       {
-       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-       "origin": "uk",
-       "uk": {
-        "recent": 2,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 2
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "sources": 2,
-       "items": [
-        {
-         "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
-         "source": "AOL.com",
-         "ts": "2026-10-05T19:15:00+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
-         "source": "Apartment Therapy",
-         "ts": "2026-10-05T15:15:00+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 3.2,
-       "signals": [],
-       "segment": "Womens Interest",
-       "channel": "Home interiors",
-       "topics": [
-        "Nostalgia & retro"
-       ]
-      },
-      {
-       "title": "6 Living Room Trends Designers Say Will Be Everywhere In 2027",
+       "title": "Living Room Trends That Are On The Way Out In 2026 (So Far)",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -7868,7 +8076,7 @@
        "topics": []
       },
       {
-       "title": "23 Modern Home Design Trends People Seriously Hate",
+       "title": "23 Modern Home Design Trends That Are Supposed To Be \"The Next Big Thing,\" But People Hate Them",
        "origin": "us",
        "uk": {
         "recent": 0,
@@ -8080,7 +8288,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,911,930 views)"
+         "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,912,091 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -8268,7 +8476,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Race Highlights | 2026 Bahrain Grand Prix in Malaysia (10,314,655 views)"
+         "label": "Popular on YouTube (UK): Race Highlights | 2026 Bahrain Grand Prix in Malaysia (10,315,399 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -8769,7 +8977,7 @@
      ]
     },
     {
-     "title": "[Gen-AI Analysis] UK - New car sales in 2026 by OEM, vehicle type",
+     "title": "[Gen-AI Analysis] UK - Automotive production in 2026 by vehicle type",
      "origin": "uk",
      "uk": {
       "recent": 1,
@@ -9058,7 +9266,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): She built one console out of a PS5, Xbox, and Nintendo Switch \ud83e\udd2f\ud83d\udd27 (4,086,730 views)"
+       "label": "Popular on YouTube (UK): She built one console out of a PS5, Xbox, and Nintendo Switch \ud83e\udd2f\ud83d\udd27 (4,087,514 views)"
       }
      ],
      "segment": "Computing",
@@ -9207,7 +9415,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,911,930 views)"
+       "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,912,091 views)"
       }
      ],
      "segment": "Womens Interest",
@@ -9395,6 +9603,85 @@
    "total": 2,
    "trends": [
     {
+     "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+     "origin": "uk",
+     "uk": {
+      "recent": 3,
+      "previous": 0,
+      "daily": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       0,
+       0
+      ],
+      "signal": "rising",
+      "sources": 3
+     },
+     "us": {
+      "recent": 0,
+      "previous": 0,
+      "daily": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      "signal": "steady",
+      "sources": 0
+     },
+     "sources": 3,
+     "items": [
+      {
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
+       "source": "AOL.com",
+       "ts": "2026-10-05T19:15:00+00:00",
+       "region": "UK"
+      },
+      {
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZNTBkaVlEMHRBaXkzZ0VXdldRR2l2WGNDZFdFNXZ5MmtySFBRbXc4ZnlMVV81a0ZiLXNyODhyc1Q1czJFNi1teXJrejhWSUhuZkg1UXY3QXotQXJOQ3JEc2I3T3UzZ0dzY1RtUzk3Vl82cjVu?oc=5",
+       "source": "AOL.ca",
+       "ts": "2026-10-05T19:15:00+00:00",
+       "region": "UK"
+      },
+      {
+       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
+       "source": "Apartment Therapy",
+       "ts": "2026-10-05T15:15:00+00:00",
+       "region": "UK"
+      }
+     ],
+     "score": 5.699999999999999,
+     "signals": [],
+     "segment": "Womens Interest",
+     "channel": "Home interiors",
+     "topics": [
+      "Nostalgia & retro"
+     ]
+    },
+    {
      "title": "Vinyl, CDs and throwback headphones are making a comeback during Prime Day",
      "origin": "both",
      "uk": {
@@ -9469,78 +9756,6 @@
      "signals": [],
      "segment": "Music",
      "channel": "Classical & jazz",
-     "topics": [
-      "Nostalgia & retro"
-     ]
-    },
-    {
-     "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-     "origin": "uk",
-     "uk": {
-      "recent": 2,
-      "previous": 0,
-      "daily": [
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       2,
-       0,
-       0
-      ],
-      "signal": "rising",
-      "sources": 2
-     },
-     "us": {
-      "recent": 0,
-      "previous": 0,
-      "daily": [
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0,
-       0
-      ],
-      "signal": "steady",
-      "sources": 0
-     },
-     "sources": 2,
-     "items": [
-      {
-       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aN0dOM2ZNU1BQUHN2dV9IWlJ2bWhSbGNVYS1tZEZQaWcwY1I2WWFHeEttSURrWXRQZXhrenFPRnBLUGZBXzFrMGdrdmRIMUs4Vi0tZ0tVbHIxbXRqN1BxbzVhaDZsa19vS1kxMU5nUjl2cUZVdWc?oc=5",
-       "source": "AOL.com",
-       "ts": "2026-10-05T19:15:00+00:00",
-       "region": "UK"
-      },
-      {
-       "title": "This \u201990s Home Layout Trend Is Out \u2014 and I\u2019m so Glad About What\u2019s Replacing It",
-       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlE2SXJWZXU2MUZkbkQ2WG04UHNvOWxmSktFbHpoQm1mT0hHV3hhaVZCZDhEcEtJbGU1UkRLbXlZbS1EMXA0X2JSeXNJVnlFX0ItdEwxbDA0QnB4NGNudXdMemRGVWQ2YkN5QXlvcEp0NjNfeEFzZVRmUVJMSVJxRE9mNS1fZjQ?oc=5",
-       "source": "Apartment Therapy",
-       "ts": "2026-10-05T15:15:00+00:00",
-       "region": "UK"
-      }
-     ],
-     "score": 3.2,
-     "signals": [],
-     "segment": "Womens Interest",
-     "channel": "Home interiors",
      "topics": [
       "Nostalgia & retro"
      ]
@@ -9769,7 +9984,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,333 views)"
+       "label": "Popular on YouTube (UK): UKLIVE Wednesday 7th October 2026 inc. The Mike Graham show 7-10am (94,338 views)"
       }
      ],
      "segment": "Buying & Selling",
@@ -10086,7 +10301,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,911,930 views)"
+       "label": "Popular on YouTube (UK): How to convince your parents to buy you a new gaming PC @synthesia-io (1,912,091 views)"
       }
      ],
      "segment": "Womens Interest",
