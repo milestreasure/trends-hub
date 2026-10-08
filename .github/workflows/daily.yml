@@ -14,7 +14,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python pipeline/run.py
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # optional
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - run: |
           git config user.name "trends-bot"; git config user.email "bot@users.noreply.github.com"
           git add -A; git diff --staged --quiet || git commit -m "Update trends $(date -u +%F)"; git push
