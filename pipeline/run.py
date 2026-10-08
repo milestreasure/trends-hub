@@ -2,14 +2,30 @@
 import datetime as dt, hashlib, json, os, pathlib, re, time, urllib.parse
 import feedparser, numpy as np, yaml
 from signals import Signals
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ITEMS, OUT = ROOT / "data" / "items.json", ROOT / "docs" / "data" / "trends.json"
-KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.35, 2, 2, 5, 60, 14
+KEEP_DAYS, SIM, MIN_ITEMS, MIN_SOURCES, TOP_N, TOPIC_N, DAYS = 60, 0.4, 2, 2, 5, 60, 14
 REGIONS = {"UK": ("en-GB", "GB", "GB:en"), "US": ("en-US", "US", "US:en")}
 NOW = dt.datetime.now(dt.timezone.utc)
+STOP = list(ENGLISH_STOP_WORDS | {"uk", "us", "new", "news", "best", "says", "say", "latest", "2025", "2026", "video", "watch",
+                                   "live", "report", "reports", "review", "guide", "big", "year", "day", "week", "amid", "gets", "get"})
+
+def _pubs():
+    p = ROOT / "publishers.yaml"
+    d = (yaml.safe_load(p.read_text()) if p.exists() else None) or {}
+    return [x.lower() for x in d.get("uk", [])], [x.lower() for x in d.get("us", [])]
+UK_PUBS, US_PUBS = _pubs()
+
+def classify(href, edition):
+    """Label a story by the publisher's country; fall back to the edition that returned it."""
+    host = (urllib.parse.urlparse(href).hostname or "").lower().removeprefix("www.")
+    if host:
+        if host.endswith(".uk") or any(host == d or host.endswith("." + d) for d in UK_PUBS): return "UK", True
+        if host.endswith((".us", ".gov", ".edu", ".mil")) or any(host == d or host.endswith("." + d) for d in US_PUBS): return "US", True
+    return edition, False
 
 def fetch(seg, chan, q, region):
     hl, gl, ceid = REGIONS[region]
@@ -22,9 +38,9 @@ def fetch(seg, chan, q, region):
     out = []
     for e in feed.entries:
         if not e.get("published_parsed"): continue
-        key = e.link if region == "UK" else "US|" + e.link  # UK ids unchanged from earlier versions
+        reg, known = classify((e.get("source") or {}).get("href", ""), region)
         out.append(dict(
-            id=hashlib.md5(key.encode()).hexdigest(), seg=seg, chan=chan, region=region,
+            id=hashlib.md5(e.link.encode()).hexdigest(), seg=seg, chan=chan, region=reg, known=known, edition=region,
             title=re.sub(r"\s+-\s+[^-]+$", "", e.title), link=e.link,
             source=(e.get("source") or {}).get("title", ""),
             ts=dt.datetime(*e.published_parsed[:6], tzinfo=dt.timezone.utc).isoformat()))
@@ -34,12 +50,13 @@ def fetch(seg, chan, q, region):
 def load_items():
     store = {i["id"]: i for i in json.loads(ITEMS.read_text())} if ITEMS.exists() else {}
     cutoff = NOW - dt.timedelta(days=KEEP_DAYS)
-    store = {k: v for k, v in store.items() if dt.datetime.fromisoformat(v["ts"]) > cutoff}
+    store = {k: v for k, v in store.items() if dt.datetime.fromisoformat(v["ts"]) > cutoff
+             and not (v.get("region") == "US" and "edition" not in v)}  # drop US items labelled by the old edition-based method
     for v in store.values(): v.setdefault("region", "UK")
     return store
 
 def cluster(items):
-    X = TfidfVectorizer(stop_words="english", ngram_range=(1, 2)).fit_transform([i["title"] for i in items])
+    X = TfidfVectorizer(stop_words=STOP, ngram_range=(1, 2)).fit_transform([i["title"] for i in items])
     S = cosine_similarity(X)
     labels, seeds = [-1] * len(items), []
     for n in range(len(items)):  # items are newest-first
@@ -122,7 +139,10 @@ def main():
     for seg, chans in tax.items():
         for chan, q in chans.items():
             for region in REGIONS:
-                for it in fetch(seg, chan, q, region): store.setdefault(it["id"], it)
+                for it in fetch(seg, chan, q, region):
+                    cur = store.get(it["id"])  # the same article from both editions is stored once
+                    if cur is None: store[it["id"]] = it
+                    elif it["known"] and not cur.get("known"): cur.update(region=it["region"], known=True)
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
