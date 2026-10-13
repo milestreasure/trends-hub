@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-13T10:58:05.179720+00:00",
+ "updated": "2026-10-13T12:17:47.401943+00:00",
  "days": [
   "2026-09-30",
   "2026-10-01",
@@ -32,8 +32,8 @@
         "previous": 7,
         "daily": [
          2,
-         2,
          3,
+         2,
          0,
          0,
          0,
@@ -204,8 +204,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          0,
@@ -334,7 +334,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): \ud83d\udd34LIVE | ARC RAIDERS DUOS w/ GIMMICK | NEW !MERCH DROP | SUPER WEAPONS TODAY FINALLY | #BUNGULATE (984,941 views)"
+         "label": "Popular on YouTube (UK): \ud83d\udd34LIVE | ARC RAIDERS DUOS w/ GIMMICK | NEW !MERCH DROP | SUPER WEAPONS TODAY FINALLY | #BUNGULATE (992,336 views)"
         }
        ],
        "segment": "Buying & Selling",
@@ -440,8 +440,8 @@
          0,
          0,
          0,
-         2,
-         2,
+         3,
+         1,
          0,
          0,
          0,
@@ -780,8 +780,8 @@
          0,
          0,
          0,
-         1,
-         1,
+         2,
+         0,
          0,
          0
         ],
@@ -836,6 +836,77 @@
         }
        ],
        "score": 3.8,
+       "signals": [],
+       "segment": "Computing",
+       "channel": "PC & hardware",
+       "topics": []
+      },
+      {
+       "title": "HP already selling Eliteboard refresh with 32 GB RAM and an AMD Gorgon Point CPU",
+       "origin": "uk",
+       "uk": {
+        "recent": 2,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "platforms": [],
+       "sources": 2,
+       "items": [
+        {
+         "title": "HP already selling Eliteboard refresh with 32 GB RAM and an AMD Gorgon Point CPU",
+         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZEp0TUcxNGJoM1VYU2wtZjEtU2JabU9TYTEwdDhYM2dYZWdFUF92NjBhdmg0OUsyZGVndVdSbFNrbXo1UlhNMElUR2JaeVhQbUIzaUhsa1dIT3FnZmJCOWVDc2JSM2pKMk1uV1FwOWVsVThWNk81ZFZFRk9kbVVCWGRXY0dwZTRrdzRkWFFKWlk4NmVPRnBVOFVCZldNX0toQXZDemJBYzhGWGhOUnFFTHNBRE8xMzJTblA2MXhaMlJfV0pyTmpJT3dHcmRfMFo2U3c?oc=5",
+         "source": "PC Gamer",
+         "ts": "2026-10-13T11:12:30+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "HP releases compact keyboard mini PC with AMD Gorgon Point and up to 32 GB RAM",
+         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaTRINHo5NmJMU1ZKZGVlX3pzOHZ6YmJ2WmNpNTM5bm53cUYtbFR5U0MzeFRmTmFuZzB1MzFHZzJLTnFKS1oxeHZPc3U5MlpzeVRKQ1NKR292eWhDMEZBYU9RX2JMQWpkTmhWQWFkZ3ZSN0ZNQXNYb1JCQjVRcmJZbW1QX0thZmM5c3BsUG5QMGRfOC03Y1pwR1pNY1lMak9MSDFxR184SUFfM0NvTE8yNVVpZE44UTRySmhpUnJxZWU?oc=5",
+         "source": "Notebookcheck",
+         "ts": "2026-10-13T05:56:00+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 3.2,
        "signals": [],
        "segment": "Computing",
        "channel": "PC & hardware",
@@ -982,77 +1053,6 @@
        "segment": "Computing",
        "channel": "PC & hardware",
        "topics": []
-      },
-      {
-       "title": "With RTX Spark and 'Builder PCs,' Microsoft and Nvidia Usher Personal Computing Into Its Agentic Era",
-       "origin": "uk",
-       "uk": {
-        "recent": 2,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 2
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "platforms": [],
-       "sources": 2,
-       "items": [
-        {
-         "title": "With RTX Spark and 'Builder PCs,' Microsoft and Nvidia Usher Personal Computing Into Its Agentic Era",
-         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR09Zd2RmbW9Hc3c2MW5EQmVEVEtFYnJveXNROGo5akl0SnA0ajBjdWJXekw2b0JQSjEzNDRNTm5od201MGNCUVRHWGttbTg1eEs1THNld3hqNnFRRGd1WmZZTTkwcVc1bVhYWnFJazMwWlZ2dHloU3g1N1FaWDlJVmlCam1Wb285RUpFVDZpXzlibDJVRHBteTF6S3RucDE2RFJXOFVaWmtDc0pZVVF6ODRCQlV3TzNGcWxqNnhVS0xJZUtCdXZIb0RCZUxjcjFT?oc=5",
-         "source": "PCMag Middle East",
-         "ts": "2026-10-08T04:32:57+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "With RTX Spark and 'Builder PCs,' Microsoft and Nvidia Usher Personal Computing Into Its Agentic Era",
-         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQm5OU0NZRTJxMlFyN1lRVzZwSWMzaE1qa0RGVVVhWFhwRFpZY2s0SWxpVkpBNjhXdTlrY1BEaWo5bnIxanV5RzN1UTNMVjBqakZTa0VpUmFhNEUzM1VzR0NQaGxPc2NCS3BOdkNobVdvNmNDYlFoNWtSX0RkcUNBby1vdEliZW5uUGZvdkJkNFFycU1QLWxUMkNJQXFqZkZTTTVPdkxn?oc=5",
-         "source": "PCMag",
-         "ts": "2026-10-08T00:28:40+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 3.2,
-       "signals": [],
-       "segment": "Computing",
-       "channel": "PC & hardware",
-       "topics": []
       }
      ]
     },
@@ -1158,7 +1158,205 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): The FIRST Ever Transparent Magic Mouse... #Shorts (1,278,188 views)"
+         "label": "Popular on YouTube (UK): The FIRST Ever Transparent Magic Mouse... #Shorts (1,296,020 views)"
+        }
+       ],
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      },
+      {
+       "title": "Apple to Launch Touchscreen OLED MacBook Pro and OLED iPad mini on October 27",
+       "origin": "both",
+       "uk": {
+        "recent": 3,
+        "previous": 1,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         0,
+         3,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 4
+       },
+       "us": {
+        "recent": 3,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2,
+         0,
+         0,
+         0,
+         1
+        ],
+        "signal": "rising",
+        "sources": 3
+       },
+       "platforms": [],
+       "sources": 7,
+       "items": [
+        {
+         "title": "Apple Readies Second October Event, Expected to Unveil Touchscreen MacBook Pro and OLED iPad Mini",
+         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jbmFkMFVGMmxpU0tYek5LVjFDYmQ0Rnk5d1VEeTdGbUp2a2hVWVpMQjJaOU9uYk1qUlBDSmJJZG1YMXFRN3BPd3cwQ0RvanR0SjRBUHA5WWI5YmFpNm5HYmdvdEM1WG4zbEV2bmR3Q2FOXy0yU2c?oc=5",
+         "source": "BigGo Finance",
+         "ts": "2026-10-09T01:05:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Everything we expect from Apple\u2019s Mac and iPad event on October 27",
+         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBU190QTFqbFVjSmRxVm81YWlEUGMzb1c3Qm5PVzY5aWFtb0w0dVNVOFlWS3NhTzNibVA4NGRnTHo2OEV6eXdmMTBnQmxkWTNZb0UxZndjeV9mTkluMUJ2TGZLTzBoZTNJdkI0dm9mT1Z3T2Fr?oc=5",
+         "source": "Cult of Mac",
+         "ts": "2026-10-09T00:14:10+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Apple to Launch Touchscreen OLED MacBook Pro and OLED iPad mini on October 27",
+         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiYi1OcUFYaXRlS3lJd0RZcDBoTFM5RHY0T2o4bXN2c3llQmQ3RHBkMnVUQmJjdUJBQUhaWjJrbi1HX3FhN25RR3JaWG5ocUp4ZGVMZVhCN1Z0dXNFUHVuTzkzNkxFTzBvNVlYWjAxSTVtM3hZ?oc=5",
+         "source": "MacRumors",
+         "ts": "2026-10-08T20:31:49+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Apple to introduce MacBook with OLED, M6 iMac, and new iPad mini in October",
+         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nQkhSZzV0Y3oyT3pMWFlXUVdtQmJtTnhXaDE1NU1zWTNkSTNhWTl0eXp1R0ZiYThrT1lXejFIZzFTcUdHbzgybDlQVERQV09jNmVwbGNDT3ExMmlOYWt4bUxR?oc=5",
+         "source": "mobidevices.com",
+         "ts": "2026-10-06T11:05:12+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Apple to have two-day event for its new Macs and OLED iPad mini",
+         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmFRdkFIMFZtejJuQ2hyWXpMOExkY0NnYXM5b3hxWl8xRnBCM1lPeWlic3IwbnlyTWxhRzFvV2gzWTNES3RMM2Z0VUZpQUFOZE03RUNwS09oVTd1RTE2UjFRa1lZTlFhRDB5N3ZzcTVpUm1mWUdnYXZtd1hnSmdJY3REUEdxNDVwZkdPbjNxTk56dEZPdGk5eHRPRFh6c2pR?oc=5",
+         "source": "Appleosophy",
+         "ts": "2026-10-12T22:42:00+00:00",
+         "region": "US"
+        },
+        {
+         "title": "Apple may host another launch on October 27, with new Macs and an OLED iPad mini expected",
+         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZkc1bUZqZ3prVnZMcWhfVC01TVdFOEFaWkhEMVV5UUpoTmh2NkYtS2hNNkVrYTR2anB1TFhXOFpyS3ZMU0pqWlhVRkhxUXIzYnZtcGFJSGxXM212WjhFa3RzNy10eTJtaEFCLTZRR3o4c2ZISDZMR3BSTGhLNGRyOFhubW5Xa2IydTBWWVBrLXVZQV9yTWdCZDFtY05fSjd0aG5BakFZWGtYUHRwSGJpb0RaYTBCR3NGcVhwRGEzcVJwN3Vtcmh3Uw?oc=5",
+         "source": "Digital Trends",
+         "ts": "2026-10-09T00:27:58+00:00",
+         "region": "US"
+        },
+        {
+         "title": "Touchscreen MacBook Pro & OLED iPad mini rumored for October 27 Apple event",
+         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWV9mb1hERjZNdGpuQU9udzBTLWZ4VGRMdFYySXcwSlFwcmxzeVhTZldCRUdXY1FxZjJmN0tMa01Lck1rcHVFWkh5LXBmOW80NGNFM3JGSGZ2NTJBQ0x0RE9uUnh3cHp2RFZ1S2oxOTdBbDVoZmdVM0dRSnFMOHpsdlRoTWx5LTI4bzQwNGl5ZGRLV3hJUm13VEtVb1VLdzhnbmFrQzNPck82MjJOdnNsazBvSmI?oc=5",
+         "source": "AppleInsider",
+         "ts": "2026-10-08T20:22:44+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 13.950000000000001,
+       "signals": [],
+       "segment": "Computing",
+       "channel": "Mac & Apple",
+       "topics": []
+      },
+      {
+       "title": "Someone got Googlebook OS running on an Apple Silicon Mac - How-To Geek",
+       "origin": "both",
+       "uk": {
+        "recent": 4,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         1,
+         0,
+         2
+        ],
+        "signal": "rising",
+        "sources": 3
+       },
+       "us": {
+        "recent": 1,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "platforms": [
+        "youtube"
+       ],
+       "sources": 4,
+       "items": [
+        {
+         "title": "Googlebook OS now runs on Apple Silicon Macs in an unofficial VM",
+         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORVZiUlhwUzBrOVRfRUxnd2lyd3N2WlRwU3JQRDRHdUswdkxYeF85aklaUktWZ2lNR2xqV1hETnFpb2stU1U3d2xXcmx2R0dncFJXOW4zc0JfLVM5T1gwSjdNSS1kMlU3Z0hPakNIWGNvcnZ4dWdQZTVINVdKV3hIZVk4YmR6RVhoQnkydFJSWlhtQmVfdHdsbXk2NzRTS1QtQUlqWQ?oc=5",
+         "source": "The Gadgeteer",
+         "ts": "2026-10-11T06:24:13+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Someone got Googlebook OS running on an Apple Silicon Mac - How-To Geek",
+         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVUp3dzVqcC1EQTlBRVF4ZzNXdEhkd3ZCQzRxU2RwNTVtdmxaMGt4emNFc3lqSGFRQWpKeTRiRWxhU3NWdnpUc1BqTS1GbjJpSkJURTRLTVV4SXFPWklYY3pZVlpPdlpHbmt4b3lxVjNnSE04ckFEa09qeWtMbEZ1SG5DUDdFTUlRazZ5OQ?oc=5",
+         "source": "How-To Geek",
+         "ts": "2026-10-08T16:53:22+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Googlebook OS is already running on Apple Silicon Macs thanks to a new open-source project",
+         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYjNvMGZMMDJDa1YxQmFtSmg0TGhRWjNqekpNQWJadFRfUnJiQUtfdngyQ3NkSWlhOW5GYmE1U1dYb0JIUUtZY29sdUZLOHJtNmRSWGhvUUh0cDlwWE9tVE5rSHZOVGQyd2dZcDZiLWhRUkNDSzFsd2pBdVhUdjluY1VZcVFiR0pKWGxYbnlNVWlfSVhmdzI1Y0xqejNXRnptY1REazJIQ3RTTHNJb0RSWThJMDFueFdiMG9vSk1KbDlRSTFkM2dkQkpGOUpnOWFWVDVicjhB?oc=5",
+         "source": "TweakTown",
+         "ts": "2026-10-11T22:26:15+00:00",
+         "region": "US"
+        },
+        {
+         "title": "Every app on Earth is now open source... whether it likes it or not",
+         "link": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+         "source": "YouTube",
+         "ts": "2026-10-12T19:15:23+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 12.375,
+       "signals": [
+        {
+         "kind": "youtube",
+         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,658,761 views)"
         }
        ],
        "segment": "Computing",
@@ -1169,7 +1367,7 @@
        "title": "The first touchscreen MacBook Pro: OLED and launch date",
        "origin": "both",
        "uk": {
-        "recent": 4,
+        "recent": 3,
         "previous": 1,
         "daily": [
          0,
@@ -1181,14 +1379,14 @@
          0,
          0,
          0,
-         2,
+         1,
          2,
          0,
          0,
          0
         ],
         "signal": "rising",
-        "sources": 5
+        "sources": 4
        },
        "us": {
         "recent": 2,
@@ -1203,8 +1401,8 @@
          0,
          0,
          0,
-         0,
-         2,
+         1,
+         1,
          0,
          0,
          0
@@ -1213,7 +1411,7 @@
         "sources": 2
        },
        "platforms": [],
-       "sources": 7,
+       "sources": 6,
        "items": [
         {
          "title": "The first touchscreen MacBook Pro: OLED and launch date",
@@ -1230,17 +1428,10 @@
          "region": "UK"
         },
         {
-         "title": "Apple to Launch Touchscreen OLED MacBook Pro and OLED iPad mini on October 27",
-         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiYi1OcUFYaXRlS3lJd0RZcDBoTFM5RHY0T2o4bXN2c3llQmQ3RHBkMnVUQmJjdUJBQUhaWjJrbi1HX3FhN25RR3JaWG5ocUp4ZGVMZVhCN1Z0dXNFUHVuTzkzNkxFTzBvNVlYWjAxSTVtM3hZ?oc=5",
-         "source": "MacRumors",
-         "ts": "2026-10-08T20:31:49+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Apple to launch touchscreen MacBook Pro and more on October 27: report",
-         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYlc5VGpDQVNlcHBzdDBZSlJwRDJDSWZNRnZGWFdpLWhobi1Cdk5jRlNpWTY1Q2tRSUYxN0tnTEg4SWNTdHZBdW1mNlprVGRrNE5FRFVQeF8yMVM0SG12c2Mzb2Q3T3RoRzRfN1dpLVpPaHpRS2g5MHVsaUpkWnlEb0VTbUNjMXVzWXN6Z1BHSGpnV0YxMGdNVlJ2T3QydUtadk9j?oc=5",
-         "source": "9to5Mac",
-         "ts": "2026-10-08T20:28:00+00:00",
+         "title": "Apple to launch touchscreen MacBook and iPad mini in October",
+         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OZENlQmwwZWc5N1c2VXlqRnQyQy1rZXBBTDdVdlQ5UHdEc3pOOGcxSFE5Rmo3N1NNYWljdmdEbVJpTXBQR1gxcGgtYjhaOHhBSGdzRVJYLTlreVJRTUJXcTBHSVJOVGxvSHFJYXF3?oc=5",
+         "source": "Mashable",
+         "ts": "2026-10-09T09:50:45+00:00",
          "region": "UK"
         },
         {
@@ -1265,7 +1456,7 @@
          "region": "US"
         }
        ],
-       "score": 15.5,
+       "score": 11.2,
        "signals": [],
        "segment": "Computing",
        "channel": "Mac & Apple",
@@ -1310,8 +1501,8 @@
          0,
          1,
          0,
-         1,
-         2,
+         3,
+         0,
          0,
          0
         ],
@@ -1363,187 +1554,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple (3,832,067 views)"
-        }
-       ],
-       "segment": "Computing",
-       "channel": "Mac & Apple",
-       "topics": []
-      },
-      {
-       "title": "Apple\u2019s Touchscreen MacBook Pro Could Debut Soon: Should You Wait?",
-       "origin": "both",
-       "uk": {
-        "recent": 3,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         1,
-         0,
-         1,
-         0,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 3
-       },
-       "us": {
-        "recent": 1,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [],
-       "sources": 4,
-       "items": [
-        {
-         "title": "Apple\u2019s Touchscreen MacBook Pro Could Debut Soon: Should You Wait?",
-         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRUVEVFV5dktKcEN2OV94UkVERU9iRlJTYWIyQUw2ZzRSVU9IMk5VMDlIVkx2ZThwNW45b2xXRENSQmpJcFhlMzhRcGlyLXZWb3BreGxlMWNtVjA0emx1dXlVb0VoRVU3d1pic1JCbzNsVzBqMHl5VmFhendOaGlRcnIzSWJzd3pmc0FGYzBsaGE?oc=5",
-         "source": "TechRepublic",
-         "ts": "2026-10-09T18:51:05+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "'MacBook Ultra' Coming Soon With Touchscreen and 5 Other Changes",
-         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPanpTeDBkTUt1OThaUEppRVFzd3BEZXA1RVVZYXIySlpXdDU5ZUQ2SUdvU1BTN2FPM2EzUjk1emo1d2Y3TFZDNHVzeXlYMFBFSEcwY3R5LXRsNUVtdTVtVTFLV1lzVWtpX09MSElUZkZ0N1Eyb2RkOHZSRU1uTmpZR3llQVQyVUI2d3IyX1JR?oc=5",
-         "source": "MacRumors",
-         "ts": "2026-10-08T08:57:18+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Apple has a new MacBook Pro coming soon, here's what we know",
-         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHRSdzZ3Sl91WTA4NUk0akZyXy1KZkdiUENPSk1kSnNzTUctLXRWZlBJc2pxc3NNQnFzN3dHU0tMeWJOZUxuUldrNWhHeVdHRmtmQnRYemtuR1VIOUgzdGpNVFlVeEw5RXc3NHpoRW5JeWowSlEyb1dZVFNnLXNiOTBxVHFaazhNa2VqOU0zczFOTXgyV3F2OVVCSFBURWM?oc=5",
-         "source": "9to5Mac",
-         "ts": "2026-10-06T15:25:00+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
-         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM0RkaVItNEdKU0FvejBjZmpPZmlSWnFkTUp3dlhfUjNmRTNKMHY2b2ZBdDZ6S0liVzNQSXFsOHpDb2ZFTDNFR3dQb1BUei1CdXcyTzBQb1N4bEQ3TG82MkpkRFVQdGpxTHEwYVhTQVVZWlowT0dZTWR6bzBidllIVjBZaUVhb0haYzkw?oc=5",
-         "source": "The Verge",
-         "ts": "2026-10-08T20:32:21+00:00",
-         "region": "US"
-        }
-       ],
-       "score": 9.625000000000002,
-       "signals": [
-        {
-         "kind": "youtube",
-         "label": "Popular on YouTube (UK): My Parents Could NEVER Throw Away My iPod \ud83d\ude02 #iPod #Apple #Tech #Nostalgia (3,175,322 views)"
-        }
-       ],
-       "segment": "Computing",
-       "channel": "Mac & Apple",
-       "topics": []
-      },
-      {
-       "title": "Apple May Reveal Its First Touch-Screen Mac Later This Month",
-       "origin": "both",
-       "uk": {
-        "recent": 2,
-        "previous": 1,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         0,
-         0,
-         0,
-         1,
-         0,
-         1,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 3
-       },
-       "us": {
-        "recent": 1,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [],
-       "sources": 4,
-       "items": [
-        {
-         "title": "Apple May Reveal Its First Touch-Screen Mac Later This Month",
-         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV09oTmlDcW1zTC1rd2RrcXdsNVJRMXdial9xZ2ZtTENtVFJJOG5KNFk1VkNDR1pMeHI5aVlCRFdaRTNhdml3QTZPY1MybFphX3I2c09YUTFRTEVvYURnb1hkY0c0SmF3a01WQjVuWlF5bE1pMkxxNWZJc1ZjRzJjdDROMnFaTm04UFBEbXIxUU5Vc1VjUlhUYkRpelZQZWM?oc=5",
-         "source": "PCMag Middle East",
-         "ts": "2026-10-11T02:58:38+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Apple May Reveal Its First Touch-Screen Mac Later This Month",
-         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHlVQ2oyXzdKaTktVmtjOE45N2x6QmZrQjltckU0TDhUUmdIT1E1V2ZEQzJUTkpBaHhOZVpuaEV6eERzUk1qWjlpOXhfWXpRaEdqVXRDWTNrR0Ewa0tZaENIUHNOX1BlMzYwUGtJOS1ycUN3M0Z0X2k1emFYSEZ6a2RRbEtXampKLWI5WUlEWUE?oc=5",
-         "source": "PCMag",
-         "ts": "2026-10-09T09:07:05+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Touch-screen MacBook Pro will be significantly lighter",
-         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWWNtX2sxNHBLektBR0cxanVjZjE0aDB4dS0yeVpIWTFwUG14T3hDN2dab0c3d1NYeGVpREtyOXNhYnUxVlNqMlRSb0cydkNMME5RWTE1b0w2RGVfM2Z5bk5hcTJ2TEtZNk1aTEZDbkJDbDdGY3V6dmVUOHpxWUZsX0trc1djV05KUUk1SHlDVmpSc3JING91cE5lcWpsZw?oc=5",
-         "source": "AppleInsider",
-         "ts": "2026-10-04T14:35:00+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Apple May Reveal Its First Touch-Screen Mac Later This Month",
-         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOThrYlNqdkN4Si1vcGdiMTJ6UWRYUmxJVnpvczFkN1hyZHlWQ0hDczJLbUdiUkxfRmJ1RFZRLUZSOFNKVE1ZSUFLX2JmdVIzX1czOTVNbkN0TEJzLTJNZ2JYYTc0QmhFMUxvaDVVM0hzbVNLSGZKZjZuS2ZaWVBnczFxZUttVFFjeVNYOWxBSm5YNHRHQ1NUeWt0SUo?oc=5",
-         "source": "PCMag Australia",
-         "ts": "2026-10-09T09:02:44+00:00",
-         "region": "US"
-        }
-       ],
-       "score": 6.875,
-       "signals": [
-        {
-         "kind": "youtube",
-         "label": "Popular on YouTube (UK): Berbatov on his first touch (2,097,617 views)"
+         "label": "Popular on YouTube (UK): Making an Interactive Edit for my AirPods! (no AI) #motiongraphics #vfx #apple (3,860,304 views)"
         }
        ],
        "segment": "Computing",
@@ -1559,7 +1570,7 @@
        "title": "Margaret Hamilton",
        "origin": "both",
        "uk": {
-        "recent": 8,
+        "recent": 7,
         "previous": 0,
         "daily": [
          0,
@@ -1570,18 +1581,18 @@
          0,
          0,
          0,
-         0,
          3,
          2,
+         0,
          1,
          1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 8,
+        "recent": 7,
         "previous": 0,
         "daily": [
          0,
@@ -1592,12 +1603,12 @@
          0,
          0,
          0,
-         0,
          3,
          2,
+         0,
          1,
          1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -1615,7 +1626,7 @@
          "region": "ALL"
         }
        ],
-       "score": 15.600000000000001,
+       "score": 13.65,
        "signals": [],
        "segment": "Computing",
        "channel": "Gaming consoles",
@@ -1625,7 +1636,7 @@
        "title": "Clive Barker's Hellraiser: Revival",
        "origin": "both",
        "uk": {
-        "recent": 7,
+        "recent": 5,
         "previous": 0,
         "daily": [
          0,
@@ -1636,18 +1647,18 @@
          0,
          0,
          0,
+         1,
+         1,
          0,
-         1,
-         1,
          2,
-         2,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 7,
+        "recent": 5,
         "previous": 0,
         "daily": [
          0,
@@ -1658,12 +1669,12 @@
          0,
          0,
          0,
+         1,
+         1,
          0,
-         1,
-         1,
          2,
-         2,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -1681,7 +1692,7 @@
          "region": "ALL"
         }
        ],
-       "score": 13.65,
+       "score": 9.75,
        "signals": [],
        "segment": "Computing",
        "channel": "Gaming consoles",
@@ -1770,7 +1781,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): THE CRAZIEST SQUAD BUILDING SERIES!!! FC27 Market Mayhem (57,509 views)"
+         "label": "Popular on YouTube (UK): THE CRAZIEST SQUAD BUILDING SERIES!!! FC27 Market Mayhem (60,186 views)"
         }
        ],
        "segment": "Computing",
@@ -1797,8 +1808,8 @@
          0,
          0,
          0,
-         1,
-         1,
+         2,
+         0,
          0
         ],
         "signal": "rising",
@@ -1862,7 +1873,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): This garbage is GAME OF THE YEAR..... (1,143,102 views)"
+         "label": "Popular on YouTube (UK): This garbage is GAME OF THE YEAR..... (1,158,172 views)"
         }
        ],
        "segment": "Computing",
@@ -1961,7 +1972,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,258 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,446 views)"
         }
        ],
        "segment": "Computing",
@@ -2073,8 +2084,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          1
         ],
         "signal": "rising",
@@ -2124,7 +2135,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Windows 11 Steam Machine is Actually GOOD? #tech #technology #shorts #pc (561,005 views)"
+         "label": "Popular on YouTube (UK): Windows 11 Steam Machine is Actually GOOD? #tech #technology #shorts #pc (565,288 views)"
         }
        ],
        "segment": "Computing",
@@ -2271,11 +2282,11 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Star Wars: Galactic Racer (74,563 views)"
+         "label": "Popular on Wikipedia this week: Star Wars: Galactic Racer (64,779 views)"
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): I LEGIT THOUGHT THIS GAME WAS A VIRUS CUZ IT GOT SO WEIRD | Free Random Games (296,605 views)"
+         "label": "Popular on YouTube (UK): I LEGIT THOUGHT THIS GAME WAS A VIRUS CUZ IT GOT SO WEIRD | Free Random Games (311,029 views)"
         }
        ],
        "segment": "Computing",
@@ -2283,7 +2294,7 @@
        "topics": []
       },
       {
-       "title": "Weekend PC Game Deals: Indiana Jones, Two Point Museum, Warhammer, and more",
+       "title": "Weekend PC Game Deals: 007 First Light, Indiana Jones, and more Autumn sales",
        "origin": "uk",
        "uk": {
         "recent": 1,
@@ -2434,7 +2445,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Artificial intelligence (111,597 views)"
+         "label": "Popular on Wikipedia this week: Artificial intelligence (117,578 views)"
         }
        ],
        "segment": "Computing",
@@ -2444,7 +2455,7 @@
        ]
       },
       {
-       "title": "Safaricom Launches SD-WAN Service For Multi-Branch Businesses From KES 9,500 A Month",
+       "title": "\"Monthly fee\": Safaricom launches new network, internet service for businesses",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -2831,7 +2842,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): I Spent 72 Hours Straight in FC27 Open World (121,716 views)"
+         "label": "Popular on YouTube (UK): I Spent 72 Hours Straight in FC27 Open World (125,714 views)"
         }
        ],
        "segment": "Computing",
@@ -2842,7 +2853,7 @@
        "title": "xFusion Joins the Linux Foundation to Support Open Source Innovation",
        "origin": "both",
        "uk": {
-        "recent": 5,
+        "recent": 3,
         "previous": 0,
         "daily": [
          0,
@@ -2858,10 +2869,10 @@
          0,
          0,
          0,
-         2
+         0
         ],
         "signal": "rising",
-        "sources": 4
+        "sources": 3
        },
        "us": {
         "recent": 1,
@@ -2885,10 +2896,8 @@
         "signal": "rising",
         "sources": 1
        },
-       "platforms": [
-        "youtube"
-       ],
-       "sources": 5,
+       "platforms": [],
+       "sources": 4,
        "items": [
         {
          "title": "xFusion Joins the Linux Foundation to Support Open Source Innovation",
@@ -2917,20 +2926,13 @@
          "source": "Yahoo Finance",
          "ts": "2026-10-07T07:00:00+00:00",
          "region": "US"
-        },
-        {
-         "title": "Every app on Earth is now open source... whether it likes it or not",
-         "link": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
-         "source": "YouTube",
-         "ts": "2026-10-12T19:15:23+00:00",
-         "region": "UK"
         }
        ],
-       "score": 17.1875,
+       "score": 9.625000000000002,
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,570,841 views)"
+         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,658,761 views)"
         }
        ],
        "segment": "Computing",
@@ -3013,7 +3015,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,570,841 views)"
+         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,658,761 views)"
         }
        ],
        "segment": "Computing",
@@ -3089,7 +3091,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Facebook (114,925 views)"
+         "label": "Popular on Wikipedia this week: Facebook (115,796 views)"
         }
        ],
        "segment": "Computing",
@@ -3165,7 +3167,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,570,841 views)"
+         "label": "Popular on YouTube (UK): Every app on Earth is now open source... whether it likes it or not (1,658,761 views)"
         }
        ],
        "segment": "Computing",
@@ -3261,8 +3263,8 @@
        "title": "Jeffrey Archer, Bestselling Novelist and Former Politician, Dies at 86",
        "origin": "uk",
        "uk": {
-        "recent": 1,
-        "previous": 2,
+        "recent": 0,
+        "previous": 3,
         "daily": [
          0,
          0,
@@ -3270,8 +3272,8 @@
          0,
          0,
          0,
-         2,
-         1,
+         3,
+         0,
          0,
          0,
          0,
@@ -3329,11 +3331,11 @@
          "region": "UK"
         }
        ],
-       "score": 2.375,
+       "score": 0.0,
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Jeffrey Archer (408,024 views)"
+         "label": "Popular on Wikipedia this week: Jeffrey Archer (501,037 views)"
         }
        ],
        "segment": "General",
@@ -3521,7 +3523,7 @@
        "topics": []
       },
       {
-       "title": "Can Steady Demand Keep Home Depot (NYSE:HD) in Blue-Chip Focus?",
+       "title": "Home Depot (NYSE:HD) Upgraded at Melius Research",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -3536,8 +3538,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          1
@@ -3733,7 +3735,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Halloween (64,435 views)"
+         "label": "Popular on Wikipedia this week: Halloween (65,047 views)"
         }
        ],
        "segment": "Home Improvement",
@@ -3754,8 +3756,8 @@
        "title": "Street Fighter",
        "origin": "both",
        "uk": {
-        "recent": 7,
-        "previous": 0,
+        "recent": 5,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -3763,21 +3765,21 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 7,
-        "previous": 0,
+        "recent": 5,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -3785,14 +3787,14 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -3810,7 +3812,7 @@
          "region": "ALL"
         }
        ],
-       "score": 13.65,
+       "score": 9.75,
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Photography",
@@ -3820,7 +3822,7 @@
        "title": "Kate Siegel",
        "origin": "both",
        "uk": {
-        "recent": 5,
+        "recent": 4,
         "previous": 0,
         "daily": [
          0,
@@ -3831,18 +3833,18 @@
          0,
          0,
          0,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 5,
+        "recent": 4,
         "previous": 0,
         "daily": [
          0,
@@ -3853,12 +3855,12 @@
          0,
          0,
          0,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -3876,7 +3878,7 @@
          "region": "ALL"
         }
        ],
-       "score": 9.75,
+       "score": 7.800000000000001,
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Photography",
@@ -4250,72 +4252,6 @@
      "name": "Travel & holiday",
      "trends": [
       {
-       "title": "The Social Reckoning",
-       "origin": "both",
-       "uk": {
-        "recent": 13,
-        "previous": 5,
-        "daily": [
-         0,
-         0,
-         1,
-         0,
-         1,
-         1,
-         2,
-         1,
-         2,
-         2,
-         2,
-         2,
-         2,
-         2
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 13,
-        "previous": 5,
-        "daily": [
-         0,
-         0,
-         1,
-         0,
-         1,
-         1,
-         2,
-         1,
-         2,
-         2,
-         2,
-         2,
-         2,
-         2
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "The Social Reckoning",
-         "link": "https://en.wikipedia.org/wiki/The_Social_Reckoning",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 25.35,
-       "signals": [],
-       "segment": "Leisure Interests",
-       "channel": "Travel & holiday",
-       "topics": []
-      },
-      {
        "title": "Travel Trends Leisure wins Mosvold Sixes 2026",
        "origin": "uk",
        "uk": {
@@ -4455,7 +4391,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Thanksgiving (Canada) (144,616 views)"
+         "label": "Popular on Wikipedia this week: Thanksgiving (Canada) (141,956 views)"
         }
        ],
        "segment": "Leisure Interests",
@@ -4534,7 +4470,7 @@
        "topics": []
       },
       {
-       "title": "Longer trips, richer experiences: China's National Day holiday reveals shifting tourism trends",
+       "title": "Longer trips, richer experiences: China\u2019s National Day holiday signals shifting tourism trends",
        "origin": "uk",
        "uk": {
         "recent": 1,
@@ -4603,6 +4539,77 @@
        "segment": "Leisure Interests",
        "channel": "Travel & holiday",
        "topics": []
+      },
+      {
+       "title": "Mystic Adventures, Sweat-Jetting & Anti-Optimised Holidays: 7 Travel Trends Set To Take Over 2027",
+       "origin": "uk",
+       "uk": {
+        "recent": 1,
+        "previous": 1,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         1,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "platforms": [],
+       "sources": 2,
+       "items": [
+        {
+         "title": "Mystic Adventures, Sweat-Jetting & Anti-Optimised Holidays: 7 Travel Trends Set To Take Over 2027",
+         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xN1Q4d051aXIyR0xlV1oyOUZNY0x2aGxvN1pkdlNQNjVsVDNpNWM5bmM2dlpDMmFTdnEtaXVxS3AtRlFTRXRCWHI0anFYMjc1YmZ0b2h4NTJnZHpQb1hQNWpoeFV5X2dlLUswRzFtZw?oc=5",
+         "source": "Country and Town House",
+         "ts": "2026-10-07T10:37:10+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Lemongrass 2027 Travel Trends: Anti-Optimised Holidays & Slower Travel - News and Statistics",
+         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaU1DVFJSdm1MTjlFeno3QTlRRjhUUFlaYXFiMGFBOXpYZUZjTmN5UzF0eVZNTGxCOGRJa29NVXhMUlNRRGdab2xmMXNnTDMtcV9XbTBRRnVwMkV3eGhMU05pTEI0SHJvaGk5bUhjeFJZUlVENENMZ0lqQ0pmUHBTMDVxemJEbzU3ZFloQXpnTV9IN1NEa1ZSbUx5b3VnRGJQR25PNXM2d3FrQQ?oc=5",
+         "source": "IndexBox",
+         "ts": "2026-10-06T05:22:38+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 1.6,
+       "signals": [],
+       "segment": "Leisure Interests",
+       "channel": "Travel & holiday",
+       "topics": []
       }
      ]
     },
@@ -4613,10 +4620,9 @@
        "title": "Carrie",
        "origin": "both",
        "uk": {
-        "recent": 34,
-        "previous": 0,
+        "recent": 24,
+        "previous": 1,
         "daily": [
-         0,
          0,
          0,
          0,
@@ -4626,19 +4632,19 @@
          1,
          4,
          5,
-         6,
-         6,
-         6,
-         6
+         5,
+         0,
+         5,
+         5,
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 34,
-        "previous": 0,
+        "recent": 24,
+        "previous": 1,
         "daily": [
-         0,
          0,
          0,
          0,
@@ -4648,10 +4654,11 @@
          1,
          4,
          5,
-         6,
-         6,
-         6,
-         6
+         5,
+         0,
+         5,
+         5,
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -4674,16 +4681,9 @@
          "source": "Wikipedia",
          "ts": "2026-10-12T12:00:00+00:00",
          "region": "ALL"
-        },
-        {
-         "title": "Carrie",
-         "link": "https://en.wikipedia.org/wiki/Carrie_(2013_film)",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
         }
        ],
-       "score": 66.3,
+       "score": 46.800000000000004,
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
@@ -4693,7 +4693,7 @@
        "title": "Nana Patekar Once Painted Film Posters At 13, Earned Just Rs 35 A Month",
        "origin": "both",
        "uk": {
-        "recent": 13,
+        "recent": 10,
         "previous": 0,
         "daily": [
          0,
@@ -4704,18 +4704,18 @@
          0,
          0,
          0,
-         1,
+         4,
          3,
-         3,
-         3,
+         0,
          2,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 2
        },
        "us": {
-        "recent": 12,
+        "recent": 9,
         "previous": 0,
         "daily": [
          0,
@@ -4726,12 +4726,12 @@
          0,
          0,
          0,
+         3,
+         3,
          0,
-         3,
-         3,
-         3,
          2,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -4756,11 +4756,93 @@
          "region": "ALL"
         }
        ],
-       "score": 38.0,
+       "score": 29.000000000000004,
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Nana Patekar (2,142,348 views)"
+         "label": "Popular on Wikipedia this week: Nana Patekar (2,042,875 views)"
+        }
+       ],
+       "segment": "Leisure Interests",
+       "channel": "Film & TV",
+       "topics": []
+      },
+      {
+       "title": "Ben Affleck's New Netflix Crime Movie Continues Unfortunate Rotten Tomatoes Trend",
+       "origin": "both",
+       "uk": {
+        "recent": 7,
+        "previous": 3,
+        "daily": [
+         0,
+         0,
+         0,
+         2,
+         1,
+         0,
+         0,
+         1,
+         1,
+         1,
+         0,
+         3,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 6,
+        "previous": 3,
+        "daily": [
+         0,
+         0,
+         0,
+         2,
+         1,
+         0,
+         0,
+         1,
+         1,
+         1,
+         0,
+         2,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "platforms": [
+        "wikipedia"
+       ],
+       "sources": 2,
+       "items": [
+        {
+         "title": "Ben Affleck's New Netflix Crime Movie Continues Unfortunate Rotten Tomatoes Trend",
+         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DaWc3aHBkOThBRjM5cXBrVXhJcndmVnZHbV9SNDFWeHNrdjNzZ1NsaHE1SXdMYm1mcXlRQ2lkMWpRZ1BqLVRJN2tqMDB2VXREYVlBUEVYUTFSYzRlLWM1NlluY3pUeWhYclViekluOA?oc=5",
+         "source": "Comic Book Resources",
+         "ts": "2026-10-10T21:57:39+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Ben Affleck",
+         "link": "https://en.wikipedia.org/wiki/Ben_Affleck",
+         "source": "Wikipedia",
+         "ts": "2026-10-12T12:00:00+00:00",
+         "region": "ALL"
+        }
+       ],
+       "score": 24.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Ben Affleck (176,979 views)"
+        },
+        {
+         "kind": "google",
+         "label": "Trending on Google searches: crime (500+ searches)"
         }
        ],
        "segment": "Leisure Interests",
@@ -4771,8 +4853,8 @@
        "title": "Mikey Madison shares her Oscar\u2019s hidden spot",
        "origin": "both",
        "uk": {
-        "recent": 7,
-        "previous": 0,
+        "recent": 5,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -4780,21 +4862,21 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 9,
-        "previous": 0,
+        "recent": 7,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -4802,14 +4884,14 @@
          0,
          0,
          0,
-         0,
+         1,
+         1,
          1,
          1,
          1,
          2,
-         2,
          1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 2
@@ -4841,15 +4923,15 @@
          "region": "ALL"
         }
        ],
-       "score": 27.6,
+       "score": 20.400000000000002,
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Mikey Madison (136,267 views)"
+         "label": "Popular on Wikipedia this week: Mikey Madison (129,405 views)"
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): SIDEMEN FIGHT OVER THEIR HALL OF FAME\u2026 BUT THERE'S A HEIST (504,714 views)"
+         "label": "Popular on YouTube (UK): SIDEMEN FIGHT OVER THEIR HALL OF FAME\u2026 BUT THERE'S A HEIST (518,148 views)"
         }
        ],
        "segment": "Leisure Interests",
@@ -4857,88 +4939,10 @@
        "topics": []
       },
       {
-       "title": "Ben Affleck's New Netflix Crime Movie Continues Unfortunate Rotten Tomatoes Trend",
+       "title": "Summer H. Howell",
        "origin": "both",
        "uk": {
         "recent": 9,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         2,
-         1,
-         0,
-         0,
-         1,
-         1,
-         1,
-         3,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 2
-       },
-       "us": {
-        "recent": 8,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         2,
-         1,
-         0,
-         0,
-         1,
-         1,
-         1,
-         2,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 2,
-       "items": [
-        {
-         "title": "Ben Affleck's New Netflix Crime Movie Continues Unfortunate Rotten Tomatoes Trend",
-         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DaWc3aHBkOThBRjM5cXBrVXhJcndmVnZHbV9SNDFWeHNrdjNzZ1NsaHE1SXdMYm1mcXlRQ2lkMWpRZ1BqLVRJN2tqMDB2VXREYVlBUEVYUTFSYzRlLWM1NlluY3pUeWhYclViekluOA?oc=5",
-         "source": "Comic Book Resources",
-         "ts": "2026-10-10T21:57:39+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Ben Affleck",
-         "link": "https://en.wikipedia.org/wiki/Ben_Affleck",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 26.0,
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Ben Affleck (200,587 views)"
-        }
-       ],
-       "segment": "Leisure Interests",
-       "channel": "Film & TV",
-       "topics": []
-      },
-      {
-       "title": "Jessica Biel opens up about son Silas' unexpected reaction to her new role",
-       "origin": "both",
-       "uk": {
-        "recent": 8,
         "previous": 0,
         "daily": [
          0,
@@ -4949,18 +4953,18 @@
          0,
          0,
          1,
-         1,
-         1,
-         1,
          2,
-         1,
-         1
+         2,
+         0,
+         2,
+         2,
+         0
         ],
         "signal": "rising",
-        "sources": 2
+        "sources": 1
        },
        "us": {
-        "recent": 7,
+        "recent": 9,
         "previous": 0,
         "daily": [
          0,
@@ -4971,12 +4975,12 @@
          0,
          0,
          1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1
+         2,
+         2,
+         0,
+         2,
+         2,
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -4984,30 +4988,18 @@
        "platforms": [
         "wikipedia"
        ],
-       "sources": 2,
+       "sources": 1,
        "items": [
         {
-         "title": "Jessica Biel opens up about son Silas' unexpected reaction to her new role",
-         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT29EWUI5eVRpMlRuc1lsa0J5U1RqZXhwRG1sTTFrRkNLYy04bnpiOXlLV0VJM1ZzelRYVE1rRE5NNV9qeVllQlE1eGhFZzFuUWtHZGk0REZuN2VueFZGN2pMZTEtRTU3Zmc1WjkxclNiOHZFOGZqYjVibmRSVzhOUkxLNFRvMjFDcERkSGhyb2tzbkdiempOMy1oRFA1dzJPcFpXYWVjRjhCUENzSGo00gGrAUFVX3lxTFBkNEM5WHhScllMV2JEN00yRlhhMldNcmxaMlpkRnY5X2Nnell2eFRjQ216eFRjeVc0N01JZWtoWlVUaDlvMEdwemFUTDFLbV9DN3RGb09qbzlkbDYtN2RlZGNBOXQwaDdOdTdQVl9aM1A4Q2VfX3lXV2pIV2FwLTByMlU1RlZPemlwZ1psT3Z2YTVRRVVsWkp2QlZwMGlKTDk4UWpxdVhMdXlQOA?oc=5",
-         "source": "The News International",
-         "ts": "2026-10-10T19:03:36+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Jessica Biel",
-         "link": "https://en.wikipedia.org/wiki/Jessica_Biel",
+         "title": "Summer H. Howell",
+         "link": "https://en.wikipedia.org/wiki/Summer_H._Howell",
          "source": "Wikipedia",
          "ts": "2026-10-12T12:00:00+00:00",
          "region": "ALL"
         }
        ],
-       "score": 23.000000000000004,
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Jessica Biel (135,808 views)"
-        }
-       ],
+       "score": 17.55,
+       "signals": [],
        "segment": "Leisure Interests",
        "channel": "Film & TV",
        "topics": []
@@ -5021,45 +5013,45 @@
        "title": "Other Mommy",
        "origin": "both",
        "uk": {
-        "recent": 16,
-        "previous": 6,
+        "recent": 12,
+        "previous": 7,
         "daily": [
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         2,
+         2,
+         3,
          0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
+         3,
          2,
-         2,
-         3,
-         3,
-         3,
-         2
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 16,
-        "previous": 6,
+        "recent": 12,
+        "previous": 7,
         "daily": [
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         2,
+         2,
+         3,
          0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
+         3,
          2,
-         2,
-         3,
-         3,
-         3,
-         2
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -5077,7 +5069,7 @@
          "region": "ALL"
         }
        ],
-       "score": 31.200000000000003,
+       "score": 23.400000000000002,
        "signals": [],
        "segment": "Leisure Interests",
        "channel": "Art & antiques",
@@ -5098,8 +5090,8 @@
          0,
          0,
          0,
-         0,
-         3,
+         2,
+         1,
          0,
          0,
          0,
@@ -5777,7 +5769,7 @@
        "topics": []
       },
       {
-       "title": "Mercedes-Benz EV Sales Hit Record High in Q3 2026 as Electric GLC Drives Growth",
+       "title": "Mercedes global sales fall 6% as electric car sales hit record high",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -6004,7 +5996,80 @@
        "topics": []
       },
       {
-       "title": "Five Trends Transforming Home Energy In Northern Ireland",
+       "title": "Public EV charging savings hit record high over volatile petrol costs",
+       "origin": "uk",
+       "uk": {
+        "recent": 2,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "platforms": [],
+       "sources": 2,
+       "items": [
+        {
+         "title": "Public EV charging savings hit record high over volatile petrol costs",
+         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ29WTnI0cjdMZ1ZNbXVhckRaeU5wbUdrTDlFZUEwSWJ2T3ZfQ09GVmQxdlRNQVR0eXk4dVlXc2lsaXF3dkZ2SlZDR0d6ZHk4cHFDazhiM3F4LXdycTBXM3ZzQl9WV2ZaT0twOU8xRm0xUWVpZlN0YXdjOHhMRzFvdzdmYjFxMl8wU2pvYXk2YThLT0FrY2h2TE53NHBUUQ?oc=5",
+         "source": "EV Fleet World",
+         "ts": "2026-10-13T06:42:46+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Public EV charging savings hit record high over volatile petrol costs",
+         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdWdyTER3cHdkdUZlR3FLalMwVlZ4TlJsYmN0aUtaYk96d1NIQjBVaDZGUnBiLTM1b2poS2I5M2lEWDd5WHY3aVFmN2RVMk45TFk0aDliZTRwRDdnU3NvNzA0cTB6dXRfcnVLU1RaTi1SWFlHZUFfZ3hqSlp4aUdmQWNlTFFNdWJsVjU5cXdfYzFqcW41YW9lQmZjQQ?oc=5",
+         "source": "Fleet World",
+         "ts": "2026-10-13T05:29:55+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 3.2,
+       "signals": [],
+       "segment": "Motoring & Motorcycling",
+       "channel": "Electric vehicles",
+       "topics": [
+        "Electric & green mobility"
+       ]
+      },
+      {
+       "title": "What are the latest trends in home energy benefit schemes?",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -6215,79 +6280,6 @@
        "segment": "Motoring & Motorcycling",
        "channel": "Electric vehicles",
        "topics": []
-      },
-      {
-       "title": "Why electric vehicles sales are lukewarm in America, but hot in Europe",
-       "origin": "uk",
-       "uk": {
-        "recent": 2,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 2
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "platforms": [],
-       "sources": 2,
-       "items": [
-        {
-         "title": "Why electric vehicles sales are lukewarm in America, but hot in Europe",
-         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTmh1czluWEJYV014Z1gwWmJzd0JuUHJTMkkwa2VNR2pfYTVEX3JkcU84bUs0eThmZk5uTy13S0tkYnE1cnJJUmZUWVBCSVRDNi1NMER6c09rNlJUZ0s4Uk5EVWJSeTN0WHZ0aHpnYkplWWpsZ2hkTDl6b2U2ZjlzSkhVTC1OazV3akd0ZU1WbGFXMXZBekRRLWdrR3UzdkVmVEwxdjR5T3NoMjVMWmxXWkZTTjcyMnVfOTE2R2VFVWVONExHY2lhaUNFRWprQW9JZFB3Rkw4c9IB1wFBVV95cUxQTmh1czluWEJYV014Z1gwWmJzd0JuUHJTMkkwa2VNR2pfYTVEX3JkcU84bUs0eThmZk5uTy13S0tkYnE1cnJJUmZUWVBCSVRDNi1NMER6c09rNlJUZ0s4Uk5EVWJSeTN0WHZ0aHpnYkplWWpsZ2hkTDl6b2U2ZjlzSkhVTC1OazV3akd0ZU1WbGFXMXZBekRRLWdrR3UzdkVmVEwxdjR5T3NoMjVMWmxXWkZTTjcyMnVfOTE2R2VFVWVONExHY2lhaUNFRWprQW9JZFB3Rkw4cw?oc=5",
-         "source": "The Economic Times",
-         "ts": "2026-10-08T10:37:00+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Why EV Sales Lag in America but Surge in Europe in 2024",
-         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOanpWdGtpem4tc2c4b1NIenJaLW81bGU2ZjJhT2Naa0trSFRXTXgxbWZ4bW9KOE5GRVRZR2ZMVE9vcHRhUE1ycV9zb1lLbEVEbmhsRzJjOUJ2UXhVa0ROeGY0WkcyeWhyZjRLcC1hV2hMMkRiWFkxbmE4MXp2Z0JMM1ZmNA?oc=5",
-         "source": "Global Banking & Finance Review",
-         "ts": "2026-10-08T10:23:51+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 3.2,
-       "signals": [],
-       "segment": "Motoring & Motorcycling",
-       "channel": "Electric vehicles",
-       "topics": [
-        "Electric & green mobility"
-       ]
       }
      ]
     },
@@ -6434,7 +6426,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Most Extreme Job Ever! \ud83d\ude2e\u26a0\ufe0f (15,201,494 views)"
+         "label": "Popular on YouTube (UK): Most Extreme Job Ever! \ud83d\ude2e\u26a0\ufe0f (15,215,433 views)"
         }
        ],
        "segment": "Motoring & Motorcycling",
@@ -6527,8 +6519,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          0,
@@ -6551,8 +6543,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0
         ],
@@ -6671,8 +6663,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          1,
          0,
          1,
@@ -6917,8 +6909,8 @@
          0,
          0,
          0,
-         1,
-         1,
+         2,
+         0,
          0,
          0
         ],
@@ -7053,76 +7045,10 @@
      "name": "Pop & rock",
      "trends": [
       {
-       "title": "Zendaya",
-       "origin": "both",
-       "uk": {
-        "recent": 7,
-        "previous": 1,
-        "daily": [
-         1,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 7,
-        "previous": 1,
-        "daily": [
-         1,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "Zendaya",
-         "link": "https://en.wikipedia.org/wiki/Zendaya",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 13.65,
-       "signals": [],
-       "segment": "Music",
-       "channel": "Pop & rock",
-       "topics": []
-      },
-      {
        "title": "XXXXX",
        "origin": "both",
        "uk": {
-        "recent": 6,
+        "recent": 5,
         "previous": 0,
         "daily": [
          0,
@@ -7132,19 +7058,19 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 6,
+        "recent": 5,
         "previous": 0,
         "daily": [
          0,
@@ -7154,13 +7080,13 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
          0,
          1,
          1,
-         1,
-         1,
-         1,
-         1
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -7178,7 +7104,7 @@
          "region": "ALL"
         }
        ],
-       "score": 11.700000000000001,
+       "score": 9.75,
        "signals": [],
        "segment": "Music",
        "channel": "Pop & rock",
@@ -7188,8 +7114,8 @@
        "title": "Ad\u00e9la",
        "origin": "both",
        "uk": {
-        "recent": 6,
-        "previous": 0,
+        "recent": 4,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -7197,21 +7123,21 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
+         1,
          0,
          1,
-         1,
-         1,
-         1,
-         1,
-         1,
+         0,
          0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 6,
-        "previous": 0,
+        "recent": 4,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -7219,13 +7145,13 @@
          0,
          0,
          0,
+         1,
+         1,
+         1,
+         1,
          0,
          1,
-         1,
-         1,
-         1,
-         1,
-         1,
+         0,
          0
         ],
         "signal": "rising",
@@ -7244,7 +7170,7 @@
          "region": "ALL"
         }
        ],
-       "score": 11.700000000000001,
+       "score": 7.800000000000001,
        "signals": [],
        "segment": "Music",
        "channel": "Pop & rock",
@@ -7328,7 +7254,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Chalre Chalre Waal Female Version - Tu Sanwal Phul Kasturi Song \u2764\ufe0f Instagram Trending song 2026 (7,697,933 views)"
+         "label": "Popular on YouTube (UK): Chalre Chalre Waal Female Version - Tu Sanwal Phul Kasturi Song \u2764\ufe0f Instagram Trending song 2026 (7,731,846 views)"
         }
        ],
        "segment": "Music",
@@ -7528,8 +7454,8 @@
          0,
          1,
          0,
-         0,
          3,
+         0,
          0,
          0,
          0,
@@ -7598,7 +7524,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Jeremy Clarkson calls Labour government taxes an \"attack\" on farmers \ud83d\ude9c #news #politics #farming (298,110 views)"
+         "label": "Popular on YouTube (UK): Jeremy Clarkson calls Labour government taxes an \"attack\" on farmers \ud83d\ude9c #news #politics #farming (298,182 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -7816,7 +7742,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (1,479,411 views)"
+         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (1,482,138 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -7892,7 +7818,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (1,479,411 views)"
+         "label": "Popular on YouTube (UK): The Hugging Face story is even scarier than we thought (1,482,138 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -8010,11 +7936,11 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Andy Burnham (80,313 views)"
+         "label": "Popular on Wikipedia this week: Andy Burnham (82,964 views)"
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): \u2018Burnham needs to grow up!\u2019: PM must forget Brexit and bring down benefits bill | The Daily T (90,811 views)"
+         "label": "Popular on YouTube (UK): \u2018Burnham needs to grow up!\u2019: PM must forget Brexit and bring down benefits bill | The Daily T (91,884 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -8025,10 +7951,9 @@
        "title": "Abdul El-Sayed",
        "origin": "both",
        "uk": {
-        "recent": 11,
+        "recent": 8,
         "previous": 1,
         "daily": [
-         1,
          0,
          0,
          0,
@@ -8039,18 +7964,18 @@
          1,
          1,
          2,
+         0,
          2,
          2,
-         2
+         0
         ],
         "signal": "rising",
         "sources": 1
        },
        "us": {
-        "recent": 11,
+        "recent": 8,
         "previous": 1,
         "daily": [
-         1,
          0,
          0,
          0,
@@ -8061,9 +7986,10 @@
          1,
          1,
          2,
+         0,
          2,
          2,
-         2
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -8081,174 +8007,8 @@
          "region": "ALL"
         }
        ],
-       "score": 21.45,
+       "score": 15.600000000000001,
        "signals": [],
-       "segment": "News & Current Affairs",
-       "channel": "Politics",
-       "topics": []
-      },
-      {
-       "title": "Gyanesh Kumar",
-       "origin": "both",
-       "uk": {
-        "recent": 9,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         0,
-         1,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         2,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 9,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         0,
-         1,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         2,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "Gyanesh Kumar",
-         "link": "https://en.wikipedia.org/wiki/Gyanesh_Kumar",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 17.55,
-       "signals": [],
-       "segment": "News & Current Affairs",
-       "channel": "Politics",
-       "topics": []
-      },
-      {
-       "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
-       "origin": "uk",
-       "uk": {
-        "recent": 5,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         0,
-         1,
-         2,
-         0,
-         0
-        ],
-        "signal": "rising",
-        "sources": 2
-       },
-       "us": {
-        "recent": 0,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0
-        ],
-        "signal": "steady",
-        "sources": 0
-       },
-       "platforms": [
-        "youtube"
-       ],
-       "sources": 2,
-       "items": [
-        {
-         "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
-         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FVVluSHJRV0xFbTdGWmtPTzZZYW9UeEZXSERYbUtQbTdTZEFYcDJpalVUMkhQdWVQMExBUExCMWZyYnNrcWNjZkZhX2ZPSS1MOGU2cl9uOXZ2SDlWODhOVHlPRDhtV3FNdHV3?oc=5",
-         "source": "BBC",
-         "ts": "2026-10-08T09:16:56+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Does Manchester need the City owners? \ud83e\udd14",
-         "link": "https://www.youtube.com/watch?v=c6LJVns_nng",
-         "source": "YouTube",
-         "ts": "2026-10-11T09:00:21+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Soccer Saturday reacts to Man City being found guilty on all serious financial charges of PL rules",
-         "link": "https://www.youtube.com/watch?v=V2MN49tqdAk",
-         "source": "YouTube",
-         "ts": "2026-10-10T11:58:53+00:00",
-         "region": "UK"
-        },
-        {
-         "title": "Mayor Mamdani calls to abolish ICE after agent shoots man in neck in New York City",
-         "link": "https://www.youtube.com/watch?v=5BYha9RnYFw",
-         "source": "YouTube",
-         "ts": "2026-10-09T15:54:57+00:00",
-         "region": "UK"
-        }
-       ],
-       "score": 14.0,
-       "signals": [
-        {
-         "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Andy Burnham (80,313 views)"
-        },
-        {
-         "kind": "google",
-         "label": "Trending on Google searches: manchester city (2000+ searches)"
-        },
-        {
-         "kind": "youtube",
-         "label": "Popular on YouTube (UK): Man City thump Liverpool at Anfield | Liverpool 0-3 Man City | Premier League Highlights (1,547,546 views)"
-        }
-       ],
        "segment": "News & Current Affairs",
        "channel": "Politics",
        "topics": []
@@ -8326,6 +8086,182 @@
         }
        ],
        "score": 13.6,
+       "signals": [],
+       "segment": "News & Current Affairs",
+       "channel": "Politics",
+       "topics": []
+      },
+      {
+       "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
+       "origin": "uk",
+       "uk": {
+        "recent": 5,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         1,
+         0,
+         2,
+         1,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 2
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "platforms": [
+        "youtube"
+       ],
+       "sources": 2,
+       "items": [
+        {
+         "title": "Manchester City charges: Premier League clubs fear political interference in appeal after Andy Burnham comments",
+         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FVVluSHJRV0xFbTdGWmtPTzZZYW9UeEZXSERYbUtQbTdTZEFYcDJpalVUMkhQdWVQMExBUExCMWZyYnNrcWNjZkZhX2ZPSS1MOGU2cl9uOXZ2SDlWODhOVHlPRDhtV3FNdHV3?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-08T09:16:56+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Does Manchester need the City owners? \ud83e\udd14",
+         "link": "https://www.youtube.com/watch?v=c6LJVns_nng",
+         "source": "YouTube",
+         "ts": "2026-10-11T09:00:21+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Soccer Saturday reacts to Man City being found guilty on all serious financial charges of PL rules",
+         "link": "https://www.youtube.com/watch?v=V2MN49tqdAk",
+         "source": "YouTube",
+         "ts": "2026-10-10T11:58:53+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Mayor Mamdani calls to abolish ICE after agent shoots man in neck in New York City",
+         "link": "https://www.youtube.com/watch?v=5BYha9RnYFw",
+         "source": "YouTube",
+         "ts": "2026-10-09T15:54:57+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 12.0,
+       "signals": [
+        {
+         "kind": "wikipedia",
+         "label": "Popular on Wikipedia this week: Andy Burnham (82,964 views)"
+        },
+        {
+         "kind": "youtube",
+         "label": "Popular on YouTube (UK): Man City thump Liverpool at Anfield | Liverpool 0-3 Man City | Premier League Highlights (1,552,077 views)"
+        }
+       ],
+       "segment": "News & Current Affairs",
+       "channel": "Politics",
+       "topics": []
+      },
+      {
+       "title": "Horrific Moment: Man Dies After Jumping Into Tiger Enclosure at Yorkshire Wildlife Park, UK",
+       "origin": "uk",
+       "uk": {
+        "recent": 8,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         7,
+         0,
+         1
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "us": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "platforms": [
+        "youtube"
+       ],
+       "sources": 1,
+       "items": [
+        {
+         "title": "Police search for answers after man dies in tiger enclosure at Yorkshire Wildlife Park",
+         "link": "https://www.youtube.com/watch?v=EIegnvAyX4U",
+         "source": "YouTube",
+         "ts": "2026-10-12T14:09:18+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Yorkshire Wildlife Park Tragedy: Man Dies After Jumping Into Tiger Enclosure",
+         "link": "https://www.youtube.com/watch?v=4h92XPbyoDQ",
+         "source": "YouTube",
+         "ts": "2026-10-11T00:30:11+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Horrific Moment: Man Dies After Jumping Into Tiger Enclosure at Yorkshire Wildlife Park, UK",
+         "link": "https://www.youtube.com/watch?v=Z9nhc-YEqjM",
+         "source": "YouTube",
+         "ts": "2026-10-10T19:25:19+00:00",
+         "region": "UK"
+        }
+       ],
+       "score": 10.4,
        "signals": [],
        "segment": "News & Current Affairs",
        "channel": "Politics",
@@ -8456,11 +8392,11 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Navi Pillay (679,031 views)"
+         "label": "Popular on Wikipedia this week: Navi Pillay (500,756 views)"
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -8566,79 +8502,13 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Houthis (187,498 views)"
+         "label": "Popular on Wikipedia this week: Houthis (186,271 views)"
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Saudi capital airport attack kills 12 people and more than 300 injured | BBC News (874,679 views)"
+         "label": "Popular on YouTube (UK): Saudi capital airport attack kills 12 people and more than 300 injured | BBC News (878,988 views)"
         }
        ],
-       "segment": "News & Current Affairs",
-       "channel": "World",
-       "topics": []
-      },
-      {
-       "title": "James Talarico",
-       "origin": "both",
-       "uk": {
-        "recent": 8,
-        "previous": 1,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         2
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 8,
-        "previous": 1,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         1,
-         2
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "James Talarico",
-         "link": "https://en.wikipedia.org/wiki/James_Talarico",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 15.600000000000001,
-       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "World",
        "topics": []
@@ -8662,8 +8532,8 @@
          0,
          0,
          1,
-         1,
-         2
+         2,
+         1
         ],
         "signal": "rising",
         "sources": 3
@@ -8735,9 +8605,75 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Man dies after attack by tiger at UK wildlife park (1,339,040 views)"
+         "label": "Popular on YouTube (UK): Man dies after attack by tiger at UK wildlife park (1,341,832 views)"
         }
        ],
+       "segment": "News & Current Affairs",
+       "channel": "World",
+       "topics": []
+      },
+      {
+       "title": "James Talarico",
+       "origin": "both",
+       "uk": {
+        "recent": 6,
+        "previous": 2,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         1,
+         1,
+         1,
+         1,
+         0,
+         1,
+         2,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "us": {
+        "recent": 6,
+        "previous": 2,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         1,
+         1,
+         1,
+         1,
+         0,
+         1,
+         2,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "platforms": [
+        "wikipedia"
+       ],
+       "sources": 1,
+       "items": [
+        {
+         "title": "James Talarico",
+         "link": "https://en.wikipedia.org/wiki/James_Talarico",
+         "source": "Wikipedia",
+         "ts": "2026-10-12T12:00:00+00:00",
+         "region": "ALL"
+        }
+       ],
+       "score": 11.700000000000001,
+       "signals": [],
        "segment": "News & Current Affairs",
        "channel": "World",
        "topics": []
@@ -8853,7 +8789,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,258 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,446 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -8869,7 +8805,7 @@
        "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
        "origin": "both",
        "uk": {
-        "recent": 36,
+        "recent": 37,
         "previous": 0,
         "daily": [
          0,
@@ -8880,7 +8816,7 @@
          0,
          0,
          17,
-         18,
+         19,
          1,
          0,
          0,
@@ -8888,10 +8824,10 @@
          0
         ],
         "signal": "rising",
-        "sources": 35
+        "sources": 36
        },
        "us": {
-        "recent": 8,
+        "recent": 9,
         "previous": 0,
         "daily": [
          0,
@@ -8901,7 +8837,7 @@
          0,
          0,
          0,
-         3,
+         4,
          5,
          0,
          0,
@@ -8910,10 +8846,10 @@
          0
         ],
         "signal": "rising",
-        "sources": 8
+        "sources": 9
        },
        "platforms": [],
-       "sources": 42,
+       "sources": 44,
        "items": [
         {
          "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
@@ -8972,11 +8908,11 @@
          "region": "US"
         }
        ],
-       "score": 680.0,
+       "score": 736.625,
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -9019,8 +8955,8 @@
          0,
          0,
          0,
-         3,
-         1,
+         4,
+         0,
          0,
          0,
          0,
@@ -9098,7 +9034,7 @@
         },
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -9188,7 +9124,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -9209,8 +9145,8 @@
          0,
          0,
          0,
-         0,
-         2,
+         1,
+         1,
          0,
          0,
          0,
@@ -9271,7 +9207,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -9297,8 +9233,8 @@
          0,
          0,
          0,
-         0,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 2
@@ -9319,8 +9255,8 @@
          0,
          0,
          0,
-         0,
-         1
+         1,
+         0
         ],
         "signal": "rising",
         "sources": 1
@@ -9354,7 +9290,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,748,058 views)"
+         "label": "Popular on YouTube (UK): Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL (2,752,971 views)"
         }
        ],
        "segment": "News & Current Affairs",
@@ -9532,7 +9468,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Singapore (93,420 views)"
+         "label": "Popular on Wikipedia this week: Singapore (88,046 views)"
         }
        ],
        "segment": "Newspapers",
@@ -9633,73 +9569,7 @@
      "name": "Football",
      "trends": [
       {
-       "title": "Lionel Messi",
-       "origin": "both",
-       "uk": {
-        "recent": 11,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         1,
-         1,
-         0,
-         0,
-         1,
-         2,
-         3,
-         2,
-         1,
-         1,
-         1,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 11,
-        "previous": 3,
-        "daily": [
-         0,
-         0,
-         1,
-         1,
-         0,
-         0,
-         1,
-         2,
-         3,
-         2,
-         1,
-         1,
-         1,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "Lionel Messi",
-         "link": "https://en.wikipedia.org/wiki/Lionel_Messi",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 21.45,
-       "signals": [],
-       "segment": "Sport",
-       "channel": "Football",
-       "topics": []
-      },
-      {
-       "title": "Man City players told they could be entitled to rip up contracts after guilty verdict in Premier League case - Paper Talk",
+       "title": "Man City guilty: Premier League club knew of independent commission's verdict in the summer - Paper Talk",
        "origin": "uk",
        "uk": {
         "recent": 4,
@@ -9783,9 +9653,108 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Man City thump Liverpool at Anfield | Liverpool 0-3 Man City | Premier League Highlights (1,547,546 views)"
+         "label": "Popular on YouTube (UK): Man City thump Liverpool at Anfield | Liverpool 0-3 Man City | Premier League Highlights (1,552,077 views)"
         }
        ],
+       "segment": "Sport",
+       "channel": "Football",
+       "topics": []
+      },
+      {
+       "title": "Bournemouth transfer rumours: Alex Scott, Chelsea",
+       "origin": "both",
+       "uk": {
+        "recent": 3,
+        "previous": 4,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         4,
+         0,
+         1,
+         1,
+         0,
+         0,
+         0,
+         0,
+         1
+        ],
+        "signal": "steady",
+        "sources": 3
+       },
+       "us": {
+        "recent": 0,
+        "previous": 1,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "fading",
+        "sources": 1
+       },
+       "platforms": [],
+       "sources": 4,
+       "items": [
+        {
+         "title": "Bournemouth transfer rumours: Alex Scott, Chelsea",
+         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RX0xoMHM3ZlhKbUJSNUJyQTAwY0dSQXUwMEFqU0pGUFVJTmRHWkJ0Y29kREtkb3FqV2VKZVBQV0I5TGd4V2FuOFNKM2JXNWJKUUJkOURXMFJCNXNCSUY0QXhxX1BhRTJEdU1v?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-13T06:14:18+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Bournemouth transfer rumours: Adrien Truffert",
+         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zbFBfTmpITVF6UU80WTl3TFgtWkJlN2NUc29zMzlQd0o1NlZ1ai1QYjhMUWJVU2UtMUFNV2xiUy1od3RQMkxRUFBxWml6TVU5bzRRNWFEQXZqNElsUmVSRWpEemJxSXJuT2dv?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-08T05:38:58+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Bournemouth transfer rumours: Alex Scott",
+         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RTXdHVGVyRFdpMmhnNTFTY2Y0NFpSTUpqby1iTEVRMlVkQ2t6ajN1REQ3QjR0U3h1bS1MUEhzdjRzMjJacHJzelV3U3hlOW13bEhreFdqQVJ5X09xN3hqaWVtQV9RQ3lFemlz?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-07T07:02:55+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Transfer Rumours: Chelsea face new Alex Scott competition as Arsenal line up \u20ac100m star",
+         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSFZCU3o0WjZpYnJWSjMzUzMyTDlBa1JrcWpsV1A2VGxVcUEtX3pMcFo1SkdGWXprbEVWSG96cUpWWTlqeFd6Z2ZoODhqMWFJRS1RbjlCMC1JS1o1TmV4emEwSnJ6c0MzMmJxSDNpc2hoUEZSMncxVDRRWmYxVXdnYzVLejNsTndNVnFrZWljUXNUcklQLWNHZDgwekllRVQyWHB3dFA3U21PN01md25QM1JIRWE3R24yU3VSS0hSWFh3WjcyVk1KR3ZLWDRFZw?oc=5",
+         "source": "FootballTransfers.com",
+         "ts": "2026-10-05T07:25:00+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Bournemouth transfer rumours: Alex Scott",
+         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzZURjTDU5STlvVjlVaFlQY0pnblhpanNhV0ZNaWN4b3FIR2pRNUpCY0xwaGo5TnhQeF9PdjRQTTJJU0ZFZ1ZwRHRQZ0JOUHdtLXNKZ3lTZnprTG5TY3pnbzBGc3dsaDR4YXVZ?oc=5",
+         "source": "BBC",
+         "ts": "2026-10-05T07:00:17+00:00",
+         "region": "UK"
+        },
+        {
+         "title": "Transfer rumors, news: Chelsea leading the way to sign Bournemouth's Scott",
+         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcm5wZ0ZFWExRUGpqWkhKTmNmOTNqU1FfeVNrc0I4cjVrUEUzN2FMZGRXejNJWTZ3TmdvOWdxazNCYktJQzFJTHN5QVFKcVYzODE0b3JXR0VUdlIxcmpXV0N0UFVmMnlaNnZ0TGFDSWt1bV9wU1AxTTZEemJNZ040ZE5iTEhfcU1qOWx2STZWTG5XUGI2MDBwNkEzYUs2VGNidFlXZFhKTDcxcmF4NmMxZG1DamE0Ykxw?oc=5",
+         "source": "ESPN",
+         "ts": "2026-10-05T07:00:00+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 6.6000000000000005,
+       "signals": [],
        "segment": "Sport",
        "channel": "Football",
        "topics": []
@@ -9946,7 +9915,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Wilshere: Arsenal at 16, Injury Setbacks & Facing Messi\u2019s Barcelona | Stick to Football EP 152 (1,226,065 views)"
+         "label": "Popular on YouTube (UK): Wilshere: Arsenal at 16, Injury Setbacks & Facing Messi\u2019s Barcelona | Stick to Football EP 152 (1,228,902 views)"
         }
        ],
        "segment": "Sport",
@@ -10044,10 +10013,10 @@
      "name": "Cricket & rugby",
      "trends": [
       {
-       "title": "Saracens sack academy player involved in cricket nightclub fracas after another incident",
+       "title": "Rugby Player Involved In Ben Stokes Nightclub Fracas Sacked By Club After Latest Incident",
        "origin": "uk",
        "uk": {
-        "recent": 5,
+        "recent": 6,
         "previous": 0,
         "daily": [
          0,
@@ -10063,7 +10032,7 @@
          0,
          0,
          0,
-         5
+         6
         ],
         "signal": "rising",
         "sources": 5
@@ -10115,21 +10084,21 @@
          "region": "UK"
         },
         {
+         "title": "Rugby Player Involved In Ben Stokes Nightclub Fracas Sacked By Club After Latest Incident",
+         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZG82UV9ZUTlINElBbHJpeHVjbndQTDI0MzRiUHVIWXFRdzhPWHhZNnBSOXZQelRJcXYyaUQtV3NKcW9hdGpCNF94SzR2QUgtaTVJejlkeXg0SEZucXFhaGtyQi0tTVlKNWQxdnRNTUNmYlVvV3BjREpaWTV3ZHlwclpLaldmaWhSdmNGYTM2Y040SFI0cF9aUzBTYm5IRUVSWlRUbHdJenVqdmJleXhRdV9SdzMweDNYb2U2Ry0ybm9abDRwNG90VWczUlhCUFhydmc5M3pDYWfSAd4BQVVfeXFMTVNOZ2VORFRxTzc2bDJDcVptOTVNSnk4V3BTNURUS2d0NzVid0hjOENJd2I1clk1Tm12cjBiTkxfdGs5eEJoSm1OV2lqX29La2N6Sjd0cVViNmd6TkxITjBXS3o2WEZJbXJOWXpmNjRSMFEwc3pqQUhNNWlUNG5IOENUWGhuUS1sSDlmcHpMX3c1M1Rybng3MlltQ0o0bDBoTUxlak9VUGFWbk53bTB4cGhocHN4aHZwS1U5Y1BsT3BzdmVzVHpDbS1JRy16dHczVmpTTjhFd2ltNU1qQktB?oc=5",
+         "source": "News18",
+         "ts": "2026-10-13T02:02:05+00:00",
+         "region": "UK"
+        },
+        {
          "title": "Saracens sack academy player involved in cricket nightclub fracas after another incident",
          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX2pSNDU0ZmM5QjBwTFNBR3Z6TVo5Mi0yY09SMmNFTy16MEw3eGNNM0xjb3ctNEpYRDJiTUxEa2ZEakJMRHRra3ZMVlg3QmQ3ZnhjLTFkX1IwTC1Rd1JjWUVPMU5sTlZWcHpJMG85YnZ5UTYxdExIWDlJY285aXN6UW9YY29odU9GXzFtYThSOTVVNEE4d3J1SkNfN0ZQTUxqZlJsSXQwWlRNUEF0eDBWMHFtN1hmNTNvQldva0I4SWJyVWM0X0lGMldB?oc=5",
          "source": "The Independent",
          "ts": "2026-10-12T18:00:00+00:00",
          "region": "UK"
-        },
-        {
-         "title": "Totoa Auvaa: Saracens academy player sacked after incident in St Albans",
-         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wbTdhRnJNWkxKcnhPclM5cnNmZHR2UkJpSEF0V29iaVRzZEZXYmF6RmxhYlhVMmFYUXhzc3FGNXM2REdsMmpGU2lXUmFVU1JpcDJER2NXX2RjWHc5ejRLSzk4UldOSW9IV2xlUg?oc=5",
-         "source": "BBC",
-         "ts": "2026-10-12T17:24:49+00:00",
-         "region": "UK"
         }
        ],
-       "score": 12.5,
+       "score": 15.0,
        "signals": [],
        "segment": "Sport",
        "channel": "Cricket & rugby",
@@ -10204,7 +10173,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): You\u2019ve Had A Stroke?! | Paul Smith LIVE at Hot Water Comedy Club (1,357,206 views)"
+         "label": "Popular on YouTube (UK): You\u2019ve Had A Stroke?! | Paul Smith LIVE at Hot Water Comedy Club (1,362,970 views)"
         }
        ],
        "segment": "Sport",
@@ -10351,7 +10320,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,258 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,446 views)"
         }
        ],
        "segment": "Sport",
@@ -10367,8 +10336,8 @@
         "daily": [
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          1,
@@ -10474,8 +10443,8 @@
          0,
          0,
          0,
-         3,
-         3,
+         4,
+         2,
          0
         ],
         "signal": "rising",
@@ -10599,72 +10568,6 @@
         }
        ],
        "score": 8.0,
-       "signals": [],
-       "segment": "Sport",
-       "channel": "Golf",
-       "topics": []
-      },
-      {
-       "title": "Jordan Henderson",
-       "origin": "both",
-       "uk": {
-        "recent": 4,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         2,
-         0
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 4,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         2,
-         0
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "Jordan Henderson",
-         "link": "https://en.wikipedia.org/wiki/Jordan_Henderson",
-         "source": "Wikipedia",
-         "ts": "2026-10-11T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 7.800000000000001,
        "signals": [],
        "segment": "Sport",
        "channel": "Golf",
@@ -10839,6 +10742,89 @@
        "segment": "Sport",
        "channel": "Golf",
        "topics": []
+      },
+      {
+       "title": "Park service could remove more than 500 trees at historic golf course Trump wants to redesign",
+       "origin": "us",
+       "uk": {
+        "recent": 0,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "signal": "steady",
+        "sources": 0
+       },
+       "us": {
+        "recent": 4,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         1,
+         3,
+         0,
+         0
+        ],
+        "signal": "rising",
+        "sources": 4
+       },
+       "platforms": [],
+       "sources": 4,
+       "items": [
+        {
+         "title": "Park service could remove more than 500 trees at historic golf course Trump wants to redesign - ABC News",
+         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPelE1d3o4T2JBbWEyVWpicVNWcWV1YklvVlB6dno5SmlKbExNamZEd25VdVZ3RHltbm5TemxaYkRRM2tvcXB4ZGJVdTV0ZTlvUVhaR05UemEySlpRbUJwbVIxeDBZb3pKZE9aTzBvVlhvU2RQcEFzTV9PcEtON1JsUTF4MW1zVkIxNFZtU2F1OHJ2ZnZISWVR0gGcAUFVX3lxTFBucW5oNTItbm1KTzdIUEtPWGJCdlQyR0U5MTNGbTlVTXJ1X2htX2JTcXFuc2VSbFdpMHR0TFJLRjdzb0xTTF8yZExjbDZocXpiSEdaQVZ3ZW5xdk93VVJGYU1DVEdRNlk0ZGZ3dHp3Q2JJc1ROMWlrcnA2ODVoNEphRWQwZWNEMUMwRnZNb0k1cDEwcHphN1A0a0VWZg?oc=5",
+         "source": "ABC News - Breaking News, Latest News and Videos",
+         "ts": "2026-10-11T00:39:08+00:00",
+         "region": "US"
+        },
+        {
+         "title": "Park service could remove more than 500 trees at historic golf course Trump wants to redesign",
+         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXp5U0lwXy1qYnFUOFMxWHBYRzlpQjdjZU50MlZ1N1A0TWd0TmpOWWFIdzFkQVRMV3VWcnh4aklCeEZBZEFWSFB3VFhRUV9ERG1UTE55b1g1MjNELWFnT2h3Y2dsdi0zQ0Q1cG5acGFCUEM0Tm5PUDhPaFR5NUpGaHhKVUFkMk51MFNzZjlFeEw5eWVYZ3hBR3o2U2k?oc=5",
+         "source": "AP News",
+         "ts": "2026-10-10T22:25:00+00:00",
+         "region": "US"
+        },
+        {
+         "title": "More Than 500 Trees to Be Cut Down at D.C. Golf Course That Trump Wants to Redo",
+         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ2V0akJDWXJ1UDlFYzlZT0Eya28xdVk1SkZ0U05GeFhQLTRmSEdTeS1kdU1mOVRXRklXNG9CbVYyT0pRWEx2VGxGaDJqd1pzTzVhZ1Fzb0NBVjNRbzN5MURocEZYazFSaTJfcEdvR3dUWUYyZkdYMFNkVFFPRmVYeF9aMEJSd1BaVEE?oc=5",
+         "source": "The New York Times",
+         "ts": "2026-10-10T17:09:14+00:00",
+         "region": "US"
+        }
+       ],
+       "score": 5.5,
+       "signals": [
+        {
+         "kind": "youtube",
+         "label": "Popular on YouTube (UK): Saudi capital airport attack kills 12 people and more than 300 injured | BBC News (878,988 views)"
+        }
+       ],
+       "segment": "Sport",
+       "channel": "Golf",
+       "topics": []
       }
      ]
     },
@@ -10862,8 +10848,8 @@
          0,
          0,
          0,
-         1,
-         3,
+         4,
+         0,
          0,
          0
         ],
@@ -10923,7 +10909,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Sprint Highlights | 2026 Singapore Grand Prix (5,883,796 views)"
+         "label": "Popular on YouTube (UK): Sprint Highlights | 2026 Singapore Grand Prix (5,886,072 views)"
         }
        ],
        "segment": "Sport",
@@ -10931,7 +10917,7 @@
        "topics": []
       },
       {
-       "title": "Matt Richardson: British Cycling withdraw Olympic medallist from squad for World Track Cycling Championships",
+       "title": "Matt Richardson withdrawn from Track Cycling World Championships by Team GB",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -11087,7 +11073,7 @@
      "name": "Publishing & media",
      "trends": [
       {
-       "title": "Kenya\u2019s publishing industry needs a woman at the helm",
+       "title": "Kenya\u2019s publishing industry needs more women at the helm, not just in editorial offices",
        "origin": "uk",
        "uk": {
         "recent": 2,
@@ -11229,7 +11215,7 @@
        "topics": []
       },
       {
-       "title": "UK media brands unite with industry-wide campaign to champion magazine sales at retail",
+       "title": "The UK\u2019s most trusted media brands unite with industry-wide campaign to champion magazine sales at retail",
        "origin": "uk",
        "uk": {
         "recent": 0,
@@ -11240,8 +11226,8 @@
          0,
          0,
          0,
-         1,
-         1,
+         2,
+         0,
          0,
          0,
          0,
@@ -11401,8 +11387,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          1,
          0,
          0,
@@ -11479,8 +11465,8 @@
         "daily": [
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          0,
@@ -11735,8 +11721,8 @@
          1,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          0,
@@ -11883,8 +11869,8 @@
        "title": "2026 Beauty Trend Report",
        "origin": "both",
        "uk": {
-        "recent": 2,
-        "previous": 0,
+        "recent": 1,
+        "previous": 1,
         "daily": [
          0,
          0,
@@ -11892,8 +11878,8 @@
          0,
          0,
          0,
-         0,
-         2,
+         1,
+         1,
          0,
          0,
          0,
@@ -11901,7 +11887,7 @@
          0,
          0
         ],
-        "signal": "rising",
+        "signal": "steady",
         "sources": 1
        },
        "us": {
@@ -11951,7 +11937,7 @@
          "region": "US"
         }
        ],
-       "score": 4.0,
+       "score": 2.4000000000000004,
        "signals": [],
        "segment": "Womens Interest",
        "channel": "Beauty & hair",
@@ -12029,7 +12015,7 @@
        "topics": []
       },
       {
-       "title": "The Fall Hair Color Trends Stylists Say Everyone Will Be Asking For",
+       "title": "The Fall Hair Colors Everyone Will Be Asking for This Season",
        "origin": "uk",
        "uk": {
         "recent": 1,
@@ -12483,7 +12469,7 @@
        ]
       },
       {
-       "title": "Ayurveda Market Size, Share, Trends | Global Growth 2035",
+       "title": "Women's Health Market Size, Share, Upcoming Trends, Business Growth, Competitive Landscape and Forecast to 2030",
        "origin": "uk",
        "uk": {
         "recent": 0,
@@ -12719,7 +12705,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,258 views)"
+         "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,446 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -13136,8 +13122,8 @@
          3,
          0,
          0,
-         0,
          1,
+         0,
          1
         ],
         "signal": "rising",
@@ -13196,7 +13182,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): They wanted to rev my bike (8,084,473 views)"
+         "label": "Popular on YouTube (UK): They wanted to rev my bike (8,115,513 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -13286,7 +13272,7 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): \ud83d\udea8HUMILIATED: NO COMING BACK FOR MEGHAN AFTER THIS! (180,235 views)"
+         "label": "Popular on YouTube (UK): \ud83d\udea8HUMILIATED: NO COMING BACK FOR MEGHAN AFTER THIS! (183,805 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -13401,8 +13387,8 @@
          0,
          0,
          0,
-         0,
          1,
+         0,
          0,
          0,
          0,
@@ -13445,72 +13431,6 @@
     {
      "name": "Celebrity",
      "trends": [
-      {
-       "title": "Dhruv Rathee",
-       "origin": "both",
-       "uk": {
-        "recent": 9,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         2,
-         2,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "us": {
-        "recent": 9,
-        "previous": 0,
-        "daily": [
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         0,
-         2,
-         2,
-         2,
-         2,
-         1
-        ],
-        "signal": "rising",
-        "sources": 1
-       },
-       "platforms": [
-        "wikipedia"
-       ],
-       "sources": 1,
-       "items": [
-        {
-         "title": "Dhruv Rathee",
-         "link": "https://en.wikipedia.org/wiki/Dhruv_Rathee",
-         "source": "Wikipedia",
-         "ts": "2026-10-12T12:00:00+00:00",
-         "region": "ALL"
-        }
-       ],
-       "score": 17.55,
-       "signals": [],
-       "segment": "Womens Interest",
-       "channel": "Celebrity",
-       "topics": []
-      },
       {
        "title": "William tries to prise Celebrity Traitors spoiler from Ross Kemp",
        "origin": "uk",
@@ -13601,9 +13521,75 @@
        "signals": [
         {
          "kind": "youtube",
-         "label": "Popular on YouTube (UK): Prince William jokingly \"murders\" Ross Kemp \ud83d\ude02 (1,487,885 views)"
+         "label": "Popular on YouTube (UK): Prince William jokingly \"murders\" Ross Kemp \ud83d\ude02 (1,488,652 views)"
         }
        ],
+       "segment": "Womens Interest",
+       "channel": "Celebrity",
+       "topics": []
+      },
+      {
+       "title": "Dhruv Rathee",
+       "origin": "both",
+       "uk": {
+        "recent": 7,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2,
+         2,
+         0,
+         2,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "us": {
+        "recent": 7,
+        "previous": 0,
+        "daily": [
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         2,
+         2,
+         0,
+         2,
+         1,
+         0
+        ],
+        "signal": "rising",
+        "sources": 1
+       },
+       "platforms": [
+        "wikipedia"
+       ],
+       "sources": 1,
+       "items": [
+        {
+         "title": "Dhruv Rathee",
+         "link": "https://en.wikipedia.org/wiki/Dhruv_Rathee",
+         "source": "Wikipedia",
+         "ts": "2026-10-12T12:00:00+00:00",
+         "region": "ALL"
+        }
+       ],
+       "score": 13.65,
+       "signals": [],
        "segment": "Womens Interest",
        "channel": "Celebrity",
        "topics": []
@@ -13613,12 +13599,12 @@
        "origin": "uk",
        "uk": {
         "recent": 4,
-        "previous": 3,
+        "previous": 4,
         "daily": [
          0,
          0,
          0,
-         0,
+         1,
          1,
          2,
          0,
@@ -13790,7 +13776,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: Richard E. Grant (179,467 views)"
+         "label": "Popular on Wikipedia this week: Richard E. Grant (194,578 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -13880,7 +13866,7 @@
        "signals": [
         {
          "kind": "wikipedia",
-         "label": "Popular on Wikipedia this week: The Celebrity Traitors (98,026 views)"
+         "label": "Popular on Wikipedia this week: The Celebrity Traitors (93,769 views)"
         }
        ],
        "segment": "Womens Interest",
@@ -13980,7 +13966,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): THE CRAZIEST SQUAD BUILDING SERIES!!! FC27 Market Mayhem (57,509 views)"
+       "label": "Popular on YouTube (UK): THE CRAZIEST SQUAD BUILDING SERIES!!! FC27 Market Mayhem (60,186 views)"
       }
      ],
      "segment": "Computing",
@@ -14007,8 +13993,8 @@
        0,
        0,
        0,
-       1,
-       1,
+       2,
+       0,
        0
       ],
       "signal": "rising",
@@ -14072,7 +14058,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): This garbage is GAME OF THE YEAR..... (1,143,102 views)"
+       "label": "Popular on YouTube (UK): This garbage is GAME OF THE YEAR..... (1,158,172 views)"
       }
      ],
      "segment": "Computing",
@@ -14171,7 +14157,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,258 views)"
+       "label": "Popular on YouTube (UK): UKLIVE Monday 12th October 2026 inc. The Mike Graham show 7-10am (113,446 views)"
       }
      ],
      "segment": "Computing",
@@ -14342,7 +14328,7 @@
      "signals": [
       {
        "kind": "wikipedia",
-       "label": "Popular on Wikipedia this week: Artificial intelligence (111,597 views)"
+       "label": "Popular on Wikipedia this week: Artificial intelligence (117,578 views)"
       }
      ],
      "segment": "Computing",
@@ -14517,8 +14503,8 @@
        0,
        0,
        0,
-       2,
-       2,
+       3,
+       1,
        0,
        0,
        0,
@@ -14843,7 +14829,7 @@
    "total": 2,
    "trends": [
     {
-     "title": "Mercedes-Benz EV Sales Hit Record High in Q3 2026 as Electric GLC Drives Growth",
+     "title": "Mercedes global sales fall 6% as electric car sales hit record high",
      "origin": "uk",
      "uk": {
       "recent": 2,
@@ -14916,7 +14902,7 @@
      ]
     },
     {
-     "title": "Why electric vehicles sales are lukewarm in America, but hot in Europe",
+     "title": "Public EV charging savings hit record high over volatile petrol costs",
      "origin": "uk",
      "uk": {
       "recent": 2,
@@ -14930,12 +14916,12 @@
        0,
        0,
        0,
-       2,
        0,
        0,
        0,
        0,
-       0
+       0,
+       2
       ],
       "signal": "rising",
       "sources": 2
@@ -14966,17 +14952,17 @@
      "sources": 2,
      "items": [
       {
-       "title": "Why electric vehicles sales are lukewarm in America, but hot in Europe",
-       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTmh1czluWEJYV014Z1gwWmJzd0JuUHJTMkkwa2VNR2pfYTVEX3JkcU84bUs0eThmZk5uTy13S0tkYnE1cnJJUmZUWVBCSVRDNi1NMER6c09rNlJUZ0s4Uk5EVWJSeTN0WHZ0aHpnYkplWWpsZ2hkTDl6b2U2ZjlzSkhVTC1OazV3akd0ZU1WbGFXMXZBekRRLWdrR3UzdkVmVEwxdjR5T3NoMjVMWmxXWkZTTjcyMnVfOTE2R2VFVWVONExHY2lhaUNFRWprQW9JZFB3Rkw4c9IB1wFBVV95cUxQTmh1czluWEJYV014Z1gwWmJzd0JuUHJTMkkwa2VNR2pfYTVEX3JkcU84bUs0eThmZk5uTy13S0tkYnE1cnJJUmZUWVBCSVRDNi1NMER6c09rNlJUZ0s4Uk5EVWJSeTN0WHZ0aHpnYkplWWpsZ2hkTDl6b2U2ZjlzSkhVTC1OazV3akd0ZU1WbGFXMXZBekRRLWdrR3UzdkVmVEwxdjR5T3NoMjVMWmxXWkZTTjcyMnVfOTE2R2VFVWVONExHY2lhaUNFRWprQW9JZFB3Rkw4cw?oc=5",
-       "source": "The Economic Times",
-       "ts": "2026-10-08T10:37:00+00:00",
+       "title": "Public EV charging savings hit record high over volatile petrol costs",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ29WTnI0cjdMZ1ZNbXVhckRaeU5wbUdrTDlFZUEwSWJ2T3ZfQ09GVmQxdlRNQVR0eXk4dVlXc2lsaXF3dkZ2SlZDR0d6ZHk4cHFDazhiM3F4LXdycTBXM3ZzQl9WV2ZaT0twOU8xRm0xUWVpZlN0YXdjOHhMRzFvdzdmYjFxMl8wU2pvYXk2YThLT0FrY2h2TE53NHBUUQ?oc=5",
+       "source": "EV Fleet World",
+       "ts": "2026-10-13T06:42:46+00:00",
        "region": "UK"
       },
       {
-       "title": "Why EV Sales Lag in America but Surge in Europe in 2024",
-       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOanpWdGtpem4tc2c4b1NIenJaLW81bGU2ZjJhT2Naa0trSFRXTXgxbWZ4bW9KOE5GRVRZR2ZMVE9vcHRhUE1ycV9zb1lLbEVEbmhsRzJjOUJ2UXhVa0ROeGY0WkcyeWhyZjRLcC1hV2hMMkRiWFkxbmE4MXp2Z0JMM1ZmNA?oc=5",
-       "source": "Global Banking & Finance Review",
-       "ts": "2026-10-08T10:23:51+00:00",
+       "title": "Public EV charging savings hit record high over volatile petrol costs",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdWdyTER3cHdkdUZlR3FLalMwVlZ4TlJsYmN0aUtaYk96d1NIQjBVaDZGUnBiLTM1b2poS2I5M2lEWDd5WHY3aVFmN2RVMk45TFk0aDliZTRwRDdnU3NvNzA0cTB6dXRfcnVLU1RaTi1SWFlHZUFfZ3hqSlp4aUdmQWNlTFFNdWJsVjU5cXdfYzFqcW41YW9lQmZjQQ?oc=5",
+       "source": "Fleet World",
+       "ts": "2026-10-13T05:29:55+00:00",
        "region": "UK"
       }
      ],
@@ -15381,7 +15367,7 @@
      "signals": [
       {
        "kind": "youtube",
-       "label": "Popular on YouTube (UK): \ud83d\udd34LIVE | ARC RAIDERS DUOS w/ GIMMICK | NEW !MERCH DROP | SUPER WEAPONS TODAY FINALLY | #BUNGULATE (984,941 views)"
+       "label": "Popular on YouTube (UK): \ud83d\udd34LIVE | ARC RAIDERS DUOS w/ GIMMICK | NEW !MERCH DROP | SUPER WEAPONS TODAY FINALLY | #BUNGULATE (992,336 views)"
       }
      ],
      "segment": "Buying & Selling",
@@ -15568,8 +15554,8 @@
        0,
        0,
        0,
-       0,
        1,
+       0,
        1,
        0,
        0,
