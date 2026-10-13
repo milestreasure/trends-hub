@@ -52,8 +52,8 @@ function spark(v,w=90,h=26,area=false){const m=Math.max(...v,1),n=v.length,x=i=>
   const pts=v.map((a,i)=>`${x(i).toFixed(1)},${y(a).toFixed(1)}`).join(" ");
   return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${area?`<polygon points="0,${h} ${pts} ${w},${h}" fill="currentColor" opacity=".14"/>`:""}<polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="${area?2:1.5}" stroke-linejoin="round"/></svg>`}
 function chart(v){const w=640,h=170,m=Math.max(...v,1),d=data.days,f=s=>new Date(s).toLocaleDateString("en-GB",{day:"numeric",month:"short"});
-  return `<svg viewBox="0 0 ${w} ${h+20}" width="100%" role="img" aria-label="Stories per day over the last ${v.length} days"><g style="color:var(--ch)">${spark(v,w,h,true).replace(/^<svg[^>]*>/,"").replace("</svg>","")}</g>
-  <text x="2" y="12" fill="var(--mute)" font-size="12">${m} stories a day at peak</text><text x="0" y="${h+16}" fill="var(--mute)" font-size="12">${f(d[0])}</text><text x="${w}" y="${h+16}" text-anchor="end" fill="var(--mute)" font-size="12">${f(d[d.length-1])} (today so far)</text></svg>`}
+  return `<svg viewBox="0 0 ${w} ${h+20}" width="100%" role="img" aria-label="Mentions per day over the last ${v.length} days"><g style="color:var(--ch)">${spark(v,w,h,true).replace(/^<svg[^>]*>/,"").replace("</svg>","")}</g>
+  <text x="2" y="12" fill="var(--mute)" font-size="12">${m} mentions a day at peak</text><text x="0" y="${h+16}" fill="var(--mute)" font-size="12">${f(d[0])}</text><text x="${w}" y="${h+16}" text-anchor="end" fill="var(--mute)" font-size="12">${f(d[d.length-1])} (today so far)</text></svg>`}
 const items=m=>view[m];
 let region="uk";try{region=localStorage.getItem("th_reg")||"uk"}catch{}
 const sg=(c,p)=>{const r=(c+1)/(p+1);return r>=1.5?"rising":r<=.67?"fading":"steady"};
@@ -90,13 +90,13 @@ function picker(){$("modes").innerHTML="";$("side").style.display="none";documen
   sync()}
 function done(){if(location.hash==="#topics"||location.hash==="")show();else location.hash="#topics"}
 function show(){if(!chosen||location.hash==="#pick")picker();else{derive();render()}}
-const stat=i=>`${sum(i.daily.slice(7))} stories this week, <b class="chg ${cls(i.change)}">${fmt(i.change)}</b> on the week before`;
+const stat=i=>`${sum(i.daily.slice(7))} mentions this week, <b class="chg ${cls(i.change)}">${fmt(i.change)}</b> on the week before`;
 const ORIGIN={us:["Emerging in the US","us"],uk:["UK only",""],both:["UK and US",""]};
 const card=(t,where,r)=>{r=r||rs(t);const o=ORIGIN[t.origin];return `<article class="panel" style="margin:0"><div class="row"><span class="sig ${r.signal}">${{rising:"Rising ▲",steady:"Steady ●",fading:"Fading ▼"}[r.signal]}</span>${spark(r.daily)}</div>
-  <h4>${esc(t.title)}</h4><span class="tag ${o[1]}">${o[0]}</span>${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
-  <div class="meta">UK ${t.uk.recent} stories this week (${t.uk.previous} before). US ${t.us.recent} (${t.us.previous} before). ${t.sources} sources.</div>
+  <h4>${esc(t.title)}</h4><span class="tag ${o[1]}">${o[0]}</span>${(t.platforms||[]).map(p=>`<span class="tag">From ${{wikipedia:"Wikipedia",youtube:"YouTube"}[p]}</span>`).join("")}${t.summary?`<p>${esc(t.summary)}</p>`:""}${t.angle?`<p><b>Angle:</b> ${esc(t.angle)}</p>`:""}
+  <div class="meta">Activity this week: UK ${t.uk.recent} (${t.uk.previous} before), US ${t.us.recent} (${t.us.previous} before). ${t.sources} sources.</div>
   ${(t.signals||[]).map(s=>`<div class="meta">${esc(s.label)}</div>`).join("")}${where?`<div class="meta">In ${esc(t.segment)}, ${esc(t.channel)}</div>`:""}
-  <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${esc(i.region)}, ${esc(i.source)}</span></li>`).join("")}</ul></details></article>`};
+  <details><summary>Sources</summary><ul>${t.items.map(i=>`<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a> <span class="meta">${i.region==="ALL"?"Global":esc(i.region)}, ${esc(i.source)}</span></li>`).join("")}</ul></details></article>`};
 function render(){
   const r=route(),list=items(r.m),cur=list.find(i=>i.name===r.n);
   $("side").style.display="";document.querySelector(".layout").classList.remove("wide");
@@ -106,7 +106,7 @@ function render(){
   $("side").innerHTML=`<a class="nav" href="${href(r.m)}" ${!cur?'aria-current="page"':""}><b>Overview</b></a>`+list.map(i=>`<a class="nav" href="${href(r.m,i.name)}" ${cur===i?'aria-current="page"':""}><span>${esc(i.name)}</span><span class="chg ${cls(i.change)}">${fmt(i.change)}</span><small>${spark(i.daily,120,20)}</small></a>`).join("");
   if(!cur){const top=[...list].sort((a,b)=>b.change-a.change);
     $("main").innerHTML=`<h2>${r.m==="topics"?"Topics":"Segments"}</h2><p class="meta">Biggest movers first. Click one to see its trends.</p>${region!=="us"&&view.early.length?`<h3>Emerging in the US, not yet in the UK</h3><div class="grid">${view.early.map(t=>card(t,true,t.us)).join("")}</div><h3>Biggest movers</h3>`:""}<div class="grid" style="margin-top:12px">`+top.map(i=>{const t=r.m==="topics"?i.trends[0]:i.channels[0].trends[0];
-      return `<a class="panel" style="margin:0;text-decoration:none" href="${href(r.m,i.name)}"><div class="row"><b>${esc(i.name)}</b><span class="chg ${cls(i.change)}">${fmt(i.change)}</span></div>${spark(i.daily,260,50,true)}<div class="meta">${sum(i.daily.slice(7))} stories this week</div>${t?`<p style="font-size:.92rem">Top trend: ${esc(t.title)}</p>`:""}</a>`}).join("")+`</div>`;return}
+      return `<a class="panel" style="margin:0;text-decoration:none" href="${href(r.m,i.name)}"><div class="row"><b>${esc(i.name)}</b><span class="chg ${cls(i.change)}">${fmt(i.change)}</span></div>${spark(i.daily,260,50,true)}<div class="meta">${sum(i.daily.slice(7))} mentions this week</div>${t?`<p style="font-size:.92rem">Top trend: ${esc(t.title)}</p>`:""}</a>`}).join("")+`</div>`;return}
   let h=`<h2>${esc(cur.name)}</h2><p class="meta">${stat(cur)}</p><div class="panel">${chart(cur.daily)}</div>`;
   if(r.m==="topics"){const by={};cur.trends.forEach(t=>by[t.segment]=(by[t.segment]||0)+rs(t).recent);const mx=Math.max(...Object.values(by),1);
     h+=`<h3>Where it shows up</h3><div class="panel">`+Object.entries(by).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${v/mx*100}%"></i><span>${v}</span></div>`).join("")+`</div><h3>Latest trends</h3><div class="grid">${cur.trends.map(t=>card(t,true)).join("")}</div>`}
@@ -115,6 +115,6 @@ function render(){
   $("main").innerHTML=h;window.scrollTo(0,0)}
 fetch("data/trends.json").then(r=>r.json()).then(d=>{
   if(d.version!==2){$("updated").textContent="This data is from an older version. Run the “Update trends” workflow again to refresh it.";return}
-  data=d;$("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Charts count news stories per day from UK sources, so read them as relative interest, not search volume.";
+  data=d;$("updated").textContent="Updated "+new Date(d.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})+". Activity counts news stories plus Wikipedia surges and YouTube chart entries, so read it as relative interest, not search volume. UK and US labels follow the publisher's country where known.";
   addEventListener("hashchange",show);chosen=loadSel();show()}).catch(()=>{$("updated").textContent="No data yet. Run the “Update trends” workflow in GitHub Actions to generate it."});
 </script></body></html>
