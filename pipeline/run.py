@@ -1,7 +1,8 @@
 """Daily trends pipeline: ingest (UK + US) -> cluster -> score per region -> signals -> (optional) summaries."""
 import datetime as dt, hashlib, json, os, pathlib, re, time, urllib.parse
 import feedparser, numpy as np, yaml
-from signals import Signals
+import platforms
+from signals import Signals, phrase, words
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -56,8 +57,11 @@ def load_items():
     return store
 
 def cluster(items):
-    X = TfidfVectorizer(stop_words=STOP, ngram_range=(1, 2)).fit_transform([i["title"] for i in items])
-    S = cosine_similarity(X)
+    try:
+        X = TfidfVectorizer(stop_words=STOP, ngram_range=(1, 1)).fit_transform([i["title"] for i in items])
+        S = cosine_similarity(X)
+    except ValueError:  # every title was stop words: treat each item as its own trend
+        return np.eye(len(items)), list(range(len(items)))
     labels, seeds = [-1] * len(items), []
     for n in range(len(items)):  # items are newest-first
         for c, s in enumerate(seeds):
@@ -90,36 +94,69 @@ def daily(members):
     out = [0] * DAYS  # oldest -> newest, by publish date
     for m in members:
         age = (NOW - dt.datetime.fromisoformat(m["ts"])).days
-        if 0 <= age < DAYS: out[DAYS - 1 - age] += 1
+        if 0 <= age < DAYS: out[DAYS - 1 - age] += m.get("w", 1)
     return out
 
 def region_stats(members, d7, region):
-    ms = [m for m in members if m["region"] == region]
-    cur = sum(dt.datetime.fromisoformat(m["ts"]) > d7 for m in ms)
-    return dict(recent=cur, previous=len(ms) - cur, daily=daily(ms), signal=signal(cur, len(ms) - cur),
+    ms = [m for m in members if m["region"] in (region, "ALL")]  # "ALL" = global platform activity, counted in both
+    cur = sum(m.get("w", 1) for m in ms if dt.datetime.fromisoformat(m["ts"]) > d7)
+    tot = sum(m.get("w", 1) for m in ms)
+    return dict(recent=cur, previous=tot - cur, daily=daily(ms), signal=signal(cur, tot - cur),
                 sources=len({m["source"] for m in ms if m["source"]}))
 
+def make_trend(members, title, d7, sig):
+    srcs = {m["source"] for m in members if m["source"]}
+    news_n = sum(1 for m in members if not m.get("platform"))
+    plat_w = sum(m.get("w", 1) for m in members if m.get("platform"))
+    if not ((news_n >= MIN_ITEMS and len(srcs) >= MIN_SOURCES) or plat_w >= 4): return None  # news story, or a real platform surge
+    uk, us = region_stats(members, d7, "UK"), region_stats(members, d7, "US")
+    ut, st = uk["recent"] + uk["previous"], us["recent"] + us["previous"]
+    origin = "us" if ut == 0 else "uk" if st == 0 else "us" if (st >= 3 and ut <= 1) else "both"
+    plat, seen = [], set()
+    for m in members:
+        if m.get("platform") and m["link"] not in seen: seen.add(m["link"]); plat.append(m)
+    show = [m for m in members if m["region"] == "UK" and not m.get("platform")][:5] + \
+           [m for m in members if m["region"] == "US"][:3] + plat[:3]
+    t = dict(title=title, origin=origin, uk=uk, us=us, platforms=sorted({m["platform"] for m in members if m.get("platform")}),
+             sources=len(srcs), items=[{k: m[k] for k in ("title", "link", "source", "ts", "region")} for m in show],
+             score=(uk["recent"] + 0.5 * us["recent"]) * (1 + 0.3 * len(srcs)))
+    t["signals"] = sig.match([m["title"] for m in members if not m.get("platform")])
+    t["score"] *= 1 + 0.25 * len(t["signals"])  # boost trends seen on other platforms
+    return t
+
 def build_trends(items, d7, sig):
-    if len(items) < MIN_ITEMS: return []
-    S, labels = cluster(items)
-    trends = []
-    for c in set(labels):
-        idx = [n for n, l in enumerate(labels) if l == c]
-        members = [items[n] for n in idx]
-        srcs = {m["source"] for m in members if m["source"]}
-        if len(members) < MIN_ITEMS or len(srcs) < MIN_SOURCES: continue
-        uk, us = region_stats(members, d7, "UK"), region_stats(members, d7, "US")
-        ut, st = uk["recent"] + uk["previous"], us["recent"] + us["previous"]
-        origin = "us" if ut == 0 else "uk" if st == 0 else "us" if (st >= 3 and ut <= 1) else "both"
-        pool = [n for n in idx if items[n]["region"] == "UK"] or idx  # prefer a UK headline as the title
-        medoid = pool[int(np.argmax(S[np.ix_(pool, idx)].sum(axis=1)))]
-        show = [m for m in members if m["region"] == "UK"][:5] + [m for m in members if m["region"] == "US"][:3]
-        t = dict(title=items[medoid]["title"], origin=origin, uk=uk, us=us, sources=len(srcs),
-                 items=[{k: m[k] for k in ("title", "link", "source", "ts", "region")} for m in show],
-                 score=(uk["recent"] + 0.5 * us["recent"]) * (1 + 0.3 * len(srcs)))
-        t["signals"] = sig.match([m["title"] for m in members])
-        t["score"] *= 1 + 0.25 * len(t["signals"])  # boost trends seen on other platforms
-        trends.append(t)
+    """News headlines are clustered first. Wikipedia and YouTube items then join the news trend they are named in,
+    and any left over (a surge the news has not covered yet) are clustered among themselves as trends of their own."""
+    news = [i for i in items if not i.get("platform")]
+    plat = [i for i in items if i.get("platform")]
+    groups = []
+    if news:
+        S, labels = cluster(news)
+        for c in sorted(set(labels)):
+            idx = [n for n, l in enumerate(labels) if l == c]
+            pool = [n for n in idx if news[n]["region"] == "UK"] or idx  # prefer a UK headline as the title
+            medoid = pool[int(np.argmax(S[np.ix_(pool, idx)].sum(axis=1)))]
+            groups.append(dict(members=[news[n] for n in idx], title=news[medoid]["title"], ws=[words(news[n]["title"]) for n in idx],
+                               titles=[news[n]["title"].lower() for n in idx]))
+    loose = []
+    for p in plat:
+        best, hits = None, 0
+        for g in groups:
+            if p["platform"] == "wikipedia":
+                pat = phrase(p["title"])
+                n = sum(1 for t in g["titles"] if pat.search(t)) if len(p["title"]) >= 6 else 0
+            else:
+                pw = words(p["title"]); n = sum(1 for w in g["ws"] if len(pw & w) >= 2)
+            if n > hits: best, hits = g, n
+        if best: best["members"].append(p)
+        else: loose.append(p)
+    if loose:
+        _, l2 = cluster(loose)
+        for c in sorted(set(l2)):
+            ms = [loose[n] for n, l in enumerate(l2) if l == c]
+            top = max(ms, key=lambda m: (m["platform"] == "wikipedia", m.get("w", 1)))
+            groups.append(dict(members=ms, title=top["title"]))
+    trends = [t for t in (make_trend(g["members"], g["title"], d7, sig) for g in groups) if t]
     return sorted(trends, key=lambda t: -t["score"])[:TOP_N]
 
 def tag_topics(trend, topics):
@@ -146,12 +183,17 @@ def main():
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
+    recent_news = [i for i in store.values() if dt.datetime.fromisoformat(i["ts"]) > d14]
+    plat = {}
+    for it in platforms.collect(NOW, tax, recent_news):  # Wikipedia and YouTube candidates, placed by sub-category
+        if dt.datetime.fromisoformat(it["ts"]) > d14: plat.setdefault((it["seg"], it["chan"]), []).append(it)
     segments, by_topic = [], {}
     for seg, chans in tax.items():
         out_chans = []
         for chan in chans:
-            items = sorted((i for i in store.values() if i["seg"] == seg and i["chan"] == chan and
-                            dt.datetime.fromisoformat(i["ts"]) > d14), key=lambda i: i["ts"], reverse=True)
+            items = sorted([i for i in store.values() if i["seg"] == seg and i["chan"] == chan and
+                            dt.datetime.fromisoformat(i["ts"]) > d14] + plat.get((seg, chan), []),
+                           key=lambda i: i["ts"], reverse=True)
             trends = build_trends(items, d7, sig)
             for n, t in enumerate(trends):
                 if n < 2: summarise(t)  # limit LLM calls to the top 2 per channel
