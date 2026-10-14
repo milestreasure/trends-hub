@@ -5,8 +5,8 @@ from signals import SKIP, get_json, words
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE, DAYS = ROOT / "data" / "wiki_desc.json", 14
 # Default sub-category per segment when nothing in the news matches the item better.
-DEFAULT = {"Sport": "Football", "Music": "Pop & rock", "Leisure Interests": "Film & TV", "Womens Interest": "Celebrity",
-           "Computing": "Gaming consoles", "Motoring & Motorcycling": "Cars", "News & Current Affairs": "Politics"}
+DEFAULT = {"Sport": "Football - adult", "Music": "Pop", "Leisure Interests": "Film & video reviews", "Womens Interest": "Women's celebrity weeklies",
+           "Computing": "Gaming - multi-format", "Motoring & Motorcycling": "Motoring - general", "News & Current Affairs": "Current affairs - domestic"}
 # Wikipedia short descriptions -> segment (first match wins). Edit to taste.
 WIKI_SEG = {
     "Sport": ["footballer", "football club", "football manager", "cricketer", "rugby", "golfer", "cyclist", "boxer", "tennis player",
