@@ -1,88 +1,180 @@
-# Segment -> channel: search query. Segments come from Categories_and_Sub_Cats.xlsx.
-# UNKNOWN and DEL rows are dropped; near-duplicate sub-segments are merged into channels.
-# Foreign Language Titles is left for phase 2 (needs local-language sources).
+# Built from Categories_and_Sub_Cats.xlsx. Format: Segment > Sub-category: news search query.
+# Dropped: UNKNOWN rows, rows marked DEL, and defunct formats (Amiga, Kriss Kross).
+# Merged where the sub-segments are near-identical (noted inline). Foreign Language Titles needs local-language
+# sources and is left for a later phase.
 Buying & Selling:
-  Property: UK property market trends
   General: second-hand resale marketplace trends
+  Property: UK property market house prices
 Children's Magazines:
-  Pre-school: preschool kids toys and TV trends
-  Primary: primary school children's entertainment trends
+  Pre-school: preschool children's TV toys trends
+  Primary boys: boys 6-11 toys games trends
+  Primary girls: girls 6-11 toys trends
+  Pre-teen: pre-teens tweens trends
 Computing:
-  PC & hardware: PC hardware news
-  Mac & Apple: Apple Mac news
-  Gaming consoles: video game console news
-  PC gaming: PC gaming news
-  Internet & software: internet software trends
-  Linux & open source: Linux open source news
+  Design: graphic design creative software
+  Gaming - Nintendo: Nintendo Switch games news
+  Gaming - PC: PC gaming news
+  Gaming - Sega: retro gaming Sega
+  Gaming - Sony: PlayStation news
+  Gaming - Xbox: Xbox news
+  Gaming - multi-format: video game releases
+  Internet: internet social media platforms
+  Linux: Linux open source news
+  Mac: Apple Mac news
+  PC help & technical: Windows PC tips troubleshooting  # merges PC Help and PC Technical
+  PC performance: PC hardware graphics card processor
+  PC trade: computer retail trade distribution
 Countryside & County:
-  Rural life: UK countryside rural living trends
+  National: UK countryside rural life
+  Regional: county regional lifestyle UK
 General:
-  Crime & true crime: true crime media trends
-  Literary: books publishing trends UK
-  Sci-fi: science fiction fandom trends
-  Astrology & wellbeing: astrology spirituality trends
+  Astrology: astrology horoscope trends
+  Crime: true crime media
+  Job adverts: UK jobs market recruitment
+  Literary: books publishing literary UK
+  General interest: general interest magazines UK
+  Religion: religion faith UK
+  Sci-fi: science fiction fandom
+  Tattoo: tattoo culture trends
 Home Improvement:
-  DIY: DIY home improvement trends
-  Gardening: gardening trends UK
+  DIY: DIY home improvement UK
+  Gardening: gardening UK
+  Woodworking: woodworking hobby
 Leisure Interests:
-  Photography: photography trends
-  Pets: pet ownership trends UK
-  Outdoors: walking camping climbing trends UK
-  Travel & holiday: UK holiday travel trends
-  Film & TV: film streaming trends
-  Hi-fi & home entertainment: hi-fi home cinema trends
-  Art & antiques: art antiques collecting market
+  Antiques: antiques market auctions
+  Art: art exhibitions market
+  Aviation: aviation enthusiasts aircraft
+  Boating: boating marine leisure UK
+  Camping, walking & climbing: walking camping climbing UK outdoors
+  Collecting: collectables market
   Crafts: crafting hobby trends
-  Health & fitness: fitness wellbeing trends UK
-  Transport & hobbies: model railways aviation hobby trends
+  Dance & theatre: theatre West End dance
+  Electronics & radio: electronics radio hobby
+  Entertainment & listings: entertainment events listings UK
+  Equestrian: horse riding equestrian
+  Film & video reviews: new film releases reviews
+  Games: board games tabletop
+  General health & fitness: fitness wellbeing UK
+  Hi-fi: hi-fi audio equipment
+  Holiday: UK holiday travel trends
+  Home entertainment: home cinema streaming TV
+  Military: military history defence
+  Modelling: scale modelling hobby
+  Pets - birds: pet birds keeping
+  Pets - cats: cat owners trends
+  Pets - dogs: dog owners trends UK
+  Pets - fish: aquarium fishkeeping
+  Photography: photography cameras
+  Racing & betting: horse racing betting UK
+  Radio controlled modelling: radio controlled cars drones hobby
+  Railways: railways heritage trains  # merges Modern and Steam
+  Transport - general: transport buses trams
+  TV & film spin-offs: TV film merchandise franchise
+  Video & camcorders: video cameras filmmaking
+  Wildlife: UK wildlife nature
+  Yachting: yachting sailing
 Mens Fashion / Interest:
-  Mens lifestyle: menswear grooming lifestyle trends
+  Mens lifestyle: men's lifestyle grooming menswear
+  Mens weekly: men's weekly magazines culture
 Motoring & Motorcycling:
-  Cars: UK car market trends
-  Electric vehicles: electric vehicle trends UK
-  Classic cars: classic car market
-  Motorcycling: motorcycle market trends
-  Caravanning: caravan motorhome trends UK
+  Caravanning: caravan motorhome UK
+  Motorcycling - general: motorcycle market UK
+  Motorcycling - biker: biker culture custom motorcycles
+  Motorcycling - classics: classic motorcycles
+  Motorcycling - sport: MotoGP superbikes
+  Motoring - 4x4: 4x4 off-road SUV
+  Motoring - buying & selling: used car prices UK
+  Motoring - classics: classic car market
+  Motoring - custom: car modifying customising
+  Motoring - general: UK new car market
+  Motoring - kit car: kit cars build
+  Motoring - performance: performance cars supercars
+  Motoring - sporting: motorsport rallying
+  Motoring - trucks: trucks vans commercial vehicles
+  Electric vehicles: electric cars UK
 Music:
-  Pop & rock: pop rock music industry trends
-  Dance: dance electronic music trends
-  Classical & jazz: classical jazz music trends
-  Playing & gear: musical instruments gear trends
+  Classical: classical music
+  Country: country music
+  Dance: dance electronic music clubbing
+  Heavy metal: heavy metal rock bands
+  Jazz: jazz music
+  Pop: pop music chart
+  Practical & playing: learning instruments guitar gear
+  Rock: rock music tours
+  Other music: folk world indie music
 News & Current Affairs:
-  Business & finance: UK business economy
-  Politics: UK politics
-  World: international news
+  Business & finance: UK economy business finance
+  Current affairs - domestic: UK politics government
+  Current affairs - international: world news international
   Science: science discoveries
 Newspapers:
-  Publishing industry: newspaper industry trends
+  Daily: daily newspaper industry
+  Sunday: Sunday newspaper industry
+  Weekly: weekly newspapers local news industry
+  Regional: regional newspapers local news
 Partworks:
-  Collectables: partwork collectables trends
+  National launch: partwork collection launch
+  Tests: tests quiz partwork
 Puzzle Magazines:
-  Puzzles: puzzle books crosswords trends
+  Crosswords: crosswords
+  Arrowwords: arrowwords puzzles
+  Logic: logic puzzles sudoku
+  Word search: word search puzzles
+  Mixed puzzles: puzzle books
+  Children's puzzles: kids puzzles activity books
 Specials:
-  Annuals & one-shots: special issue magazines annuals trends
+  Confectionery: confectionery sweets trends
+  One shots: special edition magazines one-shot
+  Stamps & collectables: stamps coins collecting
+  Summer specials, annuals & calendars: annuals calendars gift books
 Sport:
-  Football: football transfer news
-  Cricket & rugby: cricket rugby news
+  Angling - coarse: coarse fishing UK
+  Angling - game: fly fishing UK
+  Angling - sea: sea fishing UK
+  Athletics: athletics running UK
+  Bodybuilding: bodybuilding gym strength
+  Carp fishing: carp fishing
+  Cricket: cricket news
+  Cycling: road cycling news
+  Mountain bike: mountain biking
+  Football - adult: football news Premier League
+  Football - club specific: football club news transfers
+  Football - youth: youth football academy
   Golf: golf news
-  Cycling: cycling news
-  Combat & fitness: boxing MMA bodybuilding news
-  Angling & shooting: fishing shooting trends UK
-  Winter & water sports: skiing snowboarding watersports trends
+  Other sports: tennis swimming sport UK
+  Ring & combat sports: boxing MMA
+  Rugby: rugby union league news
+  Shooting: shooting clay game
+  Skiing & snowboarding: skiing snowboarding
+  Watersports: surfing sailing watersports
 Teenage Magazines:
-  Teen culture: teenage culture social media trends
+  Teenage comics: comics manga teens
+  Teenage entertainment: teen entertainment celebrities
+  Teenage lifestyle: teen lifestyle social media trends
 Trade & Professional:
-  Publishing & media: magazine publishing industry
-  Advertising: advertising marketing trends
+  Trade & professional: UK trade professional industry news
 TV Listings:
-  TV & radio: UK TV viewing trends
+  Radio & TV guides: UK TV radio schedules
+  Satellite & cable: satellite cable streaming TV UK
 Womens Interest:
-  Fashion: womens fashion trends
-  Beauty & hair: beauty hair trends
-  Health & slimming: womens health diet trends
-  Cookery: food cooking trends UK
-  Home interiors: interior design trends
+  Cookery & kitchen: cooking food trends UK  # merges Cookery & Kitchen and DEL - Cookery
+  Crafts - beading & jewellery: jewellery making beading
+  Crafts - colouring & drawing: adult colouring drawing
+  Crafts - general: crafting UK
+  Crafts - knitting & crochet: knitting crochet
+  Crafts - needlecraft: cross stitch embroidery needlecraft  # merges the two needlecraft rows
+  Crafts - papercraft: papercraft cardmaking
+  Crafts - sewing & quilting: sewing quilting
+  Fiction: romance fiction women's books
+  Hair: hair trends salon
+  Home interest: interior design home trends UK
   Parenthood: parenting trends UK
-  Weddings: wedding trends UK
-  Celebrity: celebrity news
-  Knitting & sewing: knitting sewing crochet trends
+  Weddings & brides: wedding trends UK
+  Women's celebrity weeklies: celebrity news gossip UK
+  Women's general interest: women's lifestyle UK
+  Women's health & beauty: beauty skincare health women
+  Women's lifestyle & fashion: women's fashion trends UK
+  Women's practical: practical tips money saving women
+  Women's slimming: weight loss diet UK
+  Traditional women's weeklies: women's weekly magazines readers
+  Young women: young women lifestyle Gen Z
