@@ -6,10 +6,30 @@ Buying & Selling:
   General: second-hand resale marketplace trends
   Property: UK property market house prices
 Children's Magazines:
-  Pre-school: preschool children's TV toys trends
-  Primary boys: boys 6-11 toys games trends
-  Primary girls: girls 6-11 toys trends
-  Pre-teen: pre-teens tweens trends
+  # Several searches each: kids' TV, games, toys, films and the creators children follow. Add or swap freely.
+  Pre-school:
+    - CBeebies new series preschool
+    - Bluey Peppa Pig new episodes
+    - toddler toys launch UK
+    - preschool learning play trends
+  Primary boys:
+    - Minecraft Roblox kids
+    - LEGO new sets
+    - Pokemon cards collectors
+    - Panini football stickers
+    - boys toys Christmas UK
+  Primary girls:
+    - girls toys trends UK
+    - kids YouTube creators
+    - friendship bracelets craft kits kids
+    - Disney Barbie new release
+    - collectable plush toys trend
+  Pre-teen:
+    - tweens social media trends UK
+    - Roblox Minecraft Fortnite
+    - kids films half term release UK
+    - K-pop tweens fans
+    - back to school half term trends
 Computing:
   Design: graphic design creative software
   Gaming - Nintendo: Nintendo Switch games news
@@ -108,20 +128,22 @@ News & Current Affairs:
   Current affairs - international: world news international
   Science: science discoveries
 Newspapers:
-  Daily: daily newspaper industry
-  Sunday: Sunday newspaper industry
-  Weekly: weekly newspapers local news industry
-  Regional: regional newspapers local news
+  Daily publication: UK news headlines today
+  Sunday publication: Sunday newspapers UK news analysis
+  Regional publication: regional local news UK
+  Weekly publication: local weekly newspaper community news UK
 Partworks:
   National launch: partwork collection launch
   Tests: tests quiz partwork
 Puzzle Magazines:
-  Crosswords: crosswords
-  Arrowwords: arrowwords puzzles
-  Logic: logic puzzles sudoku
+  Children's: kids puzzle activity books
+  Cross reference: codeword cross reference puzzles
+  Crosswords: crossword puzzles
+  Kriss Kross: fill-in word fit puzzles
+  Logic titles: sudoku logic puzzles
+  Mixed content: puzzle books magazines
+  Puzzle arrowwords: arrowword puzzles
   Word search: word search puzzles
-  Mixed puzzles: puzzle books
-  Children's puzzles: kids puzzles activity books
 Specials:
   Confectionery: confectionery sweets trends
   One shots: special edition magazines one-shot
@@ -154,7 +176,7 @@ Teenage Magazines:
 Trade & Professional:
   Trade & professional: UK trade professional industry news
 TV Listings:
-  Radio & TV guides: UK TV radio schedules
+  Radio & TV guides: UK TV shows this week highlights
   Satellite & cable: satellite cable streaming TV UK
 Womens Interest:
   Cookery & kitchen: cooking food trends UK  # merges Cookery & Kitchen and DEL - Cookery
