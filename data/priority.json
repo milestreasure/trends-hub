@@ -1,0 +1,247 @@
+{
+ "note": "Relative weights used to order the hub. Not sales values.",
+ "segments": {
+  "Newspapers": {
+   "weight": 5.69,
+   "channels": {
+    "Daily publication": 5.16,
+    "Regional publication": 3.49,
+    "Sunday publication": 3.14,
+    "Weekly publication": 1.02
+   }
+  },
+  "TV Listings": {
+   "weight": 4.78,
+   "channels": {
+    "Radio & TV guides": 4.78
+   }
+  },
+  "Womens Interest": {
+   "weight": 5.55,
+   "channels": {
+    "Traditional women's weeklies": 4.28,
+    "Women's lifestyle & fashion": 3.04,
+    "Women's celebrity weeklies": 3.0,
+    "Women's general interest": 2.71,
+    "Home interest": 2.29,
+    "Women's practical": 1.99,
+    "Crafts - knitting & crochet": 1.73,
+    "Cookery & kitchen": 1.63,
+    "Crafts - colouring & drawing": 1.58,
+    "Crafts - sewing & quilting": 1.32,
+    "Crafts - papercraft": 1.31,
+    "Crafts - needlecraft": 1.3,
+    "Women's slimming": 1.25,
+    "Crafts - general": 1.2,
+    "Women's health & beauty": 1.16,
+    "Weddings & brides": 1.03,
+    "Parenthood": 1.0,
+    "Hair": 1.0,
+    "Crafts - beading & jewellery": 1.0
+   }
+  },
+  "Children's Magazines": {
+   "weight": 4.88,
+   "channels": {
+    "Primary girls": 3.52,
+    "Pre-school": 3.31,
+    "Primary boys": 3.13,
+    "Pre-teen": 2.4
+   }
+  },
+  "Puzzle Magazines": {
+   "weight": 4.29,
+   "channels": {
+    "Mixed content": 2.94,
+    "Word search": 2.5,
+    "Crosswords": 2.27,
+    "Logic titles": 2.12,
+    "Puzzle arrowwords": 1.68,
+    "Cross reference": 1.51,
+    "Kriss Kross": 1.46,
+    "Children's": 1.18
+   }
+  },
+  "News & Current Affairs": {
+   "weight": 3.0,
+   "channels": {
+    "Current affairs - domestic": 2.52,
+    "Science": 1.61,
+    "Current affairs - international": 1.52,
+    "Business & finance": 1.22
+   }
+  },
+  "Home Improvement": {
+   "weight": 2.32,
+   "channels": {
+    "Gardening": 2.08,
+    "DIY": 1.45,
+    "Woodworking": 1.02
+   }
+  },
+  "Specials": {
+   "weight": 1.94,
+   "channels": {
+    "One shots": 1.91,
+    "Summer specials, annuals & calendars": 1.05
+   }
+  },
+  "Music": {
+   "weight": 2.02,
+   "channels": {
+    "Rock": 1.82,
+    "Practical & playing": 1.14,
+    "Pop": 1.09,
+    "Classical": 1.05,
+    "Other music": 1.03,
+    "Jazz": 1.03,
+    "Heavy metal": 1.01,
+    "Country": 1.01,
+    "Dance": 1.01
+   }
+  },
+  "Motoring & Motorcycling": {
+   "weight": 2.85,
+   "channels": {
+    "Motoring - classics": 1.82,
+    "Motoring - general": 1.76,
+    "Motorcycling - general": 1.5,
+    "Motorcycling - classics": 1.28,
+    "Motoring - sporting": 1.18,
+    "Motorcycling - sport": 1.11,
+    "Caravanning": 1.1,
+    "Motoring - custom": 1.09,
+    "Motoring - 4x4": 1.08,
+    "Motoring - buying & selling": 1.05,
+    "Motoring - trucks": 1.04,
+    "Motoring - performance": 1.03,
+    "Motorcycling - biker": 1.03,
+    "Motoring - kit car": 1.0
+   }
+  },
+  "Sport": {
+   "weight": 2.67,
+   "channels": {
+    "Football - youth": 1.77,
+    "Football - adult": 1.43,
+    "Cycling": 1.36,
+    "Angling - coarse": 1.22,
+    "Golf": 1.19,
+    "Shooting": 1.15,
+    "Carp fishing": 1.11,
+    "Rugby": 1.09,
+    "Angling - game": 1.07,
+    "Athletics": 1.07,
+    "Cricket": 1.06,
+    "Angling - sea": 1.05,
+    "Other sports": 1.05,
+    "Mountain bike": 1.04,
+    "Ring & combat sports": 1.03,
+    "Football - club specific": 1.02,
+    "Bodybuilding": 1.0,
+    "Skiing & snowboarding": 1.0,
+    "Watersports": 1.0
+   }
+  },
+  "Partworks": {
+   "weight": 1.67,
+   "channels": {
+    "National launch": 1.67,
+    "Tests": 1.0
+   }
+  },
+  "Leisure Interests": {
+   "weight": 3.01,
+   "channels": {
+    "Modelling": 1.62,
+    "Aviation": 1.42,
+    "Railways": 1.57,
+    "Transport - general": 1.33,
+    "Games": 1.32,
+    "Film & video reviews": 1.24,
+    "Photography": 1.24,
+    "Art": 1.18,
+    "Military": 1.17,
+    "Holiday": 1.12,
+    "Equestrian": 1.12,
+    "Hi-fi": 1.1,
+    "Boating": 1.08,
+    "Wildlife": 1.07,
+    "Collecting": 1.06,
+    "Camping, walking & climbing": 1.06,
+    "Pets - birds": 1.05,
+    "Electronics & radio": 1.03,
+    "Radio controlled modelling": 1.02,
+    "Yachting": 1.02,
+    "Racing & betting": 1.02,
+    "Pets - dogs": 1.01,
+    "Pets - fish": 1.01,
+    "Dance & theatre": 1.01,
+    "TV & film spin-offs": 1.0,
+    "Entertainment & listings": 1.0,
+    "General health & fitness": 1.0,
+    "Crafts": 1.0
+   }
+  },
+  "General": {
+   "weight": 1.81,
+   "channels": {
+    "General interest": 1.47,
+    "Sci-fi": 1.26,
+    "Literary": 1.12,
+    "Crime": 1.05,
+    "Religion": 1.04,
+    "Astrology": 1.01,
+    "Tattoo": 1.0
+   }
+  },
+  "Mens Fashion / Interest": {
+   "weight": 1.4,
+   "channels": {
+    "Mens lifestyle": 1.4
+   }
+  },
+  "Teenage Magazines": {
+   "weight": 1.52,
+   "channels": {
+    "Teenage comics": 1.39,
+    "Teenage entertainment": 1.14,
+    "Teenage lifestyle": 1.02
+   }
+  },
+  "Computing": {
+   "weight": 1.53,
+   "channels": {
+    "PC help & technical": 1.39,
+    "Gaming - multi-format": 1.09,
+    "Linux": 1.03,
+    "Gaming - PC": 1.03,
+    "Mac": 1.02,
+    "Design": 1.01,
+    "Internet": 1.0,
+    "Gaming - Sony": 1.0,
+    "PC performance": 1.0
+   }
+  },
+  "Countryside & County": {
+   "weight": 1.63,
+   "channels": {
+    "Regional": 1.36,
+    "National": 1.34
+   }
+  },
+  "Trade & Professional": {
+   "weight": 1.26,
+   "channels": {
+    "Trade & professional": 1.26
+   }
+  },
+  "Buying & Selling": {
+   "weight": 1.01,
+   "channels": {
+    "Property": 1.01,
+    "General": 1.0
+   }
+  }
+ }
+}
