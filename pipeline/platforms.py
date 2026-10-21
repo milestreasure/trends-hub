@@ -6,9 +6,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE, DAYS = ROOT / "data" / "wiki_desc.json", 14
 # Default sub-category per segment when nothing in the news matches the item better.
 DEFAULT = {"Sport": "Football - adult", "Music": "Pop", "Leisure Interests": "Film & video reviews", "Womens Interest": "Women's celebrity weeklies",
-           "Computing": "Gaming - multi-format", "Motoring & Motorcycling": "Motoring - general", "News & Current Affairs": "Current affairs - domestic"}
+           "Computing": "Gaming - multi-format", "Motoring & Motorcycling": "Motoring - general", "News & Current Affairs": "Current affairs - domestic", "Children's Magazines": "Pre-teen"}
 # Wikipedia short descriptions -> segment (first match wins). Edit to taste.
 WIKI_SEG = {
+    "Children's Magazines": ["children's television", "children's animated", "animated television series", "preschool television", "children's book", "toy", "cartoon", "toy line", "children's film"],
     "Sport": ["footballer", "football club", "football manager", "cricketer", "rugby", "golfer", "cyclist", "boxer", "tennis player",
               "racing driver", "athlete", "swimmer", "Formula One", "NFL", "NBA", "wrestler", "sprinter"],
     "Music": ["singer", "rapper", "band", "album", "song", "musician", "DJ", "composer", "songwriter", "record producer"],
