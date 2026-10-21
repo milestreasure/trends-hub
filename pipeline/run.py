@@ -1,4 +1,5 @@
 """Daily trends pipeline: ingest (UK + US) -> cluster -> score per region -> signals -> (optional) summaries."""
+from concurrent.futures import ThreadPoolExecutor
 import datetime as dt, hashlib, json, os, pathlib, re, time, urllib.parse
 import feedparser, numpy as np, yaml
 import platforms
@@ -32,10 +33,15 @@ def fetch(seg, chan, q, region):
     hl, gl, ceid = REGIONS[region]
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": f"{q} when:14d", "hl": hl, "gl": gl, "ceid": ceid})
-    try:
-        feed = feedparser.parse(url)
-    except Exception as e:  # one failing source must not stop the run
-        print(f"skip {region} {seg}/{chan}: {e}"); return []
+    feed = None
+    for attempt in range(3):  # back off and retry if Google News is rate limiting
+        try:
+            feed = feedparser.parse(url)
+            if getattr(feed, "status", 200) not in (429, 500, 502, 503): break
+        except Exception as e:  # one failing source must not stop the run
+            print(f"skip {region} {seg}/{chan}: {e}"); return []
+        time.sleep(15 * (attempt + 1))
+    if feed is None: return []
     out = []
     for e in feed.entries:
         if not e.get("published_parsed"): continue
@@ -45,7 +51,7 @@ def fetch(seg, chan, q, region):
             title=re.sub(r"\s+-\s+[^-]+$", "", e.title), link=e.link,
             source=(e.get("source") or {}).get("title", ""),
             ts=dt.datetime(*e.published_parsed[:6], tzinfo=dt.timezone.utc).isoformat()))
-    time.sleep(1)  # be polite
+    time.sleep(0.8)  # be polite
     return out
 
 def load_items():
@@ -171,20 +177,19 @@ def main():
     tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text())
     tp = ROOT / "topics.yaml"
     topics = yaml.safe_load(tp.read_text()) if tp.exists() else {}
-    mp = ROOT / "data" / "market.json"  # optional: sales value per segment and sub-category (tools/build_market.py)
-    market = json.loads(mp.read_text()) if mp.exists() else {"segments": {}}
-    fp = ROOT / "fit.yaml"  # optional: how much trends drive sales per segment
-    fit = (yaml.safe_load(fp.read_text()) if fp.exists() else None) or {}
+    pp = ROOT / "data" / "priority.json"  # optional: relative weight per segment and sub-category (tools/build_priority.py)
+    prio = (json.loads(pp.read_text()) if pp.exists() else {}).get("segments", {})
     sig = Signals()
     store = load_items()
-    for seg, chans in tax.items():
-        for chan, qs in chans.items():
-            for q in (qs if isinstance(qs, list) else [qs]):  # a sub-category can have several searches
-                for region in REGIONS:
-                    for it in fetch(seg, chan, q, region):
-                        cur = store.get(it["id"])  # the same article from both editions is stored once
-                        if cur is None: store[it["id"]] = it
-                        elif it["known"] and not cur.get("known"): cur.update(region=it["region"], known=True)
+    jobs = [(seg, chan, q, region) for seg, chans in tax.items() for chan, qs in chans.items()
+            for q in (qs if isinstance(qs, list) else [qs]) for region in REGIONS]  # a sub-category can have several searches
+    print(f"fetching {len(jobs)} searches")
+    with ThreadPoolExecutor(max_workers=3) as pool:  # three at a time keeps the run short without hammering the feed
+        for got in pool.map(lambda j: fetch(*j), jobs):
+            for it in got:
+                cur = store.get(it["id"])  # the same article from both editions is stored once
+                if cur is None: store[it["id"]] = it
+                elif it["known"] and not cur.get("known"): cur.update(region=it["region"], known=True)
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
@@ -205,12 +210,12 @@ def main():
                 t["segment"], t["channel"] = seg, chan
                 t["topics"] = tag_topics(t, topics)
                 for name in t["topics"]: by_topic.setdefault(name, []).append(t)
-            if trends: out_chans.append(dict(name=chan, trends=trends, market=market['segments'].get(seg, {}).get('channels', {}).get(chan)))
-        segments.append(dict(name=seg, channels=out_chans, fit=fit.get(seg, 'medium'), market={k: v for k, v in market['segments'].get(seg, {}).items() if k != 'channels'} or None))
+            if trends: out_chans.append(dict(name=chan, trends=trends, weight=prio.get(seg, {}).get('channels', {}).get(chan)))
+        segments.append(dict(name=seg, channels=out_chans, weight=prio.get(seg, {}).get('weight')))
     topic_out = sorted(({"name": n, "total": len(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
                         for n, v in by_topic.items()), key=lambda t: -t["total"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(dict(version=2, updated=NOW.isoformat(), market_total=market.get('total'),
+    OUT.write_text(json.dumps(dict(version=2, updated=NOW.isoformat(),
         days=[(NOW - dt.timedelta(days=DAYS - 1 - i)).date().isoformat() for i in range(DAYS)],
         segments=segments, topics=topic_out), indent=1))
     print("done:", sum(len(c["trends"]) for s in segments for c in s["channels"]), "trends,", len(topic_out), "topics")
