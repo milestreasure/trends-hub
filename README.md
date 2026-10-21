@@ -6,6 +6,8 @@ them (last 7 days against the 7 before) and writes `docs/data/trends.json`. `doc
 
 ## Files
 - `taxonomy.yaml`: segments and sub-categories from Categories_and_Sub_Cats.xlsx, each with a search query.
+- `data/priority.json`: relative weights used to order segments and sub-categories. No sales values. Rebuild with `python tools/build_priority.py "Total_Revenue.xls"` (keep the sales file itself out of the repo).
+- `taxonomy.yaml`: 158 sub-categories, about 522 news searches per region. A run makes roughly 1,000 requests (3 in parallel, with retries), so expect 7-10 minutes.
 - `topics.yaml`: keyword lists for the cross-section themes.
 - `publishers.yaml`: which publishers count as UK or US.
 - `pipeline/run.py`, `pipeline/signals.py`, `pipeline/platforms.py`: the daily job.
