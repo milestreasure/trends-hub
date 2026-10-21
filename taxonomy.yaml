@@ -1,12 +1,18 @@
-# Built from Categories_and_Sub_Cats.xlsx. Format: Segment > Sub-category: news search query.
-# Dropped: UNKNOWN rows, rows marked DEL, and defunct formats (Amiga, Kriss Kross).
-# Merged where the sub-segments are near-identical (noted inline). Foreign Language Titles needs local-language
-# sources and is left for a later phase.
+# Built from Categories_and_Sub_Cats.xlsx. Format: Segment > Sub-category: one or more news searches.
+# Dropped: UNKNOWN rows, DEL rows and defunct formats. Merged where sub-segments are near-identical.
+# Foreign Language Titles needs local-language sources and is left for a later phase.
+# More searches per sub-category means more trends found but a longer daily run. Add or remove freely.
 Buying & Selling:
-  General: second-hand resale marketplace trends
-  Property: UK property market house prices
+  General:
+    - second-hand resale marketplace trends
+    - Vinted eBay resale trends
+    - Facebook Marketplace second hand buying
+  Property:
+    - UK property market house prices
+    - UK house prices mortgage rates
+    - first-time buyers UK
+    - rental market landlords UK
 Children's Magazines:
-  # Several searches each: kids' TV, games, toys, films and the creators children follow. Add or swap freely.
   Pre-school:
     - CBeebies new series preschool
     - Bluey Peppa Pig new episodes
@@ -31,172 +37,668 @@ Children's Magazines:
     - K-pop tweens fans
     - back to school half term trends
 Computing:
-  Design: graphic design creative software
-  Gaming - Nintendo: Nintendo Switch games news
-  Gaming - PC: PC gaming news
-  Gaming - Sega: retro gaming Sega
-  Gaming - Sony: PlayStation news
-  Gaming - Xbox: Xbox news
-  Gaming - multi-format: video game releases
-  Internet: internet social media platforms
-  Linux: Linux open source news
-  Mac: Apple Mac news
-  PC help & technical: Windows PC tips troubleshooting  # merges PC Help and PC Technical
-  PC performance: PC hardware graphics card processor
-  PC trade: computer retail trade distribution
+  Design:
+    - graphic design creative software
+    - Adobe Canva design tools AI
+    - UX design trends
+  Gaming - Nintendo:
+    - Nintendo Switch games news
+    - Nintendo Switch 2 games
+    - Zelda Mario Pokemon new game
+  Gaming - PC:
+    - PC gaming news
+    - Steam new releases
+    - PC game sales hit
+  Gaming - Sega:
+    - retro gaming Sega
+    - Sonic the Hedgehog
+    - retro game collecting
+  Gaming - Sony:
+    - PlayStation news
+    - PS5 exclusive games
+    - PlayStation Plus games
+  Gaming - Xbox:
+    - Xbox news
+    - Xbox Game Pass
+    - Call of Duty Halo Forza
+  Gaming - multi-format:
+    - video game releases
+    - biggest video game releases
+    - esports gaming industry UK
+  Internet:
+    - internet social media platforms
+    - TikTok Instagram new features
+    - online safety social media UK
+  Linux:
+    - Linux open source news
+    - Ubuntu Linux release
+    - Raspberry Pi projects
+  Mac:
+    - Apple Mac news
+    - iPhone iPad Mac new
+    - macOS software update
+  PC help & technical:
+    - Windows PC tips troubleshooting
+    - Windows 11 update problems
+    - PC building guide
+  PC performance:
+    - PC hardware graphics card processor
+    - Nvidia AMD graphics cards
+    - Intel AMD processors
+  PC trade:
+    - computer retail trade distribution
+    - laptop PC shipments market
+    - computer retailers UK
 Countryside & County:
-  National: UK countryside rural life
-  Regional: county regional lifestyle UK
+  National:
+    - UK countryside rural life
+    - farming rural UK news
+    - countryside walks nature UK
+    - village life rural housing
+  Regional:
+    - county regional lifestyle UK
+    - county shows events UK
+    - local food drink producers UK
 General:
-  Astrology: astrology horoscope trends
-  Crime: true crime media
-  Job adverts: UK jobs market recruitment
-  Literary: books publishing literary UK
-  General interest: general interest magazines UK
-  Religion: religion faith UK
-  Sci-fi: science fiction fandom
-  Tattoo: tattoo culture trends
+  Astrology:
+    - astrology horoscope trends
+    - horoscopes zodiac
+    - tarot spiritual wellbeing trends
+  Crime:
+    - true crime media
+    - true crime podcast documentary
+    - cold case UK
+  Job adverts:
+    - UK jobs market recruitment
+    - UK job vacancies unemployment
+    - remote working jobs trends
+  Literary:
+    - books publishing literary UK
+    - Booker Prize bestsellers
+    - BookTok books trending
+  General interest:
+    - general interest magazines UK
+    - quiz general knowledge
+    - history science facts magazine
+  Religion:
+    - religion faith UK
+    - church attendance UK
+    - faith community news UK
+  Sci-fi:
+    - science fiction fandom
+    - Doctor Who Star Wars Star Trek
+    - sci-fi TV series new
+  Tattoo:
+    - tattoo culture trends
+    - tattoo styles trending
+    - tattoo studio UK
 Home Improvement:
-  DIY: DIY home improvement UK
-  Gardening: gardening UK
-  Woodworking: woodworking hobby
+  DIY:
+    - DIY home improvement UK
+    - home renovation costs UK
+    - DIY tools deals
+    - energy saving home improvements
+  Gardening:
+    - gardening UK
+    - allotment grow your own
+    - garden plants autumn UK
+    - wildlife garden RHS
+  Woodworking:
+    - woodworking hobby
+    - woodworking projects
+    - workshop tools woodwork
 Leisure Interests:
-  Antiques: antiques market auctions
-  Art: art exhibitions market
-  Aviation: aviation enthusiasts aircraft
-  Boating: boating marine leisure UK
-  Camping, walking & climbing: walking camping climbing UK outdoors
-  Collecting: collectables market
-  Crafts: crafting hobby trends
-  Dance & theatre: theatre West End dance
-  Electronics & radio: electronics radio hobby
-  Entertainment & listings: entertainment events listings UK
-  Equestrian: horse riding equestrian
-  Film & video reviews: new film releases reviews
-  Games: board games tabletop
-  General health & fitness: fitness wellbeing UK
-  Hi-fi: hi-fi audio equipment
-  Holiday: UK holiday travel trends
-  Home entertainment: home cinema streaming TV
-  Military: military history defence
-  Modelling: scale modelling hobby
-  Pets - birds: pet birds keeping
-  Pets - cats: cat owners trends
-  Pets - dogs: dog owners trends UK
-  Pets - fish: aquarium fishkeeping
-  Photography: photography cameras
-  Racing & betting: horse racing betting UK
-  Radio controlled modelling: radio controlled cars drones hobby
-  Railways: railways heritage trains  # merges Modern and Steam
-  Transport - general: transport buses trams
-  TV & film spin-offs: TV film merchandise franchise
-  Video & camcorders: video cameras filmmaking
-  Wildlife: UK wildlife nature
-  Yachting: yachting sailing
+  Antiques:
+    - antiques market auctions
+    - antiques roadshow auction results
+    - vintage collectables prices
+  Art:
+    - art exhibitions market
+    - Turner Prize exhibition
+    - art auction record
+  Aviation:
+    - aviation enthusiasts aircraft
+    - airline news UK
+    - airshow RAF aircraft
+  Boating:
+    - boating marine leisure UK
+    - narrowboat canal holidays
+    - boat show marine
+  Camping, walking & climbing:
+    - walking camping climbing UK outdoors
+    - National Trails walking routes
+    - camping gear glamping UK
+    - mountaineering Scotland
+  Collecting:
+    - collectables market
+    - Pokemon trading card prices
+    - vinyl records collecting
+  Crafts:
+    - crafting hobby trends
+    - craft kits trending
+    - Etsy handmade makers
+  Dance & theatre:
+    - theatre West End dance
+    - West End new musicals
+    - Strictly Come Dancing
+  Electronics & radio:
+    - electronics radio hobby
+    - Arduino electronics projects
+    - amateur radio hobby
+  Entertainment & listings:
+    - entertainment events listings UK
+    - concerts tours UK tickets
+    - festival lineup UK
+  Equestrian:
+    - horse riding equestrian
+    - Olympia horse show
+    - horse riding costs UK
+  Film & video reviews:
+    - new film releases reviews
+    - box office UK weekend
+    - upcoming film releases UK cinemas
+    - new streaming films
+  Games:
+    - board games tabletop
+    - board game sales
+    - Dungeons Dragons Warhammer tabletop
+  General health & fitness:
+    - fitness wellbeing UK
+    - running walking fitness trends
+    - gym membership UK
+    - sleep wellbeing habits
+  Hi-fi:
+    - hi-fi audio equipment
+    - vinyl turntables hi-fi
+    - wireless headphones speakers new
+  Holiday:
+    - UK holiday travel trends
+    - cheap holidays UK abroad
+    - package holidays booking trends
+    - city breaks Europe UK travellers
+  Home entertainment:
+    - home cinema streaming TV
+    - Netflix Disney+ new shows
+    - OLED TV deals
+  Military:
+    - military history defence
+    - D-Day WW2 history
+    - British Army Royal Navy news
+  Modelling:
+    - scale modelling hobby
+    - Airfix scale models
+    - model kit hobby
+  Pets - birds:
+    - pet birds keeping
+    - garden birds RSPB
+    - budgie parrot keeping
+  Pets - cats:
+    - cat owners trends
+    - cat food cost UK
+    - cat behaviour health vets
+  Pets - dogs:
+    - dog owners trends UK
+    - dog friendly holidays UK
+    - popular dog breeds puppy prices UK
+    - pet insurance food costs
+  Pets - fish:
+    - aquarium fishkeeping
+    - tropical fish tank
+    - koi pond fish
+  Photography:
+    - photography cameras
+    - new mirrorless cameras
+    - smartphone photography tips
+  Racing & betting:
+    - horse racing betting UK
+    - Cheltenham Grand National tips
+    - betting regulation UK
+  Radio controlled modelling:
+    - radio controlled cars drones hobby
+    - FPV drones racing
+    - RC cars hobby
+  Railways:
+    - railways heritage trains
+    - heritage steam railway
+    - model railway Hornby
+    - UK rail fares timetable
+  Transport - general:
+    - transport buses trams
+    - bus services UK
+    - tram London transport news
+  TV & film spin-offs:
+    - TV film merchandise franchise
+    - Star Wars Marvel merchandise
+    - TV tie-in toys collectables
+  Video & camcorders:
+    - video cameras filmmaking
+    - action cameras GoPro
+    - vlogging cameras
+  Wildlife:
+    - UK wildlife nature
+    - Springwatch wildlife
+    - UK nature conservation beavers
+  Yachting:
+    - yachting sailing
+    - sailing regatta UK
+    - Fastnet race yacht
 Mens Fashion / Interest:
-  Mens lifestyle: men's lifestyle grooming menswear
-  Mens weekly: men's weekly magazines culture
+  Mens lifestyle:
+    - men's lifestyle grooming menswear
+    - menswear trends autumn
+    - men's grooming skincare
+    - men's fitness style
+  Mens weekly:
+    - men's weekly magazines culture
+    - lads culture sport banter
+    - men's magazine features
 Motoring & Motorcycling:
-  Caravanning: caravan motorhome UK
-  Motorcycling - general: motorcycle market UK
-  Motorcycling - biker: biker culture custom motorcycles
-  Motorcycling - classics: classic motorcycles
-  Motorcycling - sport: MotoGP superbikes
-  Motoring - 4x4: 4x4 off-road SUV
-  Motoring - buying & selling: used car prices UK
-  Motoring - classics: classic car market
-  Motoring - custom: car modifying customising
-  Motoring - general: UK new car market
-  Motoring - kit car: kit cars build
-  Motoring - performance: performance cars supercars
-  Motoring - sporting: motorsport rallying
-  Motoring - trucks: trucks vans commercial vehicles
-  Electric vehicles: electric cars UK
+  Caravanning:
+    - caravan motorhome UK
+    - campervan motorhome sales
+    - caravan sites UK holidays
+  Motorcycling - general:
+    - motorcycle market UK
+    - new motorbikes UK launch
+    - motorcycle licence test rules
+  Motorcycling - biker:
+    - biker culture custom motorcycles
+    - Harley-Davidson custom
+    - motorcycle touring UK
+  Motorcycling - classics:
+    - classic motorcycles
+    - classic motorcycles auction
+    - Triumph Norton classics
+  Motorcycling - sport:
+    - MotoGP superbikes
+    - MotoGP results
+    - British Superbikes
+  Motoring - 4x4:
+    - 4x4 off-road SUV
+    - Land Rover Defender
+    - off-road SUV launches
+  Motoring - buying & selling:
+    - used car prices UK
+    - used car prices
+    - car finance PCP
+    - second hand car market
+  Motoring - classics:
+    - classic car market
+    - classic car auction
+    - Mini Jaguar classic cars
+    - Goodwood car show
+  Motoring - custom:
+    - car modifying customising
+    - car modifications tuning
+    - custom car wraps show
+  Motoring - general:
+    - UK new car market
+    - new car launches UK
+    - SMMT car registrations
+    - road tax motoring costs
+  Motoring - kit car:
+    - kit cars build
+    - kit car build
+    - Caterham Westfield
+  Motoring - performance:
+    - performance cars supercars
+    - new supercar launch
+    - hot hatch performance cars
+  Motoring - sporting:
+    - motorsport rallying
+    - Formula 1 race
+    - WRC rally
+  Motoring - trucks:
+    - trucks vans commercial vehicles
+    - van market UK
+    - lorry HGV drivers
+  Electric vehicles:
+    - electric cars UK
+    - electric car sales UK
+    - public charging points
+    - used electric car prices
 Music:
-  Classical: classical music
-  Country: country music
-  Dance: dance electronic music clubbing
-  Heavy metal: heavy metal rock bands
-  Jazz: jazz music
-  Pop: pop music chart
-  Practical & playing: learning instruments guitar gear
-  Rock: rock music tours
-  Other music: folk world indie music
+  Classical:
+    - classical music
+    - BBC Proms orchestra
+    - opera classical
+  Country:
+    - country music
+    - country music UK
+    - Nashville country stars
+  Dance:
+    - dance electronic music clubbing
+    - clubbing festivals dance
+    - DJ electronic
+  Heavy metal:
+    - heavy metal rock bands
+    - metal festival Download
+    - metal band tour
+  Jazz:
+    - jazz music
+    - jazz festival
+    - jazz new album
+  Pop:
+    - pop music chart
+    - UK singles chart
+    - pop star album release
+    - Spotify streaming charts
+  Practical & playing:
+    - learning instruments guitar gear
+    - guitar lessons beginners
+    - music production gear
+  Rock:
+    - rock music tours
+    - rock band tour UK
+    - rock reunion
+  Other music:
+    - folk world indie music
+    - folk festival
+    - indie new bands
 News & Current Affairs:
-  Business & finance: UK economy business finance
-  Current affairs - domestic: UK politics government
-  Current affairs - international: world news international
-  Science: science discoveries
+  Business & finance:
+    - UK economy business finance
+    - Bank of England interest rate
+    - UK inflation prices
+    - FTSE stock market
+  Current affairs - domestic:
+    - UK politics government
+    - UK government policy
+    - NHS news
+    - Westminster politics
+  Current affairs - international:
+    - world news international
+    - Ukraine Middle East
+    - US politics world
+  Science:
+    - science discoveries
+    - space NASA discovery
+    - climate research
+    - medical breakthrough
 Newspapers:
-  Daily publication: UK news headlines today
-  Sunday publication: Sunday newspapers UK news analysis
-  Regional publication: regional local news UK
-  Weekly publication: local weekly newspaper community news UK
+  Daily publication:
+    - UK news headlines today
+    - front pages newspaper UK
+    - newspaper circulation sales
+  Sunday publication:
+    - Sunday newspapers UK news analysis
+    - Sunday papers supplements
+    - Sunday newspaper columnists
+  Regional publication:
+    - regional local news UK
+    - local newspaper closures
+    - regional news community UK
+  Weekly publication:
+    - local weekly newspaper community news UK
+    - local weekly community events UK
 Partworks:
-  National launch: partwork collection launch
-  Tests: tests quiz partwork
+  National launch:
+    - partwork collection launch
+    - collectable model building series magazine
+    - DeAgostini collection
+  Tests:
+    - tests quiz partwork
+    - brain training memory
+    - quiz puzzle book
 Puzzle Magazines:
-  Children's: kids puzzle activity books
-  Cross reference: codeword cross reference puzzles
-  Crosswords: crossword puzzles
-  Kriss Kross: fill-in word fit puzzles
-  Logic titles: sudoku logic puzzles
-  Mixed content: puzzle books magazines
-  Puzzle arrowwords: arrowword puzzles
-  Word search: word search puzzles
+  Children's:
+    - kids puzzle activity books
+    - kids activity books
+    - children's puzzles school holidays
+  Cross reference:
+    - codeword cross reference puzzles
+    - word puzzle app games
+  Crosswords:
+    - crossword puzzles
+    - Guardian Times crossword
+    - cryptic crossword
+  Kriss Kross:
+    - fill-in word fit puzzles
+    - word puzzle games online
+  Logic titles:
+    - sudoku logic puzzles
+    - Sudoku
+    - brain training games older adults
+  Mixed content:
+    - puzzle books magazines
+    - Wordle Connections daily puzzle
+    - puzzle magazine
+  Puzzle arrowwords:
+    - arrowword puzzles
+    - puzzle book gifts
+  Word search:
+    - word search puzzles
+    - large print word search books
+    - word games
 Specials:
-  Confectionery: confectionery sweets trends
-  One shots: special edition magazines one-shot
-  Stamps & collectables: stamps coins collecting
-  Summer specials, annuals & calendars: annuals calendars gift books
+  Confectionery:
+    - confectionery sweets trends
+    - sweets chocolate brands UK
+    - Cadbury Haribo new
+  One shots:
+    - special edition magazines one-shot
+    - special edition magazine collectors
+    - bookazine
+  Stamps & collectables:
+    - stamps coins collecting
+    - Royal Mail stamps
+    - coin collecting commemorative
+  Summer specials, annuals & calendars:
+    - annuals calendars gift books
+    - Christmas annuals
+    - calendars next year
 Sport:
-  Angling - coarse: coarse fishing UK
-  Angling - game: fly fishing UK
-  Angling - sea: sea fishing UK
-  Athletics: athletics running UK
-  Bodybuilding: bodybuilding gym strength
-  Carp fishing: carp fishing
-  Cricket: cricket news
-  Cycling: road cycling news
-  Mountain bike: mountain biking
-  Football - adult: football news Premier League
-  Football - club specific: football club news transfers
-  Football - youth: youth football academy
-  Golf: golf news
-  Other sports: tennis swimming sport UK
-  Ring & combat sports: boxing MMA
-  Rugby: rugby union league news
-  Shooting: shooting clay game
-  Skiing & snowboarding: skiing snowboarding
-  Watersports: surfing sailing watersports
+  Angling - coarse:
+    - coarse fishing UK
+    - coarse fishing season
+    - angling tackle
+  Angling - game:
+    - fly fishing UK
+    - fly fishing salmon
+    - trout fishing UK
+  Angling - sea:
+    - sea fishing UK
+    - sea angling
+    - boat fishing UK
+  Athletics:
+    - athletics running UK
+    - parkrun running
+    - London marathon
+  Bodybuilding:
+    - bodybuilding gym strength
+    - gym supplements protein
+    - strength training
+  Carp fishing:
+    - carp fishing
+    - carp fishing bait
+    - carp lakes UK
+  Cricket:
+    - cricket news
+    - England cricket
+    - The Hundred county cricket
+  Cycling:
+    - road cycling news
+    - Tour de France cycling
+    - UK cycling bikes
+  Mountain bike:
+    - mountain biking
+    - mountain bike trails
+    - e-bike mountain
+  Football - adult:
+    - football news Premier League
+    - Premier League results
+    - Championship League One news
+    - England national team
+  Football - club specific:
+    - football club news transfers
+    - Manchester United Arsenal Liverpool
+    - football manager sacked
+  Football - youth:
+    - youth football academy
+    - grassroots football UK
+    - football academy young players
+  Golf:
+    - golf news
+    - Ryder Cup
+    - golf equipment
+  Other sports:
+    - tennis swimming sport UK
+    - tennis Wimbledon
+    - swimming Olympics
+  Ring & combat sports:
+    - boxing MMA
+    - boxing fight UK
+    - UFC MMA
+  Rugby:
+    - rugby union league news
+    - Premiership Rugby
+    - England rugby
+  Shooting:
+    - shooting clay game
+    - clay pigeon shooting
+    - game shooting season UK
+  Skiing & snowboarding:
+    - skiing snowboarding
+    - ski season Alps
+    - snowboarding
+  Watersports:
+    - surfing sailing watersports
+    - surfing UK
+    - wild swimming paddleboarding
 Teenage Magazines:
-  Teenage comics: comics manga teens
-  Teenage entertainment: teen entertainment celebrities
-  Teenage lifestyle: teen lifestyle social media trends
+  Teenage comics:
+    - comics manga teens
+    - manga anime new
+    - graphic novels teens
+  Teenage entertainment:
+    - teen entertainment celebrities
+    - teen TV shows
+    - pop stars teens fans
+  Teenage lifestyle:
+    - teen lifestyle social media trends
+    - Gen Z trends
+    - teen social media
+    - teen exams
 Trade & Professional:
-  Trade & professional: UK trade professional industry news
+  Trade & professional:
+    - UK trade professional industry news
+    - magazine publishing industry
+    - advertising marketing UK
 TV Listings:
-  Radio & TV guides: UK TV shows this week highlights
-  Satellite & cable: satellite cable streaming TV UK
+  Radio & TV guides:
+    - UK TV shows this week highlights
+    - Strictly Come Dancing
+    - BBC ITV new drama
+    - Christmas TV schedule
+    - soap opera storylines
+  Satellite & cable:
+    - satellite cable streaming TV UK
+    - Sky Netflix streaming prices
+    - Freeview
 Womens Interest:
-  Cookery & kitchen: cooking food trends UK  # merges Cookery & Kitchen and DEL - Cookery
-  Crafts - beading & jewellery: jewellery making beading
-  Crafts - colouring & drawing: adult colouring drawing
-  Crafts - general: crafting UK
-  Crafts - knitting & crochet: knitting crochet
-  Crafts - needlecraft: cross stitch embroidery needlecraft  # merges the two needlecraft rows
-  Crafts - papercraft: papercraft cardmaking
-  Crafts - sewing & quilting: sewing quilting
-  Fiction: romance fiction women's books
-  Hair: hair trends salon
-  Home interest: interior design home trends UK
-  Parenthood: parenting trends UK
-  Weddings & brides: wedding trends UK
-  Women's celebrity weeklies: celebrity news gossip UK
-  Women's general interest: women's lifestyle UK
-  Women's health & beauty: beauty skincare health women
-  Women's lifestyle & fashion: women's fashion trends UK
-  Women's practical: practical tips money saving women
-  Women's slimming: weight loss diet UK
-  Traditional women's weeklies: women's weekly magazines readers
-  Young women: young women lifestyle Gen Z
+  Cookery & kitchen:
+    - cooking food trends UK
+    - easy dinner recipes
+    - air fryer slow cooker recipes
+    - baking Bake Off
+  Crafts - beading & jewellery:
+    - jewellery making beading
+    - jewellery making
+    - beading kits
+  Crafts - colouring & drawing:
+    - adult colouring drawing
+    - colouring books adults
+    - mindfulness drawing
+  Crafts - general:
+    - crafting UK
+    - craft hobby kits
+    - upcycling DIY crafts
+  Crafts - knitting & crochet:
+    - knitting crochet
+    - knitting patterns yarn
+    - crochet trend
+  Crafts - needlecraft:
+    - cross stitch embroidery needlecraft
+    - cross stitch kits
+    - embroidery trend
+  Crafts - papercraft:
+    - papercraft cardmaking
+    - cardmaking papercraft
+    - scrapbooking
+  Crafts - sewing & quilting:
+    - sewing quilting
+    - sewing patterns
+    - quilting
+  Fiction:
+    - romance fiction women's books
+    - romance novels bestsellers
+    - book club picks
+  Hair:
+    - hair trends salon
+    - hair colour trends
+    - hairstyles autumn
+    - hair care products
+  Home interest:
+    - interior design home trends UK
+    - interior design colour trends
+    - home decor autumn
+    - kitchen bathroom renovation UK
+    - cosy home ideas
+  Parenthood:
+    - parenting trends UK
+    - parenting advice UK
+    - school holidays childcare costs
+    - baby names UK
+    - family days out
+  Weddings & brides:
+    - wedding trends UK
+    - wedding dress trends
+    - wedding costs UK
+    - wedding venues
+  Women's celebrity weeklies:
+    - celebrity news gossip UK
+    - royals celebrity news
+    - reality TV stars
+    - celebrity weddings babies
+    - Strictly I'm a Celebrity
+    - Love Island
+  Women's general interest:
+    - women's lifestyle UK
+    - real life stories women
+    - work life balance women
+    - relationships dating advice
+  Women's health & beauty:
+    - beauty skincare health women
+    - skincare trends
+    - makeup new launches
+    - menopause health women
+    - beauty products viral
+  Women's lifestyle & fashion:
+    - women's fashion trends UK
+    - autumn fashion trends
+    - high street fashion Marks Spencer Zara
+    - capsule wardrobe
+    - celebrity style red carpet
+    - sustainable fashion second hand
+  Women's practical:
+    - practical tips money saving women
+    - money saving tips UK
+    - cheap recipes budget meals
+    - cost of living tips households
+  Women's slimming:
+    - weight loss diet UK
+    - weight loss jabs UK
+    - Slimming World diet
+    - healthy eating plans
+  Traditional women's weeklies:
+    - women's weekly magazines readers
+    - women's weekly real life stories
+    - royal family news UK
+    - money saving tips UK pensioners
+    - grandparents family life UK
+    - knitting recipes health tips over 50
+  Young women:
+    - young women lifestyle Gen Z
+    - Gen Z women lifestyle
+    - dating apps
+    - student life UK
