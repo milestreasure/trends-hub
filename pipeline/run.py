@@ -80,7 +80,7 @@ def summarise(trend):
         import anthropic
         heads = "\n".join(f"- {i['title']} ({i['source']}, {i['region']})" for i in trend["items"][:8])
         msg = anthropic.Anthropic().messages.create(
-            model="claude-haiku-4-5-20251001", max_tokens=300,
+            model=os.getenv("ANTHROPIC_MODEL", "claude-haiku-5-5"), max_tokens=300,
             messages=[{"role": "user", "content":
                 "You brief UK magazine editors. Using ONLY these headlines, write two lines.\n"
                 "Line 1: what the trend is and why it matters (max 30 words). Say if it is mainly a US trend.\n"
@@ -171,15 +171,20 @@ def main():
     tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text())
     tp = ROOT / "topics.yaml"
     topics = yaml.safe_load(tp.read_text()) if tp.exists() else {}
+    mp = ROOT / "data" / "market.json"  # optional: sales value per segment and sub-category (tools/build_market.py)
+    market = json.loads(mp.read_text()) if mp.exists() else {"segments": {}}
+    fp = ROOT / "fit.yaml"  # optional: how much trends drive sales per segment
+    fit = (yaml.safe_load(fp.read_text()) if fp.exists() else None) or {}
     sig = Signals()
     store = load_items()
     for seg, chans in tax.items():
-        for chan, q in chans.items():
-            for region in REGIONS:
-                for it in fetch(seg, chan, q, region):
-                    cur = store.get(it["id"])  # the same article from both editions is stored once
-                    if cur is None: store[it["id"]] = it
-                    elif it["known"] and not cur.get("known"): cur.update(region=it["region"], known=True)
+        for chan, qs in chans.items():
+            for q in (qs if isinstance(qs, list) else [qs]):  # a sub-category can have several searches
+                for region in REGIONS:
+                    for it in fetch(seg, chan, q, region):
+                        cur = store.get(it["id"])  # the same article from both editions is stored once
+                        if cur is None: store[it["id"]] = it
+                        elif it["known"] and not cur.get("known"): cur.update(region=it["region"], known=True)
     ITEMS.parent.mkdir(exist_ok=True)
     ITEMS.write_text(json.dumps(list(store.values())))
     d7, d14 = NOW - dt.timedelta(days=7), NOW - dt.timedelta(days=14)
@@ -200,12 +205,12 @@ def main():
                 t["segment"], t["channel"] = seg, chan
                 t["topics"] = tag_topics(t, topics)
                 for name in t["topics"]: by_topic.setdefault(name, []).append(t)
-            if trends: out_chans.append(dict(name=chan, trends=trends))
-        segments.append(dict(name=seg, channels=out_chans))
+            if trends: out_chans.append(dict(name=chan, trends=trends, market=market['segments'].get(seg, {}).get('channels', {}).get(chan)))
+        segments.append(dict(name=seg, channels=out_chans, fit=fit.get(seg, 'medium'), market={k: v for k, v in market['segments'].get(seg, {}).items() if k != 'channels'} or None))
     topic_out = sorted(({"name": n, "total": len(v), "trends": sorted(v, key=lambda t: -t["score"])[:TOPIC_N]}
                         for n, v in by_topic.items()), key=lambda t: -t["total"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(dict(version=2, updated=NOW.isoformat(),
+    OUT.write_text(json.dumps(dict(version=2, updated=NOW.isoformat(), market_total=market.get('total'),
         days=[(NOW - dt.timedelta(days=DAYS - 1 - i)).date().isoformat() for i in range(DAYS)],
         segments=segments, topics=topic_out), indent=1))
     print("done:", sum(len(c["trends"]) for s in segments for c in s["channels"]), "trends,", len(topic_out), "topics")
